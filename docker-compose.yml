@@ -11,7 +11,7 @@ services:
     # If you're using `process.env.port` inside your code, you may just keep your internal
     # code listening on 3000 but override it. Or keep everything aligned. One approach:
     ports:
-      - "${PORT}:3000"
+      - "3012:3012"
     # Optionally, volume-mount your caught.json so changes persist outside the container
     volumes:
       - ./save-data/:/app/save-data/

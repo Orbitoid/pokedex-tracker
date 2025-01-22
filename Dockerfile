@@ -18,7 +18,7 @@ COPY . .
 # This exposes port 3000 *inside* the container.
 # (Even if your .env says port=5555, the container process can *listen* on 3000
 # internally, or read the .env. We'll map it to the host via docker-compose.)
-EXPOSE 3000
+EXPOSE 3012
 
 # Start the application
 CMD ["pnpm", "start"]
