@@ -25,10 +25,10 @@ app.get("/script.js", (req, res) => {
 // GET route to read caught.json
 app.get("/caught", (req, res) => {
   // Ensure the file exists and read it
-  if (!fs.existsSync("caught.json")) {
-    fs.writeFileSync("caught.json", JSON.stringify({}));
+  if (!fs.existsSync("save-data/caught.json")) {
+    fs.writeFileSync("save-data/caught.json", JSON.stringify({}));
   }
-  const data = fs.readFileSync("caught.json", "utf8");
+  const data = fs.readFileSync("save-data/caught.json", "utf8");
   res.json(JSON.parse(data));
 });
 
@@ -38,17 +38,17 @@ app.post("/caught", (req, res) => {
   const { id, caught } = req.body;
 
   // Load the current JSON state
-  if (!fs.existsSync("caught.json")) {
-    fs.writeFileSync("caught.json", JSON.stringify({}));
+  if (!fs.existsSync("save-data/caught.json")) {
+    fs.writeFileSync("save-data/caught.json", JSON.stringify({}));
   }
-  const data = fs.readFileSync("caught.json", "utf8");
+  const data = fs.readFileSync("save-data/caught.json", "utf8");
   const caughtData = JSON.parse(data);
 
   // Update or insert the caught state for this Pokémon
   caughtData[id] = caught;
 
   // Write it back to file
-  fs.writeFileSync("caught.json", JSON.stringify(caughtData, null, 2));
+  fs.writeFileSync("save-data/caught.json", JSON.stringify(caughtData, null, 2));
 
   res.json({ success: true });
 });
