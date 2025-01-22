@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  mvp-pokemon:
+    build: .
+    container_name: mvp-pokemon
+    # Load environment variables from .env
+    env_file:
+      - .env
+    # Map the host's port to the container's internal port
+    # If you're using `process.env.port` inside your code, you may just keep your internal
+    # code listening on 3000 but override it. Or keep everything aligned. One approach:
+    ports:
+      - "${PORT}:3000"
+    # Optionally, volume-mount your caught.json so changes persist outside the container
+    volumes:
+      - ./caught.json:/app/caught.json
