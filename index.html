@@ -112,7 +112,7 @@
             border-radius: 0.25rem;
             margin: 0.1rem;
         }
-        /* Type colors - simplified, you can expand this */
+        /* Type colors */
         .type-grass { background-color: #78C850; color: white; }
         .type-poison { background-color: #A040A0; color: white; }
         .type-fire { background-color: #F08030; color: white; }
@@ -122,7 +122,7 @@
         .type-normal { background-color: #A8A878; color: white; }
         .type-electric { background-color: #F8D030; color: black; }
         .type-ground { background-color: #E0C068; color: black; }
-        .type-fairy { background-color: #EE99AC; color: black; }
+        .type-fairy { background-color: #EE99AC; color: black; } /* Updated to actual Fairy type color */
         .type-fighting { background-color: #C03028; color: white; }
         .type-psychic { background-color: #F85888; color: white; }
         .type-rock { background-color: #B8A038; color: white; }
@@ -131,7 +131,6 @@
         .type-ghost { background-color: #705898; color: white; }
         .type-dragon { background-color: #7038F8; color: white; }
         .type-dark { background-color: #705848; color: white; }
-
     </style>
 </head>
 <body class="p-4 md:p-8">
@@ -202,12 +201,12 @@
             { id: 32, name: "Nidoran♂", types: ["Poison"], catchInfoGS: "Routes 35, 36, National Park." },
             { id: 33, name: "Nidorino", types: ["Poison"], catchInfoGS: "Routes 13, 14, 15. Evolve Nidoran♂." },
             { id: 34, name: "Nidoking", types: ["Poison", "Ground"], catchInfoGS: "Evolve Nidorino (Moon Stone). Not wild in G/S." },
-            { id: 35, name: "Clefairy", types: ["Normal"], catchInfoGS: "Mt. Moon (Kanto). Evolve Cleffa (breed Clefairy/Clefable, hatch egg, raise happiness)." }, // Type changed to Fairy in later gens, Normal in Gen 2
-            { id: 36, name: "Clefable", types: ["Normal"], catchInfoGS: "Evolve Clefairy (Moon Stone). Not wild in G/S." }, // Type changed to Fairy in later gens, Normal in Gen 2
+            { id: 35, name: "Clefairy", types: ["Normal"], catchInfoGS: "Mt. Moon (Kanto). Evolve Cleffa (breed Clefairy/Clefable, hatch egg, raise happiness)." },
+            { id: 36, name: "Clefable", types: ["Normal"], catchInfoGS: "Evolve Clefairy (Moon Stone). Not wild in G/S." },
             { id: 37, name: "Vulpix", types: ["Fire"], catchInfoGS: "Routes 7, 8, 36, 37 (Silver only)." },
             { id: 38, name: "Ninetales", types: ["Fire"], catchInfoGS: "Evolve Vulpix (Fire Stone - Silver only). Not wild in G/S." },
-            { id: 39, name: "Jigglypuff", types: ["Normal"], catchInfoGS: "Routes 3, 4 (Kanto). Evolve Igglybuff (breed Jigglypuff/Wigglytuff, hatch egg, raise happiness)." }, // Type changed to Normal/Fairy in later gens
-            { id: 40, name: "Wigglytuff", types: ["Normal"], catchInfoGS: "Evolve Jigglypuff (Moon Stone). Not wild in G/S." }, // Type changed to Normal/Fairy in later gens
+            { id: 39, name: "Jigglypuff", types: ["Normal"], catchInfoGS: "Routes 3, 4 (Kanto). Evolve Igglybuff (breed Jigglypuff/Wigglytuff, hatch egg, raise happiness)." },
+            { id: 40, name: "Wigglytuff", types: ["Normal"], catchInfoGS: "Evolve Jigglypuff (Moon Stone). Not wild in G/S." },
             { id: 41, name: "Zubat", types: ["Poison", "Flying"], catchInfoGS: "Common in most caves: Dark Cave, Union Cave, Slowpoke Well, Ilex Forest, Burned Tower, Ice Path, Whirl Islands, Mt. Mortar, Rock Tunnel, Victory Road, Mt. Moon, Tohjo Falls." },
             { id: 42, name: "Golbat", types: ["Poison", "Flying"], catchInfoGS: "Common in later caves: Dark Cave, Union Cave, Slowpoke Well, Ice Path, Whirl Islands, Mt. Mortar, Victory Road, Mt. Moon, Tohjo Falls, Cerulean Cave. Evolve Zubat." },
             { id: 43, name: "Oddish", types: ["Grass", "Poison"], catchInfoGS: "Routes 5, 6, 24, 25, Ilex Forest (Night)." },
@@ -289,7 +288,7 @@
             { id: 119, name: "Seaking", types: ["Water"], catchInfoGS: "Routes 4, 9, 10, 24, 25, 42 (Fish w/ Super Rod), Dark Cave, Union Cave, Slowpoke Well, Mt. Mortar, Tohjo Falls (Fish w/ Super Rod). Evolve Goldeen." },
             { id: 120, name: "Staryu", types: ["Water"], catchInfoGS: "Route 34 (Night - Fish w/ Good/Super Rod), Olivine City (Night - Fish w/ Good/Super Rod), Cianwood City (Night - Fish w/ Good/Super Rod)." },
             { id: 121, name: "Starmie", types: ["Water", "Psychic"], catchInfoGS: "Evolve Staryu (Water Stone). Not wild in G/S." },
-            { id: 122, name: "Mr. Mime", types: ["Psychic"], catchInfoGS: "Route 21 (Kanto - grass patch), Goldenrod Game Corner (Crystal only)." }, // Type changed to Psychic/Fairy in later gens
+            { id: 122, name: "Mr. Mime", types: ["Psychic"], catchInfoGS: "Route 21 (Kanto - grass patch), Goldenrod Game Corner (Crystal only)." },
             { id: 123, name: "Scyther", types: ["Bug", "Flying"], catchInfoGS: "National Park (Bug-Catching Contest - Gold/Silver), Goldenrod Game Corner (Gold only)." },
             { id: 124, name: "Jynx", types: ["Ice", "Psychic"], catchInfoGS: "Ice Path. Evolve Smoochum (breed Jynx, hatch egg, raise happiness)." },
             { id: 125, name: "Electabuzz", types: ["Electric"], catchInfoGS: "Route 10 (outside Power Plant). Evolve Elekid (breed Electabuzz, hatch egg, raise happiness)." },
@@ -342,18 +341,18 @@
             { id: 170, name: "Chinchou", types: ["Water", "Electric"], catchInfoGS: "Routes 20, 21, 26, 27, 41, New Bark Town, Olivine City, Pallet Town, Vermilion City, Cinnabar Island (Fish w/ Good/Super Rod)." },
             { id: 171, name: "Lanturn", types: ["Water", "Electric"], catchInfoGS: "Routes 20, 21, 26, 27, 41 (Fish w/ Super Rod - rare). Evolve Chinchou." },
             { id: 172, name: "Pichu", types: ["Electric"], catchInfoGS: "Breed Pikachu or Raichu. Hatch from Odd Egg (Crystal only, 14% chance)." },
-            { id: 173, name: "Cleffa", types: ["Normal"], catchInfoGS: "Breed Clefairy or Clefable. Hatch from Odd Egg (Crystal only, 20% chance)." }, // Type changed to Fairy in later gens
-            { id: 174, name: "Igglybuff", types: ["Normal"], catchInfoGS: "Breed Jigglypuff or Wigglytuff. Hatch from Odd Egg (Crystal only, 20% chance)." }, // Type changed to Normal/Fairy in later gens
-            { id: 175, name: "Togepi", types: ["Normal"], catchInfoGS: "Hatch Egg received from Professor Elm's aide in Violet City Pokémon Center after beating Falkner." }, // Type changed to Fairy in later gens
-            { id: 176, name: "Togetic", types: ["Normal", "Flying"], catchInfoGS: "Evolve Togepi (High Friendship)." }, // Type changed to Fairy/Flying in later gens
+            { id: 173, name: "Cleffa", types: ["Normal"], catchInfoGS: "Breed Clefairy or Clefable. Hatch from Odd Egg (Crystal only, 20% chance)." },
+            { id: 174, name: "Igglybuff", types: ["Normal"], catchInfoGS: "Breed Jigglypuff or Wigglytuff. Hatch from Odd Egg (Crystal only, 20% chance)." },
+            { id: 175, name: "Togepi", types: ["Normal"], catchInfoGS: "Hatch Egg received from Professor Elm's aide in Violet City Pokémon Center after beating Falkner." },
+            { id: 176, name: "Togetic", types: ["Normal", "Flying"], catchInfoGS: "Evolve Togepi (High Friendship)." },
             { id: 177, name: "Natu", types: ["Psychic", "Flying"], catchInfoGS: "Ruins of Alph (grass outside)." },
             { id: 178, name: "Xatu", types: ["Psychic", "Flying"], catchInfoGS: "Silver Cave (Kanto - outside, rare). Evolve Natu." },
             { id: 179, name: "Mareep", types: ["Electric"], catchInfoGS: "Routes 32, 42, 43." },
             { id: 180, name: "Flaaffy", types: ["Electric"], catchInfoGS: "Routes 42, 43. Evolve Mareep." },
             { id: 181, name: "Ampharos", types: ["Electric"], catchInfoGS: "Evolve Flaaffy. (Used by Jasmine in Olivine Lighthouse)." },
             { id: 182, name: "Bellossom", types: ["Grass"], catchInfoGS: "Evolve Gloom (Sun Stone)." },
-            { id: 183, name: "Marill", types: ["Water"], catchInfoGS: "Mt. Mortar (requires Surf, Waterfall)." }, // Type changed to Water/Fairy in later gens
-            { id: 184, name: "Azumarill", types: ["Water"], catchInfoGS: "Evolve Marill." }, // Type changed to Water/Fairy in later gens
+            { id: 183, name: "Marill", types: ["Water"], catchInfoGS: "Mt. Mortar (requires Surf, Waterfall)." },
+            { id: 184, name: "Azumarill", types: ["Water"], catchInfoGS: "Evolve Marill." },
             { id: 185, name: "Sudowoodo", types: ["Rock"], catchInfoGS: "Route 36 (blocking path, use SquirtBottle)." },
             { id: 186, name: "Politoed", types: ["Water"], catchInfoGS: "Evolve Poliwhirl (Trade holding King's Rock)." },
             { id: 187, name: "Hoppip", types: ["Grass", "Flying"], catchInfoGS: "Routes 13, 14, 15, 32, 33 (Morning/Day)." },
@@ -378,8 +377,8 @@
             { id: 206, name: "Dunsparce", types: ["Normal"], catchInfoGS: "Dark Cave (Route 31 side, very rare)." },
             { id: 207, name: "Gligar", types: ["Ground", "Flying"], catchInfoGS: "Route 45 (Gold only)." },
             { id: 208, name: "Steelix", types: ["Steel", "Ground"], catchInfoGS: "Evolve Onix (Trade holding Metal Coat). Mt. Silver Cave (rare - Crystal only)." },
-            { id: 209, name: "Snubbull", types: ["Normal"], catchInfoGS: "Route 38 (rare)." }, // Type changed to Fairy in later gens
-            { id: 210, name: "Granbull", types: ["Normal"], catchInfoGS: "Evolve Snubbull." }, // Type changed to Fairy in later gens
+            { id: 209, name: "Snubbull", types: ["Normal"], catchInfoGS: "Route 38 (rare)." },
+            { id: 210, name: "Granbull", types: ["Normal"], catchInfoGS: "Evolve Snubbull." },
             { id: 211, name: "Qwilfish", types: ["Water", "Poison"], catchInfoGS: "Routes 12, 13, 32 (Fish w/ Super Rod)." },
             { id: 212, "name": "Scizor", types: ["Bug", "Steel"], catchInfoGS: "Evolve Scyther (Trade holding Metal Coat)." },
             { id: 213, name: "Shuckle", types: ["Bug", "Rock"], catchInfoGS: "Cianwood City (Rock Smash, or given by a guy), Vermilion City (Rock Smash - Kanto)." },
@@ -431,50 +430,92 @@
         const modalPokemonSprite = document.getElementById('modalPokemonSprite');
         const modalCatchInfo = document.getElementById('modalCatchInfo');
 
-        let caughtPokemon = JSON.parse(localStorage.getItem('caughtPokemonGS')) || {};
+        let caughtPokemon = {}; // Initialize as an empty object
 
-        function saveCaughtStatus() {
+        // Function to save to localStorage (as a fallback or enhancement)
+        function saveToLocalStorage() {
             localStorage.setItem('caughtPokemonGS', JSON.stringify(caughtPokemon));
         }
 
+        // Function to load from localStorage (as a fallback)
+        function loadFromLocalStorage() {
+            const localData = localStorage.getItem('caughtPokemonGS');
+            if (localData) {
+                caughtPokemon = JSON.parse(localData);
+            }
+        }
+
+        // Function to fetch caught data from the server
+        async function loadCaughtDataFromServer() {
+            try {
+                const response = await fetch('/caught'); // Your server endpoint
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const serverData = await response.json();
+                caughtPokemon = serverData;
+                saveToLocalStorage(); // Sync server data with localStorage
+                console.log("Successfully loaded caught data from server.");
+            } catch (error) {
+                console.error("Could not load caught data from server:", error);
+                console.log("Falling back to localStorage.");
+                loadFromLocalStorage(); // Fallback to localStorage if server fetch fails
+            }
+        }
+
+        // Function to save caught status to the server
+        async function saveCaughtStatusToServer(pokemonId, isCaught) {
+            try {
+                const response = await fetch('/caught', { // Your server endpoint
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ id: pokemonId.toString(), caught: isCaught }), // Ensure ID is a string if server expects it
+                });
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const result = await response.json();
+                console.log('Save to server successful:', result);
+            } catch (error) {
+                console.error('Failed to save caught status to server:', error);
+                // Optionally, you could add a visual indicator to the user that server save failed
+            }
+        }
+
+
         function renderPokedex() {
             pokedexGrid.innerHTML = ''; // Clear existing entries
-            let firstUncaughtFound = false;
             const searchTerm = searchInput.value.toLowerCase();
             const showUncaught = showUncaughtOnlyCheckbox.checked;
 
             const filteredData = pokemonData.filter(p => {
                 const matchesSearch = p.name.toLowerCase().includes(searchTerm) || p.id.toString().includes(searchTerm);
-                const matchesCaughtFilter = !showUncaught || !caughtPokemon[p.id];
+                const isActuallyCaught = caughtPokemon[p.id.toString()] || false; // Ensure ID is string for lookup
+                const matchesCaughtFilter = !showUncaught || !isActuallyCaught;
                 return matchesSearch && matchesCaughtFilter;
             });
 
             if (filteredData.length === 0) {
                 pokedexGrid.innerHTML = `<p class="col-span-full text-center text-gray-500">No Pokémon match your criteria.</p>`;
+                updateNextToCatchHighlight(); // Ensure highlight is managed even if no results
                 return;
             }
-
 
             filteredData.forEach(pokemon => {
                 const card = document.createElement('div');
                 card.className = 'pokemon-card';
-                card.dataset.id = pokemon.id;
+                card.dataset.id = pokemon.id; // Store ID for easy access
 
-                const isCaught = caughtPokemon[pokemon.id] || false;
-
-                if (!isCaught && !firstUncaughtFound && !showUncaught && searchTerm === '') { // Only highlight if not filtering and not searching
-                    card.classList.add('next-to-catch');
-                    firstUncaughtFound = true;
-                } else if (isCaught && card.classList.contains('next-to-catch')) {
-                     card.classList.remove('next-to-catch');
-                }
-
+                const isCaught = caughtPokemon[pokemon.id.toString()] || false; // Ensure ID is string for lookup
 
                 const sprite = document.createElement('img');
-                sprite.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png`;
+                const spriteId = pokemon.id;
+                sprite.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${spriteId}.png`;
                 sprite.alt = pokemon.name;
                 sprite.className = 'pokemon-sprite mb-2';
-                sprite.onerror = function() { this.src = 'https://placehold.co/72x72/e0e0e0/757575?text=?'; this.alt = 'Sprite not found';};
+                sprite.onerror = function() { this.src = `https://placehold.co/72x72/e0e0e0/757575?text=${spriteId}`; this.alt = 'Sprite not found';};
 
 
                 const name = document.createElement('h3');
@@ -497,9 +538,17 @@
                 checkbox.type = 'checkbox';
                 checkbox.className = 'caught-checkbox form-checkbox h-5 w-5 text-blue-600 rounded focus:ring-blue-500';
                 checkbox.checked = isCaught;
-                checkbox.onchange = () => {
-                    caughtPokemon[pokemon.id] = checkbox.checked;
-                    saveCaughtStatus();
+                checkbox.dataset.pokemonId = pokemon.id; // Store pokemonId for the event handler
+
+                checkbox.onchange = async (e) => {
+                    const currentPokemonId = e.target.dataset.pokemonId; // Use the ID from the dataset
+                    const isNowCaught = e.target.checked;
+
+                    caughtPokemon[currentPokemonId.toString()] = isNowCaught; // Update local JS state (ensure ID is string)
+                    saveToLocalStorage(); // Save to localStorage immediately for responsiveness
+
+                    await saveCaughtStatusToServer(currentPokemonId, isNowCaught); // Attempt to save to server
+
                     renderPokedex(); // Re-render to update "Next to Catch" and filters
                 };
 
@@ -526,31 +575,30 @@
         }
 
         function updateNextToCatchHighlight() {
-            // Remove existing highlights
             document.querySelectorAll('.next-to-catch').forEach(el => el.classList.remove('next-to-catch'));
 
-            // If "show uncaught only" is checked, or if there's a search term, don't highlight
             if (showUncaughtOnlyCheckbox.checked || searchInput.value.trim() !== '') {
                 return;
             }
 
-            // Find the first uncaught Pokémon card that is currently visible and highlight it
             const cards = pokedexGrid.querySelectorAll('.pokemon-card');
             for (const card of cards) {
-                const pokemonId = parseInt(card.dataset.id);
-                if (!caughtPokemon[pokemonId]) {
+                const pokemonId = card.dataset.id; // ID is already stored as string or number, convert to string for consistency
+                if (!caughtPokemon[pokemonId.toString()]) { // Ensure ID is string for lookup
                     card.classList.add('next-to-catch');
+                    // Scroll the element into view if it's the "next to catch"
+                    // card.scrollIntoView({ behavior: 'smooth', block: 'center' }); // Optional: auto-scroll
                     break;
                 }
             }
         }
 
-
         function showModal(pokemon) {
             modalPokemonName.textContent = `#${pokemon.id.toString().padStart(3, '0')} ${pokemon.name}`;
-            modalPokemonSprite.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png`;
-            modalPokemonSprite.onerror = function() { this.src = 'https://placehold.co/96x96/e0e0e0/757575?text=?'; this.alt = 'Sprite not found';};
-            modalCatchInfo.innerHTML = pokemon.catchInfoGS.replace(/\n/g, '<br>'); // Replace newlines with <br> for HTML
+            const spriteId = pokemon.id;
+            modalPokemonSprite.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${spriteId}.png`;
+            modalPokemonSprite.onerror = function() { this.src = `https://placehold.co/96x96/e0e0e0/757575?text=${spriteId}`; this.alt = 'Sprite not found';};
+            modalCatchInfo.innerHTML = pokemon.catchInfoGS.replace(/\n/g, '<br>');
             modal.style.display = "flex";
         }
 
@@ -558,7 +606,6 @@
             modal.style.display = "none";
         }
 
-        // Close modal if user clicks outside of it
         window.onclick = function(event) {
             if (event.target == modal) {
                 closeModal();
@@ -569,8 +616,13 @@
         searchInput.addEventListener('input', renderPokedex);
         showUncaughtOnlyCheckbox.addEventListener('change', renderPokedex);
 
-        // Initial render
-        renderPokedex();
+        // Initial load sequence
+        async function initializeApp() {
+            await loadCaughtDataFromServer(); // Load from server (with localStorage fallback)
+            renderPokedex(); // Then render the Pokédex
+        }
+
+        initializeApp(); // Start the application
     </script>
 
 </body>
