@@ -1,0 +1,7052 @@
+[
+  {
+    "id": 1,
+    "name": "Bulbasaur",
+    "types": ["Grass", "Poison"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y. Starter in Kanto (post-game via Time Capsule)."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y. Starter in Kanto (post-game via Time Capsule)."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y. Starter in Kanto (post-game via Time Capsule)."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Pallet Town (Starter)"],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Pallet Town (Starter)"],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Cerulean City (gift)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ivysaur",
+    "types": ["Grass", "Poison"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Bulbasaur."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Bulbasaur."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Bulbasaur."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Bulbasaur."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Bulbasaur."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Bulbasaur."
+      }
+    }
+  },
+  {
+    "id": 3,
+    "name": "Venusaur",
+    "types": ["Grass", "Poison"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ivysaur."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ivysaur."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ivysaur."
+      },
+      "red": { "catchable": false, "locations": [], "note": "Evolve Ivysaur." },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ivysaur."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ivysaur."
+      }
+    }
+  },
+  {
+    "id": 4,
+    "name": "Charmander",
+    "types": ["Fire"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y. Starter in Kanto (post-game via Time Capsule)."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y. Starter in Kanto (post-game via Time Capsule)."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y. Starter in Kanto (post-game via Time Capsule)."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Pallet Town (Starter)"],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Pallet Town (Starter)"],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Route 24 (gift)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 5,
+    "name": "Charmeleon",
+    "types": ["Fire"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Charmander."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Charmander."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Charmander."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Charmander."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Charmander."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Charmander."
+      }
+    }
+  },
+  {
+    "id": 6,
+    "name": "Charizard",
+    "types": ["Fire", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Charmeleon."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Charmeleon."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Charmeleon."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Charmeleon."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Charmeleon."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Charmeleon."
+      }
+    }
+  },
+  {
+    "id": 7,
+    "name": "Squirtle",
+    "types": ["Water"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y. Starter in Kanto (post-game via Time Capsule)."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y. Starter in Kanto (post-game via Time Capsule)."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y. Starter in Kanto (post-game via Time Capsule)."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Pallet Town (Starter)"],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Pallet Town (Starter)"],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Vermilion City (gift)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 8,
+    "name": "Wartortle",
+    "types": ["Water"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Squirtle."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Squirtle."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Squirtle."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Squirtle."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Squirtle."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Squirtle."
+      }
+    }
+  },
+  {
+    "id": 9,
+    "name": "Blastoise",
+    "types": ["Water"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Wartortle."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Wartortle."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Wartortle."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Wartortle."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Wartortle."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Wartortle."
+      }
+    }
+  },
+  {
+    "id": 10,
+    "name": "Caterpie",
+    "types": ["Bug"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 30",
+          "Route 31",
+          "Ilex Forest",
+          "National Park (Bug-Catching Contest)",
+          "Route 2"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 30",
+          "Route 31",
+          "Ilex Forest",
+          "National Park (Bug-Catching Contest)",
+          "Route 2"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 30",
+          "Route 31",
+          "Ilex Forest",
+          "National Park",
+          "Route 2"
+        ],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Viridian Forest", "Route 2", "Route 24", "Route 25"],
+        "note": ""
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Red/Yellow."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Viridian Forest", "Route 2"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 11,
+    "name": "Metapod",
+    "types": ["Bug"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Ilex Forest",
+          "National Park (Bug-Catching Contest)",
+          "Route 2"
+        ],
+        "note": "Evolve Caterpie."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Ilex Forest",
+          "National Park (Bug-Catching Contest)",
+          "Route 2"
+        ],
+        "note": "Evolve Caterpie."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Ilex Forest", "National Park", "Route 2"],
+        "note": "Evolve Caterpie."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Viridian Forest", "Route 24", "Route 25"],
+        "note": "Evolve Caterpie."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Caterpie. Trade from Red/Yellow."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Viridian Forest"],
+        "note": "Evolve Caterpie."
+      }
+    }
+  },
+  {
+    "id": 12,
+    "name": "Butterfree",
+    "types": ["Bug", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "National Park (Bug-Catching Contest)",
+          "Route 2 (Morning/Day)"
+        ],
+        "note": "Evolve Metapod."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "National Park (Bug-Catching Contest)",
+          "Route 2 (Morning/Day)"
+        ],
+        "note": "Evolve Metapod."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["National Park", "Route 2 (Morning/Day)"],
+        "note": "Evolve Metapod."
+      },
+      "red": { "catchable": false, "locations": [], "note": "Evolve Metapod." },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Metapod. Trade from Red/Yellow."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Metapod."
+      }
+    }
+  },
+  {
+    "id": 13,
+    "name": "Weedle",
+    "types": ["Bug", "Poison"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 30",
+          "Route 31",
+          "Ilex Forest",
+          "National Park (Bug-Catching Contest)",
+          "Route 2"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 30",
+          "Route 31",
+          "Ilex Forest",
+          "National Park (Bug-Catching Contest)",
+          "Route 2"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 30",
+          "Route 31",
+          "Ilex Forest",
+          "National Park",
+          "Route 2"
+        ],
+        "note": ""
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Blue/Yellow."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Viridian Forest", "Route 2", "Route 24", "Route 25"],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Viridian Forest", "Route 2", "Route 24", "Route 25"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 14,
+    "name": "Kakuna",
+    "types": ["Bug", "Poison"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Ilex Forest",
+          "National Park (Bug-Catching Contest)",
+          "Route 2"
+        ],
+        "note": "Evolve Weedle."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Ilex Forest",
+          "National Park (Bug-Catching Contest)",
+          "Route 2"
+        ],
+        "note": "Evolve Weedle."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Ilex Forest", "National Park", "Route 2"],
+        "note": "Evolve Weedle."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Weedle. Trade from Blue/Yellow."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Viridian Forest", "Route 24", "Route 25"],
+        "note": "Evolve Weedle."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Viridian Forest"],
+        "note": "Evolve Weedle."
+      }
+    }
+  },
+  {
+    "id": 15,
+    "name": "Beedrill",
+    "types": ["Bug", "Poison"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "National Park (Bug-Catching Contest)",
+          "Route 2 (Morning/Day)"
+        ],
+        "note": "Evolve Kakuna."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "National Park (Bug-Catching Contest)",
+          "Route 2 (Morning/Day)"
+        ],
+        "note": "Evolve Kakuna."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["National Park", "Route 2 (Morning/Day)"],
+        "note": "Evolve Kakuna."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kakuna. Trade from Blue/Yellow."
+      },
+      "blue": { "catchable": false, "locations": [], "note": "Evolve Kakuna." },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kakuna."
+      }
+    }
+  },
+  {
+    "id": 16,
+    "name": "Pidgey",
+    "types": ["Normal", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 1",
+          "Route 2",
+          "Route 5",
+          "Route 6",
+          "Route 25",
+          "Route 29",
+          "Route 30",
+          "Route 31",
+          "Route 35",
+          "Route 36",
+          "Route 37",
+          "National Park",
+          "Forest Path"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 1",
+          "Route 2",
+          "Route 5",
+          "Route 6",
+          "Route 25",
+          "Route 29",
+          "Route 30",
+          "Route 31",
+          "Route 35",
+          "Route 36",
+          "Route 37",
+          "National Park",
+          "Forest Path"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 1",
+          "Route 2",
+          "Route 5",
+          "Route 6",
+          "Route 25",
+          "Route 29",
+          "Route 30",
+          "Route 31",
+          "Route 35",
+          "Route 36",
+          "Route 37",
+          "National Park",
+          "Route 38 (Morning/Day)",
+          "Route 39 (Morning/Day)"
+        ],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": [
+          "Route 1",
+          "Route 2",
+          "Route 3",
+          "Route 5",
+          "Route 6",
+          "Route 7",
+          "Route 8",
+          "Route 11",
+          "Route 12",
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Route 21",
+          "Route 24",
+          "Route 25"
+        ],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": [
+          "Route 1",
+          "Route 2",
+          "Route 3",
+          "Route 5",
+          "Route 6",
+          "Route 7",
+          "Route 8",
+          "Route 11",
+          "Route 12",
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Route 21",
+          "Route 24",
+          "Route 25"
+        ],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [
+          "Route 1",
+          "Route 2",
+          "Route 5",
+          "Route 6",
+          "Route 7",
+          "Route 8",
+          "Route 11",
+          "Route 12",
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Route 21",
+          "Route 24",
+          "Route 25",
+          "Viridian Forest"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 17,
+    "name": "Pidgeotto",
+    "types": ["Normal", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 2 (Morning/Day)",
+          "Route 8 (Morning/Day)",
+          "Route 13 (Morning/Day)",
+          "Route 14 (Morning/Day)",
+          "Route 15 (Morning/Day)",
+          "Route 25 (Morning/Day)",
+          "Route 37 (Morning/Day)",
+          "Route 43 (Morning/Day)",
+          "Forest Path"
+        ],
+        "note": "Evolve Pidgey."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 2 (Morning/Day)",
+          "Route 8 (Morning/Day)",
+          "Route 13 (Morning/Day)",
+          "Route 14 (Morning/Day)",
+          "Route 15 (Morning/Day)",
+          "Route 25 (Morning/Day)",
+          "Route 37 (Morning/Day)",
+          "Route 43 (Morning/Day)",
+          "Forest Path"
+        ],
+        "note": "Evolve Pidgey."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 2 (Morning/Day)",
+          "Route 5 (Morning/Day)",
+          "Route 8 (Morning/Day)",
+          "Route 11 (Morning/Day)",
+          "Route 13 (Morning/Day)",
+          "Route 14 (Morning/Day)",
+          "Route 15 (Morning/Day)",
+          "Route 25 (Morning/Day)",
+          "Route 37 (Morning/Day)",
+          "Route 38 (Morning/Day)",
+          "Route 39 (Morning/Day)",
+          "Route 43 (Morning/Day)"
+        ],
+        "note": "Evolve Pidgey."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Route 14", "Route 15", "Route 21"],
+        "note": "Evolve Pidgey."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Route 14", "Route 15", "Route 21"],
+        "note": "Evolve Pidgey."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [
+          "Viridian Forest",
+          "Route 11",
+          "Route 12",
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Route 21",
+          "Route 24",
+          "Route 25"
+        ],
+        "note": "Evolve Pidgey."
+      }
+    }
+  },
+  {
+    "id": 18,
+    "name": "Pidgeot",
+    "types": ["Normal", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pidgeotto."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pidgeotto."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pidgeotto."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pidgeotto."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pidgeotto."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pidgeotto."
+      }
+    }
+  },
+  {
+    "id": 19,
+    "name": "Rattata",
+    "types": ["Normal"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 1",
+          "Route 3",
+          "Route 4",
+          "Route 7",
+          "Route 9",
+          "Route 10",
+          "Route 21",
+          "Route 22",
+          "Route 29",
+          "Route 30",
+          "Route 31",
+          "Route 32",
+          "Route 33",
+          "Route 34",
+          "Route 38",
+          "Route 39",
+          "Route 46",
+          "Sprout Tower",
+          "Union Cave",
+          "Burned Tower",
+          "Mt. Mortar",
+          "Tin Tower",
+          "Bell Tower"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 1",
+          "Route 3",
+          "Route 4",
+          "Route 7",
+          "Route 9",
+          "Route 10",
+          "Route 21",
+          "Route 22",
+          "Route 29",
+          "Route 30",
+          "Route 31",
+          "Route 32",
+          "Route 33",
+          "Route 34",
+          "Route 38",
+          "Route 39",
+          "Route 46",
+          "Sprout Tower",
+          "Union Cave",
+          "Burned Tower",
+          "Mt. Mortar",
+          "Tin Tower",
+          "Bell Tower"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 1",
+          "Route 3",
+          "Route 4",
+          "Route 7",
+          "Route 9",
+          "Route 10",
+          "Route 21",
+          "Route 22",
+          "Route 29",
+          "Route 30",
+          "Route 31",
+          "Route 32",
+          "Route 33",
+          "Route 34",
+          "Route 38",
+          "Route 39",
+          "Route 46",
+          "Sprout Tower",
+          "Union Cave",
+          "Burned Tower",
+          "Mt. Mortar",
+          "Tin Tower",
+          "Bell Tower"
+        ],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": [
+          "Route 1",
+          "Route 2",
+          "Route 4",
+          "Route 9",
+          "Route 16",
+          "Route 17",
+          "Route 18",
+          "Route 21",
+          "Route 22"
+        ],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": [
+          "Route 1",
+          "Route 2",
+          "Route 4",
+          "Route 9",
+          "Route 16",
+          "Route 17",
+          "Route 18",
+          "Route 21",
+          "Route 22"
+        ],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [
+          "Route 1",
+          "Route 2",
+          "Route 3",
+          "Route 4",
+          "Route 5",
+          "Route 6",
+          "Route 7",
+          "Route 8",
+          "Route 9",
+          "Route 10",
+          "Route 11",
+          "Route 16",
+          "Route 18",
+          "Route 21",
+          "Route 22",
+          "Pokemon Mansion"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 20,
+    "name": "Raticate",
+    "types": ["Normal"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 1",
+          "Route 7 (Night)",
+          "Route 9 (Night)",
+          "Route 10 (Night)",
+          "Route 26",
+          "Route 27",
+          "Route 38 (Night)",
+          "Route 39 (Night)",
+          "Route 42 (Night)",
+          "Union Cave",
+          "Burned Tower",
+          "Mt. Mortar",
+          "Tin Tower",
+          "Bell Tower"
+        ],
+        "note": "Evolve Rattata."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 1",
+          "Route 7 (Night)",
+          "Route 9 (Night)",
+          "Route 10 (Night)",
+          "Route 26",
+          "Route 27",
+          "Route 38 (Night)",
+          "Route 39 (Night)",
+          "Route 42 (Night)",
+          "Union Cave",
+          "Burned Tower",
+          "Mt. Mortar",
+          "Tin Tower",
+          "Bell Tower"
+        ],
+        "note": "Evolve Rattata."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 1",
+          "Route 7 (Night)",
+          "Route 9 (Night)",
+          "Route 10 (Night)",
+          "Route 26",
+          "Route 27",
+          "Route 38 (Night)",
+          "Route 39 (Night)",
+          "Union Cave",
+          "Burned Tower",
+          "Mt. Mortar",
+          "Tin Tower",
+          "Bell Tower"
+        ],
+        "note": "Evolve Rattata."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Route 16", "Route 17", "Route 18", "Route 21"],
+        "note": "Evolve Rattata."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Route 16", "Route 17", "Route 18", "Route 21"],
+        "note": "Evolve Rattata."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [
+          "Route 9",
+          "Route 10",
+          "Route 11",
+          "Route 16",
+          "Route 18",
+          "Route 21",
+          "Pokemon Mansion"
+        ],
+        "note": "Evolve Rattata."
+      }
+    }
+  },
+  {
+    "id": 21,
+    "name": "Spearow",
+    "types": ["Normal", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 3",
+          "Route 4",
+          "Route 7",
+          "Route 9",
+          "Route 10",
+          "Route 22",
+          "Route 33",
+          "Route 42",
+          "Route 46"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 3",
+          "Route 4",
+          "Route 7",
+          "Route 9",
+          "Route 10",
+          "Route 22",
+          "Route 33",
+          "Route 42",
+          "Route 46"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 3",
+          "Route 4",
+          "Route 7",
+          "Route 9",
+          "Route 10",
+          "Route 22",
+          "Route 33",
+          "Route 42",
+          "Route 46"
+        ],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": [
+          "Route 3",
+          "Route 4",
+          "Route 9",
+          "Route 10",
+          "Route 11",
+          "Route 16",
+          "Route 17",
+          "Route 18",
+          "Route 22",
+          "Route 23"
+        ],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": [
+          "Route 3",
+          "Route 4",
+          "Route 9",
+          "Route 10",
+          "Route 11",
+          "Route 16",
+          "Route 17",
+          "Route 18",
+          "Route 22",
+          "Route 23"
+        ],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [
+          "Route 3",
+          "Route 4",
+          "Route 9",
+          "Route 10",
+          "Route 16",
+          "Route 17",
+          "Route 18",
+          "Route 22",
+          "Route 23"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 22,
+    "name": "Fearow",
+    "types": ["Normal", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 9",
+          "Route 10",
+          "Route 16",
+          "Route 17",
+          "Route 18",
+          "Route 22",
+          "Route 47",
+          "Route 48"
+        ],
+        "note": "Evolve Spearow."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 9",
+          "Route 10",
+          "Route 16",
+          "Route 17",
+          "Route 18",
+          "Route 22",
+          "Route 47",
+          "Route 48"
+        ],
+        "note": "Evolve Spearow."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 9",
+          "Route 10",
+          "Route 16",
+          "Route 17",
+          "Route 18",
+          "Route 22"
+        ],
+        "note": "Evolve Spearow."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Route 17", "Route 18", "Route 23"],
+        "note": "Evolve Spearow."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Route 17", "Route 18", "Route 23"],
+        "note": "Evolve Spearow."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [
+          "Route 9",
+          "Route 16",
+          "Route 17",
+          "Route 18",
+          "Route 23"
+        ],
+        "note": "Evolve Spearow."
+      }
+    }
+  },
+  {
+    "id": 23,
+    "name": "Ekans",
+    "types": ["Poison"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 3",
+          "Route 4",
+          "Route 32",
+          "Route 33",
+          "Goldenrod Game Corner (200 coins)"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Gold/Crystal/Red/Yellow."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 3",
+          "Route 4",
+          "Route 32",
+          "Route 33",
+          "Route 37 (Swarm)",
+          "Route 42"
+        ],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": [
+          "Route 4",
+          "Route 8",
+          "Route 9",
+          "Route 10",
+          "Route 11",
+          "Route 23"
+        ],
+        "note": ""
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Red/Yellow."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [
+          "Route 4",
+          "Route 8",
+          "Route 9",
+          "Route 10",
+          "Route 11",
+          "Route 23"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 24,
+    "name": "Arbok",
+    "types": ["Poison"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 3",
+          "Route 4",
+          "Route 26",
+          "Route 27",
+          "Route 28",
+          "Mt. Silver Cave"
+        ],
+        "note": "Evolve Ekans."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ekans. Trade from Gold/Crystal/Red/Yellow."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 3",
+          "Route 4",
+          "Route 26",
+          "Route 27",
+          "Route 28",
+          "Mt. Silver Cave"
+        ],
+        "note": "Evolve Ekans."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Route 23", "Cerulean Cave"],
+        "note": "Evolve Ekans."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ekans. Trade from Red/Yellow."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Route 23", "Cerulean Cave"],
+        "note": "Evolve Ekans."
+      }
+    }
+  },
+  {
+    "id": 25,
+    "name": "Pikachu",
+    "types": ["Electric"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 2"],
+        "note": "Breed Pichu (Gen II only) then evolve, or trade from R/B/Y."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 2"],
+        "note": "Breed Pichu (Gen II only) then evolve, or trade from R/B/Y."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 2",
+          "Celadon Game Corner (Odd Egg - 2% chance of Pichu)"
+        ],
+        "note": "Breed Pichu (Gen II only) then evolve, or trade from R/B/Y."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Viridian Forest", "Power Plant"],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Viridian Forest", "Power Plant"],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Pallet Town (Starter)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 26,
+    "name": "Raichu",
+    "types": ["Electric"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pikachu (Thunder Stone). Trade from R/B/Y."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pikachu (Thunder Stone). Trade from R/B/Y."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pikachu (Thunder Stone). Trade from R/B/Y."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [
+          "Power Plant (Trade Raichu for Electrode - in-game trade, implies you already have one to trade)",
+          "Celadon Department Store (Buy Thunder Stone)"
+        ],
+        "note": "Evolve Pikachu (Thunder Stone). Can be obtained via in-game trade in Cinnabar Lab for Electrode in Red/Blue, or Graveler in Yellow, but you'd need a Raichu to get one this way. Primary method is evolution."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [
+          "Power Plant (Trade Raichu for Electrode - in-game trade, implies you already have one to trade)",
+          "Celadon Department Store (Buy Thunder Stone)"
+        ],
+        "note": "Evolve Pikachu (Thunder Stone). Primary method is evolution."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": ["Celadon Department Store (Buy Thunder Stone)"],
+        "note": "Evolve Pikachu (Thunder Stone). Your starter Pikachu cannot evolve in Yellow."
+      }
+    }
+  },
+  {
+    "id": 27,
+    "name": "Sandshrew",
+    "types": ["Ground"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Union Cave", "Mt. Moon"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Goldenrod Game Corner (200 coins)"],
+        "note": "More common in Gold version's wild locations."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Union Cave", "Mt. Moon (Morning/Day)"],
+        "note": ""
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Blue/Yellow."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": [
+          "Route 4",
+          "Route 8",
+          "Route 9",
+          "Route 10",
+          "Route 11",
+          "Route 23"
+        ],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Route 3", "Route 4", "Mt. Moon"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 28,
+    "name": "Sandslash",
+    "types": ["Ground"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 26", "Route 27", "Mt. Moon"],
+        "note": "Evolve Sandshrew."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Sandshrew. Trade from Gold/Crystal/Blue/Yellow."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 26", "Route 27", "Mt. Moon (Morning/Day)"],
+        "note": "Evolve Sandshrew."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Sandshrew. Trade from Blue/Yellow."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Route 23", "Cerulean Cave"],
+        "note": "Evolve Sandshrew."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Sandshrew."
+      }
+    }
+  },
+  {
+    "id": 29,
+    "name": "Nidoran♀",
+    "types": ["Poison"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 35", "Route 36", "National Park"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 35", "Route 36", "National Park"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 35", "Route 36", "National Park"],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Route 22", "Safari Zone"],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Route 22", "Safari Zone"],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [
+          "Route 2",
+          "Route 9",
+          "Route 10",
+          "Route 22",
+          "Safari Zone"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 30,
+    "name": "Nidorina",
+    "types": ["Poison"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 13", "Route 14", "Route 15"],
+        "note": "Evolve Nidoran♀."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 13", "Route 14", "Route 15"],
+        "note": "Evolve Nidoran♀."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 13", "Route 14", "Route 15 (Morning/Day)"],
+        "note": "Evolve Nidoran♀."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Safari Zone", "Celadon City (Game Corner - 1200 Coins)"],
+        "note": "Evolve Nidoran♀. Route 11 (Trade Nidorino for Nidorina - implies you have Nidorino already)."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": "Evolve Nidoran♀. Route 11 (Trade Nidorino for Nidorina)."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Route 9", "Route 23", "Safari Zone"],
+        "note": "Evolve Nidoran♀."
+      }
+    }
+  },
+  {
+    "id": 31,
+    "name": "Nidoqueen",
+    "types": ["Poison", "Ground"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nidorina (Moon Stone)."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nidorina (Moon Stone)."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nidorina (Moon Stone)."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nidorina (Moon Stone)."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nidorina (Moon Stone)."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nidorina (Moon Stone)."
+      }
+    }
+  },
+  {
+    "id": 32,
+    "name": "Nidoran♂",
+    "types": ["Poison"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 35", "Route 36", "National Park"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 35", "Route 36", "National Park"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 35", "Route 36", "National Park"],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Route 22", "Safari Zone"],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Route 22", "Safari Zone"],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [
+          "Route 2",
+          "Route 9",
+          "Route 10",
+          "Route 22",
+          "Safari Zone"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 33,
+    "name": "Nidorino",
+    "types": ["Poison"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 13", "Route 14", "Route 15"],
+        "note": "Evolve Nidoran♂."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 13", "Route 14", "Route 15"],
+        "note": "Evolve Nidoran♂."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 13", "Route 14", "Route 15 (Morning/Day)"],
+        "note": "Evolve Nidoran♂."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Safari Zone", "Celadon City (Game Corner - 1200 Coins)"],
+        "note": "Evolve Nidoran♂."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": "Evolve Nidoran♂."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Route 9", "Route 23", "Safari Zone"],
+        "note": "Evolve Nidoran♂."
+      }
+    }
+  },
+  {
+    "id": 34,
+    "name": "Nidoking",
+    "types": ["Poison", "Ground"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nidorino (Moon Stone)."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nidorino (Moon Stone)."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nidorino (Moon Stone)."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nidorino (Moon Stone)."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nidorino (Moon Stone)."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nidorino (Moon Stone)."
+      }
+    }
+  },
+  {
+    "id": 35,
+    "name": "Clefairy",
+    "types": ["Fairy"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Mt. Moon (Mt. Moon Square - Monday nights, requires Rock Smash to access)"
+        ],
+        "note": "Breed Cleffa (Gen II only) then evolve. Type was Normal in Gen I/II."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Mt. Moon (Mt. Moon Square - Monday nights, requires Rock Smash to access)"
+        ],
+        "note": "Breed Cleffa (Gen II only) then evolve. Type was Normal in Gen I/II."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Mt. Moon (Mt. Moon Square - Monday nights, requires Rock Smash to access)",
+          "Celadon Game Corner (Odd Egg - 2% chance of Cleffa)"
+        ],
+        "note": "Breed Cleffa (Gen II only) then evolve. Type was Normal in Gen I/II."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Mt. Moon", "Celadon City (Game Corner - 500 coins)"],
+        "note": "Type was Normal in Gen I."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Mt. Moon", "Celadon City (Game Corner - 750 coins)"],
+        "note": "Type was Normal in Gen I."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Mt. Moon"],
+        "note": "Type was Normal in Gen I."
+      }
+    }
+  },
+  {
+    "id": 36,
+    "name": "Clefable",
+    "types": ["Fairy"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Clefairy (Moon Stone). Type was Normal in Gen I/II."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Clefairy (Moon Stone). Type was Normal in Gen I/II."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Clefairy (Moon Stone). Type was Normal in Gen I/II."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Clefairy (Moon Stone). Type was Normal in Gen I."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Clefairy (Moon Stone). Type was Normal in Gen I."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Clefairy (Moon Stone). Type was Normal in Gen I."
+      }
+    }
+  },
+  {
+    "id": 37,
+    "name": "Vulpix",
+    "types": ["Fire"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Silver/Crystal/Red/Yellow."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 7", "Route 8", "Route 36", "Route 37"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 7",
+          "Route 8",
+          "Route 36",
+          "Route 37 (Morning/Day)"
+        ],
+        "note": "More common in Silver."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Route 7", "Route 8", "Pokemon Mansion"],
+        "note": ""
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Red/Yellow."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Route 7", "Route 8", "Pokemon Mansion"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 38,
+    "name": "Ninetales",
+    "types": ["Fire"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Vulpix (Fire Stone). Trade from Silver/Crystal/Red/Yellow."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Vulpix (Fire Stone)."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Vulpix (Fire Stone)."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Vulpix (Fire Stone)."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Vulpix (Fire Stone). Trade from Red/Yellow."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Vulpix (Fire Stone)."
+      }
+    }
+  },
+  {
+    "id": 39,
+    "name": "Jigglypuff",
+    "types": ["Normal", "Fairy"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 3", "Route 4", "Route 46"],
+        "note": "Breed Igglybuff (Gen II only) then evolve. Type was Normal in Gen I/II."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 3", "Route 4", "Route 46"],
+        "note": "Breed Igglybuff (Gen II only) then evolve. Type was Normal in Gen I/II."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 3",
+          "Route 4",
+          "Route 5",
+          "Route 6",
+          "Route 7",
+          "Route 8",
+          "Route 34",
+          "Route 35",
+          "Celadon Game Corner (Odd Egg - 2% chance of Igglybuff)"
+        ],
+        "note": "Breed Igglybuff (Gen II only) then evolve. Type was Normal in Gen I/II."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Route 3"],
+        "note": "Type was Normal in Gen I."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Route 3"],
+        "note": "Type was Normal in Gen I."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Route 5", "Route 6", "Route 7", "Route 8"],
+        "note": "Type was Normal in Gen I."
+      }
+    }
+  },
+  {
+    "id": 40,
+    "name": "Wigglytuff",
+    "types": ["Normal", "Fairy"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Jigglypuff (Moon Stone). Type was Normal in Gen I/II."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Jigglypuff (Moon Stone). Type was Normal in Gen I/II."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Jigglypuff (Moon Stone). Type was Normal in Gen I/II."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [
+          "Celadon City (Rocket Game Corner - if Clefable not chosen)"
+        ],
+        "note": "Evolve Jigglypuff (Moon Stone). Can be found in Cerulean Cave in R/B."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [
+          "Celadon City (Rocket Game Corner - if Clefable not chosen)"
+        ],
+        "note": "Evolve Jigglypuff (Moon Stone). Can be found in Cerulean Cave in R/B."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Cerulean Cave"],
+        "note": "Evolve Jigglypuff (Moon Stone). Type was Normal in Gen I."
+      }
+    }
+  },
+  {
+    "id": 41,
+    "name": "Zubat",
+    "types": ["Poison", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Too many to list (common in caves like Dark Cave, Union Cave, Mt. Mortar, Ice Path, Whirl Islands, Rock Tunnel, Mt. Moon, Victory Road, Tohjo Falls, Mt. Silver)"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Too many to list (common in caves)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Too many to list (common in caves)"],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": [
+          "Mt. Moon",
+          "Rock Tunnel",
+          "Seafoam Islands",
+          "Victory Road"
+        ],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": [
+          "Mt. Moon",
+          "Rock Tunnel",
+          "Seafoam Islands",
+          "Victory Road"
+        ],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [
+          "Mt. Moon",
+          "Rock Tunnel",
+          "Seafoam Islands",
+          "Victory Road"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 42,
+    "name": "Golbat",
+    "types": ["Poison", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Common in later caves (e.g., Victory Road, Mt. Silver, Cerulean Cave, Rock Tunnel, Dark Cave, Union Cave B2F)"
+        ],
+        "note": "Evolve Zubat."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Common in later caves"],
+        "note": "Evolve Zubat."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Common in later caves"],
+        "note": "Evolve Zubat."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Seafoam Islands", "Victory Road", "Cerulean Cave"],
+        "note": "Evolve Zubat."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Seafoam Islands", "Victory Road", "Cerulean Cave"],
+        "note": "Evolve Zubat."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Seafoam Islands", "Victory Road", "Cerulean Cave"],
+        "note": "Evolve Zubat."
+      }
+    }
+  },
+  {
+    "id": 43,
+    "name": "Oddish",
+    "types": ["Grass", "Poison"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Ilex Forest (Night)",
+          "Route 5 (Night)",
+          "Route 6 (Night)",
+          "Route 24 (Night)",
+          "Route 25 (Night)"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Ilex Forest (Night)",
+          "Route 5 (Night)",
+          "Route 6 (Night)",
+          "Route 24 (Night)",
+          "Route 25 (Night)"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Ilex Forest (Night)",
+          "Route 5 (Night)",
+          "Route 6 (Night)",
+          "Route 24 (Night)",
+          "Route 25 (Night)"
+        ],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": [
+          "Route 5",
+          "Route 6",
+          "Route 7",
+          "Route 12",
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Route 24",
+          "Route 25"
+        ],
+        "note": ""
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Red/Yellow."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [
+          "Route 12",
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Route 24",
+          "Route 25"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 44,
+    "name": "Gloom",
+    "types": ["Grass", "Poison"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 5 (Night)"],
+        "note": "Evolve Oddish."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 5 (Night)"],
+        "note": "Evolve Oddish."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 5 (Night)", "Route 24 (Night, swarm)"],
+        "note": "Evolve Oddish."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Route 12", "Route 13", "Route 14", "Route 15"],
+        "note": "Evolve Oddish."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Oddish. Trade from Red/Yellow."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [
+          "Route 12",
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Cerulean Cave"
+        ],
+        "note": "Evolve Oddish."
+      }
+    }
+  },
+  {
+    "id": 45,
+    "name": "Vileplume",
+    "types": ["Grass", "Poison"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Gloom (Leaf Stone)."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Gloom (Leaf Stone)."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Gloom (Leaf Stone)."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Gloom (Leaf Stone)."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Gloom (Leaf Stone). Trade from Red/Yellow."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Gloom (Leaf Stone)."
+      }
+    }
+  },
+  {
+    "id": 46,
+    "name": "Paras",
+    "types": ["Bug", "Grass"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Ilex Forest",
+          "Mt. Moon",
+          "National Park (Bug-Catching Contest)"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Ilex Forest",
+          "Mt. Moon",
+          "National Park (Bug-Catching Contest)"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Ilex Forest",
+          "Mt. Moon",
+          "National Park (Bug-Catching Contest)"
+        ],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Mt. Moon", "Safari Zone"],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Mt. Moon", "Safari Zone"],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Mt. Moon", "Safari Zone"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 47,
+    "name": "Parasect",
+    "types": ["Bug", "Grass"],
+    "availability": {
+      "gold": { "catchable": false, "locations": [], "note": "Evolve Paras." },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Paras."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Mt. Silver (cave section)"],
+        "note": "Evolve Paras."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Safari Zone", "Cerulean Cave"],
+        "note": "Evolve Paras."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Safari Zone", "Cerulean Cave"],
+        "note": "Evolve Paras."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Safari Zone", "Cerulean Cave"],
+        "note": "Evolve Paras."
+      }
+    }
+  },
+  {
+    "id": 48,
+    "name": "Venonat",
+    "types": ["Bug", "Poison"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 24",
+          "Route 25",
+          "Route 43",
+          "Ilex Forest (Headbutt trees)",
+          "Lake of Rage (Headbutt trees)",
+          "National Park (Bug-Catching Contest)"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 24",
+          "Route 25",
+          "Route 43",
+          "Ilex Forest (Headbutt trees)",
+          "Lake of Rage (Headbutt trees)",
+          "National Park (Bug-Catching Contest)"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 9 (Night)",
+          "Route 10 (Night)",
+          "Route 13 (Night)",
+          "Route 14 (Night)",
+          "Route 15 (Night)",
+          "Route 24 (Night)",
+          "Route 25 (Night)",
+          "Route 43 (Night)",
+          "Ilex Forest (Night, Headbutt trees)",
+          "Lake of Rage (Night, Headbutt trees)",
+          "National Park (Bug-Catching Contest)"
+        ],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": [
+          "Route 12",
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Safari Zone"
+        ],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": [
+          "Route 12",
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Safari Zone"
+        ],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [
+          "Route 12",
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Route 24",
+          "Route 25"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 49,
+    "name": "Venomoth",
+    "types": ["Bug", "Poison"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 24 (Night)",
+          "Route 25 (Night)",
+          "Route 43 (Night)"
+        ],
+        "note": "Evolve Venonat."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 24 (Night)",
+          "Route 25 (Night)",
+          "Route 43 (Night)"
+        ],
+        "note": "Evolve Venonat."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 9 (Night)",
+          "Route 10 (Night)",
+          "Route 13 (Night)",
+          "Route 14 (Night)",
+          "Route 15 (Night)",
+          "Route 24 (Night)",
+          "Route 25 (Night)",
+          "Route 43 (Night)"
+        ],
+        "note": "Evolve Venonat."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Safari Zone", "Victory Road", "Cerulean Cave"],
+        "note": "Evolve Venonat."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Safari Zone", "Victory Road", "Cerulean Cave"],
+        "note": "Evolve Venonat."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Route 14", "Route 15", "Victory Road", "Cerulean Cave"],
+        "note": "Evolve Venonat."
+      }
+    }
+  },
+  {
+    "id": 50,
+    "name": "Diglett",
+    "types": ["Ground"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Diglett's Cave"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Diglett's Cave"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Diglett's Cave"],
+        "note": ""
+      },
+      "red": { "catchable": true, "locations": ["Diglett's Cave"], "note": "" },
+      "blue": {
+        "catchable": true,
+        "locations": ["Diglett's Cave"],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Diglett's Cave"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 51,
+    "name": "Dugtrio",
+    "types": ["Ground"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Diglett's Cave"],
+        "note": "Evolve Diglett."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Diglett's Cave"],
+        "note": "Evolve Diglett."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Diglett's Cave"],
+        "note": "Evolve Diglett."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Diglett's Cave"],
+        "note": "Evolve Diglett."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Diglett's Cave"],
+        "note": "Evolve Diglett."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Diglett's Cave"],
+        "note": "Evolve Diglett."
+      }
+    }
+  },
+  {
+    "id": 52,
+    "name": "Meowth",
+    "types": ["Normal"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Silver/Crystal/Blue/Yellow."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 5",
+          "Route 6",
+          "Route 7",
+          "Route 8",
+          "Route 38",
+          "Route 39"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 5",
+          "Route 6",
+          "Route 7",
+          "Route 8",
+          "Route 38",
+          "Route 39 (Morning/Day)"
+        ],
+        "note": ""
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Blue/Yellow."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Route 5", "Route 6", "Route 7", "Route 8"],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Route 5", "Route 6", "Route 7", "Route 8"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 53,
+    "name": "Persian",
+    "types": ["Normal"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Meowth. Trade from Silver/Crystal/Blue/Yellow."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 7 (Night)"],
+        "note": "Evolve Meowth."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 7 (Night)"],
+        "note": "Evolve Meowth."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Meowth. Trade from Blue/Yellow."
+      },
+      "blue": { "catchable": false, "locations": [], "note": "Evolve Meowth." },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Meowth."
+      }
+    }
+  },
+  {
+    "id": 54,
+    "name": "Psyduck",
+    "types": ["Water"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 6 (Surfing)",
+          "Route 35 (Surfing)",
+          "Ilex Forest (Surfing)",
+          "National Park (Surfing)"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 6 (Surfing)",
+          "Route 35 (Surfing)",
+          "Ilex Forest (Surfing)",
+          "National Park (Surfing)"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 6 (Surfing)",
+          "Route 35 (Surfing)",
+          "Ilex Forest (Surfing)",
+          "National Park (Surfing)"
+        ],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": [
+          "Route 24 (Fishing - Super Rod)",
+          "Route 25 (Fishing - Super Rod)",
+          "Cerulean City (Fishing - Super Rod)",
+          "Safari Zone (Fishing - Super Rod)",
+          "Seafoam Islands (Surfing)"
+        ],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": [
+          "Route 24 (Fishing - Super Rod)",
+          "Route 25 (Fishing - Super Rod)",
+          "Cerulean City (Fishing - Super Rod)",
+          "Safari Zone (Fishing - Super Rod)",
+          "Seafoam Islands (Surfing)"
+        ],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [
+          "Route 6 (Surfing)",
+          "Route 24 (Fishing - Super Rod)",
+          "Route 25 (Fishing - Super Rod)",
+          "Cerulean City (Fishing - Super Rod)",
+          "Safari Zone (Fishing - Super Rod)",
+          "Seafoam Islands (Surfing)"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 55,
+    "name": "Golduck",
+    "types": ["Water"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 6 (Surfing)",
+          "Route 35 (Surfing)",
+          "Ilex Forest (Surfing)",
+          "Mt. Silver (cave, Surfing)",
+          "Cerulean Cave (Surfing)"
+        ],
+        "note": "Evolve Psyduck."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 6 (Surfing)",
+          "Route 35 (Surfing)",
+          "Ilex Forest (Surfing)",
+          "Mt. Silver (cave, Surfing)",
+          "Cerulean Cave (Surfing)"
+        ],
+        "note": "Evolve Psyduck."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 6 (Surfing)",
+          "Route 35 (Surfing)",
+          "Ilex Forest (Surfing)",
+          "Mt. Silver (cave, Surfing)",
+          "Cerulean Cave (Surfing)"
+        ],
+        "note": "Evolve Psyduck."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Seafoam Islands (Surfing)"],
+        "note": "Evolve Psyduck."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Seafoam Islands (Surfing)"],
+        "note": "Evolve Psyduck."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Route 6 (Surfing)", "Seafoam Islands (Surfing)"],
+        "note": "Evolve Psyduck."
+      }
+    }
+  },
+
+  {
+    "id": 56,
+    "name": "Mankey",
+    "types": ["Fighting"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 42", "Route 9"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 42", "Route 9"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 9", "Route 42"],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Route 5", "Route 6", "Route 7", "Route 8"],
+        "note": ""
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Red/Yellow."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Route 3", "Route 4", "Route 22", "Route 23"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 57,
+    "name": "Primeape",
+    "types": ["Fighting"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 9", "Cerulean Cave (Unused Map)"],
+        "note": "Evolve Mankey. Cerulean Cave is an unused map in G/S/C but Primeape can be found on Route 9."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 9", "Cerulean Cave (Unused Map)"],
+        "note": "Evolve Mankey. Cerulean Cave is an unused map in G/S/C but Primeape can be found on Route 9."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 9"],
+        "note": "Evolve Mankey."
+      },
+      "red": { "catchable": false, "locations": [], "note": "Evolve Mankey." },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Mankey. Trade from Red/Yellow."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Route 23"],
+        "note": "Evolve Mankey."
+      }
+    }
+  },
+  {
+    "id": 58,
+    "name": "Growlithe",
+    "types": ["Fire"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 7", "Route 8", "Route 36", "Route 37"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Gold/Crystal/Red."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 7",
+          "Route 8",
+          "Route 35 (Swarm)",
+          "Route 36",
+          "Route 37"
+        ],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": [
+          "Route 5",
+          "Route 6",
+          "Route 7",
+          "Route 8",
+          "Pokemon Mansion"
+        ],
+        "note": ""
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Red."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Red."
+      }
+    }
+  },
+  {
+    "id": 59,
+    "name": "Arcanine",
+    "types": ["Fire"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Growlithe (Fire Stone)."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Growlithe. Trade from Gold/Crystal/Red."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Growlithe (Fire Stone)."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Growlithe (Fire Stone)."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Growlithe. Trade from Red."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Growlithe. Trade from Red."
+      }
+    }
+  },
+
+  {
+    "id": 60,
+    "name": "Poliwag",
+    "types": ["Water"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 30",
+          "Route 31",
+          "Violet City",
+          "Ecruteak City",
+          "Route 44",
+          "Route 6",
+          "Route 22",
+          "Route 28",
+          "Mt. Silver",
+          "Viridian City (fishing)"
+        ],
+        "note": "Commonly found by fishing or surfing."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 30",
+          "Route 31",
+          "Violet City",
+          "Ecruteak City",
+          "Route 44",
+          "Route 6",
+          "Route 22",
+          "Route 28",
+          "Mt. Silver",
+          "Viridian City (fishing)"
+        ],
+        "note": "Commonly found by fishing or surfing."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 30",
+          "Route 31",
+          "Violet City",
+          "Ecruteak City",
+          "Route 44",
+          "Route 6",
+          "Route 22",
+          "Route 28",
+          "Mt. Silver",
+          "Viridian City (fishing)"
+        ],
+        "note": "Commonly found by fishing or surfing."
+      },
+      "red": {
+        "catchable": true,
+        "locations": [
+          "Pallet Town (fishing)",
+          "Viridian City (fishing)",
+          "Route 22 (fishing)",
+          "Cerulean City (fishing)"
+        ],
+        "note": "Fishing with Good Rod or Super Rod."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": [
+          "Pallet Town (fishing)",
+          "Viridian City (fishing)",
+          "Route 22 (fishing)",
+          "Cerulean City (fishing)"
+        ],
+        "note": "Fishing with Good Rod or Super Rod."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Route 22 (fishing)", "Cerulean City (fishing)"],
+        "note": "Fishing with Good Rod or Super Rod."
+      }
+    }
+  },
+  {
+    "id": 61,
+    "name": "Poliwhirl",
+    "types": ["Water"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 30 (Surfing)",
+          "Route 31 (Surfing)",
+          "Violet City (Surfing)",
+          "Ecruteak City (Surfing)",
+          "Route 44 (Surfing)",
+          "Route 6 (Surfing)",
+          "Route 22 (Surfing)",
+          "Route 28 (Surfing)",
+          "Mt. Silver (Surfing)",
+          "Viridian City (Surfing)"
+        ],
+        "note": "Evolve Poliwag. Commonly found by surfing or fishing with Super Rod."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 30 (Surfing)",
+          "Route 31 (Surfing)",
+          "Violet City (Surfing)",
+          "Ecruteak City (Surfing)",
+          "Route 44 (Surfing)",
+          "Route 6 (Surfing)",
+          "Route 22 (Surfing)",
+          "Route 28 (Surfing)",
+          "Mt. Silver (Surfing)",
+          "Viridian City (Surfing)"
+        ],
+        "note": "Evolve Poliwag. Commonly found by surfing or fishing with Super Rod."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 30 (Surfing)",
+          "Route 31 (Surfing)",
+          "Violet City (Surfing)",
+          "Ecruteak City (Surfing)",
+          "Route 44 (Surfing)",
+          "Route 6 (Surfing)",
+          "Route 22 (Surfing)",
+          "Route 28 (Surfing)",
+          "Mt. Silver (Surfing)",
+          "Viridian City (Surfing)"
+        ],
+        "note": "Evolve Poliwag. Commonly found by surfing or fishing with Super Rod."
+      },
+      "red": {
+        "catchable": true,
+        "locations": [
+          "Celadon City (fishing with Super Rod)",
+          "Route 10 (fishing with Super Rod)"
+        ],
+        "note": "Evolve Poliwag."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": [
+          "Celadon City (fishing with Super Rod)",
+          "Route 10 (fishing with Super Rod)"
+        ],
+        "note": "Evolve Poliwag."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [
+          "Route 22 (fishing with Super Rod)",
+          "Route 23 (fishing with Super Rod)"
+        ],
+        "note": "Evolve Poliwag."
+      }
+    }
+  },
+  {
+    "id": 62,
+    "name": "Poliwrath",
+    "types": ["Water", "Fighting"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Poliwhirl (Water Stone)."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Poliwhirl (Water Stone)."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Poliwhirl (Water Stone)."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Poliwhirl (Water Stone)."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Poliwhirl (Water Stone)."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Poliwhirl (Water Stone)."
+      }
+    }
+  },
+  {
+    "id": 63,
+    "name": "Abra",
+    "types": ["Psychic"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 34",
+          "Route 35",
+          "Goldenrod Game Corner (200 coins)"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 34",
+          "Route 35",
+          "Goldenrod Game Corner (200 coins)"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 34",
+          "Route 35",
+          "Goldenrod Game Corner (200 coins)",
+          "Route 5",
+          "Route 6",
+          "Route 7",
+          "Route 8",
+          "Route 24",
+          "Route 25"
+        ],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": [
+          "Route 24",
+          "Route 25",
+          "Celadon Game Corner (180 coins)"
+        ],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": [
+          "Route 24",
+          "Route 25",
+          "Celadon Game Corner (120 coins)"
+        ],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Route 5", "Route 6", "Route 7", "Route 8"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 64,
+    "name": "Kadabra",
+    "types": ["Psychic"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 8", "Cerulean Cave (Kanto - after Elite Four)"],
+        "note": "Evolve Abra."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 8", "Cerulean Cave (Kanto - after Elite Four)"],
+        "note": "Evolve Abra."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 8", "Cerulean Cave (Kanto - after Elite Four)"],
+        "note": "Evolve Abra."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Cerulean Cave"],
+        "note": "Evolve Abra."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Cerulean Cave"],
+        "note": "Evolve Abra."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Route 8"],
+        "note": "Evolve Abra."
+      }
+    }
+  },
+  {
+    "id": 65,
+    "name": "Alakazam",
+    "types": ["Psychic"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kadabra (Trade)."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kadabra (Trade)."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kadabra (Trade)."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kadabra (Trade)."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kadabra (Trade)."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kadabra (Trade)."
+      }
+    }
+  },
+  {
+    "id": 66,
+    "name": "Machop",
+    "types": ["Fighting"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Rock Tunnel", "Mt. Mortar"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Rock Tunnel", "Mt. Mortar"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Rock Tunnel", "Mt. Mortar"],
+        "note": "Trade Machoke for Abra in Goldenrod Dept. Store (5F - Sunday only)"
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Rock Tunnel", "Victory Road"],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Rock Tunnel", "Victory Road"],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Rock Tunnel", "Route 10"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 67,
+    "name": "Machoke",
+    "types": ["Fighting"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Mt. Mortar (Upper Cave)",
+          "Rock Tunnel",
+          "Cerulean Cave (Kanto - after Elite Four)"
+        ],
+        "note": "Evolve Machop."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Mt. Mortar (Upper Cave)",
+          "Rock Tunnel",
+          "Cerulean Cave (Kanto - after Elite Four)"
+        ],
+        "note": "Evolve Machop."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Mt. Mortar (Upper Cave)",
+          "Rock Tunnel",
+          "Cerulean Cave (Kanto - after Elite Four)"
+        ],
+        "note": "Evolve Machop. Trade for Abra in Goldenrod Dept. Store (5F - Sunday only)."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Victory Road"],
+        "note": "Evolve Machop."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Victory Road"],
+        "note": "Evolve Machop."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Victory Road"],
+        "note": "Evolve Machop. Can also get by trading Cubone in Underground Path (Kanto Routes 5-6)."
+      }
+    }
+  },
+  {
+    "id": 68,
+    "name": "Machamp",
+    "types": ["Fighting"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Machoke (Trade)."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Machoke (Trade)."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Machoke (Trade)."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Machoke (Trade)."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Machoke (Trade)."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Machoke (Trade). The Machoke obtained via in-game trade for Cubone will evolve into Machamp immediately."
+      }
+    }
+  },
+  {
+    "id": 69,
+    "name": "Bellsprout",
+    "types": ["Grass", "Poison"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 31",
+          "Route 32",
+          "Route 44",
+          "Route 5",
+          "Route 6",
+          "Route 24",
+          "Route 25"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 31",
+          "Route 32",
+          "Route 44",
+          "Route 5",
+          "Route 6",
+          "Route 24",
+          "Route 25"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 31",
+          "Route 32",
+          "Route 36",
+          "Route 44",
+          "Route 24",
+          "Route 25"
+        ],
+        "note": ""
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Blue/Yellow."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": [
+          "Route 5",
+          "Route 6",
+          "Route 7",
+          "Route 12",
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Route 24",
+          "Route 25"
+        ],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [
+          "Route 12",
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Route 24",
+          "Route 25"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 70,
+    "name": "Weepinbell",
+    "types": ["Grass", "Poison"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 44", "Route 24", "Route 25"],
+        "note": "Evolve Bellsprout."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 44", "Route 24", "Route 25"],
+        "note": "Evolve Bellsprout."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 44"],
+        "note": "Evolve Bellsprout."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Bellsprout. Trade from Blue/Yellow."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Route 12", "Route 13", "Route 14", "Route 15"],
+        "note": "Evolve Bellsprout."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [
+          "Route 12",
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Cerulean Cave"
+        ],
+        "note": "Evolve Bellsprout."
+      }
+    }
+  },
+  {
+    "id": 71,
+    "name": "Victreebel",
+    "types": ["Grass", "Poison"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Weepinbell (Leaf Stone)."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Weepinbell (Leaf Stone)."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Weepinbell (Leaf Stone)."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Weepinbell (Leaf Stone). Trade from Blue/Yellow."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Weepinbell (Leaf Stone)."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Weepinbell (Leaf Stone)."
+      }
+    }
+  },
+  {
+    "id": 72,
+    "name": "Tentacool",
+    "types": ["Water", "Poison"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Many water routes (surfing/fishing)"],
+        "note": "Very common on most sea routes."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Many water routes (surfing/fishing)"],
+        "note": "Very common on most sea routes."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Many water routes (surfing/fishing)"],
+        "note": "Very common on most sea routes."
+      },
+      "red": {
+        "catchable": true,
+        "locations": [
+          "Routes 12, 13, 17, 18, 19, 20, 21 (surfing/Super Rod)",
+          "Seafoam Islands (surfing/Super Rod)",
+          "Pallet Town (Super Rod)",
+          "Viridian City (Super Rod)"
+        ],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": [
+          "Routes 12, 13, 17, 18, 19, 20, 21 (surfing/Super Rod)",
+          "Seafoam Islands (surfing/Super Rod)",
+          "Pallet Town (Super Rod)",
+          "Viridian City (Super Rod)"
+        ],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [
+          "Routes 11, 13, 17, 18, 19, 20, 21 (surfing/Super Rod)",
+          "Seafoam Islands (surfing/Super Rod)",
+          "Pallet Town (Super Rod)",
+          "Vermilion City (Super Rod)",
+          "Cinnabar Island (Super Rod)"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 73,
+    "name": "Tentacruel",
+    "types": ["Water", "Poison"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Many water routes (surfing, rare)"],
+        "note": "Evolve Tentacool. Less common than Tentacool."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Many water routes (surfing, rare)"],
+        "note": "Evolve Tentacool. Less common than Tentacool."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Many water routes (surfing, rare)"],
+        "note": "Evolve Tentacool. Less common than Tentacool."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Tentacool."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Tentacool."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Routes 19, 20, 21 (Super Rod, rare)"],
+        "note": "Evolve Tentacool."
+      }
+    }
+  },
+  {
+    "id": 74,
+    "name": "Geodude",
+    "types": ["Rock", "Ground"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Union Cave",
+          "Mt. Mortar",
+          "Rock Tunnel",
+          "Mt. Moon",
+          "Dark Cave",
+          "Route 45",
+          "Route 46",
+          "Victory Road",
+          "Mt. Silver"
+        ],
+        "note": "Very common in caves."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Union Cave",
+          "Mt. Mortar",
+          "Rock Tunnel",
+          "Mt. Moon",
+          "Dark Cave",
+          "Route 45",
+          "Route 46",
+          "Victory Road",
+          "Mt. Silver"
+        ],
+        "note": "Very common in caves."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Union Cave",
+          "Mt. Mortar",
+          "Rock Tunnel",
+          "Mt. Moon",
+          "Dark Cave",
+          "Route 45",
+          "Route 46",
+          "Victory Road",
+          "Mt. Silver"
+        ],
+        "note": "Very common in caves."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Mt. Moon", "Rock Tunnel", "Victory Road"],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Mt. Moon", "Rock Tunnel", "Victory Road"],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Mt. Moon", "Rock Tunnel", "Victory Road"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 75,
+    "name": "Graveler",
+    "types": ["Rock", "Ground"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Mt. Mortar",
+          "Rock Tunnel (Kanto)",
+          "Victory Road",
+          "Mt. Silver",
+          "Cerulean Cave (Kanto - after Elite Four)"
+        ],
+        "note": "Evolve Geodude."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Mt. Mortar",
+          "Rock Tunnel (Kanto)",
+          "Victory Road",
+          "Mt. Silver",
+          "Cerulean Cave (Kanto - after Elite Four)"
+        ],
+        "note": "Evolve Geodude."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Mt. Mortar",
+          "Rock Tunnel (Kanto)",
+          "Victory Road",
+          "Mt. Silver",
+          "Cerulean Cave (Kanto - after Elite Four)"
+        ],
+        "note": "Evolve Geodude."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Victory Road", "Cerulean Cave"],
+        "note": "Evolve Geodude."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Victory Road", "Cerulean Cave"],
+        "note": "Evolve Geodude."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Victory Road", "Cerulean Cave"],
+        "note": "Evolve Geodude."
+      }
+    }
+  },
+  {
+    "id": 76,
+    "name": "Golem",
+    "types": ["Rock", "Ground"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Graveler (Trade)."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Graveler (Trade)."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Graveler (Trade)."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Graveler (Trade)."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Graveler (Trade)."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Graveler (Trade)."
+      }
+    }
+  },
+  {
+    "id": 77,
+    "name": "Ponyta",
+    "types": ["Fire"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 22",
+          "Route 26",
+          "Route 27",
+          "Route 28",
+          "Mt. Silver"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 22",
+          "Route 26",
+          "Route 27",
+          "Route 28",
+          "Mt. Silver"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 22",
+          "Route 26",
+          "Route 27",
+          "Route 28",
+          "Mt. Silver (Morning/Day)"
+        ],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Route 17", "Pokemon Mansion"],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Route 17", "Pokemon Mansion"],
+        "note": ""
+      },
+      "yellow": { "catchable": true, "locations": ["Route 17"], "note": "" }
+    }
+  },
+  {
+    "id": 78,
+    "name": "Rapidash",
+    "types": ["Fire"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 28", "Mt. Silver"],
+        "note": "Evolve Ponyta. Trade Gloom for Rapidash in Pewter City."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 28", "Mt. Silver"],
+        "note": "Evolve Ponyta."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 28", "Mt. Silver (Morning/Day)"],
+        "note": "Evolve Ponyta."
+      },
+      "red": { "catchable": false, "locations": [], "note": "Evolve Ponyta." },
+      "blue": { "catchable": false, "locations": [], "note": "Evolve Ponyta." },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ponyta."
+      }
+    }
+  },
+  {
+    "id": 79,
+    "name": "Slowpoke",
+    "types": ["Water", "Psychic"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Slowpoke Well", "Tohjo Falls (surfing)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Slowpoke Well", "Tohjo Falls (surfing)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Slowpoke Well", "Tohjo Falls (surfing)"],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": [
+          "Seafoam Islands",
+          "Route 10 (Super Rod)",
+          "Celadon City (Super Rod)",
+          "Safari Zone (Super Rod)"
+        ],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": [
+          "Seafoam Islands",
+          "Route 10 (Super Rod)",
+          "Celadon City (Super Rod)",
+          "Safari Zone (Super Rod)"
+        ],
+        "note": "Trade for Seel at Cinnabar Lab."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Seafoam Islands", "Routes 12 & 13 (surfing)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 80,
+    "name": "Slowbro",
+    "types": ["Water", "Psychic"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Slowpoke Well (surfing, rare)"],
+        "note": "Evolve Slowpoke."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Slowpoke Well (surfing, rare)"],
+        "note": "Evolve Slowpoke."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Slowpoke Well (surfing, rare)"],
+        "note": "Evolve Slowpoke."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Seafoam Islands", "Cerulean Cave"],
+        "note": "Evolve Slowpoke."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Seafoam Islands", "Cerulean Cave"],
+        "note": "Evolve Slowpoke."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Seafoam Islands"],
+        "note": "Evolve Slowpoke."
+      }
+    }
+  },
+  {
+    "id": 81,
+    "name": "Magnemite",
+    "types": ["Electric", "Steel"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 38", "Route 39", "Route 6", "Route 11"],
+        "note": "Type was Electric in Gen I."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 38", "Route 39", "Route 6", "Route 11"],
+        "note": "Type was Electric in Gen I."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 38", "Route 39", "Route 6", "Route 11"],
+        "note": "Type was Electric in Gen I."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Power Plant"],
+        "note": "Type was Electric in Gen I."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Power Plant"],
+        "note": "Type was Electric in Gen I."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Power Plant", "Route 10"],
+        "note": "Type was Electric in Gen I."
+      }
+    }
+  },
+  {
+    "id": 82,
+    "name": "Magneton",
+    "types": ["Electric", "Steel"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": ["Cerulean Cave (Kanto - after Elite Four)"],
+        "note": "Evolve Magnemite. Type was Electric in Gen I. Can be found in Cerulean Cave in GSC."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": ["Cerulean Cave (Kanto - after Elite Four)"],
+        "note": "Evolve Magnemite. Type was Electric in Gen I. Can be found in Cerulean Cave in GSC."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": ["Cerulean Cave (Kanto - after Elite Four)"],
+        "note": "Evolve Magnemite. Type was Electric in Gen I. Can be found in Cerulean Cave in GSC."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Power Plant", "Cerulean Cave"],
+        "note": "Evolve Magnemite. Type was Electric in Gen I."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Power Plant", "Cerulean Cave"],
+        "note": "Evolve Magnemite. Type was Electric in Gen I."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Power Plant"],
+        "note": "Evolve Magnemite. Type was Electric in Gen I."
+      }
+    }
+  },
+  {
+    "id": 83,
+    "name": "Farfetch'd",
+    "types": ["Normal", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 38", "Route 39", "Route 47", "Route 48"],
+        "note": "Give Charcoal maker's Farfetch'd back in Ilex Forest for HM01 Cut."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 38", "Route 39", "Route 47", "Route 48"],
+        "note": "Give Charcoal maker's Farfetch'd back in Ilex Forest for HM01 Cut."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 38",
+          "Route 39",
+          "Route 47",
+          "Route 48 (Morning/Day)"
+        ],
+        "note": "Give Charcoal maker's Farfetch'd back in Ilex Forest for HM01 Cut."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Vermilion City (Trade Spearow)"],
+        "note": "In-game trade."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Vermilion City (Trade Pidgey)"],
+        "note": "In-game trade."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Routes 12", "Route 13"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 84,
+    "name": "Doduo",
+    "types": ["Normal", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 22",
+          "Route 26",
+          "Route 27",
+          "Route 28",
+          "Mt. Silver"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 22",
+          "Route 26",
+          "Route 27",
+          "Route 28",
+          "Mt. Silver"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 22",
+          "Route 26",
+          "Route 27",
+          "Route 28",
+          "Mt. Silver (Morning/Day)"
+        ],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Route 16", "Route 17", "Route 18", "Safari Zone"],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Route 16", "Route 17", "Route 18", "Safari Zone"],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Route 16", "Route 17", "Route 18", "Safari Zone"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 85,
+    "name": "Dodrio",
+    "types": ["Normal", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 26",
+          "Route 27",
+          "Route 28",
+          "Mt. Silver",
+          "Cerulean Cave (Kanto - after Elite Four)"
+        ],
+        "note": "Evolve Doduo."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 26",
+          "Route 27",
+          "Route 28",
+          "Mt. Silver",
+          "Cerulean Cave (Kanto - after Elite Four)"
+        ],
+        "note": "Evolve Doduo."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 26",
+          "Route 27",
+          "Route 28",
+          "Mt. Silver (Morning/Day)"
+        ],
+        "note": "Evolve Doduo."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Cerulean Cave"],
+        "note": "Evolve Doduo."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Cerulean Cave"],
+        "note": "Evolve Doduo."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Route 17"],
+        "note": "Evolve Doduo."
+      }
+    }
+  },
+  {
+    "id": 86,
+    "name": "Seel",
+    "types": ["Water"],
+    "availability": {
+      "gold": { "catchable": true, "locations": ["Whirl Islands"], "note": "" },
+      "silver": {
+        "catchable": true,
+        "locations": ["Whirl Islands"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Whirl Islands"],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Seafoam Islands"],
+        "note": "Trade Ponyta in Cinnabar Lab."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Seafoam Islands"],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Seafoam Islands"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 87,
+    "name": "Dewgong",
+    "types": ["Water", "Ice"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Whirl Islands (rare)"],
+        "note": "Evolve Seel."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Whirl Islands (rare)"],
+        "note": "Evolve Seel."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Whirl Islands (rare, more common in specific rooms)"],
+        "note": "Evolve Seel."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Seafoam Islands"],
+        "note": "Evolve Seel."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Seafoam Islands"],
+        "note": "Evolve Seel."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Seafoam Islands"],
+        "note": "Evolve Seel. Trade Growlithe in Cinnabar Lab."
+      }
+    }
+  },
+  {
+    "id": 88,
+    "name": "Grimer",
+    "types": ["Poison"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 16",
+          "Route 17",
+          "Route 18",
+          "Celadon City (surfing)"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 16",
+          "Route 17",
+          "Route 18",
+          "Celadon City (surfing)"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 16",
+          "Route 17",
+          "Route 18",
+          "Celadon City (surfing)"
+        ],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Pokemon Mansion"],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Pokemon Mansion"],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Pokemon Mansion"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 89,
+    "name": "Muk",
+    "types": ["Poison"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 16",
+          "Route 17",
+          "Route 18",
+          "Celadon City (surfing, rare)"
+        ],
+        "note": "Evolve Grimer."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 16",
+          "Route 17",
+          "Route 18",
+          "Celadon City (surfing, rare)"
+        ],
+        "note": "Evolve Grimer."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 16",
+          "Route 17",
+          "Route 18",
+          "Celadon City (surfing, rare)"
+        ],
+        "note": "Evolve Grimer."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Pokemon Mansion", "Power Plant (rare)"],
+        "note": "Evolve Grimer."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Pokemon Mansion", "Power Plant (rare)"],
+        "note": "Evolve Grimer."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Pokemon Mansion", "Power Plant (rare)"],
+        "note": "Evolve Grimer."
+      }
+    }
+  },
+  {
+    "id": 90,
+    "name": "Shellder",
+    "types": ["Water"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 19",
+          "Route 20",
+          "Route 21",
+          "Route 40",
+          "Route 41",
+          "Olivine City",
+          "Cianwood City",
+          "Vermilion City",
+          "New Bark Town (Good Rod/Super Rod)"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 19",
+          "Route 20",
+          "Route 21",
+          "Route 40",
+          "Route 41",
+          "Olivine City",
+          "Cianwood City",
+          "Vermilion City",
+          "New Bark Town (Good Rod/Super Rod)"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 19",
+          "Route 20",
+          "Route 21",
+          "Route 40",
+          "Route 41",
+          "Olivine City",
+          "Cianwood City",
+          "Vermilion City",
+          "New Bark Town (Good Rod/Super Rod)"
+        ],
+        "note": "More common when fishing in specific spots."
+      },
+      "red": {
+        "catchable": true,
+        "locations": [
+          "Route 6",
+          "Route 11",
+          "Route 12",
+          "Route 13",
+          "Route 17",
+          "Route 18",
+          "Route 19",
+          "Route 20",
+          "Route 21",
+          "Vermilion City",
+          "Seafoam Islands",
+          "Cinnabar Island (Super Rod)"
+        ],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": [
+          "Route 6",
+          "Route 11",
+          "Route 12",
+          "Route 13",
+          "Route 17",
+          "Route 18",
+          "Route 19",
+          "Route 20",
+          "Route 21",
+          "Vermilion City",
+          "Seafoam Islands",
+          "Cinnabar Island (Super Rod)"
+        ],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [
+          "Route 19",
+          "Route 20",
+          "Route 21",
+          "Vermilion City (Super Rod)"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 91,
+    "name": "Cloyster",
+    "types": ["Water", "Ice"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Olivine City (Super Rod, rare)"],
+        "note": "Evolve Shellder (use Water Stone)."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Olivine City (Super Rod, rare)"],
+        "note": "Evolve Shellder (use Water Stone)."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Olivine City (Super Rod, rare during specific times)"],
+        "note": "Evolve Shellder (use Water Stone)."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Seafoam Islands (rare)"],
+        "note": "Evolve Shellder (use Water Stone). Trade Poliwhirl in Cerulean City."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Seafoam Islands (rare)"],
+        "note": "Evolve Shellder (use Water Stone)."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [],
+        "note": "Evolve Shellder (use Water Stone)."
+      }
+    }
+  },
+  {
+    "id": 92,
+    "name": "Gastly",
+    "types": ["Ghost", "Poison"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Sprout Tower",
+          "Bell Tower",
+          "Tin Tower",
+          "Route 31",
+          "Route 32",
+          "Route 36 (Night)"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Sprout Tower",
+          "Bell Tower",
+          "Tin Tower",
+          "Route 31",
+          "Route 32",
+          "Route 36 (Night)"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Sprout Tower",
+          "Bell Tower",
+          "Tin Tower",
+          "Route 31",
+          "Route 32",
+          "Route 36 (Night)"
+        ],
+        "note": ""
+      },
+      "red": { "catchable": true, "locations": ["Pokemon Tower"], "note": "" },
+      "blue": { "catchable": true, "locations": ["Pokemon Tower"], "note": "" },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Pokemon Tower"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 93,
+    "name": "Haunter",
+    "types": ["Ghost", "Poison"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 8 (Night)"],
+        "note": "Evolve Gastly."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 8 (Night)"],
+        "note": "Evolve Gastly."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 8 (Night)", "Rock Tunnel (Basement)"],
+        "note": "Evolve Gastly."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Pokemon Tower"],
+        "note": "Evolve Gastly. Trade for Machoke in Cerulean City (in-game name: Hauntley)."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Pokemon Tower"],
+        "note": "Evolve Gastly."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Pokemon Tower (rare)"],
+        "note": "Evolve Gastly."
+      }
+    }
+  },
+  {
+    "id": 94,
+    "name": "Gengar",
+    "types": ["Ghost", "Poison"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [],
+        "note": "Evolve Haunter (trade)."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [],
+        "note": "Evolve Haunter (trade)."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [],
+        "note": "Evolve Haunter (trade)."
+      },
+      "red": {
+        "catchable": true,
+        "locations": [],
+        "note": "Evolve Haunter (trade)."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": [],
+        "note": "Evolve Haunter (trade)."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [],
+        "note": "Evolve Haunter (trade)."
+      }
+    }
+  },
+  {
+    "id": 95,
+    "name": "Onix",
+    "types": ["Rock", "Ground"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Union Cave",
+          "Rock Tunnel",
+          "Mt. Silver",
+          "Victory Road"
+        ],
+        "note": "Trade Bellsprout in Violet City."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Union Cave",
+          "Rock Tunnel",
+          "Mt. Silver",
+          "Victory Road"
+        ],
+        "note": "Trade Bellsprout in Violet City."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Union Cave",
+          "Rock Tunnel",
+          "Mt. Silver",
+          "Victory Road"
+        ],
+        "note": "Trade Bellsprout in Violet City."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Rock Tunnel", "Victory Road"],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Rock Tunnel", "Victory Road"],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Rock Tunnel", "Victory Road"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 96,
+    "name": "Drowzee",
+    "types": ["Psychic"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 34", "Route 35", "Route 11"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 34", "Route 35", "Route 11"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 34",
+          "Route 35",
+          "Route 11",
+          "Ilex Forest (Headbutt)"
+        ],
+        "note": ""
+      },
+      "red": { "catchable": true, "locations": ["Route 11"], "note": "" },
+      "blue": { "catchable": true, "locations": ["Route 11"], "note": "" },
+      "yellow": { "catchable": true, "locations": ["Route 11"], "note": "" }
+    }
+  },
+  {
+    "id": 97,
+    "name": "Hypno",
+    "types": ["Psychic"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 11 (rare)"],
+        "note": "Evolve Drowzee."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 11 (rare)"],
+        "note": "Evolve Drowzee."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 11 (rare)"],
+        "note": "Evolve Drowzee."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Cerulean Cave (1F, B1F)"],
+        "note": "Evolve Drowzee. Trade for Kadabra on Route 5."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Cerulean Cave (1F, B1F)"],
+        "note": "Evolve Drowzee."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Cerulean Cave (1F, B1F)"],
+        "note": "Evolve Drowzee."
+      }
+    }
+  },
+  {
+    "id": 98,
+    "name": "Krabby",
+    "types": ["Water"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 34",
+          "Route 40",
+          "Route 41",
+          "Olivine City",
+          "Cianwood City",
+          "Whirl Islands",
+          "Cherrygrove City (Rock Smash/Krabbymaster)"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 34",
+          "Route 40",
+          "Route 41",
+          "Olivine City",
+          "Cianwood City",
+          "Whirl Islands",
+          "Cherrygrove City (Rock Smash/Krabbymaster)"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 34",
+          "Route 40",
+          "Route 41",
+          "Olivine City",
+          "Cianwood City",
+          "Whirl Islands",
+          "Cherrygrove City (Rock Smash)",
+          "Dark Cave (Blackthorn side, fishing)"
+        ],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": [
+          "Route 10",
+          "Route 24",
+          "Route 25",
+          "Seafoam Islands",
+          "Cerulean City (Super Rod)"
+        ],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": [
+          "Route 10",
+          "Route 24",
+          "Route 25",
+          "Seafoam Islands",
+          "Cerulean City (Super Rod)"
+        ],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [
+          "Route 10",
+          "Route 24",
+          "Route 25",
+          "Seafoam Islands",
+          "Cerulean City (Super Rod)"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 99,
+    "name": "Kingler",
+    "types": ["Water"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 40 (Super Rod, rare)",
+          "Route 41 (Super Rod, rare)",
+          "Cianwood City (Super Rod, rare)",
+          "Whirl Islands (Super Rod, rare)"
+        ],
+        "note": "Evolve Krabby."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 40 (Super Rod, rare)",
+          "Route 41 (Super Rod, rare)",
+          "Cianwood City (Super Rod, rare)",
+          "Whirl Islands (Super Rod, rare)"
+        ],
+        "note": "Evolve Krabby."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 40 (Super Rod, rare)",
+          "Route 41 (Super Rod, rare)",
+          "Cianwood City (Super Rod, rare)",
+          "Whirl Islands (Super Rod, rare)"
+        ],
+        "note": "Evolve Krabby. More common during swarms."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Seafoam Islands (B3F, B4F, Super Rod)"],
+        "note": "Evolve Krabby."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Seafoam Islands (B3F, B4F, Super Rod)"],
+        "note": "Evolve Krabby."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Seafoam Islands (B3F, B4F, Super Rod)"],
+        "note": "Evolve Krabby."
+      }
+    }
+  },
+  {
+    "id": 100,
+    "name": "Voltorb",
+    "types": ["Electric"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 10", "Olivine City (Trade for Krabby)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 10", "Olivine City (Trade for Krabby)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 10", "Team Rocket HQ Mahogany (as items)"],
+        "note": "Olivine City (Trade for Krabby)."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Route 10", "Power Plant (as items)"],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Route 10", "Power Plant (as items)"],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Route 10", "Power Plant (as items)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 101,
+    "name": "Electrode",
+    "types": ["Electric"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Team Rocket HQ Mahogany (as items)"],
+        "note": "Evolve Voltorb."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Team Rocket HQ Mahogany (as items)"],
+        "note": "Evolve Voltorb."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Team Rocket HQ Mahogany (as items)",
+          "Lake of Rage (rare, Wednesday Headbutt trees)"
+        ],
+        "note": "Evolve Voltorb."
+      },
+      "red": {
+        "catchable": true,
+        "locations": [
+          "Power Plant (as items)",
+          "Cerulean Cave (1F, 2F)",
+          "Unknown Dungeon"
+        ],
+        "note": "Evolve Voltorb. Trade Raichu in Cinnabar Lab."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": [
+          "Power Plant (as items)",
+          "Cerulean Cave (1F, 2F)",
+          "Unknown Dungeon"
+        ],
+        "note": "Evolve Voltorb."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [
+          "Power Plant (as items)",
+          "Cerulean Cave (1F, 2F)",
+          "Unknown Dungeon"
+        ],
+        "note": "Evolve Voltorb."
+      }
+    }
+  },
+  {
+    "id": 102,
+    "name": "Exeggcute",
+    "types": ["Grass", "Psychic"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Headbutt trees in various Johto locations (e.g., Ilex Forest, Lake of Rage, Route 26, 27, 34-39)"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Headbutt trees in various Johto locations (e.g., Ilex Forest, Lake of Rage, Route 26, 27, 34-39)"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Headbutt trees in various Johto locations (e.g., Ilex Forest, Lake of Rage, Route 26, 27, 34-39)"
+        ],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Safari Zone (Area 1, 2, 3)"],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Safari Zone (Area 1, 2, 3)"],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Safari Zone (Area 1, Center)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 103,
+    "name": "Exeggutor",
+    "types": ["Grass", "Psychic"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [],
+        "note": "Evolve Exeggcute (use Leaf Stone)."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [],
+        "note": "Evolve Exeggcute (use Leaf Stone)."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [],
+        "note": "Evolve Exeggcute (use Leaf Stone)."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Trade for Cubone in Cinnabar Lab."],
+        "note": "Evolve Exeggcute (use Leaf Stone)."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": [],
+        "note": "Evolve Exeggcute (use Leaf Stone)."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [],
+        "note": "Evolve Exeggcute (use Leaf Stone)."
+      }
+    }
+  },
+  {
+    "id": 104,
+    "name": "Cubone",
+    "types": ["Ground"],
+    "availability": {
+      "gold": { "catchable": true, "locations": ["Rock Tunnel"], "note": "" },
+      "silver": { "catchable": true, "locations": ["Rock Tunnel"], "note": "" },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Rock Tunnel", "Dark Cave (Violet City side)"],
+        "note": ""
+      },
+      "red": { "catchable": true, "locations": ["Pokemon Tower"], "note": "" },
+      "blue": { "catchable": true, "locations": ["Pokemon Tower"], "note": "" },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Safari Zone (Area 1)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 105,
+    "name": "Marowak",
+    "types": ["Ground"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Rock Tunnel (rare)", "Route 9", "Route 10"],
+        "note": "Evolve Cubone."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Rock Tunnel (rare)", "Route 9", "Route 10"],
+        "note": "Evolve Cubone."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Rock Tunnel (rare)", "Route 9", "Route 10"],
+        "note": "Evolve Cubone."
+      },
+      "red": {
+        "catchable": true,
+        "locations": [
+          "Pokemon Tower (Ghost Marowak, uncatchable)",
+          "Victory Road",
+          "Cerulean Cave"
+        ],
+        "note": "Evolve Cubone."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": [
+          "Pokemon Tower (Ghost Marowak, uncatchable)",
+          "Victory Road",
+          "Cerulean Cave"
+        ],
+        "note": "Evolve Cubone."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Safari Zone (Area 2)", "Cerulean Cave (1F, B1F)"],
+        "note": "Evolve Cubone."
+      }
+    }
+  },
+  {
+    "id": 106,
+    "name": "Hitmonlee",
+    "types": ["Fighting"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Receive from Karate King in Mt. Mortar (after defeating him, if Tyrogue evolves with Attack > Defense)"
+        ],
+        "note": "Evolve Tyrogue (Attack > Defense)."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Receive from Karate King in Mt. Mortar (after defeating him, if Tyrogue evolves with Attack > Defense)"
+        ],
+        "note": "Evolve Tyrogue (Attack > Defense)."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Receive from Karate King in Mt. Mortar (after defeating him, if Tyrogue evolves with Attack > Defense)"
+        ],
+        "note": "Evolve Tyrogue (Attack > Defense)."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Receive as a gift in Saffron City Fighting Dojo"],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Receive as a gift in Saffron City Fighting Dojo"],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Receive as a gift in Saffron City Fighting Dojo"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 107,
+    "name": "Hitmonchan",
+    "types": ["Fighting"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Receive from Karate King in Mt. Mortar (after defeating him, if Tyrogue evolves with Attack < Defense)"
+        ],
+        "note": "Evolve Tyrogue (Attack < Defense)."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Receive from Karate King in Mt. Mortar (after defeating him, if Tyrogue evolves with Attack < Defense)"
+        ],
+        "note": "Evolve Tyrogue (Attack < Defense)."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Receive from Karate King in Mt. Mortar (after defeating him, if Tyrogue evolves with Attack < Defense)"
+        ],
+        "note": "Evolve Tyrogue (Attack < Defense)."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Receive as a gift in Saffron City Fighting Dojo"],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Receive as a gift in Saffron City Fighting Dojo"],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Receive as a gift in Saffron City Fighting Dojo"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 108,
+    "name": "Lickitung",
+    "types": ["Normal"],
+    "availability": {
+      "gold": { "catchable": true, "locations": ["Route 44"], "note": "" },
+      "silver": { "catchable": true, "locations": ["Route 44"], "note": "" },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 44 (Swarm)"],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Route 18 (Gatehouse 2F)"],
+        "note": "Trade Slowbro."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Route 18 (Gatehouse 2F)"],
+        "note": "Trade Slowbro."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Cerulean Cave (B1F)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 109,
+    "name": "Koffing",
+    "types": ["Poison"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Burned Tower", "Team Rocket HQ Mahogany"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Burned Tower", "Team Rocket HQ Mahogany"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Burned Tower",
+          "Team Rocket HQ Mahogany",
+          "Route 36 (Specific patch of grass, rare)"
+        ],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Pokemon Mansion"],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Pokemon Mansion"],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Pokemon Mansion"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 110,
+    "name": "Weezing",
+    "types": ["Poison"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Team Rocket HQ Mahogany (rare)"],
+        "note": "Evolve Koffing."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Team Rocket HQ Mahogany (rare)"],
+        "note": "Evolve Koffing."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Team Rocket HQ Mahogany (rare)"],
+        "note": "Evolve Koffing."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Pokemon Mansion (B1F)"],
+        "note": "Evolve Koffing."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Pokemon Mansion (B1F)"],
+        "note": "Evolve Koffing."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Pokemon Mansion (B1F)"],
+        "note": "Evolve Koffing."
+      }
+    }
+  },
+  {
+    "id": 111,
+    "name": "Rhyhorn",
+    "types": ["Rock", "Ground"],
+    "availability": {
+      "gold": { "catchable": true, "locations": ["Victory Road"], "note": "" },
+      "silver": {
+        "catchable": true,
+        "locations": ["Victory Road"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Victory Road"],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Safari Zone (Area 3, Center Area)"],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Safari Zone (Area 3, Center Area)"],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Safari Zone (Area 3)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 112,
+    "name": "Rhydon",
+    "types": ["Rock", "Ground"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Victory Road (2F, 3F, rare)", "Mt. Silver (Cave)"],
+        "note": "Evolve Rhyhorn."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Victory Road (2F, 3F, rare)", "Mt. Silver (Cave)"],
+        "note": "Evolve Rhyhorn."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Victory Road (2F, 3F, rare)", "Mt. Silver (Cave)"],
+        "note": "Evolve Rhyhorn."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Cerulean Cave (1F, 2F, B1F)", "Unknown Dungeon"],
+        "note": "Evolve Rhyhorn. Trade Golduck in Cinnabar Lab."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Cerulean Cave (1F, 2F, B1F)", "Unknown Dungeon"],
+        "note": "Evolve Rhyhorn."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Cerulean Cave (1F, 2F, B1F)", "Unknown Dungeon"],
+        "note": "Evolve Rhyhorn."
+      }
+    }
+  },
+  {
+    "id": 113,
+    "name": "Chansey",
+    "types": ["Normal"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 13", "Route 14", "Route 15 (rare)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 13", "Route 14", "Route 15 (rare)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 13", "Route 14", "Route 15 (very rare)"],
+        "note": "Higher chance holding Lucky Egg."
+      },
+      "red": {
+        "catchable": true,
+        "locations": [
+          "Safari Zone (Area 2, Center Area)",
+          "Cerulean Cave (1F, 2F, B1F, very rare)"
+        ],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": [
+          "Safari Zone (Area 2, Center Area)",
+          "Cerulean Cave (1F, 2F, B1F, very rare)"
+        ],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [
+          "Safari Zone (Area 2, Center Area)",
+          "Cerulean Cave (1F, 2F, B1F, very rare)"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 114,
+    "name": "Tangela",
+    "types": ["Grass"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 21", "Route 28", "Mt. Silver (grass)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 21", "Route 28", "Mt. Silver (grass)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 21",
+          "Route 28",
+          "Mt. Silver (grass)",
+          "Route 44 (Swarm)"
+        ],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Route 21"],
+        "note": "Trade Venonat in Cinnabar Lab."
+      },
+      "blue": { "catchable": true, "locations": ["Route 21"], "note": "" },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Safari Zone (Area 1)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 115,
+    "name": "Kangaskhan",
+    "types": ["Normal"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Rock Tunnel (rare)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Rock Tunnel (rare)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Rock Tunnel (rare)"],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Safari Zone (Area 2, Center Area, rare)"],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Safari Zone (Area 2, Center Area, rare)"],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Safari Zone (Area 2, rare)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 116,
+    "name": "Horsea",
+    "types": ["Water"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Whirl Islands (fishing/surfing)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Whirl Islands (fishing/surfing)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Whirl Islands (fishing/surfing, common with Super Rod in specific rooms)"
+        ],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": [
+          "Route 19",
+          "Route 20",
+          "Route 21",
+          "Seafoam Islands (fishing/surfing)"
+        ],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": [
+          "Route 19",
+          "Route 20",
+          "Route 21",
+          "Seafoam Islands (fishing/surfing)"
+        ],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [
+          "Route 19",
+          "Route 20",
+          "Route 21",
+          "Seafoam Islands (fishing/surfing)"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 117,
+    "name": "Seadra",
+    "types": ["Water"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Whirl Islands (Super Rod, rare)"],
+        "note": "Evolve Horsea."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Whirl Islands (Super Rod, rare)"],
+        "note": "Evolve Horsea."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Whirl Islands (Super Rod, rare)"],
+        "note": "Evolve Horsea."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Route 23 (Super Rod)", "Cerulean Cave (B1F, Super Rod)"],
+        "note": "Evolve Horsea. Trade Nidoran♂ in Cinnabar Lab."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Route 23 (Super Rod)", "Cerulean Cave (B1F, Super Rod)"],
+        "note": "Evolve Horsea."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Seafoam Islands (B3F, B4F, Super Rod)"],
+        "note": "Evolve Horsea."
+      }
+    }
+  },
+  {
+    "id": 118,
+    "name": "Goldeen",
+    "types": ["Water"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 4",
+          "Route 9",
+          "Route 10",
+          "Route 24",
+          "Route 25",
+          "Route 42",
+          "Mt. Mortar",
+          "Union Cave",
+          "Slowpoke Well",
+          "Tohjo Falls",
+          "Dark Cave",
+          "Cerulean City (fishing)"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 4",
+          "Route 9",
+          "Route 10",
+          "Route 24",
+          "Route 25",
+          "Route 42",
+          "Mt. Mortar",
+          "Union Cave",
+          "Slowpoke Well",
+          "Tohjo Falls",
+          "Dark Cave",
+          "Cerulean City (fishing)"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 4",
+          "Route 9",
+          "Route 10",
+          "Route 24",
+          "Route 25",
+          "Route 42",
+          "Mt. Mortar",
+          "Union Cave",
+          "Slowpoke Well",
+          "Tohjo Falls",
+          "Dark Cave",
+          "Cerulean City (fishing)"
+        ],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": [
+          "Route 6",
+          "Route 10",
+          "Route 11",
+          "Route 12",
+          "Route 13",
+          "Route 17",
+          "Route 18",
+          "Route 19",
+          "Route 20",
+          "Route 21",
+          "Route 22",
+          "Route 23",
+          "Route 24",
+          "Route 25",
+          "Celadon City",
+          "Cerulean City",
+          "Fuchsia City",
+          "Pallet Town",
+          "Safari Zone",
+          "Seafoam Islands",
+          "Vermilion City",
+          "Viridian City (fishing)"
+        ],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": [
+          "Route 6",
+          "Route 10",
+          "Route 11",
+          "Route 12",
+          "Route 13",
+          "Route 17",
+          "Route 18",
+          "Route 19",
+          "Route 20",
+          "Route 21",
+          "Route 22",
+          "Route 23",
+          "Route 24",
+          "Route 25",
+          "Celadon City",
+          "Cerulean City",
+          "Fuchsia City",
+          "Pallet Town",
+          "Safari Zone",
+          "Seafoam Islands",
+          "Vermilion City",
+          "Viridian City (fishing)"
+        ],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [
+          "Route 6",
+          "Route 10",
+          "Route 11",
+          "Route 12",
+          "Route 13",
+          "Route 17",
+          "Route 18",
+          "Route 19",
+          "Route 20",
+          "Route 21",
+          "Route 22",
+          "Route 23",
+          "Route 24",
+          "Route 25",
+          "Celadon City",
+          "Cerulean City",
+          "Fuchsia City",
+          "Pallet Town",
+          "Safari Zone",
+          "Seafoam Islands",
+          "Vermilion City",
+          "Viridian City (fishing)"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 119,
+    "name": "Seaking",
+    "types": ["Water"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 4",
+          "Route 9",
+          "Route 10",
+          "Route 24",
+          "Route 25",
+          "Route 42",
+          "Mt. Mortar",
+          "Union Cave",
+          "Slowpoke Well",
+          "Tohjo Falls",
+          "Dark Cave (Super Rod)"
+        ],
+        "note": "Evolve Goldeen."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 4",
+          "Route 9",
+          "Route 10",
+          "Route 24",
+          "Route 25",
+          "Route 42",
+          "Mt. Mortar",
+          "Union Cave",
+          "Slowpoke Well",
+          "Tohjo Falls",
+          "Dark Cave (Super Rod)"
+        ],
+        "note": "Evolve Goldeen."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 4",
+          "Route 9",
+          "Route 10",
+          "Route 24",
+          "Route 25",
+          "Route 42",
+          "Mt. Mortar",
+          "Union Cave",
+          "Slowpoke Well",
+          "Tohjo Falls",
+          "Dark Cave (Super Rod)"
+        ],
+        "note": "Evolve Goldeen."
+      },
+      "red": {
+        "catchable": true,
+        "locations": [
+          "Route 23",
+          "Cerulean Cave (B1F)",
+          "Fuchsia City (Super Rod)",
+          "Safari Zone (fishing)"
+        ],
+        "note": "Evolve Goldeen."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": [
+          "Route 23",
+          "Cerulean Cave (B1F)",
+          "Fuchsia City (Super Rod)",
+          "Safari Zone (fishing)"
+        ],
+        "note": "Evolve Goldeen."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Route 24 (Super Rod)", "Fuchsia City (Super Rod)"],
+        "note": "Evolve Goldeen."
+      }
+    }
+  },
+  {
+    "id": 120,
+    "name": "Staryu",
+    "types": ["Water"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 34 (night, fishing with Super Rod)",
+          "Route 40 (night, fishing with Super Rod)",
+          "Route 41 (night, fishing with Super Rod)",
+          "Cianwood City (night, fishing with Super Rod)",
+          "Olivine City (night, fishing with Super Rod)"
+        ],
+        "note": "Requires Super Rod. More common at night."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 34 (night, fishing with Super Rod)",
+          "Route 40 (night, fishing with Super Rod)",
+          "Route 41 (night, fishing with Super Rod)",
+          "Cianwood City (night, fishing with Super Rod)",
+          "Olivine City (night, fishing with Super Rod)"
+        ],
+        "note": "Requires Super Rod. More common at night."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 34 (night, fishing with Super Rod)",
+          "Route 40 (night, fishing with Super Rod)",
+          "Cianwood City (night, fishing with Super Rod)",
+          "Olivine City (night, fishing with Super Rod)"
+        ],
+        "note": "Requires Super Rod. More common at night."
+      },
+      "red": {
+        "catchable": true,
+        "locations": [
+          "Seafoam Islands",
+          "Routes 19, 20, 21 (Super Rod)",
+          "Cinnabar Island (Super Rod)"
+        ],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": [
+          "Seafoam Islands",
+          "Routes 19, 20, 21 (Super Rod)",
+          "Cinnabar Island (Super Rod)"
+        ],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [
+          "Routes 19, 20, 21 (Super Rod)",
+          "Pallet Town (Super Rod)",
+          "Vermilion City (Super Rod)",
+          "Cinnabar Island (Super Rod)",
+          "Seafoam Islands (Surfing)"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 121,
+    "name": "Starmie",
+    "types": ["Water", "Psychic"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Staryu (Water Stone)."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Staryu (Water Stone)."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Staryu (Water Stone)."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Staryu (Water Stone)."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Staryu (Water Stone)."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Staryu (Water Stone)."
+      }
+    }
+  },
+  {
+    "id": 122,
+    "name": "Mr. Mime",
+    "types": ["Psychic", "Fairy"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 21 (Morning/Day)",
+          "Celadon Game Corner (2222 coins)"
+        ],
+        "note": "In Gen II, type is Psychic. Fairy type was added later."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 21 (Morning/Day)",
+          "Celadon Game Corner (2222 coins)"
+        ],
+        "note": "In Gen II, type is Psychic. Fairy type was added later."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 21 (Morning/Day)"],
+        "note": "In Gen II, type is Psychic. Fairy type was added later."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Route 2 (Trade Abra)"],
+        "note": "In-game trade. In Gen I, type is Psychic."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Route 2 (Trade Abra)"],
+        "note": "In-game trade. In Gen I, type is Psychic."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Route 2 (Trade Clefairy)"],
+        "note": "In-game trade. In Gen I, type is Psychic."
+      }
+    }
+  },
+  {
+    "id": 123,
+    "name": "Scyther",
+    "types": ["Bug", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "National Park (Bug-Catching Contest - Tuesday, Thursday, Saturday)"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Gold/Crystal/R/Y. Or win Bug-Catching Contest."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "National Park (Bug-Catching Contest - Tuesday, Thursday, Saturday)"
+        ],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Safari Zone", "Celadon Game Corner (5500 coins)"],
+        "note": ""
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Red/Yellow."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Safari Zone", "Celadon Game Corner (6500 coins)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 124,
+    "name": "Jynx",
+    "types": ["Ice", "Psychic"],
+    "availability": {
+      "gold": { "catchable": true, "locations": ["Ice Path"], "note": "" },
+      "silver": { "catchable": true, "locations": ["Ice Path"], "note": "" },
+      "crystal": { "catchable": true, "locations": ["Ice Path"], "note": "" },
+      "red": {
+        "catchable": true,
+        "locations": ["Cerulean City (Trade Poliwhirl)"],
+        "note": "In-game trade."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Cerulean City (Trade Poliwhirl)"],
+        "note": "In-game trade."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Cerulean City (Trade Poliwhirl)"],
+        "note": "In-game trade."
+      }
+    }
+  },
+  {
+    "id": 125,
+    "name": "Electabuzz",
+    "types": ["Electric"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 10"],
+        "note": "Breed Elekid (Gen II) then evolve, or trade from R/B/Y."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 10"],
+        "note": "Breed Elekid (Gen II) then evolve, or trade from R/B/Y."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 10",
+          "Outside Power Plant (requires Radio Card upgrade with 'Poke Flute' channel to move Snorlax first, then appears as swarm)"
+        ],
+        "note": "Breed Elekid (Gen II) then evolve, or trade from R/B/Y."
+      },
+      "red": { "catchable": true, "locations": ["Power Plant"], "note": "" },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Red."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Red."
+      }
+    }
+  },
+  {
+    "id": 126,
+    "name": "Magmar",
+    "types": ["Fire"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Burned Tower"],
+        "note": "Breed Magby (Gen II) then evolve, or trade from R/B/Y."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Burned Tower"],
+        "note": "Breed Magby (Gen II) then evolve, or trade from R/B/Y."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Mt. Silver Cave (Lower Mountainside - Morning/Day)"],
+        "note": "Breed Magby (Gen II) then evolve, or trade from R/B/Y."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Blue."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Pokemon Mansion (Cinnabar Island)"],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Blue."
+      }
+    }
+  },
+  {
+    "id": 127,
+    "name": "Pinsir",
+    "types": ["Bug"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "National Park (Bug-Catching Contest - Tuesday, Thursday, Saturday)"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Gold/Crystal/B/Y. Or win Bug-Catching Contest."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "National Park (Bug-Catching Contest - Tuesday, Thursday, Saturday)"
+        ],
+        "note": ""
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Blue/Yellow."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Safari Zone", "Celadon Game Corner (2500 coins)"],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Safari Zone", "Celadon Game Corner (6500 coins)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 128,
+    "name": "Tauros",
+    "types": ["Normal"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 38", "Route 39"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 38", "Route 39"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 38", "Route 39"],
+        "note": ""
+      },
+      "red": { "catchable": true, "locations": ["Safari Zone"], "note": "" },
+      "blue": { "catchable": true, "locations": ["Safari Zone"], "note": "" },
+      "yellow": { "catchable": true, "locations": ["Safari Zone"], "note": "" }
+    }
+  },
+  {
+    "id": 129,
+    "name": "Magikarp",
+    "types": ["Water"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Any body of water (Old Rod, Good Rod, Super Rod)",
+          "Route 4 Pokémon Center (Buy for 500)"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Any body of water (Old Rod, Good Rod, Super Rod)",
+          "Route 4 Pokémon Center (Buy for 500)"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Any body of water (Old Rod, Good Rod, Super Rod)",
+          "Route 4 Pokémon Center (Buy for 500)"
+        ],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": [
+          "Any body of water (Old Rod)",
+          "Route 4 Pokémon Center (Buy for 500)"
+        ],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": [
+          "Any body of water (Old Rod)",
+          "Route 4 Pokémon Center (Buy for 500)"
+        ],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [
+          "Any body of water (Old Rod)",
+          "Route 4 Pokémon Center (Buy for 500)"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 130,
+    "name": "Gyarados",
+    "types": ["Water", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Lake of Rage (Shiny, one time encounter)",
+          "Any body of water (fishing with Super Rod, rare)",
+          "Dragon's Den (fishing with Super Rod, rare)"
+        ],
+        "note": "Evolve Magikarp."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Lake of Rage (Shiny, one time encounter)",
+          "Any body of water (fishing with Super Rod, rare)",
+          "Dragon's Den (fishing with Super Rod, rare)"
+        ],
+        "note": "Evolve Magikarp."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Lake of Rage (Shiny, one time encounter)",
+          "Any body of water (fishing with Super Rod, rare)",
+          "Dragon's Den (fishing with Super Rod, rare)"
+        ],
+        "note": "Evolve Magikarp."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Magikarp."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Magikarp."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Fuchsia City (fishing with Super Rod, rare)"],
+        "note": "Evolve Magikarp."
+      }
+    }
+  },
+  {
+    "id": 131,
+    "name": "Lapras",
+    "types": ["Water", "Ice"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Union Cave (Friday only, lower level, surfing)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Union Cave (Friday only, lower level, surfing)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Union Cave (Friday only, lower level, surfing)"],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Silph Co. (Gift)"],
+        "note": "One time gift."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Silph Co. (Gift)"],
+        "note": "One time gift."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Silph Co. (Gift)"],
+        "note": "One time gift."
+      }
+    }
+  },
+  {
+    "id": 132,
+    "name": "Ditto",
+    "types": ["Normal"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 34", "Route 35"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 34", "Route 35"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 34", "Route 35", "South of Daycare (Route 34)"],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": [
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Route 23",
+          "Cerulean Cave"
+        ],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": [
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Route 23",
+          "Cerulean Cave",
+          "Rock Tunnel"
+        ],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Cerulean Cave", "Pokemon Mansion"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 133,
+    "name": "Eevee",
+    "types": ["Normal"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Celadon City (Game Corner - 6666 coins)",
+          "Celadon City (Gift from Bill in Goldenrod after meeting him in Ecruteak)"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Celadon City (Game Corner - 6666 coins)",
+          "Celadon City (Gift from Bill in Goldenrod after meeting him in Ecruteak)"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Celadon City (Game Corner - 6666 coins)",
+          "Celadon City (Gift from Bill in Goldenrod after meeting him in Ecruteak)"
+        ],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Celadon City (Celadon Mansion - Gift)"],
+        "note": "One time gift."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Celadon City (Celadon Mansion - Gift)"],
+        "note": "One time gift."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Celadon City (Celadon Mansion - Gift)"],
+        "note": "One time gift."
+      }
+    }
+  },
+  {
+    "id": 134,
+    "name": "Vaporeon",
+    "types": ["Water"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Water Stone)."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Water Stone)."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Water Stone)."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Water Stone)."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Water Stone)."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Water Stone)."
+      }
+    }
+  },
+  {
+    "id": 135,
+    "name": "Jolteon",
+    "types": ["Electric"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Thunder Stone)."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Thunder Stone)."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Thunder Stone)."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Thunder Stone)."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Thunder Stone)."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Thunder Stone)."
+      }
+    }
+  },
+  {
+    "id": 136,
+    "name": "Flareon",
+    "types": ["Fire"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Fire Stone)."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Fire Stone)."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Fire Stone)."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Fire Stone)."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Fire Stone)."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Fire Stone)."
+      }
+    }
+  },
+  {
+    "id": 137,
+    "name": "Porygon",
+    "types": ["Normal"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Celadon Game Corner (5555 coins)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Celadon Game Corner (5555 coins)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Celadon Game Corner (5555 coins)"],
+        "note": ""
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Celadon Game Corner (9999 coins)"],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Celadon Game Corner (6500 coins)"],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Celadon Game Corner (9999 coins)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 138,
+    "name": "Omanyte",
+    "types": ["Rock", "Water"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y. Revive Helix Fossil."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y. Revive Helix Fossil."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y. Revive Helix Fossil."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Cinnabar Island (Revive Helix Fossil from Mt. Moon)"],
+        "note": "Choose Helix Fossil in Mt. Moon."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Cinnabar Island (Revive Helix Fossil from Mt. Moon)"],
+        "note": "Choose Helix Fossil in Mt. Moon."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Cinnabar Island (Revive Helix Fossil from Mt. Moon)"],
+        "note": "Choose Helix Fossil in Mt. Moon."
+      }
+    }
+  },
+  {
+    "id": 139,
+    "name": "Omastar",
+    "types": ["Rock", "Water"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Omanyte."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Omanyte."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Omanyte."
+      },
+      "red": { "catchable": false, "locations": [], "note": "Evolve Omanyte." },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Omanyte."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Omanyte."
+      }
+    }
+  },
+  {
+    "id": 140,
+    "name": "Kabuto",
+    "types": ["Rock", "Water"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y. Revive Dome Fossil."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y. Revive Dome Fossil."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y. Revive Dome Fossil."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Cinnabar Island (Revive Dome Fossil from Mt. Moon)"],
+        "note": "Choose Dome Fossil in Mt. Moon."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Cinnabar Island (Revive Dome Fossil from Mt. Moon)"],
+        "note": "Choose Dome Fossil in Mt. Moon."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Cinnabar Island (Revive Dome Fossil from Mt. Moon)"],
+        "note": "Choose Dome Fossil in Mt. Moon."
+      }
+    }
+  },
+  {
+    "id": 141,
+    "name": "Kabutops",
+    "types": ["Rock", "Water"],
+    "availability": {
+      "gold": { "catchable": false, "locations": [], "note": "Evolve Kabuto." },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kabuto."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kabuto."
+      },
+      "red": { "catchable": false, "locations": [], "note": "Evolve Kabuto." },
+      "blue": { "catchable": false, "locations": [], "note": "Evolve Kabuto." },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kabuto."
+      }
+    }
+  },
+  {
+    "id": 142,
+    "name": "Aerodactyl",
+    "types": ["Rock", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y. Revive Old Amber."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 14 (Trade Chansey - Specific trainer)"],
+        "note": "In-game trade only for Silver version."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y/S. Revive Old Amber."
+      },
+      "red": {
+        "catchable": true,
+        "locations": [
+          "Cinnabar Island (Revive Old Amber from Pewter City Museum)"
+        ],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": [
+          "Cinnabar Island (Revive Old Amber from Pewter City Museum)"
+        ],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [
+          "Cinnabar Island (Revive Old Amber from Pewter City Museum)"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 143,
+    "name": "Snorlax",
+    "types": ["Normal"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 11 (requires Radio Card upgrade with 'Poke Flute' channel)"
+        ],
+        "note": "One time encounter, blocking path."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 11 (requires Radio Card upgrade with 'Poke Flute' channel)"
+        ],
+        "note": "One time encounter, blocking path."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 11 (requires Radio Card upgrade with 'Poke Flute' channel)"
+        ],
+        "note": "One time encounter, blocking path."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Route 12", "Route 16 (requires Poke Flute)"],
+        "note": "Two encounters, blocking paths."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Route 12", "Route 16 (requires Poke Flute)"],
+        "note": "Two encounters, blocking paths."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Route 12", "Route 16 (requires Poke Flute)"],
+        "note": "Two encounters, blocking paths."
+      }
+    }
+  },
+  {
+    "id": 144,
+    "name": "Articuno",
+    "types": ["Ice", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Seafoam Islands"],
+        "note": "Legendary, one time encounter."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Seafoam Islands"],
+        "note": "Legendary, one time encounter."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Seafoam Islands"],
+        "note": "Legendary, one time encounter."
+      }
+    }
+  },
+  {
+    "id": 145,
+    "name": "Zapdos",
+    "types": ["Electric", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Power Plant"],
+        "note": "Legendary, one time encounter."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Power Plant"],
+        "note": "Legendary, one time encounter."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Power Plant"],
+        "note": "Legendary, one time encounter."
+      }
+    }
+  },
+  {
+    "id": 146,
+    "name": "Moltres",
+    "types": ["Fire", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Victory Road"],
+        "note": "Legendary, one time encounter."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Victory Road"],
+        "note": "Legendary, one time encounter."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": [
+          "Victory Road",
+          "Mt. Ember (after Elite Four in FRLG, this was originally Victory Road in Yellow)"
+        ],
+        "note": "Legendary, one time encounter. Location in Yellow is Victory Road. Mt. Ember is its FRLG location."
+      }
+    }
+  },
+  {
+    "id": 147,
+    "name": "Dratini",
+    "types": ["Dragon"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Dragon's Den (surfing, fishing with Super Rod)",
+          "Celadon Game Corner (2100 coins)"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Dragon's Den (surfing, fishing with Super Rod)",
+          "Celadon Game Corner (2100 coins)"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Dragon's Den (surfing, fishing with Super Rod, gift after beating Clair and passing elder's test)"
+        ],
+        "note": "Gift Dratini has Extremespeed."
+      },
+      "red": {
+        "catchable": true,
+        "locations": [
+          "Safari Zone (fishing with Super Rod)",
+          "Celadon Game Corner (2800 coins)"
+        ],
+        "note": ""
+      },
+      "blue": {
+        "catchable": true,
+        "locations": [
+          "Safari Zone (fishing with Super Rod)",
+          "Celadon Game Corner (4600 coins)"
+        ],
+        "note": ""
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Safari Zone (fishing with Super Rod)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 148,
+    "name": "Dragonair",
+    "types": ["Dragon"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Dragon's Den (fishing with Super Rod)"],
+        "note": "Evolve Dratini."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Dragon's Den (fishing with Super Rod)"],
+        "note": "Evolve Dratini."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Dragon's Den (fishing with Super Rod)"],
+        "note": "Evolve Dratini."
+      },
+      "red": {
+        "catchable": true,
+        "locations": ["Safari Zone (fishing with Super Rod)"],
+        "note": "Evolve Dratini."
+      },
+      "blue": {
+        "catchable": true,
+        "locations": ["Safari Zone (fishing with Super Rod)"],
+        "note": "Evolve Dratini."
+      },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Safari Zone (fishing with Super Rod)"],
+        "note": "Evolve Dratini."
+      }
+    }
+  },
+  {
+    "id": 149,
+    "name": "Dragonite",
+    "types": ["Dragon", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Dragonair."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Dragonair."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Dragonair."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Dragonair."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Dragonair."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Dragonair."
+      }
+    }
+  },
+  {
+    "id": 150,
+    "name": "Mewtwo",
+    "types": ["Psychic"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y via Time Capsule."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y via Time Capsule."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from R/B/Y via Time Capsule."
+      },
+      "red": { "catchable": true, "locations": ["Cerulean Cave"], "note": "" },
+      "blue": { "catchable": true, "locations": ["Cerulean Cave"], "note": "" },
+      "yellow": {
+        "catchable": true,
+        "locations": ["Cerulean Cave"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 151,
+    "name": "Mew",
+    "types": ["Psychic"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only in Gen I, trade via Time Capsule. Not legitimately obtainable in G/S/C without attending a Nintendo event or trading from R/B/Y that received it from an event."
+      },
+      "silver": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only in Gen I, trade via Time Capsule. Not legitimately obtainable in G/S/C without attending a Nintendo event or trading from R/B/Y that received it from an event."
+      },
+      "crystal": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only in Gen I, trade via Time Capsule. Not legitimately obtainable in G/S/C without attending a Nintendo event or trading from R/B/Y that received it from an event."
+      },
+      "red": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only. Not legitimately obtainable through regular gameplay."
+      },
+      "blue": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only. Not legitimately obtainable through regular gameplay."
+      },
+      "yellow": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only. Not legitimately obtainable through regular gameplay."
+      }
+    }
+  }
+]
