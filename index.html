@@ -1,15 +1,577 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Gen 1 Pokémon MVP</title>
-  </head>
-  <body>
-    <p>Check the box to mark a Pokémon as caught. Data is saved locally in <code>caught.json</code>.</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gen 1 & 2 Pokédex Tracker (Gold/Silver)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Tailwind gray-100 */
+        }
+        .pokedex-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 1rem; /* Tailwind gap-4 */
+        }
+        .pokemon-card {
+            background-color: white;
+            border-radius: 0.5rem; /* Tailwind rounded-lg */
+            padding: 1rem; /* Tailwind p-4 */
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); /* Tailwind shadow-md */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .pokemon-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Tailwind shadow-xl */
+        }
+        .pokemon-sprite {
+            width: 72px; /* Tailwind w-18 */
+            height: 72px; /* Tailwind h-18 */
+            image-rendering: pixelated; /* Keep sprites sharp */
+        }
+        .caught-checkbox {
+            width: 1.25rem; /* Tailwind w-5 */
+            height: 1.25rem; /* Tailwind h-5 */
+            margin-top: 0.5rem; /* Tailwind mt-2 */
+        }
+        .info-button {
+            margin-top: 0.5rem; /* Tailwind mt-2 */
+            padding: 0.25rem 0.75rem; /* Tailwind px-3 py-1 */
+            font-size: 0.875rem; /* Tailwind text-sm */
+            border-radius: 0.375rem; /* Tailwind rounded-md */
+        }
+        .next-to-catch {
+            border: 2px solid #3b82f6; /* Tailwind blue-500 */
+            box-shadow: 0 0 15px rgba(59, 130, 246, 0.5); /* Tailwind blue-500 shadow */
+        }
+        /* Modal styles */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.5); /* Dim background */
+            align-items: center;
+            justify-content: center;
+        }
+        .modal-content {
+            background-color: #fefefe;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 500px;
+            border-radius: 0.5rem;
+            text-align: center;
+        }
+        .close-button {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .close-button:hover,
+        .close-button:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .filter-container {
+            background-color: white;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+        }
+        .filter-input {
+            width: 100%;
+            padding: 0.5rem 0.75rem;
+            border: 1px solid #d1d5db; /* Tailwind gray-300 */
+            border-radius: 0.375rem;
+        }
+        .type-badge {
+            display: inline-block;
+            padding: 0.25em 0.6em;
+            font-size: 0.75em;
+            font-weight: 700;
+            line-height: 1;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: baseline;
+            border-radius: 0.25rem;
+            margin: 0.1rem;
+        }
+        /* Type colors - simplified, you can expand this */
+        .type-grass { background-color: #78C850; color: white; }
+        .type-poison { background-color: #A040A0; color: white; }
+        .type-fire { background-color: #F08030; color: white; }
+        .type-flying { background-color: #A890F0; color: white; }
+        .type-water { background-color: #6890F0; color: white; }
+        .type-bug { background-color: #A8B820; color: white; }
+        .type-normal { background-color: #A8A878; color: white; }
+        .type-electric { background-color: #F8D030; color: black; }
+        .type-ground { background-color: #E0C068; color: black; }
+        .type-fairy { background-color: #EE99AC; color: black; }
+        .type-fighting { background-color: #C03028; color: white; }
+        .type-psychic { background-color: #F85888; color: white; }
+        .type-rock { background-color: #B8A038; color: white; }
+        .type-steel { background-color: #B8B8D0; color: black; }
+        .type-ice { background-color: #98D8D8; color: black; }
+        .type-ghost { background-color: #705898; color: white; }
+        .type-dragon { background-color: #7038F8; color: white; }
+        .type-dark { background-color: #705848; color: white; }
 
-    <div id="pokemon-list">Loading...</div>
+    </style>
+</head>
+<body class="p-4 md:p-8">
 
-    <script src="/script.js"></script>
-  </body>
+    <div class="container mx-auto">
+        <header class="text-center mb-8">
+            <h1 class="text-4xl font-bold text-gray-800">Gen 1 & 2 Pokédex Tracker</h1>
+            <p class="text-lg text-gray-600">Pokémon Gold & Silver Edition</p>
+        </header>
+
+        <div class="filter-container">
+            <input type="text" id="searchInput" class="filter-input" placeholder="Search by name or Pokédex number...">
+            <div class="mt-4">
+                <label class="inline-flex items-center">
+                    <input type="checkbox" id="showUncaughtOnly" class="form-checkbox h-5 w-5 text-blue-600">
+                    <span class="ml-2 text-gray-700">Show Uncaught Pokémon Only</span>
+                </label>
+            </div>
+        </div>
+
+        <div id="pokedexGrid" class="pokedex-grid">
+            </div>
+    </div>
+
+    <div id="infoModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <h2 id="modalPokemonName" class="text-2xl font-bold mb-2"></h2>
+            <img id="modalPokemonSprite" src="" alt="Pokemon Sprite" class="mx-auto mb-4 w-24 h-24 image-rendering-pixelated">
+            <p id="modalCatchInfo" class="text-gray-700"></p>
+        </div>
+    </div>
+
+    <script>
+        const pokemonData = [
+            // Gen 1
+            { id: 1, name: "Bulbasaur", types: ["Grass", "Poison"], catchInfoGS: "Trade from Red/Blue/Yellow. Not catchable in G/S until Kanto is accessible & National Dex obtained. Starter in Pallet Town (Kanto)." },
+            { id: 2, name: "Ivysaur", types: ["Grass", "Poison"], catchInfoGS: "Evolve Bulbasaur. Not wild in G/S." },
+            { id: 3, name: "Venusaur", types: ["Grass", "Poison"], catchInfoGS: "Evolve Ivysaur. Not wild in G/S." },
+            { id: 4, name: "Charmander", types: ["Fire"], catchInfoGS: "Trade from Red/Blue/Yellow. Not catchable in G/S until Kanto is accessible & National Dex obtained. Starter in Pallet Town (Kanto)." },
+            { id: 5, name: "Charmeleon", types: ["Fire"], catchInfoGS: "Evolve Charmander. Not wild in G/S." },
+            { id: 6, name: "Charizard", types: ["Fire", "Flying"], catchInfoGS: "Evolve Charmeleon. Not wild in G/S." },
+            { id: 7, name: "Squirtle", types: ["Water"], catchInfoGS: "Trade from Red/Blue/Yellow. Not catchable in G/S until Kanto is accessible & National Dex obtained. Starter in Pallet Town (Kanto)." },
+            { id: 8, name: "Wartortle", types: ["Water"], catchInfoGS: "Evolve Squirtle. Not wild in G/S." },
+            { id: 9, name: "Blastoise", types: ["Water"], catchInfoGS: "Evolve Wartortle. Not wild in G/S." },
+            { id: 10, name: "Caterpie", types: ["Bug"], catchInfoGS: "Routes 2, 24, 25, 30, 31, Ilex Forest, National Park (Bug-Catching Contest - Gold/Silver), Viridian Forest." },
+            { id: 11, name: "Metapod", types: ["Bug"], catchInfoGS: "Routes 2, 24, 25, 30, 31, Ilex Forest, National Park (Bug-Catching Contest - Gold/Silver), Viridian Forest. Evolve Caterpie." },
+            { id: 12, name: "Butterfree", types: ["Bug", "Flying"], catchInfoGS: "Route 2 (Morning/Day), National Park (Bug-Catching Contest - Gold/Silver). Evolve Metapod." },
+            { id: 13, name: "Weedle", types: ["Bug", "Poison"], catchInfoGS: "Routes 2, 24, 25, 30, 31, Ilex Forest, National Park (Bug-Catching Contest - Silver only), Viridian Forest." },
+            { id: 14, name: "Kakuna", types: ["Bug", "Poison"], catchInfoGS: "Routes 2, 24, 25, 30, 31, Ilex Forest, National Park (Bug-Catching Contest - Silver only), Viridian Forest. Evolve Weedle." },
+            { id: 15, name: "Beedrill", types: ["Bug", "Poison"], catchInfoGS: "Route 2 (Morning/Day - Silver only), National Park (Bug-Catching Contest - Silver only). Evolve Kakuna." },
+            { id: 16, name: "Pidgey", types: ["Normal", "Flying"], catchInfoGS: "Routes 1, 2, 5, 6, 25, 29, 30, 31, 35, 36, 37, National Park." },
+            { id: 17, name: "Pidgeotto", types: ["Normal", "Flying"], catchInfoGS: "Routes 2, 5, 8, 11, 13, 14, 15, 21, 25, 37, 43. Evolve Pidgey." },
+            { id: 18, name: "Pidgeot", types: ["Normal", "Flying"], catchInfoGS: "Evolve Pidgeotto. Not wild in G/S." },
+            { id: 19, name: "Rattata", types: ["Normal"], catchInfoGS: "Routes 1, 3, 4, 7, 9, 11, 21, 22, 29, 30, 31, 32, 33, 34, 38, 39, 46, Sprout Tower, Union Cave, Mt. Mortar, Tin Tower, Burned Tower, Tohjo Falls." },
+            { id: 20, name: "Raticate", types: ["Normal"], catchInfoGS: "Routes 7, 9, 10, 21, 26, 27, 38, 39, 42, Mt. Mortar, Union Cave, Burned Tower, Tohjo Falls. Evolve Rattata." },
+            { id: 21, name: "Spearow", types: ["Normal", "Flying"], catchInfoGS: "Routes 3, 4, 7, 9, 10, 22, 33, 42, 46. Headbutt trees on Routes 29, 30, 31, 32, 33, 42, 43, 44, 45, 46, Azalea Town, Lake of Rage." },
+            { id: 22, name: "Fearow", types: ["Normal", "Flying"], catchInfoGS: "Routes 9, 10, 16, 17, 18, 22. Evolve Spearow." },
+            { id: 23, name: "Ekans", types: ["Poison"], catchInfoGS: "Route 3, 4, 32, 33, Goldenrod Game Corner (Silver only)." },
+            { id: 24, name: "Arbok", types: ["Poison"], catchInfoGS: "Routes 3, 4, 26, 27, Mt. Mortar (Silver only). Evolve Ekans." },
+            { id: 25, name: "Pikachu", types: ["Electric"], catchInfoGS: "Route 2. Evolve Pichu (breed Pikachu/Raichu, hatch egg, raise happiness)." },
+            { id: 26, name: "Raichu", types: ["Electric"], catchInfoGS: "Evolve Pikachu (Thunder Stone). Not wild in G/S." },
+            { id: 27, name: "Sandshrew", types: ["Ground"], catchInfoGS: "Union Cave, Mt. Moon (Kanto), Goldenrod Game Corner (Gold only)." },
+            { id: 28, name: "Sandslash", types: ["Ground"], catchInfoGS: "Route 26, 27, Mt. Moon (Kanto - Gold only). Evolve Sandshrew." },
+            { id: 29, name: "Nidoran♀", types: ["Poison"], catchInfoGS: "Routes 35, 36, National Park." },
+            { id: 30, name: "Nidorina", types: ["Poison"], catchInfoGS: "Routes 13, 14, 15. Evolve Nidoran♀." },
+            { id: 31, name: "Nidoqueen", types: ["Poison", "Ground"], catchInfoGS: "Evolve Nidorina (Moon Stone). Not wild in G/S." },
+            { id: 32, name: "Nidoran♂", types: ["Poison"], catchInfoGS: "Routes 35, 36, National Park." },
+            { id: 33, name: "Nidorino", types: ["Poison"], catchInfoGS: "Routes 13, 14, 15. Evolve Nidoran♂." },
+            { id: 34, name: "Nidoking", types: ["Poison", "Ground"], catchInfoGS: "Evolve Nidorino (Moon Stone). Not wild in G/S." },
+            { id: 35, name: "Clefairy", types: ["Normal"], catchInfoGS: "Mt. Moon (Kanto). Evolve Cleffa (breed Clefairy/Clefable, hatch egg, raise happiness)." }, // Type changed to Fairy in later gens, Normal in Gen 2
+            { id: 36, name: "Clefable", types: ["Normal"], catchInfoGS: "Evolve Clefairy (Moon Stone). Not wild in G/S." }, // Type changed to Fairy in later gens, Normal in Gen 2
+            { id: 37, name: "Vulpix", types: ["Fire"], catchInfoGS: "Routes 7, 8, 36, 37 (Silver only)." },
+            { id: 38, name: "Ninetales", types: ["Fire"], catchInfoGS: "Evolve Vulpix (Fire Stone - Silver only). Not wild in G/S." },
+            { id: 39, name: "Jigglypuff", types: ["Normal"], catchInfoGS: "Routes 3, 4 (Kanto). Evolve Igglybuff (breed Jigglypuff/Wigglytuff, hatch egg, raise happiness)." }, // Type changed to Normal/Fairy in later gens
+            { id: 40, name: "Wigglytuff", types: ["Normal"], catchInfoGS: "Evolve Jigglypuff (Moon Stone). Not wild in G/S." }, // Type changed to Normal/Fairy in later gens
+            { id: 41, name: "Zubat", types: ["Poison", "Flying"], catchInfoGS: "Common in most caves: Dark Cave, Union Cave, Slowpoke Well, Ilex Forest, Burned Tower, Ice Path, Whirl Islands, Mt. Mortar, Rock Tunnel, Victory Road, Mt. Moon, Tohjo Falls." },
+            { id: 42, name: "Golbat", types: ["Poison", "Flying"], catchInfoGS: "Common in later caves: Dark Cave, Union Cave, Slowpoke Well, Ice Path, Whirl Islands, Mt. Mortar, Victory Road, Mt. Moon, Tohjo Falls, Cerulean Cave. Evolve Zubat." },
+            { id: 43, name: "Oddish", types: ["Grass", "Poison"], catchInfoGS: "Routes 5, 6, 24, 25, Ilex Forest (Night)." },
+            { id: 44, name: "Gloom", types: ["Grass", "Poison"], catchInfoGS: "Route 5 (Night). Evolve Oddish." },
+            { id: 45, name: "Vileplume", types: ["Grass", "Poison"], catchInfoGS: "Evolve Gloom (Leaf Stone). Not wild in G/S." },
+            { id: 46, name: "Paras", types: ["Bug", "Grass"], catchInfoGS: "Ilex Forest, Mt. Moon (Kanto)." },
+            { id: 47, name: "Parasect", types: ["Bug", "Grass"], catchInfoGS: "Silver Cave (Kanto). Evolve Paras." },
+            { id: 48, name: "Venonat", types: ["Bug", "Poison"], catchInfoGS: "Routes 24, 25, 43, Ilex Forest (Headbutt trees), Lake of Rage (Headbutt trees)." },
+            { id: 49, name: "Venomoth", types: ["Bug", "Poison"], catchInfoGS: "Route 24, 25 (Night). Evolve Venonat." },
+            { id: 50, name: "Diglett", types: ["Ground"], catchInfoGS: "Diglett's Cave (Kanto)." },
+            { id: 51, name: "Dugtrio", types: ["Ground"], catchInfoGS: "Diglett's Cave (Kanto). Evolve Diglett." },
+            { id: 52, name: "Meowth", types: ["Normal"], catchInfoGS: "Routes 5, 6, 7, 8, 38, 39 (Silver only)." },
+            { id: 53, name: "Persian", types: ["Normal"], catchInfoGS: "Route 7 (Night - Silver only). Evolve Meowth." },
+            { id: 54, name: "Psyduck", types: ["Water"], catchInfoGS: "Routes 6, 35, Ilex Forest (Surf), Slowpoke Well (Surf)." },
+            { id: 55, name: "Golduck", types: ["Water"], catchInfoGS: "Route 6 (Surf), Route 35 (Surf), Ilex Forest (Surf), Slowpoke Well (Surf), Mt. Silver Cave (Surf), Cerulean Cave (Surf). Evolve Psyduck." },
+            { id: 56, name: "Mankey", types: ["Fighting"], catchInfoGS: "Routes 9, 42 (Gold only)." },
+            { id: 57, name: "Primeape", types: ["Fighting"], catchInfoGS: "Route 9 (Gold only), Cerulean Cave (Kanto). Evolve Mankey." },
+            { id: 58, name: "Growlithe", types: ["Fire"], catchInfoGS: "Routes 7, 8, 36, 37 (Gold only)." },
+            { id: 59, name: "Arcanine", types: ["Fire"], catchInfoGS: "Evolve Growlithe (Fire Stone - Gold only). Not wild in G/S." },
+            { id: 60, name: "Poliwag", types: ["Water"], catchInfoGS: "Routes 22, 28, 30, 31, 44, Violet City (Fish/Surf), Ecruteak City (Fish/Surf), Viridian City (Fish/Surf), Blackthorn City (Fish/Surf), Mt. Silver (Fish/Surf)." },
+            { id: 61, name: "Poliwhirl", types: ["Water"], catchInfoGS: "Routes 22, 28, 30, 31, 44 (Surf), Violet City (Surf), Ecruteak City (Surf), Viridian City (Surf), Blackthorn City (Surf), Mt. Silver (Surf). Evolve Poliwag." },
+            { id: 62, name: "Poliwrath", types: ["Water", "Fighting"], catchInfoGS: "Evolve Poliwhirl (Water Stone). Not wild in G/S." },
+            { id: 63, name: "Abra", types: ["Psychic"], catchInfoGS: "Routes 5, 6, 8, 24, 25, 34, 35, Goldenrod Game Corner." },
+            { id: 64, name: "Kadabra", types: ["Psychic"], catchInfoGS: "Route 8, Cerulean Cave (Kanto). Evolve Abra." },
+            { id: 65, name: "Alakazam", types: ["Psychic"], catchInfoGS: "Evolve Kadabra (Trade). Not wild in G/S." },
+            { id: 66, name: "Machop", types: ["Fighting"], catchInfoGS: "Mt. Mortar, Rock Tunnel (Kanto), Goldenrod Dept. Store (Trade for Drowzee - in-game trade name: Muscle)." },
+            { id: 67, name: "Machoke", types: ["Fighting"], catchInfoGS: "Mt. Mortar, Rock Tunnel (Kanto), Cerulean Cave (Kanto). Evolve Machop." },
+            { id: 68, name: "Machamp", types: ["Fighting"], catchInfoGS: "Evolve Machoke (Trade). Not wild in G/S." },
+            { id: 69, name: "Bellsprout", types: ["Grass", "Poison"], catchInfoGS: "Routes 5, 6, 24, 25, 31, 32, 44." },
+            { id: 70, name: "Weepinbell", types: ["Grass", "Poison"], catchInfoGS: "Routes 24, 25, 44. Evolve Bellsprout." },
+            { id: 71, name: "Victreebel", types: ["Grass", "Poison"], catchInfoGS: "Evolve Weepinbell (Leaf Stone). Not wild in G/S." },
+            { id: 72, name: "Tentacool", types: ["Water", "Poison"], catchInfoGS: "Common when Surfing in most water routes: Routes 12, 13, 19, 20, 21, 26, 27, 32, 34, 40, 41, New Bark Town, Cherrygrove City, Cianwood City, Olivine City, Pallet Town, Vermilion City, Cinnabar Island, Whirl Islands." },
+            { id: 73, name: "Tentacruel", types: ["Water", "Poison"], catchInfoGS: "Common when Surfing in later water routes (same as Tentacool, but less frequent). Evolve Tentacool." },
+            { id: 74, name: "Geodude", types: ["Rock", "Ground"], catchInfoGS: "Common in caves and rocky areas: Union Cave, Mt. Mortar, Dark Cave, Rock Tunnel, Mt. Moon, Victory Road, Mt. Silver. Route 45, 46." },
+            { id: 75, name: "Graveler", types: ["Rock", "Ground"], catchInfoGS: "Common in later caves: Mt. Mortar, Dark Cave (Blackthorn side), Rock Tunnel, Victory Road, Mt. Silver, Cerulean Cave. Route 45. Evolve Geodude." },
+            { id: 76, name: "Golem", types: ["Rock", "Ground"], catchInfoGS: "Evolve Graveler (Trade). Not wild in G/S." },
+            { id: 77, name: "Ponyta", types: ["Fire"], catchInfoGS: "Routes 22, 26, 27, 28, Mt. Silver (outside)." },
+            { id: 78, name: "Rapidash", types: ["Fire"], catchInfoGS: "Route 28, Mt. Silver (outside). Evolve Ponyta." },
+            { id: 79, name: "Slowpoke", types: ["Water", "Psychic"], catchInfoGS: "Slowpoke Well, Tohjo Falls (Surf)." },
+            { id: 80, name: "Slowbro", types: ["Water", "Psychic"], catchInfoGS: "Slowpoke Well (Surf - requires Strength). Evolve Slowpoke." },
+            { id: 81, name: "Magnemite", types: ["Electric", "Steel"], catchInfoGS: "Routes 6, 11, 38, 39." },
+            { id: 82, name: "Magneton", types: ["Electric", "Steel"], catchInfoGS: "Cerulean Cave (Kanto). Evolve Magnemite." },
+            { id: 83, name: "Farfetch'd", types: ["Normal", "Flying"], catchInfoGS: "Routes 38, 39, 47, 48 (Morning/Day)." },
+            { id: 84, name: "Doduo", types: ["Normal", "Flying"], catchInfoGS: "Routes 22, 26, 27, 28, Mt. Silver (outside)." },
+            { id: 85, name: "Dodrio", types: ["Normal", "Flying"], catchInfoGS: "Route 28, Mt. Silver (outside). Evolve Doduo." },
+            { id: 86, name: "Seel", types: ["Water"], catchInfoGS: "Whirl Islands." },
+            { id: 87, name: "Dewgong", types: ["Water", "Ice"], catchInfoGS: "Whirl Islands. Evolve Seel." },
+            { id: 88, name: "Grimer", types: ["Poison"], catchInfoGS: "Routes 16, 17, 18, Celadon City (Surf)." },
+            { id: 89, name: "Muk", types: ["Poison"], catchInfoGS: "Routes 16, 17, 18 (rare), Celadon City (Surf - rare). Evolve Grimer." },
+            { id: 90, name: "Shellder", types: ["Water"], catchInfoGS: "Routes 19, 20, 21, Olivine City (Fish w/ Good Rod), Vermilion City (Fish w/ Good Rod), Cinnabar Island (Fish w/ Good Rod)." },
+            { id: 91, name: "Cloyster", types: ["Water", "Ice"], catchInfoGS: "Evolve Shellder (Water Stone). Not wild in G/S." },
+            { id: 92, name: "Gastly", types: ["Ghost", "Poison"], catchInfoGS: "Sprout Tower (Night), Tin Tower (Night), Burned Tower (Night)." },
+            { id: 93, name: "Haunter", types: ["Ghost", "Poison"], catchInfoGS: "Route 8 (Night - Kanto), Rock Tunnel (Kanto - Night). Evolve Gastly." },
+            { id: 94, name: "Gengar", types: ["Ghost", "Poison"], catchInfoGS: "Evolve Haunter (Trade). Not wild in G/S." },
+            { id: 95, name: "Onix", types: ["Rock", "Ground"], catchInfoGS: "Union Cave, Rock Tunnel (Kanto), Victory Road (Kanto), Mt. Silver. Trade Bellsprout for Onix in Violet City (in-game trade name: Rocky)." },
+            { id: 96, name: "Drowzee", types: ["Psychic"], catchInfoGS: "Routes 11, 34, 35." },
+            { id: 97, name: "Hypno", types: ["Psychic"], catchInfoGS: "Route 11. Evolve Drowzee." },
+            { id: 98, name: "Krabby", types: ["Water"], catchInfoGS: "Routes 34, 40, 41, Cherrygrove City (Rock Smash/Fish), Olivine City (Rock Smash/Fish), Cianwood City (Rock Smash/Fish), Whirl Islands (Rock Smash/Fish)." },
+            { id: 99, name: "Kingler", types: ["Water"], catchInfoGS: "Routes 34, 40, 41 (Fish w/ Super Rod - rare). Evolve Krabby." },
+            { id: 100, name: "Voltorb", types: ["Electric"], catchInfoGS: "Route 10 (outside Power Plant), Olivine City (talk to man in house - one time gift)." },
+            { id: 101, name: "Electrode", types: ["Electric"], catchInfoGS: "Team Rocket HQ (Mahogany - interact with them), Cerulean Cave (Kanto). Evolve Voltorb." },
+            { id: 102, name: "Exeggcute", types: ["Grass", "Psychic"], catchInfoGS: "Headbutt trees in forested areas (e.g., Ilex Forest, Route 26, 27, 29-39, 42-48, Azalea Town, Lake of Rage, National Park)." },
+            { id: 103, name: "Exeggutor", types: ["Grass", "Psychic"], catchInfoGS: "Evolve Exeggcute (Leaf Stone). Not wild in G/S." },
+            { id: 104, name: "Cubone", types: ["Ground"], catchInfoGS: "Rock Tunnel (Kanto)." },
+            { id: 105, name: "Marowak", types: ["Ground"], catchInfoGS: "Rock Tunnel (Kanto), Victory Road (Kanto). Evolve Cubone." },
+            { id: 106, name: "Hitmonlee", types: ["Fighting"], catchInfoGS: "Evolve Tyrogue (Atk > Def at Lv. 20). Not wild in G/S." },
+            { id: 107, name: "Hitmonchan", types: ["Fighting"], catchInfoGS: "Evolve Tyrogue (Atk < Def at Lv. 20). Not wild in G/S." },
+            { id: 108, name: "Lickitung", types: ["Normal"], catchInfoGS: "Route 44 (requires Surf)." },
+            { id: 109, name: "Koffing", types: ["Poison"], catchInfoGS: "Burned Tower, Team Rocket HQ (Mahogany)." },
+            { id: 110, name: "Weezing", types: ["Poison"], catchInfoGS: "Team Rocket HQ (Mahogany), Cerulean Cave (Kanto). Evolve Koffing." },
+            { id: 111, name: "Rhyhorn", types: ["Rock", "Ground"], catchInfoGS: "Victory Road (Johto/Kanto)." },
+            { id: 112, name: "Rhydon", types: ["Rock", "Ground"], catchInfoGS: "Victory Road (Kanto), Cerulean Cave (Kanto). Evolve Rhyhorn." },
+            { id: 113, name: "Chansey", types: ["Normal"], catchInfoGS: "Routes 13, 14, 15 (rare)." },
+            { id: 114, name: "Tangela", types: ["Grass"], catchInfoGS: "Route 21, Route 28 (Kanto), Mt. Silver (grass patch)." },
+            { id: 115, name: "Kangaskhan", types: ["Normal"], catchInfoGS: "Rock Tunnel (Kanto - rare)." },
+            { id: 116, name: "Horsea", types: ["Water"], catchInfoGS: "Whirl Islands (Fish w/ Good/Super Rod)." },
+            { id: 117, name: "Seadra", types: ["Water"], catchInfoGS: "Whirl Islands (Fish w/ Super Rod - rare). Evolve Horsea." },
+            { id: 118, name: "Goldeen", types: ["Water"], catchInfoGS: "Common when fishing in many water areas: Routes 4, 9, 10, 24, 25, 42, Dark Cave, Union Cave, Slowpoke Well, Mt. Mortar, Tohjo Falls." },
+            { id: 119, name: "Seaking", types: ["Water"], catchInfoGS: "Routes 4, 9, 10, 24, 25, 42 (Fish w/ Super Rod), Dark Cave, Union Cave, Slowpoke Well, Mt. Mortar, Tohjo Falls (Fish w/ Super Rod). Evolve Goldeen." },
+            { id: 120, name: "Staryu", types: ["Water"], catchInfoGS: "Route 34 (Night - Fish w/ Good/Super Rod), Olivine City (Night - Fish w/ Good/Super Rod), Cianwood City (Night - Fish w/ Good/Super Rod)." },
+            { id: 121, name: "Starmie", types: ["Water", "Psychic"], catchInfoGS: "Evolve Staryu (Water Stone). Not wild in G/S." },
+            { id: 122, name: "Mr. Mime", types: ["Psychic"], catchInfoGS: "Route 21 (Kanto - grass patch), Goldenrod Game Corner (Crystal only)." }, // Type changed to Psychic/Fairy in later gens
+            { id: 123, name: "Scyther", types: ["Bug", "Flying"], catchInfoGS: "National Park (Bug-Catching Contest - Gold/Silver), Goldenrod Game Corner (Gold only)." },
+            { id: 124, name: "Jynx", types: ["Ice", "Psychic"], catchInfoGS: "Ice Path. Evolve Smoochum (breed Jynx, hatch egg, raise happiness)." },
+            { id: 125, name: "Electabuzz", types: ["Electric"], catchInfoGS: "Route 10 (outside Power Plant). Evolve Elekid (breed Electabuzz, hatch egg, raise happiness)." },
+            { id: 126, name: "Magmar", types: ["Fire"], catchInfoGS: "Burned Tower (basement). Evolve Magby (breed Magmar, hatch egg, raise happiness)." },
+            { id: 127, name: "Pinsir", types: ["Bug"], catchInfoGS: "National Park (Bug-Catching Contest - Gold/Silver), Goldenrod Game Corner (Silver only)." },
+            { id: 128, name: "Tauros", types: ["Normal"], catchInfoGS: "Routes 38, 39." },
+            { id: 129, name: "Magikarp", types: ["Water"], catchInfoGS: "Fish with Old Rod almost anywhere. Very common." },
+            { id: 130, name: "Gyarados", types: ["Water", "Flying"], catchInfoGS: "Lake of Rage (shiny encounter, one time). Fish with Super Rod in many places (rare). Evolve Magikarp." },
+            { id: 131, name: "Lapras", types: ["Water", "Ice"], catchInfoGS: "Union Cave (Friday only, deep in cave, requires Surf)." },
+            { id: 132, name: "Ditto", types: ["Normal"], catchInfoGS: "Routes 34, 35." },
+            { id: 133, name: "Eevee", types: ["Normal"], catchInfoGS: "Given by Bill in Goldenrod City. Goldenrod Game Corner (Crystal only)." },
+            { id: 134, name: "Vaporeon", types: ["Water"], catchInfoGS: "Evolve Eevee (Water Stone). Not wild in G/S." },
+            { id: 135, name: "Jolteon", types: ["Electric"], catchInfoGS: "Evolve Eevee (Thunder Stone). Not wild in G/S." },
+            { id: 136, name: "Flareon", types: ["Fire"], catchInfoGS: "Evolve Eevee (Fire Stone). Not wild in G/S." },
+            { id: 137, name: "Porygon", types: ["Normal"], catchInfoGS: "Goldenrod Game Corner (9999 Coins in Gold/Silver, 5555 in Crystal)." },
+            { id: 138, name: "Omanyte", types: ["Rock", "Water"], catchInfoGS: "Revive Helix Fossil (found in Rock Tunnel after Kanto access, or trade from R/B/Y)." },
+            { id: 139, name: "Omastar", types: ["Rock", "Water"], catchInfoGS: "Evolve Omanyte. Not wild in G/S." },
+            { id: 140, name: "Kabuto", types: ["Rock", "Water"], catchInfoGS: "Revive Dome Fossil (found in Rock Tunnel after Kanto access, or trade from R/B/Y)." },
+            { id: 141, name: "Kabutops", types: ["Rock", "Water"], catchInfoGS: "Evolve Kabuto. Not wild in G/S." },
+            { id: 142, name: "Aerodactyl", types: ["Rock", "Flying"], catchInfoGS: "Revive Old Amber (found in Rock Tunnel after Kanto access, or trade from R/B/Y). Trade Chansey for Aerodactyl on Route 14 (Kanto)." },
+            { id: 143, name: "Snorlax", types: ["Normal"], catchInfoGS: "Blocking Diglett's Cave entrance (Route 11/12 junction, Kanto). Use Poké Flute radio channel to wake." },
+            { id: 144, name: "Articuno", types: ["Ice", "Flying"], catchInfoGS: "Seafoam Islands (Kanto - after National Dex). Not available in G/S without trading or events from R/B/Y, or until post-game Kanto access and specific conditions." },
+            { id: 145, name: "Zapdos", types: ["Electric", "Flying"], catchInfoGS: "Power Plant (Kanto - after National Dex). Not available in G/S without trading or events from R/B/Y, or until post-game Kanto access and specific conditions." },
+            { id: 146, name: "Moltres", types: ["Fire", "Flying"], catchInfoGS: "Mt. Silver Cave (Kanto - after National Dex). Not available in G/S without trading or events from R/B/Y, or until post-game Kanto access and specific conditions." },
+            { id: 147, name: "Dratini", types: ["Dragon"], catchInfoGS: "Dragon's Den (Fish w/ Good/Super Rod, Surf), Goldenrod Game Corner (Crystal only)." },
+            { id: 148, name: "Dragonair", types: ["Dragon"], catchInfoGS: "Dragon's Den (Fish w/ Super Rod, Surf). Evolve Dratini." },
+            { id: 149, name: "Dragonite", types: ["Dragon", "Flying"], catchInfoGS: "Evolve Dragonair. Not wild in G/S." },
+            { id: 150, name: "Mewtwo", types: ["Psychic"], catchInfoGS: "Cerulean Cave (Kanto - after National Dex). Not available in G/S without trading or events from R/B/Y, or until post-game Kanto access and specific conditions." },
+            { id: 151, name: "Mew", types: ["Psychic"], catchInfoGS: "Event only. Not catchable in normal G/S gameplay." },
+
+            // Gen 2
+            { id: 152, name: "Chikorita", types: ["Grass"], catchInfoGS: "Starter Pokémon from Professor Elm in New Bark Town." },
+            { id: 153, name: "Bayleef", types: ["Grass"], catchInfoGS: "Evolve Chikorita." },
+            { id: 154, name: "Meganium", types: ["Grass"], catchInfoGS: "Evolve Bayleef." },
+            { id: 155, name: "Cyndaquil", types: ["Fire"], catchInfoGS: "Starter Pokémon from Professor Elm in New Bark Town." },
+            { id: 156, name: "Quilava", types: ["Fire"], catchInfoGS: "Evolve Cyndaquil." },
+            { id: 157, name: "Typhlosion", types: ["Fire"], catchInfoGS: "Evolve Quilava." },
+            { id: 158, name: "Totodile", types: ["Water"], catchInfoGS: "Starter Pokémon from Professor Elm in New Bark Town." },
+            { id: 159, name: "Croconaw", types: ["Water"], catchInfoGS: "Evolve Totodile." },
+            { id: 160, name: "Feraligatr", types: ["Water"], catchInfoGS: "Evolve Croconaw." },
+            { id: 161, name: "Sentret", types: ["Normal"], catchInfoGS: "Routes 1, 29, 43 (Morning/Day)." },
+            { id: 162, name: "Furret", types: ["Normal"], catchInfoGS: "Route 1 (Morning/Day). Evolve Sentret." },
+            { id: 163, name: "Hoothoot", types: ["Normal", "Flying"], catchInfoGS: "Routes 1, 2, 29, 30, 31, 35, 36, 37, National Park (Night), Ilex Forest (Night)." },
+            { id: 164, name: "Noctowl", types: ["Normal", "Flying"], catchInfoGS: "Routes 2, 8, 13, 14, 15, 43 (Night), Ilex Forest (Night). Evolve Hoothoot." },
+            { id: 165, name: "Ledyba", types: ["Bug", "Flying"], catchInfoGS: "Routes 2, 30, 31, 37 (Morning - Silver only). Headbutt trees in various early routes." },
+            { id: 166, name: "Ledian", types: ["Bug", "Flying"], catchInfoGS: "Route 2 (Morning - Silver only). Evolve Ledyba." },
+            { id: 167, name: "Spinarak", types: ["Bug", "Poison"], catchInfoGS: "Routes 2, 30, 31, 37 (Night - Gold only). Headbutt trees in various early routes." },
+            { id: 168, name: "Ariados", types: ["Bug", "Poison"], catchInfoGS: "Route 2 (Night - Gold only). Evolve Spinarak." },
+            { id: 169, name: "Crobat", types: ["Poison", "Flying"], catchInfoGS: "Evolve Golbat (High Friendship)." },
+            { id: 170, name: "Chinchou", types: ["Water", "Electric"], catchInfoGS: "Routes 20, 21, 26, 27, 41, New Bark Town, Olivine City, Pallet Town, Vermilion City, Cinnabar Island (Fish w/ Good/Super Rod)." },
+            { id: 171, name: "Lanturn", types: ["Water", "Electric"], catchInfoGS: "Routes 20, 21, 26, 27, 41 (Fish w/ Super Rod - rare). Evolve Chinchou." },
+            { id: 172, name: "Pichu", types: ["Electric"], catchInfoGS: "Breed Pikachu or Raichu. Hatch from Odd Egg (Crystal only, 14% chance)." },
+            { id: 173, name: "Cleffa", types: ["Normal"], catchInfoGS: "Breed Clefairy or Clefable. Hatch from Odd Egg (Crystal only, 20% chance)." }, // Type changed to Fairy in later gens
+            { id: 174, name: "Igglybuff", types: ["Normal"], catchInfoGS: "Breed Jigglypuff or Wigglytuff. Hatch from Odd Egg (Crystal only, 20% chance)." }, // Type changed to Normal/Fairy in later gens
+            { id: 175, name: "Togepi", types: ["Normal"], catchInfoGS: "Hatch Egg received from Professor Elm's aide in Violet City Pokémon Center after beating Falkner." }, // Type changed to Fairy in later gens
+            { id: 176, name: "Togetic", types: ["Normal", "Flying"], catchInfoGS: "Evolve Togepi (High Friendship)." }, // Type changed to Fairy/Flying in later gens
+            { id: 177, name: "Natu", types: ["Psychic", "Flying"], catchInfoGS: "Ruins of Alph (grass outside)." },
+            { id: 178, name: "Xatu", types: ["Psychic", "Flying"], catchInfoGS: "Silver Cave (Kanto - outside, rare). Evolve Natu." },
+            { id: 179, name: "Mareep", types: ["Electric"], catchInfoGS: "Routes 32, 42, 43." },
+            { id: 180, name: "Flaaffy", types: ["Electric"], catchInfoGS: "Routes 42, 43. Evolve Mareep." },
+            { id: 181, name: "Ampharos", types: ["Electric"], catchInfoGS: "Evolve Flaaffy. (Used by Jasmine in Olivine Lighthouse)." },
+            { id: 182, name: "Bellossom", types: ["Grass"], catchInfoGS: "Evolve Gloom (Sun Stone)." },
+            { id: 183, name: "Marill", types: ["Water"], catchInfoGS: "Mt. Mortar (requires Surf, Waterfall)." }, // Type changed to Water/Fairy in later gens
+            { id: 184, name: "Azumarill", types: ["Water"], catchInfoGS: "Evolve Marill." }, // Type changed to Water/Fairy in later gens
+            { id: 185, name: "Sudowoodo", types: ["Rock"], catchInfoGS: "Route 36 (blocking path, use SquirtBottle)." },
+            { id: 186, name: "Politoed", types: ["Water"], catchInfoGS: "Evolve Poliwhirl (Trade holding King's Rock)." },
+            { id: 187, name: "Hoppip", types: ["Grass", "Flying"], catchInfoGS: "Routes 13, 14, 15, 32, 33 (Morning/Day)." },
+            { id: 188, name: "Skiploom", types: ["Grass", "Flying"], catchInfoGS: "Route 14 (Morning/Day). Evolve Hoppip." },
+            { id: 189, name: "Jumpluff", types: ["Grass", "Flying"], catchInfoGS: "Evolve Skiploom." },
+            { id: 190, name: "Aipom", types: ["Normal"], catchInfoGS: "Headbutt trees on mountain routes (e.g., Routes 29, 30, 31, 32, 33, 42, 43, 44, 45, 46, Azalea Town)." },
+            { id: 191, name: "Sunkern", types: ["Grass"], catchInfoGS: "Route 24 (Kanto - Morning/Day), National Park (Morning/Day)." },
+            { id: 192, name: "Sunflora", types: ["Grass"], catchInfoGS: "Evolve Sunkern (Sun Stone)." },
+            { id: 193, name: "Yanma", types: ["Bug", "Flying"], catchInfoGS: "Route 35 (rare)." },
+            { id: 194, name: "Wooper", types: ["Water", "Ground"], catchInfoGS: "Routes 32, Union Cave (Surf), Ruins of Alph (Surf)." },
+            { id: 195, name: "Quagsire", types: ["Water", "Ground"], catchInfoGS: "Routes 10, 12, 13, 14, 15, 26, 27, 32, Union Cave (Surf), Ruins of Alph (Surf), Mt. Silver Cave (Surf). Evolve Wooper." },
+            { id: 196, name: "Espeon", types: ["Psychic"], catchInfoGS: "Evolve Eevee (High Friendship, level up during Daytime)." },
+            { id: 197, name: "Umbreon", types: ["Dark"], catchInfoGS: "Evolve Eevee (High Friendship, level up during Nighttime)." },
+            { id: 198, name: "Murkrow", types: ["Dark", "Flying"], catchInfoGS: "Routes 7, 16 (Night - Kanto)." },
+            { id: 199, name: "Slowking", types: ["Water", "Psychic"], catchInfoGS: "Evolve Slowpoke (Trade holding King's Rock)." },
+            { id: 200, name: "Misdreavus", types: ["Ghost"], catchInfoGS: "Mt. Silver Cave (Night - Kanto, rare)." },
+            { id: 201, name: "Unown", types: ["Psychic"], catchInfoGS: "Ruins of Alph (after solving puzzles). Different forms available." },
+            { id: 202, name: "Wobbuffet", types: ["Psychic"], catchInfoGS: "Dark Cave (Blackthorn side, rare)." },
+            { id: 203, name: "Girafarig", types: ["Normal", "Psychic"], catchInfoGS: "Route 43, Lake of Rage (grass)." },
+            { id: 204, name: "Pineco", types: ["Bug"], catchInfoGS: "Headbutt trees in forested areas (e.g., Ilex Forest, Routes 26, 27, 29-39, 42-48, Azalea Town, Lake of Rage, National Park)." },
+            { id: 205, name: "Forretress", types: ["Bug", "Steel"], catchInfoGS: "Evolve Pineco." },
+            { id: 206, name: "Dunsparce", types: ["Normal"], catchInfoGS: "Dark Cave (Route 31 side, very rare)." },
+            { id: 207, name: "Gligar", types: ["Ground", "Flying"], catchInfoGS: "Route 45 (Gold only)." },
+            { id: 208, name: "Steelix", types: ["Steel", "Ground"], catchInfoGS: "Evolve Onix (Trade holding Metal Coat). Mt. Silver Cave (rare - Crystal only)." },
+            { id: 209, name: "Snubbull", types: ["Normal"], catchInfoGS: "Route 38 (rare)." }, // Type changed to Fairy in later gens
+            { id: 210, name: "Granbull", types: ["Normal"], catchInfoGS: "Evolve Snubbull." }, // Type changed to Fairy in later gens
+            { id: 211, name: "Qwilfish", types: ["Water", "Poison"], catchInfoGS: "Routes 12, 13, 32 (Fish w/ Super Rod)." },
+            { id: 212, "name": "Scizor", types: ["Bug", "Steel"], catchInfoGS: "Evolve Scyther (Trade holding Metal Coat)." },
+            { id: 213, name: "Shuckle", types: ["Bug", "Rock"], catchInfoGS: "Cianwood City (Rock Smash, or given by a guy), Vermilion City (Rock Smash - Kanto)." },
+            { id: 214, name: "Heracross", types: ["Bug", "Fighting"], catchInfoGS: "Headbutt trees on mountain routes (e.g., Routes 29, 30, 31, 32, 33, 42, 43, 44, Azalea Town - rare)." },
+            { id: 215, name: "Sneasel", types: ["Dark", "Ice"], catchInfoGS: "Route 28 (Night), Mt. Silver Cave (Night - Kanto)." },
+            { id: 216, name: "Teddiursa", types: ["Normal"], catchInfoGS: "Route 45 (Morning - Gold only), Dark Cave (Route 45 side - Morning - Gold only)." },
+            { id: 217, name: "Ursaring", types: ["Normal"], catchInfoGS: "Route 28 (Morning - Gold only), Mt. Silver Cave (Morning - Gold only), Victory Road (Morning - Gold only). Evolve Teddiursa." },
+            { id: 218, name: "Slugma", types: ["Fire"], catchInfoGS: "Routes 16, 17, 18 (Kanto)." },
+            { id: 219, name: "Magcargo", types: ["Fire", "Rock"], catchInfoGS: "Evolve Slugma. Not wild in G/S (found wild in R/S/E)." },
+            { id: 220, name: "Swinub", types: ["Ice", "Ground"], catchInfoGS: "Ice Path." },
+            { id: 221, name: "Piloswine", types: ["Ice", "Ground"], catchInfoGS: "Evolve Swinub." },
+            { id: 222, name: "Corsola", types: ["Water", "Rock"], catchInfoGS: "Routes 19, 34, 40 (Morning/Day - Fish w/ Good/Super Rod), Cherrygrove City, Cianwood City, Olivine City (Morning/Day - Fish w/ Good/Super Rod)." },
+            { id: 223, name: "Remoraid", types: ["Water"], catchInfoGS: "Route 44 (Fish w/ Good/Super Rod)." },
+            { id: 224, name: "Octillery", types: ["Water"], catchInfoGS: "Evolve Remoraid." },
+            { id: 225, name: "Delibird", types: ["Ice", "Flying"], catchInfoGS: "Ice Path (Silver only)." },
+            { id: 226, name: "Mantine", types: ["Water", "Flying"], catchInfoGS: "Route 41 (Surf - Gold only, requires Remoraid in party in later games, but in G/S it's just a rare encounter)." },
+            { id: 227, name: "Skarmory", types: ["Steel", "Flying"], catchInfoGS: "Route 45 (Silver only), Mt. Silver (outside - Silver only)." },
+            { id: 228, name: "Houndour", types: ["Dark", "Fire"], catchInfoGS: "Route 7 (Night - Kanto)." },
+            { id: 229, name: "Houndoom", types: ["Dark", "Fire"], catchInfoGS: "Evolve Houndour. Not wild in G/S." },
+            { id: 230, name: "Kingdra", types: ["Water", "Dragon"], catchInfoGS: "Evolve Seadra (Trade holding Dragon Scale)." },
+            { id: 231, name: "Phanpy", types: ["Ground"], catchInfoGS: "Route 45 (Morning - Silver only), Dark Cave (Route 45 side - Morning - Silver only)." },
+            { id: 232, name: "Donphan", types: ["Ground"], catchInfoGS: "Route 28 (Morning - Silver only), Mt. Silver Cave (Morning - Silver only), Victory Road (Morning - Silver only). Evolve Phanpy." },
+            { id: 233, name: "Porygon2", types: ["Normal"], catchInfoGS: "Evolve Porygon (Trade holding Up-Grade)." },
+            { id: 234, name: "Stantler", types: ["Normal"], catchInfoGS: "Routes 36, 37." },
+            { id: 235, name: "Smeargle", types: ["Normal"], catchInfoGS: "Ruins of Alph (grass outside - rare)." },
+            { id: 236, name: "Tyrogue", types: ["Fighting"], catchInfoGS: "Given by Kiyo in Mt. Mortar after defeating him. Hatch from Odd Egg (Crystal only, 14% chance)." },
+            { id: 237, name: "Hitmontop", types: ["Fighting"], catchInfoGS: "Evolve Tyrogue (Atk = Def at Lv. 20)." },
+            { id: 238, name: "Smoochum", types: ["Ice", "Psychic"], catchInfoGS: "Breed Jynx. Hatch from Odd Egg (Crystal only, 14% chance)." },
+            { id: 239, name: "Elekid", types: ["Electric"], catchInfoGS: "Breed Electabuzz. Hatch from Odd Egg (Crystal only, 14% chance)." },
+            { id: 240, name: "Magby", types: ["Fire"], catchInfoGS: "Breed Magmar. Hatch from Odd Egg (Crystal only, 14% chance)." },
+            { id: 241, name: "Miltank", types: ["Normal"], catchInfoGS: "Routes 38, 39." },
+            { id: 242, name: "Blissey", types: ["Normal"], catchInfoGS: "Evolve Chansey (High Friendship)." },
+            { id: 243, name: "Raikou", types: ["Electric"], catchInfoGS: "Roaming Johto after initial encounter in Burned Tower." },
+            { id: 244, name: "Entei", types: ["Fire"], catchInfoGS: "Roaming Johto after initial encounter in Burned Tower." },
+            { id: 245, name: "Suicune", types: ["Water"], catchInfoGS: "Found in various locations after initial encounter in Burned Tower, eventually at Tin Tower (after specific events in Crystal) or roaming (Gold/Silver)." },
+            { id: 246, name: "Larvitar", types: ["Rock", "Ground"], catchInfoGS: "Mt. Silver Cave (rare). Goldenrod Game Corner (Crystal only - 8888 coins)." },
+            { id: 247, name: "Pupitar", types: ["Rock", "Ground"], catchInfoGS: "Mt. Silver Cave (very rare). Evolve Larvitar." },
+            { id: 248, name: "Tyranitar", types: ["Rock", "Dark"], catchInfoGS: "Evolve Pupitar." },
+            { id: 249, name: "Lugia", types: ["Psychic", "Flying"], catchInfoGS: "Whirl Islands (requires Silver Wing - obtained after defeating Team Rocket at Goldenrod Radio Tower in Silver, or later in Pewter City in Gold). Level 40 in Silver, Level 70 in Gold." },
+            { id: 250, name: "Ho-Oh", types: ["Fire", "Flying"], catchInfoGS: "Tin Tower (requires Rainbow Wing - obtained after defeating Team Rocket at Goldenrod Radio Tower in Gold, or later in Pewter City in Silver). Level 40 in Gold, Level 70 in Silver." },
+            { id: 251, name: "Celebi", types: ["Psychic", "Grass"], catchInfoGS: "Event only in original Gold/Silver. In Virtual Console Crystal, obtainable via GS Ball event after defeating Elite Four." }
+        ];
+
+        const pokedexGrid = document.getElementById('pokedexGrid');
+        const searchInput = document.getElementById('searchInput');
+        const showUncaughtOnlyCheckbox = document.getElementById('showUncaughtOnly');
+        const modal = document.getElementById('infoModal');
+        const modalPokemonName = document.getElementById('modalPokemonName');
+        const modalPokemonSprite = document.getElementById('modalPokemonSprite');
+        const modalCatchInfo = document.getElementById('modalCatchInfo');
+
+        let caughtPokemon = JSON.parse(localStorage.getItem('caughtPokemonGS')) || {};
+
+        function saveCaughtStatus() {
+            localStorage.setItem('caughtPokemonGS', JSON.stringify(caughtPokemon));
+        }
+
+        function renderPokedex() {
+            pokedexGrid.innerHTML = ''; // Clear existing entries
+            let firstUncaughtFound = false;
+            const searchTerm = searchInput.value.toLowerCase();
+            const showUncaught = showUncaughtOnlyCheckbox.checked;
+
+            const filteredData = pokemonData.filter(p => {
+                const matchesSearch = p.name.toLowerCase().includes(searchTerm) || p.id.toString().includes(searchTerm);
+                const matchesCaughtFilter = !showUncaught || !caughtPokemon[p.id];
+                return matchesSearch && matchesCaughtFilter;
+            });
+
+            if (filteredData.length === 0) {
+                pokedexGrid.innerHTML = `<p class="col-span-full text-center text-gray-500">No Pokémon match your criteria.</p>`;
+                return;
+            }
+
+
+            filteredData.forEach(pokemon => {
+                const card = document.createElement('div');
+                card.className = 'pokemon-card';
+                card.dataset.id = pokemon.id;
+
+                const isCaught = caughtPokemon[pokemon.id] || false;
+
+                if (!isCaught && !firstUncaughtFound && !showUncaught && searchTerm === '') { // Only highlight if not filtering and not searching
+                    card.classList.add('next-to-catch');
+                    firstUncaughtFound = true;
+                } else if (isCaught && card.classList.contains('next-to-catch')) {
+                     card.classList.remove('next-to-catch');
+                }
+
+
+                const sprite = document.createElement('img');
+                sprite.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png`;
+                sprite.alt = pokemon.name;
+                sprite.className = 'pokemon-sprite mb-2';
+                sprite.onerror = function() { this.src = 'https://placehold.co/72x72/e0e0e0/757575?text=?'; this.alt = 'Sprite not found';};
+
+
+                const name = document.createElement('h3');
+                name.className = 'text-lg font-semibold text-gray-700';
+                name.textContent = `#${pokemon.id.toString().padStart(3, '0')} ${pokemon.name}`;
+
+                const typesContainer = document.createElement('div');
+                typesContainer.className = 'flex flex-wrap justify-center my-1';
+                pokemon.types.forEach(type => {
+                    const typeBadge = document.createElement('span');
+                    typeBadge.className = `type-badge type-${type.toLowerCase()}`;
+                    typeBadge.textContent = type;
+                    typesContainer.appendChild(typeBadge);
+                });
+
+                const caughtLabel = document.createElement('label');
+                caughtLabel.className = 'flex items-center mt-2 cursor-pointer text-sm text-gray-600';
+
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.className = 'caught-checkbox form-checkbox h-5 w-5 text-blue-600 rounded focus:ring-blue-500';
+                checkbox.checked = isCaught;
+                checkbox.onchange = () => {
+                    caughtPokemon[pokemon.id] = checkbox.checked;
+                    saveCaughtStatus();
+                    renderPokedex(); // Re-render to update "Next to Catch" and filters
+                };
+
+                caughtLabel.appendChild(checkbox);
+                const caughtText = document.createElement('span');
+                caughtText.textContent = ' Caught';
+                caughtText.className = 'ml-2';
+                caughtLabel.appendChild(caughtText);
+
+
+                const infoButton = document.createElement('button');
+                infoButton.className = 'info-button bg-blue-500 hover:bg-blue-700 text-white font-bold';
+                infoButton.textContent = 'Catch Info';
+                infoButton.onclick = () => showModal(pokemon);
+
+                card.appendChild(sprite);
+                card.appendChild(name);
+                card.appendChild(typesContainer);
+                card.appendChild(caughtLabel);
+                card.appendChild(infoButton);
+                pokedexGrid.appendChild(card);
+            });
+            updateNextToCatchHighlight();
+        }
+
+        function updateNextToCatchHighlight() {
+            // Remove existing highlights
+            document.querySelectorAll('.next-to-catch').forEach(el => el.classList.remove('next-to-catch'));
+
+            // If "show uncaught only" is checked, or if there's a search term, don't highlight
+            if (showUncaughtOnlyCheckbox.checked || searchInput.value.trim() !== '') {
+                return;
+            }
+
+            // Find the first uncaught Pokémon card that is currently visible and highlight it
+            const cards = pokedexGrid.querySelectorAll('.pokemon-card');
+            for (const card of cards) {
+                const pokemonId = parseInt(card.dataset.id);
+                if (!caughtPokemon[pokemonId]) {
+                    card.classList.add('next-to-catch');
+                    break;
+                }
+            }
+        }
+
+
+        function showModal(pokemon) {
+            modalPokemonName.textContent = `#${pokemon.id.toString().padStart(3, '0')} ${pokemon.name}`;
+            modalPokemonSprite.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png`;
+            modalPokemonSprite.onerror = function() { this.src = 'https://placehold.co/96x96/e0e0e0/757575?text=?'; this.alt = 'Sprite not found';};
+            modalCatchInfo.innerHTML = pokemon.catchInfoGS.replace(/\n/g, '<br>'); // Replace newlines with <br> for HTML
+            modal.style.display = "flex";
+        }
+
+        function closeModal() {
+            modal.style.display = "none";
+        }
+
+        // Close modal if user clicks outside of it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                closeModal();
+            }
+        }
+
+        // Event Listeners
+        searchInput.addEventListener('input', renderPokedex);
+        showUncaughtOnlyCheckbox.addEventListener('change', renderPokedex);
+
+        // Initial render
+        renderPokedex();
+    </script>
+
+</body>
 </html>
-
