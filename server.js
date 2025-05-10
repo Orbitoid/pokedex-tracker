@@ -1,61 +1,65 @@
-// server.js
+// server.js (Conceptual Changes)
 const express = require("express");
 const fs = require("fs");
 const dotenv = require("dotenv");
 const path = require("path");
 
 const app = express();
-
-// Load environment variables from .env files
-// This is useful for keeping secrets out of your code
 dotenv.config();
-
-// Parse JSON bodies sent by the client
 app.use(express.json());
 
-// Serve our static files (index.html, script.js)
+// Serve static files (index.html, script.js, pokemon-data-gen1.json)
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "index.html"));
+    res.sendFile(path.join(__dirname, "index.html"));
 });
-
 app.get("/script.js", (req, res) => {
-  res.sendFile(path.join(__dirname, "script.js"));
+    res.sendFile(path.join(__dirname, "script.js"));
+});
+app.get("/pokemon-data-gen1.json", (req, res) => { // Serve the Gen 1 JSON data
+    res.sendFile(path.join(__dirname, "pokemon-data-gen1.json"));
+});
+app.get("/pokemon-data-gen2.json", (req, res) => { // Serve the Gen 2 JSON Data
+    res.sendFile(path.join(__dirname, "pokemon-data-gen2.json"));
 });
 
-// GET route to read caught.json
-app.get("/caught", (req, res) => {
-  // Ensure the file exists and read it
-  if (!fs.existsSync("save-data/caught.json")) {
-    fs.writeFileSync("save-data/caught.json", JSON.stringify({}));
-  }
-  const data = fs.readFileSync("save-data/caught.json", "utf8");
-  res.json(JSON.parse(data));
+// Generic function to handle caught data for a specific game
+function handleCaughtData(game, req, res, isPost = false) {
+    const filePath = path.join(__dirname, `save-data/caught-${game}.json`);
+    if (isPost) {
+        const { id, caught } = req.body;
+        if (!fs.existsSync(path.dirname(filePath))) {
+            fs.mkdirSync(path.dirname(filePath), { recursive: true });
+        }
+        if (!fs.existsSync(filePath)) {
+            fs.writeFileSync(filePath, JSON.stringify({}));
+        }
+        const data = fs.readFileSync(filePath, "utf8");
+        const caughtData = JSON.parse(data);
+        caughtData[id.toString()] = caught; // Ensure ID is string key
+        fs.writeFileSync(filePath, JSON.stringify(caughtData, null, 2));
+        res.json({ success: true, message: `Data saved for ${game}` });
+    } else {
+        if (!fs.existsSync(filePath)) {
+            // If file doesn't exist for a GET, return empty object (or 404 as client handles)
+            return res.json({}); // Or res.status(404).json({ error: "No data for this game yet." });
+        }
+        const data = fs.readFileSync(filePath, "utf8");
+        res.json(JSON.parse(data));
+    }
+}
+
+// Define routes for each game
+const supportedGames = ["red", "blue", "yellow", "gold", "silver", "crystal"];
+supportedGames.forEach(game => {
+    app.get(`/caught/${game}`, (req, res) => {
+        handleCaughtData(game, req, res, false);
+    });
+    app.post(`/caught/${game}`, (req, res) => {
+        handleCaughtData(game, req, res, true);
+    });
 });
 
-// POST route to update caught.json
-app.post("/caught", (req, res) => {
-  // req.body will contain { id, caught } from the client
-  const { id, caught } = req.body;
-
-  // Load the current JSON state
-  if (!fs.existsSync("save-data/caught.json")) {
-    fs.writeFileSync("save-data/caught.json", JSON.stringify({}));
-  }
-  const data = fs.readFileSync("save-data/caught.json", "utf8");
-  const caughtData = JSON.parse(data);
-
-  // Update or insert the caught state for this Pokémon
-  caughtData[id] = caught;
-
-  // Write it back to file
-  fs.writeFileSync("save-data/caught.json", JSON.stringify(caughtData, null, 2));
-
-  res.json({ success: true });
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Server running at http://localhost:${PORT}`);
 });
-
-// Start the server on port 3000
-
-app.listen(process.env.PORT, () => {
-  console.log(`Server running at http://localhost:${process.env.PORT}`);
-});
-

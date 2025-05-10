@@ -1,0 +1,1984 @@
+[
+  {
+    "id": 152,
+    "name": "Chikorita",
+    "types": ["Grass"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["New Bark Town (Starter)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["New Bark Town (Starter)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["New Bark Town (Starter)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 153,
+    "name": "Bayleef",
+    "types": ["Grass"],
+    "availability": {
+      "gold": { "catchable": false, "note": "Evolve Chikorita." },
+      "silver": { "catchable": false, "note": "Evolve Chikorita." },
+      "crystal": { "catchable": false, "note": "Evolve Chikorita." }
+    }
+  },
+  {
+    "id": 154,
+    "name": "Meganium",
+    "types": ["Grass"],
+    "availability": {
+      "gold": { "catchable": false, "note": "Evolve Bayleef." },
+      "silver": { "catchable": false, "note": "Evolve Bayleef." },
+      "crystal": { "catchable": false, "note": "Evolve Bayleef." }
+    }
+  },
+  {
+    "id": 155,
+    "name": "Cyndaquil",
+    "types": ["Fire"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["New Bark Town (Starter)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["New Bark Town (Starter)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["New Bark Town (Starter)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 156,
+    "name": "Quilava",
+    "types": ["Fire"],
+    "availability": {
+      "gold": { "catchable": false, "note": "Evolve Cyndaquil." },
+      "silver": { "catchable": false, "note": "Evolve Cyndaquil." },
+      "crystal": { "catchable": false, "note": "Evolve Cyndaquil." }
+    }
+  },
+  {
+    "id": 157,
+    "name": "Typhlosion",
+    "types": ["Fire"],
+    "availability": {
+      "gold": { "catchable": false, "note": "Evolve Quilava." },
+      "silver": { "catchable": false, "note": "Evolve Quilava." },
+      "crystal": { "catchable": false, "note": "Evolve Quilava." }
+    }
+  },
+  {
+    "id": 158,
+    "name": "Totodile",
+    "types": ["Water"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["New Bark Town (Starter)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["New Bark Town (Starter)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["New Bark Town (Starter)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 159,
+    "name": "Croconaw",
+    "types": ["Water"],
+    "availability": {
+      "gold": { "catchable": false, "note": "Evolve Totodile." },
+      "silver": { "catchable": false, "note": "Evolve Totodile." },
+      "crystal": { "catchable": false, "note": "Evolve Totodile." }
+    }
+  },
+  {
+    "id": 160,
+    "name": "Feraligatr",
+    "types": ["Water"],
+    "availability": {
+      "gold": { "catchable": false, "note": "Evolve Croconaw." },
+      "silver": { "catchable": false, "note": "Evolve Croconaw." },
+      "crystal": { "catchable": false, "note": "Evolve Croconaw." }
+    }
+  },
+  {
+    "id": 161,
+    "name": "Sentret",
+    "types": ["Normal"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Routes 1, 29, 43 (Morning/Day)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Routes 1, 29, 43 (Morning/Day)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Routes 1, 29, 43 (Morning/Day)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 162,
+    "name": "Furret",
+    "types": ["Normal"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 1 (Morning/Day)"],
+        "note": "Evolve Sentret."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 1 (Morning/Day)"],
+        "note": "Evolve Sentret."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 1 (Morning/Day)"],
+        "note": "Evolve Sentret."
+      }
+    }
+  },
+  {
+    "id": 163,
+    "name": "Hoothoot",
+    "types": ["Normal", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Routes 1, 2, 29, 30, 31, 35, 36, 37",
+          "National Park (Night)",
+          "Ilex Forest (Night)"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Routes 1, 2, 29, 30, 31, 35, 36, 37",
+          "National Park (Night)",
+          "Ilex Forest (Night)"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Routes 1, 2, 29, 30, 31, 35, 36, 37",
+          "National Park (Night)",
+          "Ilex Forest (Night)"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 164,
+    "name": "Noctowl",
+    "types": ["Normal", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Routes 2, 8, 13, 14, 15, 43 (Night)",
+          "Ilex Forest (Night)"
+        ],
+        "note": "Evolve Hoothoot."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Routes 2, 8, 13, 14, 15, 43 (Night)",
+          "Ilex Forest (Night)"
+        ],
+        "note": "Evolve Hoothoot."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Routes 2, 8, 13, 14, 15, 43 (Night)",
+          "Ilex Forest (Night)"
+        ],
+        "note": "Evolve Hoothoot."
+      }
+    }
+  },
+  {
+    "id": 165,
+    "name": "Ledyba",
+    "types": ["Bug", "Flying"],
+    "availability": {
+      "gold": { "catchable": false, "note": "Trade from Silver/Crystal." },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 2, 30, 31, 37 (Morning)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 2, 30, 31, 36, 37 (Morning)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 166,
+    "name": "Ledian",
+    "types": ["Bug", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "note": "Evolve Ledyba. Trade from Silver/Crystal."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 2 (Morning)"],
+        "note": "Evolve Ledyba."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 2 (Morning)"],
+        "note": "Evolve Ledyba."
+      }
+    }
+  },
+  {
+    "id": 167,
+    "name": "Spinarak",
+    "types": ["Bug", "Poison"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 2, 30, 31, 37 (Night)"],
+        "note": ""
+      },
+      "silver": { "catchable": false, "note": "Trade from Gold/Crystal." },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 2, 30, 31, 36, 37 (Night)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 168,
+    "name": "Ariados",
+    "types": ["Bug", "Poison"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 2 (Night)"],
+        "note": "Evolve Spinarak."
+      },
+      "silver": {
+        "catchable": false,
+        "note": "Evolve Ariados. Trade from Gold/Crystal."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 2 (Night)"],
+        "note": "Evolve Spinarak."
+      }
+    }
+  },
+  {
+    "id": 169,
+    "name": "Crobat",
+    "types": ["Poison", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "note": "Evolve Golbat (High Friendship)."
+      },
+      "silver": {
+        "catchable": false,
+        "note": "Evolve Golbat (High Friendship)."
+      },
+      "crystal": {
+        "catchable": false,
+        "note": "Evolve Golbat (High Friendship)."
+      }
+    }
+  },
+  {
+    "id": 170,
+    "name": "Chinchou",
+    "types": ["Water", "Electric"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Routes 20, 21, 26, 27, 41",
+          "New Bark Town",
+          "Olivine City (Fish)"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Routes 20, 21, 26, 27, 41",
+          "New Bark Town",
+          "Olivine City (Fish)"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Routes 20, 21, 26, 27, 41",
+          "New Bark Town",
+          "Olivine City (Fish)"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 171,
+    "name": "Lanturn",
+    "types": ["Water", "Electric"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Routes 20, 21, 26, 27, 41 (Fish w/ Super Rod)"],
+        "note": "Evolve Chinchou."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Routes 20, 21, 26, 27, 41 (Fish w/ Super Rod)"],
+        "note": "Evolve Chinchou."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Routes 20, 21, 26, 27, 41 (Fish w/ Super Rod)"],
+        "note": "Evolve Chinchou."
+      }
+    }
+  },
+  {
+    "id": 172,
+    "name": "Pichu",
+    "types": ["Electric"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "note": "Breed Pikachu/Raichu. Odd Egg (Crystal)."
+      },
+      "silver": {
+        "catchable": false,
+        "note": "Breed Pikachu/Raichu. Odd Egg (Crystal)."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Odd Egg (14% chance)"],
+        "note": "Breed Pikachu/Raichu."
+      }
+    }
+  },
+  {
+    "id": 173,
+    "name": "Cleffa",
+    "types": ["Normal"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "note": "Breed Clefairy/Clefable. Odd Egg (Crystal)."
+      },
+      "silver": {
+        "catchable": false,
+        "note": "Breed Clefairy/Clefable. Odd Egg (Crystal)."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Odd Egg (20% chance)"],
+        "note": "Breed Clefairy/Clefable."
+      }
+    }
+  },
+  {
+    "id": 174,
+    "name": "Igglybuff",
+    "types": ["Normal"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "note": "Breed Jigglypuff/Wigglytuff. Odd Egg (Crystal)."
+      },
+      "silver": {
+        "catchable": false,
+        "note": "Breed Jigglypuff/Wigglytuff. Odd Egg (Crystal)."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Odd Egg (20% chance)"],
+        "note": "Breed Jigglypuff/Wigglytuff."
+      }
+    }
+  },
+  {
+    "id": 175,
+    "name": "Togepi",
+    "types": ["Normal"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Violet City (Egg from Elm's Aide)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Violet City (Egg from Elm's Aide)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Violet City (Egg from Elm's Aide)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 176,
+    "name": "Togetic",
+    "types": ["Normal", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "note": "Evolve Togepi (High Friendship)."
+      },
+      "silver": {
+        "catchable": false,
+        "note": "Evolve Togepi (High Friendship)."
+      },
+      "crystal": {
+        "catchable": false,
+        "note": "Evolve Togepi (High Friendship)."
+      }
+    }
+  },
+  {
+    "id": 177,
+    "name": "Natu",
+    "types": ["Psychic", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Ruins of Alph (Grass)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Ruins of Alph (Grass)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Ruins of Alph (Grass)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 178,
+    "name": "Xatu",
+    "types": ["Psychic", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Mt. Silver (Kanto - outside, rare)"],
+        "note": "Evolve Natu."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Mt. Silver (Kanto - outside, rare)"],
+        "note": "Evolve Natu."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Mt. Silver (Kanto - outside, rare)"],
+        "note": "Evolve Natu."
+      }
+    }
+  },
+  {
+    "id": 179,
+    "name": "Mareep",
+    "types": ["Electric"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 32, 42, 43"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 32, 42, 43"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 32, 42, 43"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 180,
+    "name": "Flaaffy",
+    "types": ["Electric"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 42, 43"],
+        "note": "Evolve Mareep."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 42, 43"],
+        "note": "Evolve Mareep."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 42, 43"],
+        "note": "Evolve Mareep."
+      }
+    }
+  },
+  {
+    "id": 181,
+    "name": "Ampharos",
+    "types": ["Electric"],
+    "availability": {
+      "gold": { "catchable": false, "note": "Evolve Flaaffy." },
+      "silver": { "catchable": false, "note": "Evolve Flaaffy." },
+      "crystal": { "catchable": false, "note": "Evolve Flaaffy." }
+    }
+  },
+  {
+    "id": 182,
+    "name": "Bellossom",
+    "types": ["Grass"],
+    "availability": {
+      "gold": { "catchable": false, "note": "Evolve Gloom (Sun Stone)." },
+      "silver": { "catchable": false, "note": "Evolve Gloom (Sun Stone)." },
+      "crystal": { "catchable": false, "note": "Evolve Gloom (Sun Stone)." }
+    }
+  },
+  {
+    "id": 183,
+    "name": "Marill",
+    "types": ["Water"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Mt. Mortar (requires Surf, Waterfall)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Mt. Mortar (requires Surf, Waterfall)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Mt. Mortar (requires Surf, Waterfall)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 184,
+    "name": "Azumarill",
+    "types": ["Water"],
+    "availability": {
+      "gold": { "catchable": false, "note": "Evolve Marill." },
+      "silver": { "catchable": false, "note": "Evolve Marill." },
+      "crystal": { "catchable": false, "note": "Evolve Marill." }
+    }
+  },
+  {
+    "id": 185,
+    "name": "Sudowoodo",
+    "types": ["Rock"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 36 (use SquirtBottle)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 36 (use SquirtBottle)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 36 (use SquirtBottle)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 186,
+    "name": "Politoed",
+    "types": ["Water"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "note": "Evolve Poliwhirl (Trade holding King's Rock)."
+      },
+      "silver": {
+        "catchable": false,
+        "note": "Evolve Poliwhirl (Trade holding King's Rock)."
+      },
+      "crystal": {
+        "catchable": false,
+        "note": "Evolve Poliwhirl (Trade holding King's Rock)."
+      }
+    }
+  },
+  {
+    "id": 187,
+    "name": "Hoppip",
+    "types": ["Grass", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Routes 13, 14, 15, 32, 33 (Morning/Day)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Routes 13, 14, 15, 32, 33 (Morning/Day)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Routes 13, 14, 15, 32, 33 (Morning/Day)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 188,
+    "name": "Skiploom",
+    "types": ["Grass", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 14 (Morning/Day)"],
+        "note": "Evolve Hoppip."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 14 (Morning/Day)"],
+        "note": "Evolve Hoppip."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 14 (Morning/Day)"],
+        "note": "Evolve Hoppip."
+      }
+    }
+  },
+  {
+    "id": 189,
+    "name": "Jumpluff",
+    "types": ["Grass", "Flying"],
+    "availability": {
+      "gold": { "catchable": false, "note": "Evolve Skiploom." },
+      "silver": { "catchable": false, "note": "Evolve Skiploom." },
+      "crystal": { "catchable": false, "note": "Evolve Skiploom." }
+    }
+  },
+  {
+    "id": 190,
+    "name": "Aipom",
+    "types": ["Normal"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Headbutt trees (Mountain Routes e.g. 29-33, 42-46)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Headbutt trees (Mountain Routes e.g. 29-33, 42-46)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Headbutt trees (Mountain Routes e.g. 29-33, 42-46)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 191,
+    "name": "Sunkern",
+    "types": ["Grass"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 24 (Kanto - Morning/Day)",
+          "National Park (Morning/Day)"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 24 (Kanto - Morning/Day)",
+          "National Park (Morning/Day)"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 24 (Kanto - Morning/Day)",
+          "National Park (Morning/Day)"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 192,
+    "name": "Sunflora",
+    "types": ["Grass"],
+    "availability": {
+      "gold": { "catchable": false, "note": "Evolve Sunkern (Sun Stone)." },
+      "silver": { "catchable": false, "note": "Evolve Sunkern (Sun Stone)." },
+      "crystal": { "catchable": false, "note": "Evolve Sunkern (Sun Stone)." }
+    }
+  },
+  {
+    "id": 193,
+    "name": "Yanma",
+    "types": ["Bug", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 35 (rare)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 35 (rare)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 35 (rare)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 194,
+    "name": "Wooper",
+    "types": ["Water", "Ground"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 32", "Union Cave (Surf)", "Ruins of Alph (Surf)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 32", "Union Cave (Surf)", "Ruins of Alph (Surf)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 32", "Union Cave (Surf)", "Ruins of Alph (Surf)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 195,
+    "name": "Quagsire",
+    "types": ["Water", "Ground"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Routes 10, 12, 13, 14, 15, 26, 27, 32",
+          "Union Cave (Surf)",
+          "Ruins of Alph (Surf)",
+          "Mt. Silver Cave (Surf)"
+        ],
+        "note": "Evolve Wooper."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Routes 10, 12, 13, 14, 15, 26, 27, 32",
+          "Union Cave (Surf)",
+          "Ruins of Alph (Surf)",
+          "Mt. Silver Cave (Surf)"
+        ],
+        "note": "Evolve Wooper."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Routes 10, 12, 13, 14, 15, 26, 27, 32",
+          "Union Cave (Surf)",
+          "Ruins of Alph (Surf)",
+          "Mt. Silver Cave (Surf)"
+        ],
+        "note": "Evolve Wooper."
+      }
+    }
+  },
+  {
+    "id": 196,
+    "name": "Espeon",
+    "types": ["Psychic"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "note": "Evolve Eevee (High Friendship, Daytime)."
+      },
+      "silver": {
+        "catchable": false,
+        "note": "Evolve Eevee (High Friendship, Daytime)."
+      },
+      "crystal": {
+        "catchable": false,
+        "note": "Evolve Eevee (High Friendship, Daytime)."
+      }
+    }
+  },
+  {
+    "id": 197,
+    "name": "Umbreon",
+    "types": ["Dark"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "note": "Evolve Eevee (High Friendship, Nighttime)."
+      },
+      "silver": {
+        "catchable": false,
+        "note": "Evolve Eevee (High Friendship, Nighttime)."
+      },
+      "crystal": {
+        "catchable": false,
+        "note": "Evolve Eevee (High Friendship, Nighttime)."
+      }
+    }
+  },
+  {
+    "id": 198,
+    "name": "Murkrow",
+    "types": ["Dark", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Routes 7, 16 (Night - Kanto)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Routes 7, 16 (Night - Kanto)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Routes 7, 16 (Night - Kanto)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 199,
+    "name": "Slowking",
+    "types": ["Water", "Psychic"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "note": "Evolve Slowpoke (Trade holding King's Rock)."
+      },
+      "silver": {
+        "catchable": false,
+        "note": "Evolve Slowpoke (Trade holding King's Rock)."
+      },
+      "crystal": {
+        "catchable": false,
+        "note": "Evolve Slowpoke (Trade holding King's Rock)."
+      }
+    }
+  },
+  {
+    "id": 200,
+    "name": "Misdreavus",
+    "types": ["Ghost"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Mt. Silver Cave (Night - Kanto, rare)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Mt. Silver Cave (Night - Kanto, rare)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Mt. Silver Cave (Night - Kanto, rare)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 201,
+    "name": "Unown",
+    "types": ["Psychic"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Ruins of Alph (after puzzles)"],
+        "note": "Many forms."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Ruins of Alph (after puzzles)"],
+        "note": "Many forms."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Ruins of Alph (after puzzles)"],
+        "note": "Many forms."
+      }
+    }
+  },
+  {
+    "id": 202,
+    "name": "Wobbuffet",
+    "types": ["Psychic"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Dark Cave (Blackthorn side, rare)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Dark Cave (Blackthorn side, rare)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Dark Cave (Blackthorn side, rare)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 203,
+    "name": "Girafarig",
+    "types": ["Normal", "Psychic"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 43", "Lake of Rage (Grass)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 43", "Lake of Rage (Grass)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 43", "Lake of Rage (Grass)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 204,
+    "name": "Pineco",
+    "types": ["Bug"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Headbutt trees (Forest Areas)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Headbutt trees (Forest Areas)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Headbutt trees (Forest Areas)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 205,
+    "name": "Forretress",
+    "types": ["Bug", "Steel"],
+    "availability": {
+      "gold": { "catchable": false, "note": "Evolve Pineco." },
+      "silver": { "catchable": false, "note": "Evolve Pineco." },
+      "crystal": { "catchable": false, "note": "Evolve Pineco." }
+    }
+  },
+  {
+    "id": 206,
+    "name": "Dunsparce",
+    "types": ["Normal"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Dark Cave (Route 31 side, very rare)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Dark Cave (Route 31 side, very rare)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Dark Cave (Route 31 side, very rare)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 207,
+    "name": "Gligar",
+    "types": ["Ground", "Flying"],
+    "availability": {
+      "gold": { "catchable": true, "locations": ["Route 45"], "note": "" },
+      "silver": { "catchable": false, "note": "Trade from Gold/Crystal." },
+      "crystal": { "catchable": true, "locations": ["Route 45"], "note": "" }
+    }
+  },
+  {
+    "id": 208,
+    "name": "Steelix",
+    "types": ["Steel", "Ground"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "note": "Evolve Onix (Trade holding Metal Coat)."
+      },
+      "silver": {
+        "catchable": false,
+        "note": "Evolve Onix (Trade holding Metal Coat)."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Mt. Silver Cave (rare)"],
+        "note": "Evolve Onix (Trade holding Metal Coat)."
+      }
+    }
+  },
+  {
+    "id": 209,
+    "name": "Snubbull",
+    "types": ["Normal"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 38 (rare)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 38 (rare)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 38 (rare)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 210,
+    "name": "Granbull",
+    "types": ["Normal"],
+    "availability": {
+      "gold": { "catchable": false, "note": "Evolve Snubbull." },
+      "silver": { "catchable": false, "note": "Evolve Snubbull." },
+      "crystal": { "catchable": false, "note": "Evolve Snubbull." }
+    }
+  },
+  {
+    "id": 211,
+    "name": "Qwilfish",
+    "types": ["Water", "Poison"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Routes 12, 13, 32 (Fish w/ Super Rod)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Routes 12, 13, 32 (Fish w/ Super Rod)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Routes 12, 13, 32 (Fish w/ Super Rod)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 212,
+    "name": "Scizor",
+    "types": ["Bug", "Steel"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "note": "Evolve Scyther (Trade holding Metal Coat)."
+      },
+      "silver": {
+        "catchable": false,
+        "note": "Evolve Scyther (Trade holding Metal Coat)."
+      },
+      "crystal": {
+        "catchable": false,
+        "note": "Evolve Scyther (Trade holding Metal Coat)."
+      }
+    }
+  },
+  {
+    "id": 213,
+    "name": "Shuckle",
+    "types": ["Bug", "Rock"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Cianwood City (Rock Smash/Gift)",
+          "Vermilion City (Rock Smash - Kanto)"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Cianwood City (Rock Smash/Gift)",
+          "Vermilion City (Rock Smash - Kanto)"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Cianwood City (Rock Smash/Gift)",
+          "Vermilion City (Rock Smash - Kanto)"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 214,
+    "name": "Heracross",
+    "types": ["Bug", "Fighting"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Headbutt trees (Mountain Routes - rare)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Headbutt trees (Mountain Routes - rare)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Headbutt trees (Mountain Routes - rare)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 215,
+    "name": "Sneasel",
+    "types": ["Dark", "Ice"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 28 (Night)", "Mt. Silver Cave (Night - Kanto)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 28 (Night)", "Mt. Silver Cave (Night - Kanto)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 28 (Night)", "Mt. Silver Cave (Night - Kanto)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 216,
+    "name": "Teddiursa",
+    "types": ["Normal"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 45 (Morning)",
+          "Dark Cave (Route 45 side, Morning)"
+        ],
+        "note": ""
+      },
+      "silver": { "catchable": false, "note": "Trade from Gold/Crystal." },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 45 (Morning)",
+          "Dark Cave (Route 45 side, Morning)",
+          "Mt. Silver"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 217,
+    "name": "Ursaring",
+    "types": ["Normal"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Route 28 (Morning)",
+          "Mt. Silver Cave (Morning)",
+          "Victory Road (Morning)"
+        ],
+        "note": "Evolve Teddiursa."
+      },
+      "silver": {
+        "catchable": false,
+        "note": "Evolve Teddiursa. Trade from Gold/Crystal."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 28 (Morning)",
+          "Mt. Silver Cave (Morning)",
+          "Victory Road (Morning)"
+        ],
+        "note": "Evolve Teddiursa."
+      }
+    }
+  },
+  {
+    "id": 218,
+    "name": "Slugma",
+    "types": ["Fire"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Routes 16, 17, 18 (Kanto)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Routes 16, 17, 18 (Kanto)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Routes 16, 17, 18 (Kanto)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 219,
+    "name": "Magcargo",
+    "types": ["Fire", "Rock"],
+    "availability": {
+      "gold": { "catchable": false, "note": "Evolve Slugma." },
+      "silver": { "catchable": false, "note": "Evolve Slugma." },
+      "crystal": { "catchable": false, "note": "Evolve Slugma." }
+    }
+  },
+  {
+    "id": 220,
+    "name": "Swinub",
+    "types": ["Ice", "Ground"],
+    "availability": {
+      "gold": { "catchable": true, "locations": ["Ice Path"], "note": "" },
+      "silver": { "catchable": true, "locations": ["Ice Path"], "note": "" },
+      "crystal": { "catchable": true, "locations": ["Ice Path"], "note": "" }
+    }
+  },
+  {
+    "id": 221,
+    "name": "Piloswine",
+    "types": ["Ice", "Ground"],
+    "availability": {
+      "gold": { "catchable": false, "note": "Evolve Swinub." },
+      "silver": { "catchable": false, "note": "Evolve Swinub." },
+      "crystal": { "catchable": false, "note": "Evolve Swinub." }
+    }
+  },
+  {
+    "id": 222,
+    "name": "Corsola",
+    "types": ["Water", "Rock"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Routes 19, 34, 40 (Morning/Day - Fish)",
+          "Cherrygrove City",
+          "Cianwood City",
+          "Olivine City (Fish)"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Routes 19, 34, 40 (Morning/Day - Fish)",
+          "Cherrygrove City",
+          "Cianwood City",
+          "Olivine City (Fish)"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Routes 19, 34, 40 (Morning/Day - Fish)",
+          "Cherrygrove City",
+          "Cianwood City",
+          "Olivine City (Fish)"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 223,
+    "name": "Remoraid",
+    "types": ["Water"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 44 (Fish w/ Good/Super Rod)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 44 (Fish w/ Good/Super Rod)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 44 (Fish w/ Good/Super Rod)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 224,
+    "name": "Octillery",
+    "types": ["Water"],
+    "availability": {
+      "gold": { "catchable": false, "note": "Evolve Remoraid." },
+      "silver": { "catchable": false, "note": "Evolve Remoraid." },
+      "crystal": { "catchable": false, "note": "Evolve Remoraid." }
+    }
+  },
+  {
+    "id": 225,
+    "name": "Delibird",
+    "types": ["Ice", "Flying"],
+    "availability": {
+      "gold": { "catchable": false, "note": "Trade from Silver/Crystal." },
+      "silver": { "catchable": true, "locations": ["Ice Path"], "note": "" },
+      "crystal": { "catchable": true, "locations": ["Ice Path"], "note": "" }
+    }
+  },
+  {
+    "id": 226,
+    "name": "Mantine",
+    "types": ["Water", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 41 (Surf)"],
+        "note": ""
+      },
+      "silver": { "catchable": false, "note": "Trade from Gold/Crystal." },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 41 (Surf)"],
+        "note": "More common in Crystal."
+      }
+    }
+  },
+  {
+    "id": 227,
+    "name": "Skarmory",
+    "types": ["Steel", "Flying"],
+    "availability": {
+      "gold": { "catchable": false, "note": "Trade from Silver/Crystal." },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 45", "Mt. Silver (outside)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 45", "Mt. Silver (outside)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 228,
+    "name": "Houndour",
+    "types": ["Dark", "Fire"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Route 7 (Night - Kanto)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Route 7 (Night - Kanto)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Route 7 (Night - Kanto)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 229,
+    "name": "Houndoom",
+    "types": ["Dark", "Fire"],
+    "availability": {
+      "gold": { "catchable": false, "note": "Evolve Houndour." },
+      "silver": { "catchable": false, "note": "Evolve Houndour." },
+      "crystal": { "catchable": false, "note": "Evolve Houndour." }
+    }
+  },
+  {
+    "id": 230,
+    "name": "Kingdra",
+    "types": ["Water", "Dragon"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "note": "Evolve Seadra (Trade holding Dragon Scale)."
+      },
+      "silver": {
+        "catchable": false,
+        "note": "Evolve Seadra (Trade holding Dragon Scale)."
+      },
+      "crystal": {
+        "catchable": false,
+        "note": "Evolve Seadra (Trade holding Dragon Scale)."
+      }
+    }
+  },
+  {
+    "id": 231,
+    "name": "Phanpy",
+    "types": ["Ground"],
+    "availability": {
+      "gold": { "catchable": false, "note": "Trade from Silver/Crystal." },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 45 (Morning)",
+          "Dark Cave (Route 45 side, Morning)"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 45 (Morning)",
+          "Dark Cave (Route 45 side, Morning)",
+          "Mt. Silver"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 232,
+    "name": "Donphan",
+    "types": ["Ground"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "note": "Evolve Phanpy. Trade from Silver/Crystal."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Route 28 (Morning)",
+          "Mt. Silver Cave (Morning)",
+          "Victory Road (Morning)"
+        ],
+        "note": "Evolve Phanpy."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Route 28 (Morning)",
+          "Mt. Silver Cave (Morning)",
+          "Victory Road (Morning)"
+        ],
+        "note": "Evolve Phanpy."
+      }
+    }
+  },
+  {
+    "id": 233,
+    "name": "Porygon2",
+    "types": ["Normal"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "note": "Evolve Porygon (Trade holding Up-Grade)."
+      },
+      "silver": {
+        "catchable": false,
+        "note": "Evolve Porygon (Trade holding Up-Grade)."
+      },
+      "crystal": {
+        "catchable": false,
+        "note": "Evolve Porygon (Trade holding Up-Grade)."
+      }
+    }
+  },
+  {
+    "id": 234,
+    "name": "Stantler",
+    "types": ["Normal"],
+    "availability": {
+      "gold": { "catchable": true, "locations": ["Routes 36, 37"], "note": "" },
+      "silver": {
+        "catchable": true,
+        "locations": ["Routes 36, 37"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Routes 36, 37"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 235,
+    "name": "Smeargle",
+    "types": ["Normal"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Ruins of Alph (Grass - rare)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Ruins of Alph (Grass - rare)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Ruins of Alph (Grass - rare)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 236,
+    "name": "Tyrogue",
+    "types": ["Fighting"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Mt. Mortar (Gift from Kiyo)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Mt. Mortar (Gift from Kiyo)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Mt. Mortar (Gift from Kiyo)", "Odd Egg (14% chance)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 237,
+    "name": "Hitmontop",
+    "types": ["Fighting"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "note": "Evolve Tyrogue (Atk = Def at Lv. 20)."
+      },
+      "silver": {
+        "catchable": false,
+        "note": "Evolve Tyrogue (Atk = Def at Lv. 20)."
+      },
+      "crystal": {
+        "catchable": false,
+        "note": "Evolve Tyrogue (Atk = Def at Lv. 20)."
+      }
+    }
+  },
+  {
+    "id": 238,
+    "name": "Smoochum",
+    "types": ["Ice", "Psychic"],
+    "availability": {
+      "gold": { "catchable": false, "note": "Breed Jynx. Odd Egg (Crystal)." },
+      "silver": {
+        "catchable": false,
+        "note": "Breed Jynx. Odd Egg (Crystal)."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Odd Egg (14% chance)"],
+        "note": "Breed Jynx."
+      }
+    }
+  },
+  {
+    "id": 239,
+    "name": "Elekid",
+    "types": ["Electric"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "note": "Breed Electabuzz. Odd Egg (Crystal)."
+      },
+      "silver": {
+        "catchable": false,
+        "note": "Breed Electabuzz. Odd Egg (Crystal)."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Odd Egg (14% chance)"],
+        "note": "Breed Electabuzz."
+      }
+    }
+  },
+  {
+    "id": 240,
+    "name": "Magby",
+    "types": ["Fire"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "note": "Breed Magmar. Odd Egg (Crystal)."
+      },
+      "silver": {
+        "catchable": false,
+        "note": "Breed Magmar. Odd Egg (Crystal)."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Odd Egg (14% chance)"],
+        "note": "Breed Magmar."
+      }
+    }
+  },
+  {
+    "id": 241,
+    "name": "Miltank",
+    "types": ["Normal"],
+    "availability": {
+      "gold": { "catchable": true, "locations": ["Routes 38, 39"], "note": "" },
+      "silver": {
+        "catchable": true,
+        "locations": ["Routes 38, 39"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Routes 38, 39"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 242,
+    "name": "Blissey",
+    "types": ["Normal"],
+    "availability": {
+      "gold": {
+        "catchable": false,
+        "note": "Evolve Chansey (High Friendship)."
+      },
+      "silver": {
+        "catchable": false,
+        "note": "Evolve Chansey (High Friendship)."
+      },
+      "crystal": {
+        "catchable": false,
+        "note": "Evolve Chansey (High Friendship)."
+      }
+    }
+  },
+  {
+    "id": 243,
+    "name": "Raikou",
+    "types": ["Electric"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Roaming Johto (after Burned Tower)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Roaming Johto (after Burned Tower)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Roaming Johto (after Burned Tower)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 244,
+    "name": "Entei",
+    "types": ["Fire"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Roaming Johto (after Burned Tower)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Roaming Johto (after Burned Tower)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Roaming Johto (after Burned Tower)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 245,
+    "name": "Suicune",
+    "types": ["Water"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Roaming Johto (after Burned Tower), Tin Tower (eventually)"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Roaming Johto (after Burned Tower), Tin Tower (eventually)"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Fixed encounters, Tin Tower (eventually)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 246,
+    "name": "Larvitar",
+    "types": ["Rock", "Ground"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Mt. Silver Cave (rare)"],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Mt. Silver Cave (rare)"],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Mt. Silver Cave (rare)",
+          "Goldenrod Game Corner (Celadon in JP)"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 247,
+    "name": "Pupitar",
+    "types": ["Rock", "Ground"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": ["Mt. Silver Cave (very rare)"],
+        "note": "Evolve Larvitar."
+      },
+      "silver": {
+        "catchable": true,
+        "locations": ["Mt. Silver Cave (very rare)"],
+        "note": "Evolve Larvitar."
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Mt. Silver Cave (very rare)"],
+        "note": "Evolve Larvitar."
+      }
+    }
+  },
+  {
+    "id": 248,
+    "name": "Tyranitar",
+    "types": ["Rock", "Dark"],
+    "availability": {
+      "gold": { "catchable": false, "note": "Evolve Pupitar." },
+      "silver": { "catchable": false, "note": "Evolve Pupitar." },
+      "crystal": { "catchable": false, "note": "Evolve Pupitar." }
+    }
+  },
+  {
+    "id": 249,
+    "name": "Lugia",
+    "types": ["Psychic", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Whirl Islands (L70, requires Silver Wing from Pewter City)"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Whirl Islands (L40, requires Silver Wing from Radio Tower)"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Whirl Islands (L60, requires Silver Wing)"],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 250,
+    "name": "Ho-Oh",
+    "types": ["Fire", "Flying"],
+    "availability": {
+      "gold": {
+        "catchable": true,
+        "locations": [
+          "Tin Tower (L40, requires Rainbow Wing from Radio Tower)"
+        ],
+        "note": ""
+      },
+      "silver": {
+        "catchable": true,
+        "locations": [
+          "Tin Tower (L70, requires Rainbow Wing from Pewter City)"
+        ],
+        "note": ""
+      },
+      "crystal": {
+        "catchable": true,
+        "locations": [
+          "Tin Tower (L60, requires Rainbow Wing after E4 & Beasts)"
+        ],
+        "note": ""
+      }
+    }
+  },
+  {
+    "id": 251,
+    "name": "Celebi",
+    "types": ["Psychic", "Grass"],
+    "availability": {
+      "gold": { "catchable": false, "note": "Event only (originally)." },
+      "silver": { "catchable": false, "note": "Event only (originally)." },
+      "crystal": {
+        "catchable": true,
+        "locations": ["Ilex Forest Shrine (GS Ball Event - VC only)"],
+        "note": "Event only (originally)."
+      }
+    }
+  }
+]
