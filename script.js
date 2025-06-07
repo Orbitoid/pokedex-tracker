@@ -14,6 +14,7 @@ let modal, modalPokemonName, modalPokemonSprite, modalCatchInfo, modalAvailabili
 let areaGameSelector, areaSelector, areaPokemonGrid;
 let tradeMyGameSelector, tradePartnerGameSelector, findTradesButton, canReceiveTradesList, canSendTradesList, tradeResultsPlaceholder;
 let tabButtons, tabContents;
+let loginButton, logoutButton, userInfo;
 
 // --- UTILITY FUNCTIONS for Pokemon Data Processing ---
 function processPokemonData(rawData) {
@@ -131,6 +132,10 @@ async function initializeApp() {
     canReceiveTradesList = document.getElementById('canReceiveTradesList');
     canSendTradesList = document.getElementById('canSendTradesList');
     tradeResultsPlaceholder = document.getElementById('tradeResultsPlaceholder');
+
+    loginButton = document.getElementById('loginButton');
+    logoutButton = document.getElementById('logoutButton');
+    userInfo = document.getElementById('userInfo');
 
     tabButtons = document.querySelectorAll('.tab-button');
     tabContents = document.querySelectorAll('.tab-content');
@@ -610,7 +615,27 @@ async function executeTradeSearch() {
 }
 
 // --- STARTUP ---
-document.addEventListener('DOMContentLoaded', initializeApp);
+async function checkAuth() {
+    loginButton.onclick = () => { window.location.href = '/auth/google'; };
+    logoutButton.onclick = () => { window.location.href = '/logout'; };
+    try {
+        const res = await fetch('/auth/user');
+        if (res.ok) {
+            const user = await res.json();
+            userInfo.textContent = `Logged in as ${user.displayName}`;
+            loginButton.classList.add('hidden');
+            logoutButton.classList.remove('hidden');
+            await initializeApp();
+        } else {
+            loginButton.classList.remove('hidden');
+            logoutButton.classList.add('hidden');
+        }
+    } catch (err) {
+        loginButton.classList.remove('hidden');
+    }
+}
+
+document.addEventListener('DOMContentLoaded', checkAuth);
 
 window.onclick = (event) => {
     if (modal && event.target == modal) {
