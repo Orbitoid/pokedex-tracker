@@ -1,14 +1,19 @@
 const request = require('supertest');
 const fs = require('fs');
 const path = require('path');
+process.env.BYPASS_AUTH_FOR_TESTS = 'true';
 const app = require('../app');
 
-const savePath = path.join(__dirname, '..', 'save-data', 'caught-red.json');
+const savePath = path.join(__dirname, '..', 'save-data', 'guest', 'caught-red.json');
 
 describe('server routes', () => {
   afterAll(() => {
     if (fs.existsSync(savePath)) {
       fs.unlinkSync(savePath);
+      const dir = path.dirname(savePath);
+      if (fs.existsSync(dir) && fs.readdirSync(dir).length === 0) {
+        fs.rmdirSync(dir);
+      }
     }
   });
 

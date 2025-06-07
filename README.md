@@ -21,7 +21,20 @@ The server uses the `PORT` environment variable (default `3000`). You can place 
 ## Data Files
 
 - `pokemon-data-gen1.json` and `pokemon-data-gen2.json` contain Pokédex information for Generations 1 and 2.
-- Progress is saved under `save-data/` in files named `caught-<game>.json`. An example file is included as `example_caught.json`.
+- Progress is saved under `save-data/<USER_ID>/caught-<game>.json` where `<USER_ID>` is the unique Google account id. An example file is included as `example_caught.json`.
+
+## Authentication
+
+This app uses Google OAuth for login via [Passport](https://www.passportjs.org/). To run locally you will need to create a Google OAuth client and provide these variables in your `.env` file:
+
+```bash
+GOOGLE_CLIENT_ID=your-id
+GOOGLE_CLIENT_SECRET=your-secret
+GOOGLE_CALLBACK_URL=http://localhost:3000/auth/google/callback
+SESSION_SECRET=some_random_string
+```
+
+Once configured, start the server and click "Login with Google" on the homepage.
 
 ## Docker
 
