@@ -2,3 +2,4 @@
 node_modules
 caught.json
 save-data/*.json
+pnpm-lock.yaml
