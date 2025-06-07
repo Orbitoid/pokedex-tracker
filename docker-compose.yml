@@ -15,3 +15,5 @@ services:
     # Optionally, volume-mount your caught.json so changes persist outside the container
     volumes:
       - ./save-data/:/app/save-data/
+    # Restart policy to always restart the container unless stopped manually
+    restart: unless-stopped
