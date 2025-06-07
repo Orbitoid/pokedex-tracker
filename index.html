@@ -107,11 +107,28 @@
         .type-rock { background-color: #B8A038; color: white; } .type-steel { background-color: #B8B8D0; color: black; }
         .type-ice { background-color: #98D8D8; color: black; } .type-ghost { background-color: #705898; color: white; }
         .type-dragon { background-color: #7038F8; color: white; } .type-dark { background-color: #705848; color: white; }
+
+        #splashScreen {
+            position: fixed; left: 0; top: 0; width: 100%; height: 100%;
+            background-color: #f3f4f6; display: flex; flex-direction: column;
+            align-items: center; justify-content: center; z-index: 2000;
+        }
+        #splashScreen.hidden { display: none; }
     </style>
 </head>
 <body class="p-4 md:p-8">
 
-    <div class="container mx-auto">
+    <div id="splashScreen">
+        <!-- Use a freely available Unsplash image to avoid bundling binaries -->
+        <img src="https://source.unsplash.com/featured/400x200?pokemon" alt="MonDex Tracker" class="w-64 mb-6 mx-auto">
+        <div class="bg-white p-4 rounded shadow-md">
+            <label class="block mb-2 text-gray-700" for="usernameInput">Enter your name to continue</label>
+            <input id="usernameInput" class="form-input mb-4" type="text" placeholder="Trainer name">
+            <button id="enterButton" class="bg-blue-500 text-white px-4 py-2 rounded">Enter</button>
+        </div>
+    </div>
+
+    <div id="mainContent" class="container mx-auto" style="display:none;">
         <header class="text-center mb-6">
             <h1 class="text-4xl font-bold text-gray-800">Advanced Pokédex Tracker</h1>
             <div class="mt-2">
