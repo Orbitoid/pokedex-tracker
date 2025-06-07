@@ -616,6 +616,9 @@ async function executeTradeSearch() {
 
 // --- STARTUP ---
 async function checkAuth() {
+    loginButton = document.getElementById('loginButton');
+    logoutButton = document.getElementById('logoutButton');
+    userInfo = document.getElementById('userInfo');
     loginButton.onclick = () => { window.location.href = '/auth/google'; };
     logoutButton.onclick = () => { window.location.href = '/logout'; };
     try {
