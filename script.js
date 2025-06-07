@@ -610,7 +610,32 @@ async function executeTradeSearch() {
 }
 
 // --- STARTUP ---
-document.addEventListener('DOMContentLoaded', initializeApp);
+function handleSplashScreen() {
+    const splash = document.getElementById('splashScreen');
+    const main = document.getElementById('mainContent');
+    const input = document.getElementById('usernameInput');
+    const button = document.getElementById('enterButton');
+
+    function enterApp() {
+        const name = input.value.trim();
+        if (!name) return;
+        localStorage.setItem('trainerName', name);
+        if (splash) splash.classList.add('hidden');
+        if (main) main.style.display = 'block';
+        initializeApp();
+    }
+
+    const existing = localStorage.getItem('trainerName');
+    if (existing) {
+        if (splash) splash.classList.add('hidden');
+        if (main) main.style.display = 'block';
+        initializeApp();
+    } else {
+        if (button) button.addEventListener('click', enterApp);
+    }
+}
+
+document.addEventListener('DOMContentLoaded', handleSplashScreen);
 
 window.onclick = (event) => {
     if (modal && event.target == modal) {
