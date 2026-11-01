@@ -4445,12 +4445,12 @@
       "firered": {
         "catchable": false,
         "locations": [],
-        "note": "Event only (Aurora Ticket → Birth Island, Emerald/FireRed/LeafGreen)."
+        "note": "Birth Island with the Aurora Ticket: given automatically after the Hall of Fame on the Switch release; event only on GBA."
       },
       "leafgreen": {
         "catchable": false,
         "locations": [],
-        "note": "Event only (Aurora Ticket → Birth Island, Emerald/FireRed/LeafGreen)."
+        "note": "Birth Island with the Aurora Ticket: given automatically after the Hall of Fame on the Switch release; event only on GBA."
       }
     }
   }

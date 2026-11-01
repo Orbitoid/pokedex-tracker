@@ -51,6 +51,19 @@ describe('server routes', () => {
     expect(res.status).toBe(200);
   });
 
+  test('glitch methods only cover Pokémon that are not normally catchable', async () => {
+    const res = await request(app).get('/glitch-methods.json');
+    expect(res.status).toBe(200);
+    const files = ['pokemon-data-gen1.json', 'pokemon-data-gen2.json', 'pokemon-data-gen3.json'];
+    const byId = Object.fromEntries(files.flatMap(file => JSON.parse(fs.readFileSync(path.join(__dirname, '..', file), 'utf8'))).map(p => [p.id, p]));
+    for (const [game, entries] of Object.entries(res.body.games)) {
+      for (const [id, entry] of Object.entries(entries)) {
+        expect(res.body.methods[entry.method]).toBeDefined();
+        expect(byId[id].availability[game].catchable).toBe(false);
+      }
+    }
+  });
+
   test('every Pokémon has availability for all Gen III games', async () => {
     const files = ['pokemon-data-gen1.json', 'pokemon-data-gen2.json', 'pokemon-data-gen3.json'];
     const all = files.flatMap(file => JSON.parse(fs.readFileSync(path.join(__dirname, '..', file), 'utf8')));

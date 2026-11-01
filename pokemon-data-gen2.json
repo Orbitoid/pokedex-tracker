@@ -4366,27 +4366,27 @@
       "ruby": {
         "catchable": false,
         "locations": [],
-        "note": "Event only (Mystic Ticket → Navel Rock, Emerald/FireRed/LeafGreen)."
+        "note": "Trade from XD (Shadow Lugia). Otherwise event only (Mystic Ticket → Navel Rock)."
       },
       "sapphire": {
         "catchable": false,
         "locations": [],
-        "note": "Event only (Mystic Ticket → Navel Rock, Emerald/FireRed/LeafGreen)."
+        "note": "Trade from XD (Shadow Lugia). Otherwise event only (Mystic Ticket → Navel Rock)."
       },
       "emerald": {
         "catchable": false,
         "locations": [],
-        "note": "Event only (Mystic Ticket → Navel Rock, Emerald/FireRed/LeafGreen)."
+        "note": "Trade from XD (Shadow Lugia). Otherwise event only (Mystic Ticket → Navel Rock)."
       },
       "firered": {
         "catchable": false,
         "locations": [],
-        "note": "Event only (Mystic Ticket → Navel Rock)."
+        "note": "Navel Rock with the Mystic Ticket: given automatically after the Hall of Fame on the Switch release; event only on GBA. Or trade from XD (Shadow Lugia)."
       },
       "leafgreen": {
         "catchable": false,
         "locations": [],
-        "note": "Event only (Mystic Ticket → Navel Rock)."
+        "note": "Navel Rock with the Mystic Ticket: given automatically after the Hall of Fame on the Switch release; event only on GBA. Or trade from XD (Shadow Lugia)."
       },
       "gold": {
         "catchable": true,
@@ -4417,27 +4417,27 @@
       "ruby": {
         "catchable": false,
         "locations": [],
-        "note": "Event only (Mystic Ticket → Navel Rock, Emerald/FireRed/LeafGreen)."
+        "note": "Trade from Colosseum (gift after 100 Mt. Battle wins). Otherwise event only (Mystic Ticket → Navel Rock)."
       },
       "sapphire": {
         "catchable": false,
         "locations": [],
-        "note": "Event only (Mystic Ticket → Navel Rock, Emerald/FireRed/LeafGreen)."
+        "note": "Trade from Colosseum (gift after 100 Mt. Battle wins). Otherwise event only (Mystic Ticket → Navel Rock)."
       },
       "emerald": {
         "catchable": false,
         "locations": [],
-        "note": "Event only (Mystic Ticket → Navel Rock, Emerald/FireRed/LeafGreen)."
+        "note": "Trade from Colosseum (gift after 100 Mt. Battle wins). Otherwise event only (Mystic Ticket → Navel Rock)."
       },
       "firered": {
         "catchable": false,
         "locations": [],
-        "note": "Event only (Mystic Ticket → Navel Rock)."
+        "note": "Navel Rock with the Mystic Ticket: given automatically after the Hall of Fame on the Switch release; event only on GBA. Or trade from Colosseum (gift after 100 Mt. Battle wins)."
       },
       "leafgreen": {
         "catchable": false,
         "locations": [],
-        "note": "Event only (Mystic Ticket → Navel Rock)."
+        "note": "Navel Rock with the Mystic Ticket: given automatically after the Hall of Fame on the Switch release; event only on GBA. Or trade from Colosseum (gift after 100 Mt. Battle wins)."
       },
       "gold": {
         "catchable": true,

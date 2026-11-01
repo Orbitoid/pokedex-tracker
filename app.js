@@ -55,6 +55,9 @@ app.get("/pokemon-data-gen2.json", (req, res) => {
 app.get("/pokemon-data-gen3.json", (req, res) => {
     res.sendFile(path.join(__dirname, "pokemon-data-gen3.json"));
 });
+app.get("/glitch-methods.json", (req, res) => {
+    res.sendFile(path.join(__dirname, "glitch-methods.json"));
+});
 
 // Authentication routes
 app.get('/auth/google', passport.authenticate('google', { scope: ['profile'] }));

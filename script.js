@@ -27,6 +27,7 @@ let pokemonData = []; // Combined list of all Pokémon
 let caughtDataForCurrentGame = {}; // { pokemonId: true/false } for the selected game
 let allLoadedCaughtData = {}; // Cache for all games' caught data: { gameName: { pokemonId: true/false } }
 let allGameLocations = {}; // Cache for game locations: { gameName: ["Area1", "Area2"] }
+let glitchMethods = { methods: {}, games: {} }; // From glitch-methods.json
 
 // --- DOM Elements (initialized in initializeApp) ---
 let gameSelector, pokedexGrid, searchInput, showUncaughtOnlyCheckbox, dexModeContainer, dexModeSelector;
@@ -149,6 +150,25 @@ async function fetchAndCombinePokemonData() {
     }
 }
 
+async function fetchGlitchMethods() {
+    try {
+        const response = await fetch('glitch-methods.json');
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status} while fetching glitch-methods.json`);
+        glitchMethods = await response.json();
+    } catch (error) {
+        console.error("Failed to load glitch methods:", error);
+    }
+}
+
+// Glitch route for a Pokémon that can't be obtained normally in this game, or null.
+function glitchMethodFor(pokemon, gameKey) {
+    if (pokemon.availability[gameKey]?.catchable) return null;
+    const entry = glitchMethods.games[gameKey]?.[pokemon.id.toString()];
+    if (!entry) return null;
+    const method = glitchMethods.methods[entry.method] || {};
+    return { ...method, extra: entry.extra, sources: [...(entry.sources || []), ...(method.sources || [])] };
+}
+
 // --- INITIALIZATION ---
 async function initializeApp() {
     // Assign DOM Elements
@@ -194,6 +214,7 @@ async function initializeApp() {
 
     populateGameSelectors();
     await fetchAndCombinePokemonData();
+    await fetchGlitchMethods();
     await switchGame(currentGame, true); // Initial load for the default game
 
     // Add Event Listeners
@@ -433,6 +454,14 @@ function createPokemonCard(pokemon, gameKey, caughtData, onCaughtChange, onInfoC
         card.appendChild(availNoteEl);
     }
 
+    if (glitchMethodFor(pokemon, gameKey)) {
+        const glitchBadge = document.createElement('span');
+        glitchBadge.className = 'glitch-badge';
+        glitchBadge.textContent = 'Glitch method';
+        glitchBadge.title = 'Only obtainable via a glitch in this game. Click Info for how.';
+        card.appendChild(glitchBadge);
+    }
+
     const controlsContainer = document.createElement('div');
     controlsContainer.className = 'flex items-center justify-between w-full mt-1';
     controlsContainer.appendChild(caughtLabel)
@@ -476,8 +505,44 @@ function showModal(pokemon, gameKey) {
     } else {
         modalAvailabilityNote.style.display = 'none';
     }
+    renderGlitchInfo(glitchMethodFor(pokemon, gameKey));
     modal.style.display = "flex";
 }
+function renderGlitchInfo(glitch) {
+    const container = document.getElementById('modalGlitchInfo');
+    if (!container) return;
+    container.innerHTML = '';
+    container.style.display = glitch ? 'block' : 'none';
+    if (!glitch) return;
+
+    const addText = (tag, className, text) => {
+        const el = document.createElement(tag);
+        el.className = className;
+        el.textContent = text;
+        container.appendChild(el);
+    };
+    addText('h3', 'font-semibold text-purple-800', `Glitch method: ${glitch.name}`);
+    if (glitch.extra) addText('p', 'mt-1', glitch.extra);
+    if (glitch.steps) addText('p', 'mt-1', glitch.steps);
+    if (glitch.warning) addText('p', 'mt-1 text-red-600 italic', `⚠ ${glitch.warning}`);
+    if (glitch.sources.length) {
+        const list = document.createElement('p');
+        list.className = 'mt-1';
+        list.append('Guides: ');
+        glitch.sources.forEach((url, i) => {
+            const link = document.createElement('a');
+            link.href = url;
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+            link.className = 'text-blue-600 underline break-all';
+            link.textContent = new URL(url).hostname + new URL(url).pathname;
+            if (i > 0) list.append(', ');
+            list.appendChild(link);
+        });
+        container.appendChild(list);
+    }
+}
+
 function closeModal() { if (modal) modal.style.display = "none"; }
 
 // --- AREA DEX ---

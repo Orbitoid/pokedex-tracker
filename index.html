@@ -92,6 +92,10 @@
             margin-top: 0.25rem; /* mt-1 */
             font-style: italic;
         }
+        .glitch-badge {
+            display: inline-block; margin-top: 0.25rem; padding: 0.15em 0.5em; font-size: 0.7rem; font-weight: 600;
+            border-radius: 9999px; background-color: #ede9fe; color: #6d28d9; /* violet-100 / violet-700 */
+        }
         .type-badge {
             display: inline-block; padding: 0.25em 0.6em; font-size: 0.75em; font-weight: 700;
             line-height: 1; text-align: center; white-space: nowrap; vertical-align: baseline;
@@ -221,6 +225,7 @@
             <img id="modalPokemonSprite" src="" alt="Pokemon Sprite" class="mx-auto mb-4 w-24 h-24 image-rendering-pixelated">
             <p id="modalCatchInfo" class="text-gray-700"></p>
             <p id="modalAvailabilityNote" class="text-sm text-red-600 italic mt-2"></p>
+            <div id="modalGlitchInfo" class="text-sm text-left text-gray-700 mt-3 p-3 bg-purple-50 border border-purple-200 rounded" style="display: none;"></div>
         </div>
     </div>
 

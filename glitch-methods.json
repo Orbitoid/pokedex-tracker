@@ -1,0 +1,66 @@
+{
+  "_about": "Glitch routes for Pokémon that can't be obtained by normal play or trading. Keyed by game, then national dex number. Methods are for English cartridges unless noted.",
+  "methods": {
+    "mewGlitch": {
+      "name": "Mew glitch (trainer escape / Trainer-Fly)",
+      "steps": "Stand where a long-range trainer (e.g. the Gambler near Lavender Town, or a Route 24 trainer) will spot you, and open the Start menu and use Fly (or Teleport) on the same step they see you. Fly to Cerulean City and battle the Youngster on Route 25 near Bill's house, making sure he walks up to you. Fly back to Lavender Town and walk west onto Route 8: the Start menu pops up by itself; close it and a level 7 Mew appears.",
+      "warning": "Harmless to your save, but follow the steps exactly. Save before starting.",
+      "sources": ["https://glitchcity.wiki/wiki/Guides:Mew_trick"]
+    },
+    "celebiEgg": {
+      "name": "Celebi Egg glitch",
+      "steps": "Make a 'bad clone' with the PC box trick (deposit more Pokémon than you've ever deposited in a box), get a Day Care Egg from a Sneasel whose third move is Beat Up, then shuffle the Egg with 'PkMn w/o mail' moves and PC deposits so its move bytes overwrite its species. Hatch it to get Celebi.",
+      "warning": "Long and fiddly. It relies on save-corrupting tricks: back up your save first (use an emulator save state or a cartridge backup).",
+      "sources": ["https://glitchcity.wiki/Celebi_Egg_glitch"]
+    },
+    "aceSetup": {
+      "name": "Arbitrary code execution (ACE) setup",
+      "steps": "Get a glitch Egg of species 0x611 (Emerald/RS) or 0x351 (FireRed/LeafGreen) and use it to run code typed into your PC box names. Follow E-Sh4rk's ACE3 tutorial, then use the box-name codes from Sleipnir's lists.",
+      "warning": "Works on real GBA hardware or the mGBA emulator (other emulators may not be accurate enough). Not for the Switch versions. Keep box 12–14 and the last row of box 11 empty when running codes, keep spare copies of the glitch Egg, and check each code worked before saving.",
+      "sources": ["https://e-sh4rk.github.io/ACE3/emerald/getting-started/introduction/", "https://pastebin.com/u/Sleipnir17"]
+    }
+  },
+  "games": {
+    "red": { "151": { "method": "mewGlitch" } },
+    "blue": { "151": { "method": "mewGlitch" } },
+    "yellow": { "151": { "method": "mewGlitch" } },
+    "gold": {
+      "151": { "method": "mewGlitch", "extra": "Do the Mew glitch in Red, Blue or Yellow, then trade Mew over with the Time Capsule." },
+      "251": { "method": "celebiEgg" }
+    },
+    "silver": {
+      "151": { "method": "mewGlitch", "extra": "Do the Mew glitch in Red, Blue or Yellow, then trade Mew over with the Time Capsule." },
+      "251": { "method": "celebiEgg" }
+    },
+    "emerald": {
+      "151": { "method": "aceSetup", "extra": "Run the 'Unlock Faraway Island via Mystery Gift' code from Sleipnir's second Emerald list, collect the Old Sea Map, then sail from Lilycove to Faraway Island.", "sources": ["https://pastebin.com/dFLaf2TB"] },
+      "386": { "method": "aceSetup", "extra": "Run the 'Unlock Birth Island via Mystery Gift' code from Sleipnir's second Emerald list, collect the AuroraTicket, then sail from Lilycove to Birth Island.", "sources": ["https://pastebin.com/dFLaf2TB"] },
+      "251": { "method": "aceSetup", "extra": "No Emerald code for this. Use the FireRed/LeafGreen 'Generate any shiny Pokémon in your box' ACE code, then trade it over.", "sources": ["https://pastebin.com/VAgKwjwJ"] },
+      "385": { "method": "aceSetup", "extra": "No Emerald code for this. Use the FireRed/LeafGreen 'Generate any shiny Pokémon in your box' ACE code, then trade it over.", "sources": ["https://pastebin.com/VAgKwjwJ"] }
+    },
+    "firered": {
+      "151": { "method": "aceSetup", "extra": "Run the 'Generate any shiny Pokémon in your box' code from Sleipnir's FireRed/LeafGreen list (it will be shiny). In Gen III, Mew only obeys in battle if it has the 'fateful encounter' flag, so a generated one may disobey.", "sources": ["https://pastebin.com/VAgKwjwJ"] },
+      "251": { "method": "aceSetup", "extra": "Run the 'Generate any shiny Pokémon in your box' code from Sleipnir's FireRed/LeafGreen list (it will be shiny).", "sources": ["https://pastebin.com/VAgKwjwJ"] },
+      "385": { "method": "aceSetup", "extra": "Run the 'Generate any shiny Pokémon in your box' code from Sleipnir's FireRed/LeafGreen list (it will be shiny).", "sources": ["https://pastebin.com/VAgKwjwJ"] },
+      "386": { "method": "aceSetup", "extra": "On GBA, run the 'Unlock Birth Island via Mystery Gift' code from Sleipnir's FireRed/LeafGreen list to get the AuroraTicket (no glitch needed on Switch: it's given after the Hall of Fame).", "sources": ["https://pastebin.com/VAgKwjwJ"] }
+    },
+    "leafgreen": {
+      "151": { "method": "aceSetup", "extra": "Run the 'Generate any shiny Pokémon in your box' code from Sleipnir's FireRed/LeafGreen list (it will be shiny). In Gen III, Mew only obeys in battle if it has the 'fateful encounter' flag, so a generated one may disobey.", "sources": ["https://pastebin.com/VAgKwjwJ"] },
+      "251": { "method": "aceSetup", "extra": "Run the 'Generate any shiny Pokémon in your box' code from Sleipnir's FireRed/LeafGreen list (it will be shiny).", "sources": ["https://pastebin.com/VAgKwjwJ"] },
+      "385": { "method": "aceSetup", "extra": "Run the 'Generate any shiny Pokémon in your box' code from Sleipnir's FireRed/LeafGreen list (it will be shiny).", "sources": ["https://pastebin.com/VAgKwjwJ"] },
+      "386": { "method": "aceSetup", "extra": "On GBA, run the 'Unlock Birth Island via Mystery Gift' code from Sleipnir's FireRed/LeafGreen list to get the AuroraTicket (no glitch needed on Switch: it's given after the Hall of Fame).", "sources": ["https://pastebin.com/VAgKwjwJ"] }
+    },
+    "ruby": {
+      "151": { "method": "aceSetup", "extra": "No Ruby/Sapphire code for this. Get it with ACE in Emerald or FireRed/LeafGreen (see those games), then trade it over." },
+      "251": { "method": "aceSetup", "extra": "No Ruby/Sapphire code for this. Get it with ACE in FireRed/LeafGreen ('Generate any shiny Pokémon in your box'), then trade it over.", "sources": ["https://pastebin.com/VAgKwjwJ"] },
+      "385": { "method": "aceSetup", "extra": "No Ruby/Sapphire code for this. Get it with ACE in FireRed/LeafGreen ('Generate any shiny Pokémon in your box'), then trade it over.", "sources": ["https://pastebin.com/VAgKwjwJ"] },
+      "386": { "method": "aceSetup", "extra": "No Ruby/Sapphire code for this. Get it with ACE in Emerald or FireRed/LeafGreen (Birth Island unlock), then trade it over." }
+    },
+    "sapphire": {
+      "151": { "method": "aceSetup", "extra": "No Ruby/Sapphire code for this. Get it with ACE in Emerald or FireRed/LeafGreen (see those games), then trade it over." },
+      "251": { "method": "aceSetup", "extra": "No Ruby/Sapphire code for this. Get it with ACE in FireRed/LeafGreen ('Generate any shiny Pokémon in your box'), then trade it over.", "sources": ["https://pastebin.com/VAgKwjwJ"] },
+      "385": { "method": "aceSetup", "extra": "No Ruby/Sapphire code for this. Get it with ACE in FireRed/LeafGreen ('Generate any shiny Pokémon in your box'), then trade it over.", "sources": ["https://pastebin.com/VAgKwjwJ"] },
+      "386": { "method": "aceSetup", "extra": "No Ruby/Sapphire code for this. Get it with ACE in Emerald or FireRed/LeafGreen (Birth Island unlock), then trade it over." }
+    }
+  }
+}
