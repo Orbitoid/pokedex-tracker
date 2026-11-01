@@ -4,6 +4,31 @@
     "name": "Chikorita",
     "types": ["Grass"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/XD."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Littleroot Town (gift from Prof. Birch, post-game)"],
+        "note": "Pick one of the three after getting the National Dex."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/XD."
+      },
       "gold": {
         "catchable": true,
         "locations": ["New Bark Town (Starter)"],
@@ -26,6 +51,31 @@
     "name": "Bayleef",
     "types": ["Grass"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Chikorita (Lv 16). Trade from Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Chikorita (Lv 16). Trade from Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Chikorita (Lv 16)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Chikorita (Lv 16). Trade from Colosseum."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Chikorita (Lv 16). Trade from Colosseum."
+      },
       "gold": { "catchable": false, "note": "Evolve Chikorita." },
       "silver": { "catchable": false, "note": "Evolve Chikorita." },
       "crystal": { "catchable": false, "note": "Evolve Chikorita." }
@@ -36,6 +86,31 @@
     "name": "Meganium",
     "types": ["Grass"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Bayleef (Lv 32). Trade from Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Bayleef (Lv 32). Trade from Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Bayleef (Lv 32)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Bayleef (Lv 32). Trade from Colosseum."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Bayleef (Lv 32). Trade from Colosseum."
+      },
       "gold": { "catchable": false, "note": "Evolve Bayleef." },
       "silver": { "catchable": false, "note": "Evolve Bayleef." },
       "crystal": { "catchable": false, "note": "Evolve Bayleef." }
@@ -46,6 +121,31 @@
     "name": "Cyndaquil",
     "types": ["Fire"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/XD."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Littleroot Town (gift from Prof. Birch, post-game)"],
+        "note": "Pick one of the three after getting the National Dex."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/XD."
+      },
       "gold": {
         "catchable": true,
         "locations": ["New Bark Town (Starter)"],
@@ -68,6 +168,31 @@
     "name": "Quilava",
     "types": ["Fire"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Cyndaquil (Lv 14). Trade from Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Cyndaquil (Lv 14). Trade from Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Cyndaquil (Lv 14)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Cyndaquil (Lv 14). Trade from Colosseum."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Cyndaquil (Lv 14). Trade from Colosseum."
+      },
       "gold": { "catchable": false, "note": "Evolve Cyndaquil." },
       "silver": { "catchable": false, "note": "Evolve Cyndaquil." },
       "crystal": { "catchable": false, "note": "Evolve Cyndaquil." }
@@ -78,6 +203,31 @@
     "name": "Typhlosion",
     "types": ["Fire"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Quilava (Lv 36). Trade from Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Quilava (Lv 36). Trade from Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Quilava (Lv 36)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Quilava (Lv 36). Trade from Colosseum."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Quilava (Lv 36). Trade from Colosseum."
+      },
       "gold": { "catchable": false, "note": "Evolve Quilava." },
       "silver": { "catchable": false, "note": "Evolve Quilava." },
       "crystal": { "catchable": false, "note": "Evolve Quilava." }
@@ -88,6 +238,31 @@
     "name": "Totodile",
     "types": ["Water"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/XD."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Littleroot Town (gift from Prof. Birch, post-game)"],
+        "note": "Pick one of the three after getting the National Dex."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/XD."
+      },
       "gold": {
         "catchable": true,
         "locations": ["New Bark Town (Starter)"],
@@ -110,6 +285,31 @@
     "name": "Croconaw",
     "types": ["Water"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Totodile (Lv 18). Trade from Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Totodile (Lv 18). Trade from Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Totodile (Lv 18)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Totodile (Lv 18). Trade from Colosseum."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Totodile (Lv 18). Trade from Colosseum."
+      },
       "gold": { "catchable": false, "note": "Evolve Totodile." },
       "silver": { "catchable": false, "note": "Evolve Totodile." },
       "crystal": { "catchable": false, "note": "Evolve Totodile." }
@@ -120,6 +320,31 @@
     "name": "Feraligatr",
     "types": ["Water"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Croconaw (Lv 30). Trade from Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Croconaw (Lv 30). Trade from Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Croconaw (Lv 30)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Croconaw (Lv 30). Trade from Colosseum."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Croconaw (Lv 30). Trade from Colosseum."
+      },
       "gold": { "catchable": false, "note": "Evolve Croconaw." },
       "silver": { "catchable": false, "note": "Evolve Croconaw." },
       "crystal": { "catchable": false, "note": "Evolve Croconaw." }
@@ -130,6 +355,31 @@
     "name": "Sentret",
     "types": ["Normal"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Five Isle Meadow", "Water Path", "Canyon Entrance"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Five Isle Meadow", "Water Path", "Canyon Entrance"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Routes 1, 29, 43 (Morning/Day)"],
@@ -152,6 +402,31 @@
     "name": "Furret",
     "types": ["Normal"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Sentret (Lv 15). Trade from Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Sentret (Lv 15). Trade from Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Sentret (Lv 15). Trade from Colosseum."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Sentret (Lv 15)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Sentret (Lv 15)."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 1 (Morning/Day)"],
@@ -174,6 +449,31 @@
     "name": "Hoothoot",
     "types": ["Normal", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -208,6 +508,31 @@
     "name": "Noctowl",
     "types": ["Normal", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Hoothoot (Lv 20). Trade from Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Hoothoot (Lv 20). Trade from Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Hoothoot (Lv 20)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Hoothoot (Lv 20). Trade from Colosseum."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Hoothoot (Lv 20). Trade from Colosseum."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -239,6 +564,31 @@
     "name": "Ledyba",
     "types": ["Bug", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Pattern Bush"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Pattern Bush"],
+        "note": ""
+      },
       "gold": { "catchable": false, "note": "Trade from Silver/Crystal." },
       "silver": {
         "catchable": true,
@@ -257,6 +607,31 @@
     "name": "Ledian",
     "types": ["Bug", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ledyba (Lv 18). Trade from Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ledyba (Lv 18). Trade from Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ledyba (Lv 18)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ledyba (Lv 18)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ledyba (Lv 18)."
+      },
       "gold": {
         "catchable": false,
         "note": "Evolve Ledyba. Trade from Silver/Crystal."
@@ -278,6 +653,31 @@
     "name": "Spinarak",
     "types": ["Bug", "Poison"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Pattern Bush"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Pattern Bush"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 2, 30, 31, 37 (Night)"],
@@ -296,6 +696,31 @@
     "name": "Ariados",
     "types": ["Bug", "Poison"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Spinarak (Lv 22). Trade from Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Spinarak (Lv 22). Trade from Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Spinarak (Lv 22)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Spinarak (Lv 22)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Spinarak (Lv 22)."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 2 (Night)"],
@@ -316,7 +741,33 @@
     "id": 169,
     "name": "Crobat",
     "types": ["Poison", "Flying"],
+    "hoennDex": 65,
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Golbat (high friendship)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Golbat (high friendship)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Golbat (high friendship)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Golbat (high friendship)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Golbat (high friendship)."
+      },
       "gold": {
         "catchable": false,
         "note": "Evolve Golbat (High Friendship)."
@@ -335,7 +786,33 @@
     "id": 170,
     "name": "Chinchou",
     "types": ["Water", "Electric"],
+    "hoennDex": 181,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 124", "Route 126"],
+        "note": "Dive (seaweed): Route 124, Route 126."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 124", "Route 126"],
+        "note": "Dive (seaweed): Route 124, Route 126."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 124", "Route 126"],
+        "note": "Dive (seaweed): Route 124, Route 126."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -369,7 +846,33 @@
     "id": 171,
     "name": "Lanturn",
     "types": ["Water", "Electric"],
+    "hoennDex": 182,
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Chinchou (Lv 27)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Chinchou (Lv 27)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Chinchou (Lv 27)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Chinchou (Lv 27). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Chinchou (Lv 27). Trade from Ruby/Sapphire/Emerald."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Routes 20, 21, 26, 27, 41 (Fish w/ Super Rod)"],
@@ -391,7 +894,33 @@
     "id": 172,
     "name": "Pichu",
     "types": ["Electric"],
+    "hoennDex": 155,
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Pikachu."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Pikachu."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Pikachu."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Pikachu."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Pikachu."
+      },
       "gold": {
         "catchable": false,
         "note": "Breed Pikachu/Raichu. Odd Egg (Crystal)."
@@ -412,6 +941,31 @@
     "name": "Cleffa",
     "types": ["Normal"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Clefairy. Not obtainable in this game (trade from another Gen III game)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Clefairy. Not obtainable in this game (trade from another Gen III game)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Clefairy. Not obtainable in this game (trade from another Gen III game)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Clefairy."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Clefairy."
+      },
       "gold": {
         "catchable": false,
         "note": "Breed Clefairy/Clefable. Odd Egg (Crystal)."
@@ -431,7 +985,33 @@
     "id": 174,
     "name": "Igglybuff",
     "types": ["Normal"],
+    "hoennDex": 137,
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Jigglypuff."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Jigglypuff."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Jigglypuff."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Jigglypuff."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Jigglypuff."
+      },
       "gold": {
         "catchable": false,
         "note": "Breed Jigglypuff/Wigglytuff. Odd Egg (Crystal)."
@@ -452,6 +1032,31 @@
     "name": "Togepi",
     "types": ["Normal"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Togetic. Trade from FireRed/LeafGreen/Colosseum/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Togetic. Trade from FireRed/LeafGreen/Colosseum/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Togetic. Trade from FireRed/LeafGreen/Colosseum/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Water Labyrinth (Egg gift)"],
+        "note": "Egg from the Water Labyrinth (Five Island) after showing a high-friendship Pokémon (post-game)."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Water Labyrinth (Egg gift)"],
+        "note": "Egg from the Water Labyrinth (Five Island) after showing a high-friendship Pokémon (post-game)."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Violet City (Egg from Elm's Aide)"],
@@ -474,6 +1079,31 @@
     "name": "Togetic",
     "types": ["Normal", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Togepi (high friendship). Trade from Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Togepi (high friendship). Trade from Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Togepi (high friendship). Trade from Colosseum."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Togepi (high friendship)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Togepi (high friendship)."
+      },
       "gold": {
         "catchable": false,
         "note": "Evolve Togepi (High Friendship)."
@@ -492,7 +1122,33 @@
     "id": 177,
     "name": "Natu",
     "types": ["Psychic", "Flying"],
+    "hoennDex": 162,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Ruin Valley"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Ruin Valley"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Ruins of Alph (Grass)"],
@@ -514,7 +1170,33 @@
     "id": 178,
     "name": "Xatu",
     "types": ["Psychic", "Flying"],
+    "hoennDex": 163,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Natu (Lv 25)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Natu (Lv 25)."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Mt. Silver (Kanto - outside, rare)"],
@@ -537,6 +1219,31 @@
     "name": "Mareep",
     "types": ["Electric"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/FireRed/LeafGreen/Colosseum/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/FireRed/LeafGreen/Colosseum/XD."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Altering Cave"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Altering Cave"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 32, 42, 43"],
@@ -559,6 +1266,31 @@
     "name": "Flaaffy",
     "types": ["Electric"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Mareep (Lv 15). Trade from Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Mareep (Lv 15). Trade from Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Mareep (Lv 15)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Mareep (Lv 15)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Mareep (Lv 15)."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 42, 43"],
@@ -581,6 +1313,31 @@
     "name": "Ampharos",
     "types": ["Electric"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Flaaffy (Lv 30). Trade from Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Flaaffy (Lv 30). Trade from Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Flaaffy (Lv 30)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Flaaffy (Lv 30)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Flaaffy (Lv 30)."
+      },
       "gold": { "catchable": false, "note": "Evolve Flaaffy." },
       "silver": { "catchable": false, "note": "Evolve Flaaffy." },
       "crystal": { "catchable": false, "note": "Evolve Flaaffy." }
@@ -590,7 +1347,33 @@
     "id": 182,
     "name": "Bellossom",
     "types": ["Grass"],
+    "hoennDex": 91,
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Gloom (Sun Stone)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Gloom (Sun Stone)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Gloom (Sun Stone)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Gloom (Sun Stone)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Gloom (Sun Stone). Trade from Ruby/Sapphire/Emerald/FireRed."
+      },
       "gold": { "catchable": false, "note": "Evolve Gloom (Sun Stone)." },
       "silver": { "catchable": false, "note": "Evolve Gloom (Sun Stone)." },
       "crystal": { "catchable": false, "note": "Evolve Gloom (Sun Stone)." }
@@ -600,7 +1383,33 @@
     "id": 183,
     "name": "Marill",
     "types": ["Water"],
+    "hoennDex": 55,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Petalburg City", "Route 102", "Route 111", "Route 114", "Route 117", "Route 120"],
+        "note": "Surf: Petalburg City, Route 102, Route 111, Route 114, Route 117, Route 120."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Petalburg City", "Route 102", "Route 111", "Route 114", "Route 117", "Route 120"],
+        "note": "Surf: Petalburg City, Route 102, Route 111, Route 114, Route 117, Route 120."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Petalburg City", "Route 102", "Route 104", "Route 111", "Route 112", "Route 114", "Route 117", "Route 120", "Safari Zone"],
+        "note": "Surf: Petalburg City, Route 102, Route 111, Route 114, Route 117, Route 120, Safari Zone."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Azurill (high friendship). Trade from Ruby/Sapphire/Emerald/LeafGreen."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Icefall Cave", "Ruin Valley", "Four Island"],
+        "note": "Surf: Icefall Cave, Ruin Valley, Four Island."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Mt. Mortar (requires Surf, Waterfall)"],
@@ -622,7 +1431,33 @@
     "id": 184,
     "name": "Azumarill",
     "types": ["Water"],
+    "hoennDex": 56,
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Marill (Lv 18)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Marill (Lv 18)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Marill (Lv 18)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Marill (Lv 18). Trade from Ruby/Sapphire/Emerald/LeafGreen."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Marill (Lv 18)."
+      },
       "gold": { "catchable": false, "note": "Evolve Marill." },
       "silver": { "catchable": false, "note": "Evolve Marill." },
       "crystal": { "catchable": false, "note": "Evolve Marill." }
@@ -633,6 +1468,31 @@
     "name": "Sudowoodo",
     "types": ["Rock"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/Colosseum."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Battle Frontier (use the Wailmer Pail)"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/Colosseum."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/Colosseum."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 36 (use SquirtBottle)"],
@@ -655,6 +1515,31 @@
     "name": "Politoed",
     "types": ["Water"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Poliwhirl (Trade holding King's Rock). Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Poliwhirl (Trade holding King's Rock). Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Poliwhirl (Trade holding King's Rock). Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Poliwhirl (Trade holding King's Rock)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Poliwhirl (Trade holding King's Rock)."
+      },
       "gold": {
         "catchable": false,
         "note": "Evolve Poliwhirl (Trade holding King's Rock)."
@@ -674,6 +1559,31 @@
     "name": "Hoppip",
     "types": ["Grass", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Resort Gorgeous", "Water Labyrinth", "Five Isle Meadow", "Memorial Pillar", "Five Island"],
+        "note": "Surf: Resort Gorgeous, Water Labyrinth, Five Isle Meadow, Memorial Pillar, Five Island."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Resort Gorgeous", "Water Labyrinth", "Five Isle Meadow", "Memorial Pillar", "Five Island"],
+        "note": "Surf: Resort Gorgeous, Water Labyrinth, Five Isle Meadow, Memorial Pillar, Five Island."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Routes 13, 14, 15, 32, 33 (Morning/Day)"],
@@ -696,6 +1606,31 @@
     "name": "Skiploom",
     "types": ["Grass", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Hoppip (Lv 18). Trade from Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Hoppip (Lv 18). Trade from Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Hoppip (Lv 18). Trade from Colosseum."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Hoppip (Lv 18)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Hoppip (Lv 18)."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 14 (Morning/Day)"],
@@ -718,6 +1653,31 @@
     "name": "Jumpluff",
     "types": ["Grass", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Skiploom (Lv 27). Trade from Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Skiploom (Lv 27). Trade from Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Skiploom (Lv 27). Trade from Colosseum."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Skiploom (Lv 27)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Skiploom (Lv 27)."
+      },
       "gold": { "catchable": false, "note": "Evolve Skiploom." },
       "silver": { "catchable": false, "note": "Evolve Skiploom." },
       "crystal": { "catchable": false, "note": "Evolve Skiploom." }
@@ -728,6 +1688,31 @@
     "name": "Aipom",
     "types": ["Normal"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/FireRed/LeafGreen/Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/FireRed/LeafGreen/Colosseum."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Altering Cave"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Altering Cave"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Headbutt trees (Mountain Routes e.g. 29-33, 42-46)"],
@@ -750,6 +1735,31 @@
     "name": "Sunkern",
     "types": ["Grass"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -781,6 +1791,31 @@
     "name": "Sunflora",
     "types": ["Grass"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Sunkern (Sun Stone). Trade from Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Sunkern (Sun Stone). Trade from Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Sunkern (Sun Stone)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Sunkern (Sun Stone). Trade from Colosseum."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Sunkern (Sun Stone). Trade from Colosseum."
+      },
       "gold": { "catchable": false, "note": "Evolve Sunkern (Sun Stone)." },
       "silver": { "catchable": false, "note": "Evolve Sunkern (Sun Stone)." },
       "crystal": { "catchable": false, "note": "Evolve Sunkern (Sun Stone)." }
@@ -791,6 +1826,31 @@
     "name": "Yanma",
     "types": ["Bug", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/Colosseum."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Ruin Valley"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Ruin Valley"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 35 (rare)"],
@@ -813,6 +1873,31 @@
     "name": "Wooper",
     "types": ["Water", "Ground"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/FireRed/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/FireRed/XD."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": "Surf: Safari Zone."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Icefall Cave", "Ruin Valley", "Four Island"],
+        "note": "Surf: Icefall Cave, Ruin Valley, Four Island."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/FireRed/XD."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 32", "Union Cave (Surf)", "Ruins of Alph (Surf)"],
@@ -835,6 +1920,31 @@
     "name": "Quagsire",
     "types": ["Water", "Ground"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Wooper (Lv 20). Trade from Emerald/Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Wooper (Lv 20). Trade from Emerald/Colosseum."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": "Surf: Safari Zone."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Wooper (Lv 20)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Wooper (Lv 20). Trade from Emerald/Colosseum."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -872,6 +1982,31 @@
     "name": "Espeon",
     "types": ["Psychic"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (high friendship, daytime). Trade from Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (high friendship, daytime). Trade from Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (high friendship, daytime). Trade from Colosseum."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (high friendship, daytime)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (high friendship, daytime)."
+      },
       "gold": {
         "catchable": false,
         "note": "Evolve Eevee (High Friendship, Daytime)."
@@ -891,6 +2026,31 @@
     "name": "Umbreon",
     "types": ["Dark"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (high friendship, night). Trade from Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (high friendship, night). Trade from Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (high friendship, night). Trade from Colosseum."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (high friendship, night)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (high friendship, night)."
+      },
       "gold": {
         "catchable": false,
         "note": "Evolve Eevee (High Friendship, Nighttime)."
@@ -910,6 +2070,31 @@
     "name": "Murkrow",
     "types": ["Dark", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/Colosseum."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Lost Cave"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/Colosseum."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Routes 7, 16 (Night - Kanto)"],
@@ -932,6 +2117,31 @@
     "name": "Slowking",
     "types": ["Water", "Psychic"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Slowpoke (Trade holding King's Rock). Trade from LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Slowpoke (Trade holding King's Rock). Trade from LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Slowpoke (Trade holding King's Rock). Trade from LeafGreen."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Slowpoke (Trade holding King's Rock). Trade from LeafGreen."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Slowpoke (Trade holding King's Rock)."
+      },
       "gold": {
         "catchable": false,
         "note": "Evolve Slowpoke (Trade holding King's Rock)."
@@ -951,6 +2161,31 @@
     "name": "Misdreavus",
     "types": ["Ghost"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from LeafGreen/Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from LeafGreen/Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from LeafGreen/Colosseum."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from LeafGreen/Colosseum."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Lost Cave"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Mt. Silver Cave (Night - Kanto, rare)"],
@@ -973,6 +2208,31 @@
     "name": "Unown",
     "types": ["Psychic"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Monean Chamber", "Liptoo Chamber", "Weepth Chamber", "Dilford Chamber", "Scufib Chamber", "Rixy Chamber", "Viapos Chamber"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Monean Chamber", "Liptoo Chamber", "Weepth Chamber", "Dilford Chamber", "Scufib Chamber", "Rixy Chamber", "Viapos Chamber"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Ruins of Alph (after puzzles)"],
@@ -994,7 +2254,33 @@
     "id": 202,
     "name": "Wobbuffet",
     "types": ["Psychic"],
+    "hoennDex": 161,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Cerulean Cave", "Ruin Valley"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Cerulean Cave", "Ruin Valley"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Dark Cave (Blackthorn side, rare)"],
@@ -1016,7 +2302,33 @@
     "id": 203,
     "name": "Girafarig",
     "types": ["Normal", "Psychic"],
+    "hoennDex": 164,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 43", "Lake of Rage (Grass)"],
@@ -1039,6 +2351,31 @@
     "name": "Pineco",
     "types": ["Bug"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Altering Cave"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Altering Cave"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Headbutt trees (Forest Areas)"],
@@ -1061,6 +2398,31 @@
     "name": "Forretress",
     "types": ["Bug", "Steel"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pineco (Lv 31). Trade from Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pineco (Lv 31). Trade from Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pineco (Lv 31)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pineco (Lv 31)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pineco (Lv 31)."
+      },
       "gold": { "catchable": false, "note": "Evolve Pineco." },
       "silver": { "catchable": false, "note": "Evolve Pineco." },
       "crystal": { "catchable": false, "note": "Evolve Pineco." }
@@ -1071,6 +2433,31 @@
     "name": "Dunsparce",
     "types": ["Normal"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/Colosseum."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Three Isle Port"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Three Isle Port"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Dark Cave (Route 31 side, very rare)"],
@@ -1093,6 +2480,31 @@
     "name": "Gligar",
     "types": ["Ground", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/Colosseum/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/Colosseum/XD."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/Colosseum/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/Colosseum/XD."
+      },
       "gold": { "catchable": true, "locations": ["Route 45"], "note": "" },
       "silver": { "catchable": false, "note": "Trade from Gold/Crystal." },
       "crystal": { "catchable": true, "locations": ["Route 45"], "note": "" }
@@ -1103,6 +2515,31 @@
     "name": "Steelix",
     "types": ["Steel", "Ground"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Onix (Trade holding Metal Coat). Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Onix (Trade holding Metal Coat). Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Onix (Trade holding Metal Coat). Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Onix (Trade holding Metal Coat)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Onix (Trade holding Metal Coat)."
+      },
       "gold": {
         "catchable": false,
         "note": "Evolve Onix (Trade holding Metal Coat)."
@@ -1123,6 +2560,31 @@
     "name": "Snubbull",
     "types": ["Normal"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 38 (rare)"],
@@ -1145,6 +2607,31 @@
     "name": "Granbull",
     "types": ["Normal"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Snubbull (Lv 23). Trade from Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Snubbull (Lv 23). Trade from Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Snubbull (Lv 23)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Snubbull (Lv 23). Trade from Colosseum."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Snubbull (Lv 23). Trade from Colosseum."
+      },
       "gold": { "catchable": false, "note": "Evolve Snubbull." },
       "silver": { "catchable": false, "note": "Evolve Snubbull." },
       "crystal": { "catchable": false, "note": "Evolve Snubbull." }
@@ -1155,6 +2642,31 @@
     "name": "Qwilfish",
     "types": ["Water", "Poison"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/Colosseum."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Resort Gorgeous", "Water Labyrinth", "Five Isle Meadow", "Memorial Pillar", "Outcast Island", "Green Path", "Water Path", "Trainer Tower", "Tanoby Ruins"],
+        "note": "Super Rod: Resort Gorgeous, Water Labyrinth, Five Isle Meadow, Memorial Pillar, Outcast Island, Green Path, Water Path, Trainer Tower, Tanoby Ruins."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/Colosseum."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Routes 12, 13, 32 (Fish w/ Super Rod)"],
@@ -1177,6 +2689,31 @@
     "name": "Scizor",
     "types": ["Bug", "Steel"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Scyther (Trade holding Metal Coat). Trade from Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Scyther (Trade holding Metal Coat). Trade from Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Scyther (Trade holding Metal Coat). Trade from Colosseum."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Scyther (Trade holding Metal Coat)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Scyther (Trade holding Metal Coat). Trade from Colosseum."
+      },
       "gold": {
         "catchable": false,
         "note": "Evolve Scyther (Trade holding Metal Coat)."
@@ -1196,6 +2733,31 @@
     "name": "Shuckle",
     "types": ["Bug", "Rock"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/FireRed/LeafGreen/Colosseum/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/FireRed/LeafGreen/Colosseum/XD."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": "Rock Smash: Safari Zone."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Altering Cave"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Altering Cave"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -1226,7 +2788,33 @@
     "id": 214,
     "name": "Heracross",
     "types": ["Bug", "Fighting"],
+    "hoennDex": 168,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Pattern Bush"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Pattern Bush"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Headbutt trees (Mountain Routes - rare)"],
@@ -1249,6 +2837,31 @@
     "name": "Sneasel",
     "types": ["Dark", "Ice"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from LeafGreen/Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from LeafGreen/Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from LeafGreen/Colosseum."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from LeafGreen/Colosseum."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Icefall Cave"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 28 (Night)", "Mt. Silver Cave (Night - Kanto)"],
@@ -1271,6 +2884,31 @@
     "name": "Teddiursa",
     "types": ["Normal"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Altering Cave"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Altering Cave"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -1296,6 +2934,31 @@
     "name": "Ursaring",
     "types": ["Normal"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Teddiursa (Lv 30). Trade from Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Teddiursa (Lv 30). Trade from Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Teddiursa (Lv 30)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Teddiursa (Lv 30)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Teddiursa (Lv 30)."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -1324,7 +2987,33 @@
     "id": 218,
     "name": "Slugma",
     "types": ["Fire"],
+    "hoennDex": 103,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Fiery Path"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Fiery Path"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Fiery Path", "Route 113"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Mt. Ember"],
+        "note": "Rock Smash: Mt. Ember."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Mt. Ember"],
+        "note": "Rock Smash: Mt. Ember."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Routes 16, 17, 18 (Kanto)"],
@@ -1346,7 +3035,33 @@
     "id": 219,
     "name": "Magcargo",
     "types": ["Fire", "Rock"],
+    "hoennDex": 104,
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Slugma (Lv 38)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Slugma (Lv 38)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Slugma (Lv 38)."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Mt. Ember"],
+        "note": "Rock Smash: Mt. Ember."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Mt. Ember"],
+        "note": "Rock Smash: Mt. Ember."
+      },
       "gold": { "catchable": false, "note": "Evolve Slugma." },
       "silver": { "catchable": false, "note": "Evolve Slugma." },
       "crystal": { "catchable": false, "note": "Evolve Slugma." }
@@ -1357,6 +3072,31 @@
     "name": "Swinub",
     "types": ["Ice", "Ground"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Icefall Cave"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Icefall Cave"],
+        "note": ""
+      },
       "gold": { "catchable": true, "locations": ["Ice Path"], "note": "" },
       "silver": { "catchable": true, "locations": ["Ice Path"], "note": "" },
       "crystal": { "catchable": true, "locations": ["Ice Path"], "note": "" }
@@ -1367,6 +3107,31 @@
     "name": "Piloswine",
     "types": ["Ice", "Ground"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Swinub (Lv 33). Trade from Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Swinub (Lv 33). Trade from Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Swinub (Lv 33). Trade from Colosseum."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Swinub (Lv 33)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Swinub (Lv 33)."
+      },
       "gold": { "catchable": false, "note": "Evolve Swinub." },
       "silver": { "catchable": false, "note": "Evolve Swinub." },
       "crystal": { "catchable": false, "note": "Evolve Swinub." }
@@ -1376,7 +3141,33 @@
     "id": 222,
     "name": "Corsola",
     "types": ["Water", "Rock"],
+    "hoennDex": 180,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Ever Grande City", "Route 128", "Pacifidlog Town (in-game trade for your Bellossom)"],
+        "note": "Super Rod: Ever Grande City, Route 128."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Ever Grande City", "Route 128", "Pacifidlog Town (in-game trade for your Bellossom)"],
+        "note": "Super Rod: Ever Grande City, Route 128."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Ever Grande City", "Route 128"],
+        "note": "Super Rod: Ever Grande City, Route 128."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -1414,6 +3205,31 @@
     "name": "Remoraid",
     "types": ["Water"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/LeafGreen/Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/LeafGreen/Colosseum."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": "Good Rod: Safari Zone. Super Rod: Safari Zone."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/LeafGreen/Colosseum."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Resort Gorgeous", "Water Labyrinth", "Five Isle Meadow", "Memorial Pillar", "Outcast Island", "Green Path", "Water Path", "Trainer Tower", "Tanoby Ruins"],
+        "note": "Super Rod: Resort Gorgeous, Water Labyrinth, Five Isle Meadow, Memorial Pillar, Outcast Island, Green Path, Water Path, Trainer Tower, Tanoby Ruins."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 44 (Fish w/ Good/Super Rod)"],
@@ -1436,6 +3252,31 @@
     "name": "Octillery",
     "types": ["Water"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Remoraid (Lv 25). Trade from Emerald."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Remoraid (Lv 25). Trade from Emerald."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": "Super Rod: Safari Zone."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Remoraid (Lv 25). Trade from Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Remoraid (Lv 25)."
+      },
       "gold": { "catchable": false, "note": "Evolve Remoraid." },
       "silver": { "catchable": false, "note": "Evolve Remoraid." },
       "crystal": { "catchable": false, "note": "Evolve Remoraid." }
@@ -1446,6 +3287,31 @@
     "name": "Delibird",
     "types": ["Ice", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/Colosseum."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Icefall Cave"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/Colosseum."
+      },
       "gold": { "catchable": false, "note": "Trade from Silver/Crystal." },
       "silver": { "catchable": true, "locations": ["Ice Path"], "note": "" },
       "crystal": { "catchable": true, "locations": ["Ice Path"], "note": "" }
@@ -1456,6 +3322,31 @@
     "name": "Mantine",
     "types": ["Water", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from LeafGreen/Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from LeafGreen/Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from LeafGreen/Colosseum."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from LeafGreen/Colosseum."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Trainer Tower", "Tanoby Ruins"],
+        "note": "Surf: Trainer Tower, Tanoby Ruins."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 41 (Surf)"],
@@ -1473,7 +3364,33 @@
     "id": 227,
     "name": "Skarmory",
     "types": ["Steel", "Flying"],
+    "hoennDex": 115,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 113"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 113"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 113"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Sevault Canyon"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/FireRed/Colosseum."
+      },
       "gold": { "catchable": false, "note": "Trade from Silver/Crystal." },
       "silver": {
         "catchable": true,
@@ -1492,6 +3409,31 @@
     "name": "Houndour",
     "types": ["Dark", "Fire"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Altering Cave"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Altering Cave"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 7 (Night - Kanto)"],
@@ -1514,6 +3456,31 @@
     "name": "Houndoom",
     "types": ["Dark", "Fire"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Houndour (Lv 24). Trade from Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Houndour (Lv 24). Trade from Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Houndour (Lv 24)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Houndour (Lv 24)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Houndour (Lv 24)."
+      },
       "gold": { "catchable": false, "note": "Evolve Houndour." },
       "silver": { "catchable": false, "note": "Evolve Houndour." },
       "crystal": { "catchable": false, "note": "Evolve Houndour." }
@@ -1523,7 +3490,33 @@
     "id": 230,
     "name": "Kingdra",
     "types": ["Water", "Dragon"],
+    "hoennDex": 186,
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Seadra (Trade holding Dragon Scale)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Seadra (Trade holding Dragon Scale)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Seadra (Trade holding Dragon Scale)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Seadra (Trade holding Dragon Scale)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Seadra (Trade holding Dragon Scale)."
+      },
       "gold": {
         "catchable": false,
         "note": "Evolve Seadra (Trade holding Dragon Scale)."
@@ -1542,7 +3535,33 @@
     "id": 231,
     "name": "Phanpy",
     "types": ["Ground"],
+    "hoennDex": 165,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Canyon Entrance", "Sevault Canyon"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Canyon Entrance", "Sevault Canyon"],
+        "note": ""
+      },
       "gold": { "catchable": false, "note": "Trade from Silver/Crystal." },
       "silver": {
         "catchable": true,
@@ -1567,7 +3586,33 @@
     "id": 232,
     "name": "Donphan",
     "types": ["Ground"],
+    "hoennDex": 166,
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Phanpy (Lv 25)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Phanpy (Lv 25)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Phanpy (Lv 25)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Phanpy (Lv 25)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Phanpy (Lv 25)."
+      },
       "gold": {
         "catchable": false,
         "note": "Evolve Phanpy. Trade from Silver/Crystal."
@@ -1597,6 +3642,31 @@
     "name": "Porygon2",
     "types": ["Normal"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Porygon (Trade holding Up Grade). Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Porygon (Trade holding Up Grade). Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Porygon (Trade holding Up Grade). Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Porygon (Trade holding Up Grade)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Porygon (Trade holding Up Grade)."
+      },
       "gold": {
         "catchable": false,
         "note": "Evolve Porygon (Trade holding Up-Grade)."
@@ -1616,6 +3686,31 @@
     "name": "Stantler",
     "types": ["Normal"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/FireRed/LeafGreen/Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/FireRed/LeafGreen/Colosseum."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Altering Cave"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Altering Cave"],
+        "note": ""
+      },
       "gold": { "catchable": true, "locations": ["Routes 36, 37"], "note": "" },
       "silver": {
         "catchable": true,
@@ -1634,6 +3729,31 @@
     "name": "Smeargle",
     "types": ["Normal"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/FireRed/LeafGreen/Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/FireRed/LeafGreen/Colosseum."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Artisan Cave"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Altering Cave"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Altering Cave"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Ruins of Alph (Grass - rare)"],
@@ -1656,6 +3776,31 @@
     "name": "Tyrogue",
     "types": ["Fighting"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Hitmonlee. Not obtainable in this game (trade from another Gen III game)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Hitmonlee. Not obtainable in this game (trade from another Gen III game)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Hitmonlee. Not obtainable in this game (trade from another Gen III game)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Hitmonlee."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Hitmonlee."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Mt. Mortar (Gift from Kiyo)"],
@@ -1678,6 +3823,31 @@
     "name": "Hitmontop",
     "types": ["Fighting"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Tyrogue (Lv 20, Attack = Defense). Trade from Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Tyrogue (Lv 20, Attack = Defense). Trade from Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Tyrogue (Lv 20, Attack = Defense). Trade from Colosseum."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Tyrogue (Lv 20, Attack = Defense)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Tyrogue (Lv 20, Attack = Defense)."
+      },
       "gold": {
         "catchable": false,
         "note": "Evolve Tyrogue (Atk = Def at Lv. 20)."
@@ -1697,6 +3867,31 @@
     "name": "Smoochum",
     "types": ["Ice", "Psychic"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Jynx. Not obtainable in this game (trade from another Gen III game)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Jynx. Not obtainable in this game (trade from another Gen III game)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Jynx. Not obtainable in this game (trade from another Gen III game)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Jynx."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Jynx."
+      },
       "gold": { "catchable": false, "note": "Breed Jynx. Odd Egg (Crystal)." },
       "silver": {
         "catchable": false,
@@ -1714,6 +3909,31 @@
     "name": "Elekid",
     "types": ["Electric"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Electabuzz. Trade from XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Electabuzz. Trade from XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Electabuzz. Trade from XD."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Electabuzz."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Electabuzz. Trade from XD."
+      },
       "gold": {
         "catchable": false,
         "note": "Breed Electabuzz. Odd Egg (Crystal)."
@@ -1734,6 +3954,31 @@
     "name": "Magby",
     "types": ["Fire"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Magmar. Not obtainable in this game (trade from another Gen III game)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Magmar. Not obtainable in this game (trade from another Gen III game)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Magmar. Not obtainable in this game (trade from another Gen III game)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Magmar. Not obtainable in this game (trade from another Gen III game)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Magmar."
+      },
       "gold": {
         "catchable": false,
         "note": "Breed Magmar. Odd Egg (Crystal)."
@@ -1754,6 +3999,31 @@
     "name": "Miltank",
     "types": ["Normal"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/Colosseum."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/Colosseum."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/Colosseum."
+      },
       "gold": { "catchable": true, "locations": ["Routes 38, 39"], "note": "" },
       "silver": {
         "catchable": true,
@@ -1772,6 +4042,31 @@
     "name": "Blissey",
     "types": ["Normal"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Chansey (high friendship). Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Chansey (high friendship). Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Chansey (high friendship). Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Chansey (high friendship)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Chansey (high friendship)."
+      },
       "gold": {
         "catchable": false,
         "note": "Evolve Chansey (High Friendship)."
@@ -1791,6 +4086,31 @@
     "name": "Raikou",
     "types": ["Electric"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/Colosseum."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Roaming Kanto (post-game)"],
+        "note": "Roams Kanto after you get the National Dex and restore the Network Machine. Which beast depends on your starter: Bulbasaur → Entei, Charmander → Suicune, Squirtle → Raikou."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Roaming Kanto (post-game)"],
+        "note": "Roams Kanto after you get the National Dex and restore the Network Machine. Which beast depends on your starter: Bulbasaur → Entei, Charmander → Suicune, Squirtle → Raikou."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Roaming Johto (after Burned Tower)"],
@@ -1813,6 +4133,31 @@
     "name": "Entei",
     "types": ["Fire"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/Colosseum."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Roaming Kanto (post-game)"],
+        "note": "Roams Kanto after you get the National Dex and restore the Network Machine. Which beast depends on your starter: Bulbasaur → Entei, Charmander → Suicune, Squirtle → Raikou."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Roaming Kanto (post-game)"],
+        "note": "Roams Kanto after you get the National Dex and restore the Network Machine. Which beast depends on your starter: Bulbasaur → Entei, Charmander → Suicune, Squirtle → Raikou."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Roaming Johto (after Burned Tower)"],
@@ -1835,6 +4180,31 @@
     "name": "Suicune",
     "types": ["Water"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/Colosseum."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Roaming Kanto (post-game)"],
+        "note": "Roams Kanto after you get the National Dex and restore the Network Machine. Which beast depends on your starter: Bulbasaur → Entei, Charmander → Suicune, Squirtle → Raikou."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Roaming Kanto (post-game)"],
+        "note": "Roams Kanto after you get the National Dex and restore the Network Machine. Which beast depends on your starter: Bulbasaur → Entei, Charmander → Suicune, Squirtle → Raikou."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -1861,6 +4231,31 @@
     "name": "Larvitar",
     "types": ["Rock", "Ground"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Sevault Canyon"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Sevault Canyon"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Mt. Silver Cave (rare)"],
@@ -1886,6 +4281,31 @@
     "name": "Pupitar",
     "types": ["Rock", "Ground"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Larvitar (Lv 30). Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Larvitar (Lv 30). Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Larvitar (Lv 30). Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Larvitar (Lv 30)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Larvitar (Lv 30)."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Mt. Silver Cave (very rare)"],
@@ -1908,6 +4328,31 @@
     "name": "Tyranitar",
     "types": ["Rock", "Dark"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pupitar (Lv 55). Trade from Colosseum."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pupitar (Lv 55). Trade from Colosseum."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pupitar (Lv 55). Trade from Colosseum."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pupitar (Lv 55)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pupitar (Lv 55)."
+      },
       "gold": { "catchable": false, "note": "Evolve Pupitar." },
       "silver": { "catchable": false, "note": "Evolve Pupitar." },
       "crystal": { "catchable": false, "note": "Evolve Pupitar." }
@@ -1918,6 +4363,31 @@
     "name": "Lugia",
     "types": ["Psychic", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only (Mystic Ticket → Navel Rock, Emerald/FireRed/LeafGreen)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only (Mystic Ticket → Navel Rock, Emerald/FireRed/LeafGreen)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only (Mystic Ticket → Navel Rock, Emerald/FireRed/LeafGreen)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only (Mystic Ticket → Navel Rock)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only (Mystic Ticket → Navel Rock)."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -1944,6 +4414,31 @@
     "name": "Ho-Oh",
     "types": ["Fire", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only (Mystic Ticket → Navel Rock, Emerald/FireRed/LeafGreen)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only (Mystic Ticket → Navel Rock, Emerald/FireRed/LeafGreen)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only (Mystic Ticket → Navel Rock, Emerald/FireRed/LeafGreen)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only (Mystic Ticket → Navel Rock)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only (Mystic Ticket → Navel Rock)."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -1972,6 +4467,31 @@
     "name": "Celebi",
     "types": ["Psychic", "Grass"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only (Japanese Colosseum bonus disc)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only (Japanese Colosseum bonus disc)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only (Japanese Colosseum bonus disc)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only (Japanese Colosseum bonus disc)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only (Japanese Colosseum bonus disc)."
+      },
       "gold": { "catchable": false, "note": "Event only (originally)." },
       "silver": { "catchable": false, "note": "Event only (originally)." },
       "crystal": {

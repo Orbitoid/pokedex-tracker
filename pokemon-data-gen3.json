@@ -1,0 +1,4457 @@
+[
+  {
+    "id": 252,
+    "name": "Treecko",
+    "types": ["Grass"],
+    "hoennDex": 1,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 101 (Starter)"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 101 (Starter)"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 101 (Starter)"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 253,
+    "name": "Grovyle",
+    "types": ["Grass"],
+    "hoennDex": 2,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Treecko (Lv 16)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Treecko (Lv 16)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Treecko (Lv 16)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Treecko (Lv 16). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Treecko (Lv 16). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 254,
+    "name": "Sceptile",
+    "types": ["Grass"],
+    "hoennDex": 3,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Grovyle (Lv 36)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Grovyle (Lv 36)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Grovyle (Lv 36)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Grovyle (Lv 36). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Grovyle (Lv 36). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 255,
+    "name": "Torchic",
+    "types": ["Fire"],
+    "hoennDex": 4,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 101 (Starter)"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 101 (Starter)"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 101 (Starter)"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 256,
+    "name": "Combusken",
+    "types": ["Fire", "Fighting"],
+    "hoennDex": 5,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Torchic (Lv 16)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Torchic (Lv 16)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Torchic (Lv 16)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Torchic (Lv 16). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Torchic (Lv 16). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 257,
+    "name": "Blaziken",
+    "types": ["Fire", "Fighting"],
+    "hoennDex": 6,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Combusken (Lv 36)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Combusken (Lv 36)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Combusken (Lv 36)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Combusken (Lv 36). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Combusken (Lv 36). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 258,
+    "name": "Mudkip",
+    "types": ["Water"],
+    "hoennDex": 7,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 101 (Starter)"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 101 (Starter)"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 101 (Starter)"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 259,
+    "name": "Marshtomp",
+    "types": ["Water", "Ground"],
+    "hoennDex": 8,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Mudkip (Lv 16)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Mudkip (Lv 16)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Mudkip (Lv 16)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Mudkip (Lv 16). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Mudkip (Lv 16). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 260,
+    "name": "Swampert",
+    "types": ["Water", "Ground"],
+    "hoennDex": 9,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Marshtomp (Lv 36)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Marshtomp (Lv 36)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Marshtomp (Lv 36)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Marshtomp (Lv 36). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Marshtomp (Lv 36). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 261,
+    "name": "Poochyena",
+    "types": ["Dark"],
+    "hoennDex": 10,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 101", "Route 102", "Route 103"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 101", "Route 102", "Route 103"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Petalburg Woods", "Route 101", "Route 102", "Route 103", "Route 104", "Route 110", "Route 116", "Route 117", "Route 120", "Route 121", "Route 123"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 262,
+    "name": "Mightyena",
+    "types": ["Dark"],
+    "hoennDex": 11,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Poochyena (Lv 18)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Poochyena (Lv 18)."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 120", "Route 121", "Route 123"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Poochyena (Lv 18). Trade from Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Poochyena (Lv 18). Trade from Emerald."
+      }
+    }
+  },
+  {
+    "id": 263,
+    "name": "Zigzagoon",
+    "types": ["Normal"],
+    "hoennDex": 12,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Petalburg Woods", "Route 101", "Route 102", "Route 103", "Route 104", "Route 110", "Route 116", "Route 117", "Route 118", "Route 119", "Route 120", "Route 121", "Route 123"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Petalburg Woods", "Route 101", "Route 102", "Route 103", "Route 104", "Route 110", "Route 116", "Route 117", "Route 118", "Route 119", "Route 120", "Route 121", "Route 123"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 101", "Route 102", "Route 103", "Route 118", "Route 119"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 264,
+    "name": "Linoone",
+    "types": ["Normal"],
+    "hoennDex": 13,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 118", "Route 119", "Route 120", "Route 121", "Route 123"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 118", "Route 119", "Route 120", "Route 121", "Route 123"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 118", "Route 119"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Zigzagoon (Lv 20). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Zigzagoon (Lv 20). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 265,
+    "name": "Wurmple",
+    "types": ["Bug"],
+    "hoennDex": 14,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Petalburg Woods", "Route 101", "Route 102", "Route 104"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Petalburg Woods", "Route 101", "Route 102", "Route 104"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Petalburg Woods", "Route 101", "Route 102", "Route 104"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 266,
+    "name": "Silcoon",
+    "types": ["Bug"],
+    "hoennDex": 15,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Petalburg Woods"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Petalburg Woods"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Petalburg Woods"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Wurmple (Lv 7). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Wurmple (Lv 7). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 267,
+    "name": "Beautifly",
+    "types": ["Bug", "Flying"],
+    "hoennDex": 16,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Silcoon (Lv 10)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Silcoon (Lv 10)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Silcoon (Lv 10)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Silcoon (Lv 10). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Silcoon (Lv 10). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 268,
+    "name": "Cascoon",
+    "types": ["Bug"],
+    "hoennDex": 17,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Petalburg Woods"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Petalburg Woods"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Petalburg Woods"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Wurmple (Lv 7). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Wurmple (Lv 7). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 269,
+    "name": "Dustox",
+    "types": ["Bug", "Poison"],
+    "hoennDex": 18,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Cascoon (Lv 10)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Cascoon (Lv 10)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Cascoon (Lv 10)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Cascoon (Lv 10). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Cascoon (Lv 10). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 270,
+    "name": "Lotad",
+    "types": ["Water", "Grass"],
+    "hoennDex": 19,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Sapphire/Emerald."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 102", "Route 114"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 102", "Route 114"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 271,
+    "name": "Lombre",
+    "types": ["Water", "Grass"],
+    "hoennDex": 20,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Lotad (Lv 14). Trade from Sapphire/Emerald."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 114"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 114"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Lotad (Lv 14). Trade from Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Lotad (Lv 14). Trade from Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 272,
+    "name": "Ludicolo",
+    "types": ["Water", "Grass"],
+    "hoennDex": 21,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Lombre (Water Stone). Trade from Sapphire/Emerald."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Lombre (Water Stone)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Lombre (Water Stone)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Lombre (Water Stone). Trade from Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Lombre (Water Stone). Trade from Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 273,
+    "name": "Seedot",
+    "types": ["Grass"],
+    "hoennDex": 22,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 102", "Route 114"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Emerald/XD."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 102", "Route 117", "Route 120", "Rustboro City (in-game trade for your Ralts)"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 274,
+    "name": "Nuzleaf",
+    "types": ["Grass", "Dark"],
+    "hoennDex": 23,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 114"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Seedot (Lv 14). Trade from Ruby/Emerald."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 114"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Seedot (Lv 14). Trade from Ruby/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Seedot (Lv 14). Trade from Ruby/Emerald."
+      }
+    }
+  },
+  {
+    "id": 275,
+    "name": "Shiftry",
+    "types": ["Grass", "Dark"],
+    "hoennDex": 24,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nuzleaf (Leaf Stone)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nuzleaf (Leaf Stone). Trade from Ruby/Emerald."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nuzleaf (Leaf Stone)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nuzleaf (Leaf Stone). Trade from Ruby/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nuzleaf (Leaf Stone). Trade from Ruby/Emerald."
+      }
+    }
+  },
+  {
+    "id": 276,
+    "name": "Taillow",
+    "types": ["Normal", "Flying"],
+    "hoennDex": 25,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Petalburg Woods", "Route 104", "Route 115", "Route 116"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Petalburg Woods", "Route 104", "Route 115", "Route 116"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Petalburg Woods", "Route 104", "Route 115", "Route 116"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 277,
+    "name": "Swellow",
+    "types": ["Normal", "Flying"],
+    "hoennDex": 26,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 115"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 115"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 115"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Taillow (Lv 22). Trade from Ruby/Sapphire/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Taillow (Lv 22). Trade from Ruby/Sapphire/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 278,
+    "name": "Wingull",
+    "types": ["Water", "Flying"],
+    "hoennDex": 27,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Slateport City", "Lilycove City", "Mossdeep City", "Ever Grande City", "Mt. Pyre", "Route 103", "Route 104", "Route 105", "Route 106", "Route 107", "Route 108", "Route 109", "Route 110", "Route 115", "Route 118", "Route 119", "Route 121", "Route 122", "Route 123", "Route 124", "Route 125", "Route 126", "Route 127", "Route 128", "Route 129", "Route 130", "Route 131", "Route 132", "Route 133", "Route 134", "Dewford Town", "Pacifidlog Town"],
+        "note": "Surf: Slateport City, Lilycove City, Mossdeep City, Ever Grande City, Route 103, Route 104, Route 105, Route 106, Route 107, Route 108, Route 109, Route 110, Route 115, Route 118, Route 119, Route 121, Route 122, Route 123, Route 124, Route 125, Route 126, Route 127, Route 128, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Dewford Town, Pacifidlog Town."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Slateport City", "Lilycove City", "Mossdeep City", "Ever Grande City", "Mt. Pyre", "Route 103", "Route 104", "Route 105", "Route 106", "Route 107", "Route 108", "Route 109", "Route 110", "Route 115", "Route 118", "Route 119", "Route 121", "Route 122", "Route 123", "Route 124", "Route 125", "Route 126", "Route 127", "Route 128", "Route 129", "Route 130", "Route 131", "Route 132", "Route 133", "Route 134", "Dewford Town", "Pacifidlog Town"],
+        "note": "Surf: Slateport City, Lilycove City, Mossdeep City, Ever Grande City, Route 103, Route 104, Route 105, Route 106, Route 107, Route 108, Route 109, Route 110, Route 115, Route 118, Route 119, Route 121, Route 122, Route 123, Route 124, Route 125, Route 126, Route 127, Route 128, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Dewford Town, Pacifidlog Town."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Slateport City", "Lilycove City", "Mossdeep City", "Ever Grande City", "Mt. Pyre", "Route 103", "Route 104", "Route 105", "Route 106", "Route 107", "Route 108", "Route 109", "Route 110", "Route 115", "Route 118", "Route 119", "Route 121", "Route 122", "Route 123", "Route 124", "Route 125", "Route 126", "Route 127", "Route 128", "Route 129", "Route 130", "Route 131", "Route 132", "Route 133", "Route 134", "Dewford Town", "Pacifidlog Town"],
+        "note": "Surf: Slateport City, Lilycove City, Mossdeep City, Ever Grande City, Route 103, Route 104, Route 105, Route 106, Route 107, Route 108, Route 109, Route 110, Route 115, Route 118, Route 119, Route 121, Route 122, Route 123, Route 124, Route 125, Route 126, Route 127, Route 128, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Dewford Town, Pacifidlog Town."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 279,
+    "name": "Pelipper",
+    "types": ["Water", "Flying"],
+    "hoennDex": 28,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Slateport City", "Lilycove City", "Mossdeep City", "Ever Grande City", "Route 103", "Route 104", "Route 105", "Route 106", "Route 107", "Route 108", "Route 109", "Route 110", "Route 115", "Route 118", "Route 119", "Route 121", "Route 122", "Route 123", "Route 124", "Route 125", "Route 126", "Route 127", "Route 128", "Route 129", "Route 130", "Route 131", "Route 132", "Route 133", "Route 134", "Dewford Town", "Pacifidlog Town"],
+        "note": "Surf: Slateport City, Lilycove City, Mossdeep City, Ever Grande City, Route 103, Route 104, Route 105, Route 106, Route 107, Route 108, Route 109, Route 110, Route 115, Route 118, Route 119, Route 121, Route 122, Route 123, Route 124, Route 125, Route 126, Route 127, Route 128, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Dewford Town, Pacifidlog Town."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Slateport City", "Lilycove City", "Mossdeep City", "Ever Grande City", "Route 103", "Route 104", "Route 105", "Route 106", "Route 107", "Route 108", "Route 109", "Route 110", "Route 115", "Route 118", "Route 119", "Route 121", "Route 122", "Route 123", "Route 124", "Route 125", "Route 126", "Route 127", "Route 128", "Route 129", "Route 130", "Route 131", "Route 132", "Route 133", "Route 134", "Dewford Town", "Pacifidlog Town"],
+        "note": "Surf: Slateport City, Lilycove City, Mossdeep City, Ever Grande City, Route 103, Route 104, Route 105, Route 106, Route 107, Route 108, Route 109, Route 110, Route 115, Route 118, Route 119, Route 121, Route 122, Route 123, Route 124, Route 125, Route 126, Route 127, Route 128, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Dewford Town, Pacifidlog Town."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Slateport City", "Lilycove City", "Mossdeep City", "Ever Grande City", "Route 103", "Route 104", "Route 105", "Route 106", "Route 107", "Route 108", "Route 109", "Route 110", "Route 115", "Route 118", "Route 119", "Route 121", "Route 122", "Route 123", "Route 124", "Route 125", "Route 126", "Route 127", "Route 128", "Route 129", "Route 130", "Route 131", "Route 132", "Route 133", "Route 134", "Dewford Town", "Pacifidlog Town"],
+        "note": "Surf: Slateport City, Lilycove City, Mossdeep City, Ever Grande City, Route 103, Route 104, Route 105, Route 106, Route 107, Route 108, Route 109, Route 110, Route 115, Route 118, Route 119, Route 121, Route 122, Route 123, Route 124, Route 125, Route 126, Route 127, Route 128, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Dewford Town, Pacifidlog Town."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Wingull (Lv 25). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Wingull (Lv 25). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 280,
+    "name": "Ralts",
+    "types": ["Psychic"],
+    "hoennDex": 29,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 102"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 102"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 102"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 281,
+    "name": "Kirlia",
+    "types": ["Psychic"],
+    "hoennDex": 30,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ralts (Lv 20)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ralts (Lv 20)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ralts (Lv 20)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ralts (Lv 20). Trade from Ruby/Sapphire/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ralts (Lv 20). Trade from Ruby/Sapphire/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 282,
+    "name": "Gardevoir",
+    "types": ["Psychic"],
+    "hoennDex": 31,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kirlia (Lv 30)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kirlia (Lv 30)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kirlia (Lv 30)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kirlia (Lv 30). Trade from Ruby/Sapphire/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kirlia (Lv 30). Trade from Ruby/Sapphire/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 283,
+    "name": "Surskit",
+    "types": ["Bug", "Water"],
+    "hoennDex": 32,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 102", "Route 111", "Route 114", "Route 117", "Route 120"],
+        "note": "Surf: Route 102, Route 111, Route 114, Route 117, Route 120."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 102", "Route 111", "Route 114", "Route 117", "Route 120"],
+        "note": "Surf: Route 102, Route 111, Route 114, Route 117, Route 120."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/XD."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/XD."
+      }
+    }
+  },
+  {
+    "id": 284,
+    "name": "Masquerain",
+    "types": ["Bug", "Flying"],
+    "hoennDex": 33,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Surskit (Lv 22)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Surskit (Lv 22)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Surskit (Lv 22). Trade from Ruby/Sapphire/XD."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Surskit (Lv 22). Trade from Ruby/Sapphire/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Surskit (Lv 22). Trade from Ruby/Sapphire/XD."
+      }
+    }
+  },
+  {
+    "id": 285,
+    "name": "Shroomish",
+    "types": ["Grass"],
+    "hoennDex": 34,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Petalburg Woods"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Petalburg Woods"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Petalburg Woods"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 286,
+    "name": "Breloom",
+    "types": ["Grass", "Fighting"],
+    "hoennDex": 35,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Shroomish (Lv 23)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Shroomish (Lv 23)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Shroomish (Lv 23)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Shroomish (Lv 23). Trade from Ruby/Sapphire/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Shroomish (Lv 23). Trade from Ruby/Sapphire/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 287,
+    "name": "Slakoth",
+    "types": ["Normal"],
+    "hoennDex": 36,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Petalburg Woods"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Petalburg Woods"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Petalburg Woods"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 288,
+    "name": "Vigoroth",
+    "types": ["Normal"],
+    "hoennDex": 37,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Slakoth (Lv 18)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Slakoth (Lv 18)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Slakoth (Lv 18)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Slakoth (Lv 18). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Slakoth (Lv 18). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 289,
+    "name": "Slaking",
+    "types": ["Normal"],
+    "hoennDex": 38,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Vigoroth (Lv 36)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Vigoroth (Lv 36)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Vigoroth (Lv 36)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Vigoroth (Lv 36). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Vigoroth (Lv 36). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 290,
+    "name": "Nincada",
+    "types": ["Bug", "Ground"],
+    "hoennDex": 42,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 116"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 116"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 116"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 291,
+    "name": "Ninjask",
+    "types": ["Bug", "Flying"],
+    "hoennDex": 43,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nincada (Lv 20)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nincada (Lv 20)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nincada (Lv 20)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nincada (Lv 20). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nincada (Lv 20). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 292,
+    "name": "Shedinja",
+    "types": ["Bug", "Ghost"],
+    "hoennDex": 44,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nincada (Lv 20 with a free party slot and a spare Poké Ball)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nincada (Lv 20 with a free party slot and a spare Poké Ball)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nincada (Lv 20 with a free party slot and a spare Poké Ball)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nincada (Lv 20 with a free party slot and a spare Poké Ball). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nincada (Lv 20 with a free party slot and a spare Poké Ball). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 293,
+    "name": "Whismur",
+    "types": ["Normal"],
+    "hoennDex": 45,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Rusturf Tunnel", "Victory Road", "Route 116"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Rusturf Tunnel", "Victory Road", "Route 116"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Rusturf Tunnel", "Victory Road", "Route 116", "Desert Underpass"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 294,
+    "name": "Loudred",
+    "types": ["Normal"],
+    "hoennDex": 46,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Victory Road"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Victory Road"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Victory Road", "Desert Underpass"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Whismur (Lv 20). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Whismur (Lv 20). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 295,
+    "name": "Exploud",
+    "types": ["Normal"],
+    "hoennDex": 47,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Loudred (Lv 40)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Loudred (Lv 40)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Loudred (Lv 40)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Loudred (Lv 40). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Loudred (Lv 40). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 296,
+    "name": "Makuhita",
+    "types": ["Fighting"],
+    "hoennDex": 48,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Granite Cave", "Victory Road", "Rustboro City (in-game trade for your Slakoth)"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Granite Cave", "Victory Road", "Rustboro City (in-game trade for your Slakoth)"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Granite Cave", "Victory Road"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/Colosseum/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/Colosseum/XD."
+      }
+    }
+  },
+  {
+    "id": 297,
+    "name": "Hariyama",
+    "types": ["Fighting"],
+    "hoennDex": 49,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Victory Road"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Victory Road"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Victory Road"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Makuhita (Lv 24). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Makuhita (Lv 24). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 298,
+    "name": "Azurill",
+    "types": ["Normal"],
+    "hoennDex": 54,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Marill holding Sea Incense."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Marill holding Sea Incense."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Marill holding Sea Incense."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Marill holding Sea Incense. Not obtainable in this game (trade from another Gen III game)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Marill holding Sea Incense."
+      }
+    }
+  },
+  {
+    "id": 299,
+    "name": "Nosepass",
+    "types": ["Rock"],
+    "hoennDex": 60,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Granite Cave"],
+        "note": "Rock Smash: Granite Cave."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Granite Cave"],
+        "note": "Rock Smash: Granite Cave."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Granite Cave"],
+        "note": "Rock Smash: Granite Cave."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 300,
+    "name": "Skitty",
+    "types": ["Normal"],
+    "hoennDex": 61,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 116", "Fortree City (in-game trade for your Pikachu)"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 116", "Fortree City (in-game trade for your Pikachu)"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 116"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 301,
+    "name": "Delcatty",
+    "types": ["Normal"],
+    "hoennDex": 62,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Skitty (Moon Stone)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Skitty (Moon Stone)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Skitty (Moon Stone)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Skitty (Moon Stone). Trade from XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Skitty (Moon Stone). Trade from XD."
+      }
+    }
+  },
+  {
+    "id": 302,
+    "name": "Sableye",
+    "types": ["Dark", "Ghost"],
+    "hoennDex": 68,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Sapphire/Emerald/XD."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Granite Cave", "Cave of Origin", "Victory Road", "Sky Pillar"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Granite Cave", "Cave of Origin", "Victory Road", "Sky Pillar"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Sapphire/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Sapphire/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 303,
+    "name": "Mawile",
+    "types": ["Steel"],
+    "hoennDex": 69,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Granite Cave", "Cave of Origin", "Victory Road", "Sky Pillar"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Emerald/XD."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Victory Road"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 304,
+    "name": "Aron",
+    "types": ["Steel", "Rock"],
+    "hoennDex": 70,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Granite Cave", "Victory Road"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Granite Cave", "Victory Road"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Granite Cave", "Victory Road"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 305,
+    "name": "Lairon",
+    "types": ["Steel", "Rock"],
+    "hoennDex": 71,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Victory Road"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Victory Road"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Victory Road"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Aron (Lv 32). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Aron (Lv 32). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 306,
+    "name": "Aggron",
+    "types": ["Steel", "Rock"],
+    "hoennDex": 72,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Lairon (Lv 42)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Lairon (Lv 42)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Lairon (Lv 42)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Lairon (Lv 42). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Lairon (Lv 42). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 307,
+    "name": "Meditite",
+    "types": ["Fighting", "Psychic"],
+    "hoennDex": 76,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Mt. Pyre", "Victory Road"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Mt. Pyre", "Victory Road"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Colosseum/XD."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Colosseum/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Colosseum/XD."
+      }
+    }
+  },
+  {
+    "id": 308,
+    "name": "Medicham",
+    "types": ["Fighting", "Psychic"],
+    "hoennDex": 77,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Victory Road"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Victory Road"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Meditite (Lv 37). Trade from Ruby/Sapphire."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Meditite (Lv 37). Trade from Ruby/Sapphire."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Meditite (Lv 37). Trade from Ruby/Sapphire."
+      }
+    }
+  },
+  {
+    "id": 309,
+    "name": "Electrike",
+    "types": ["Electric"],
+    "hoennDex": 78,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 110", "Route 118"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 110", "Route 118"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 110", "Route 118"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 310,
+    "name": "Manectric",
+    "types": ["Electric"],
+    "hoennDex": 79,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 118"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 118"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 118"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Electrike (Lv 26). Trade from Ruby/Sapphire/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Electrike (Lv 26). Trade from Ruby/Sapphire/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 311,
+    "name": "Plusle",
+    "types": ["Electric"],
+    "hoennDex": 80,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 110"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 110"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 110", "Fortree City (in-game trade for your Volbeat)"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/Colosseum."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/Colosseum."
+      }
+    }
+  },
+  {
+    "id": 312,
+    "name": "Minun",
+    "types": ["Electric"],
+    "hoennDex": 81,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 110"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 110"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 110"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 313,
+    "name": "Volbeat",
+    "types": ["Bug"],
+    "hoennDex": 86,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 117"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 117"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 117"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 314,
+    "name": "Illumise",
+    "types": ["Bug"],
+    "hoennDex": 87,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 117"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 117"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 117"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 315,
+    "name": "Roselia",
+    "types": ["Grass", "Poison"],
+    "hoennDex": 94,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 117"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 117"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/XD."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/XD."
+      }
+    }
+  },
+  {
+    "id": 316,
+    "name": "Gulpin",
+    "types": ["Poison"],
+    "hoennDex": 95,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 110"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 110"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 110"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 317,
+    "name": "Swalot",
+    "types": ["Poison"],
+    "hoennDex": 96,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Gulpin (Lv 26)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Gulpin (Lv 26)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Gulpin (Lv 26)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Gulpin (Lv 26). Trade from Ruby/Sapphire/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Gulpin (Lv 26). Trade from Ruby/Sapphire/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 318,
+    "name": "Carvanha",
+    "types": ["Water", "Dark"],
+    "hoennDex": 97,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 118", "Route 119"],
+        "note": "Good Rod: Route 118, Route 119. Super Rod: Route 118, Route 119."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 118", "Route 119"],
+        "note": "Good Rod: Route 118, Route 119. Super Rod: Route 118, Route 119."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 118", "Route 119"],
+        "note": "Good Rod: Route 118, Route 119. Super Rod: Route 118, Route 119."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 319,
+    "name": "Sharpedo",
+    "types": ["Water", "Dark"],
+    "hoennDex": 98,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Mossdeep City", "Route 103", "Route 118", "Route 122", "Route 124", "Route 125", "Route 126", "Route 127", "Route 129", "Route 130", "Route 131", "Route 132", "Route 133", "Route 134", "Pacifidlog Town"],
+        "note": "Super Rod: Mossdeep City, Route 103, Route 118, Route 122, Route 124, Route 125, Route 126, Route 127, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Pacifidlog Town."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Mossdeep City", "Route 103", "Route 118", "Route 122", "Route 124", "Route 125", "Route 126", "Route 127", "Route 129", "Route 130", "Route 131", "Route 132", "Route 133", "Route 134", "Pacifidlog Town"],
+        "note": "Super Rod: Mossdeep City, Route 103, Route 118, Route 122, Route 124, Route 125, Route 126, Route 127, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Pacifidlog Town."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Mossdeep City", "Route 103", "Route 118", "Route 122", "Route 124", "Route 125", "Route 126", "Route 127", "Route 129", "Route 130", "Route 131", "Route 132", "Route 133", "Route 134", "Pacifidlog Town"],
+        "note": "Super Rod: Mossdeep City, Route 103, Route 118, Route 122, Route 124, Route 125, Route 126, Route 127, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Pacifidlog Town."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Carvanha (Lv 30). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Carvanha (Lv 30). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 320,
+    "name": "Wailmer",
+    "types": ["Water"],
+    "hoennDex": 99,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Slateport City", "Lilycove City", "Mossdeep City", "Ever Grande City", "Seafloor Cavern", "Shoal Cave", "Route 103", "Route 105", "Route 106", "Route 107", "Route 108", "Route 109", "Route 110", "Route 115", "Route 121", "Route 122", "Route 123", "Route 124", "Route 125", "Route 126", "Route 127", "Route 128", "Route 129", "Route 130", "Route 131", "Route 132", "Route 133", "Route 134", "Dewford Town", "Pacifidlog Town"],
+        "note": "Good Rod: Slateport City, Lilycove City, Mossdeep City, Ever Grande City, Seafloor Cavern, Shoal Cave, Route 103, Route 105, Route 106, Route 107, Route 108, Route 109, Route 110, Route 115, Route 121, Route 122, Route 123, Route 124, Route 125, Route 126, Route 127, Route 128, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Dewford Town, Pacifidlog Town. Super Rod: Slateport City, Lilycove City, Mossdeep City, Ever Grande City, Seafloor Cavern, Shoal Cave, Route 103, Route 105, Route 106, Route 107, Route 108, Route 109, Route 110, Route 115, Route 121, Route 122, Route 123, Route 124, Route 125, Route 126, Route 127, Route 128, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Dewford Town, Pacifidlog Town."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Slateport City", "Lilycove City", "Mossdeep City", "Ever Grande City", "Seafloor Cavern", "Shoal Cave", "Route 103", "Route 105", "Route 106", "Route 107", "Route 108", "Route 109", "Route 110", "Route 115", "Route 121", "Route 122", "Route 123", "Route 124", "Route 125", "Route 126", "Route 127", "Route 128", "Route 129", "Route 130", "Route 131", "Route 132", "Route 133", "Route 134", "Dewford Town", "Pacifidlog Town"],
+        "note": "Good Rod: Slateport City, Lilycove City, Mossdeep City, Ever Grande City, Seafloor Cavern, Shoal Cave, Route 103, Route 105, Route 106, Route 107, Route 108, Route 109, Route 110, Route 115, Route 121, Route 122, Route 123, Route 124, Route 125, Route 126, Route 127, Route 128, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Dewford Town, Pacifidlog Town. Super Rod: Slateport City, Lilycove City, Mossdeep City, Ever Grande City, Seafloor Cavern, Shoal Cave, Route 103, Route 105, Route 106, Route 107, Route 108, Route 109, Route 110, Route 115, Route 121, Route 122, Route 123, Route 124, Route 125, Route 126, Route 127, Route 128, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Dewford Town, Pacifidlog Town."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Slateport City", "Lilycove City", "Mossdeep City", "Ever Grande City", "Seafloor Cavern", "Shoal Cave", "Route 103", "Route 105", "Route 106", "Route 107", "Route 108", "Route 109", "Route 110", "Route 115", "Route 121", "Route 122", "Route 123", "Route 124", "Route 125", "Route 126", "Route 127", "Route 128", "Route 129", "Route 130", "Route 131", "Route 132", "Route 133", "Route 134", "Dewford Town", "Pacifidlog Town"],
+        "note": "Good Rod: Slateport City, Lilycove City, Mossdeep City, Ever Grande City, Seafloor Cavern, Shoal Cave, Route 103, Route 105, Route 106, Route 107, Route 108, Route 109, Route 110, Route 115, Route 121, Route 122, Route 123, Route 124, Route 125, Route 126, Route 127, Route 128, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Dewford Town, Pacifidlog Town. Super Rod: Slateport City, Lilycove City, Mossdeep City, Ever Grande City, Seafloor Cavern, Shoal Cave, Route 103, Route 105, Route 106, Route 107, Route 108, Route 109, Route 110, Route 115, Route 121, Route 122, Route 123, Route 124, Route 125, Route 126, Route 127, Route 128, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Dewford Town, Pacifidlog Town."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 321,
+    "name": "Wailord",
+    "types": ["Water"],
+    "hoennDex": 100,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 129"],
+        "note": "Surf: Route 129."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 129"],
+        "note": "Surf: Route 129."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 129"],
+        "note": "Surf: Route 129."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Wailmer (Lv 40). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Wailmer (Lv 40). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 322,
+    "name": "Numel",
+    "types": ["Fire", "Ground"],
+    "hoennDex": 101,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Jagged Pass", "Fiery Path", "Route 112"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Jagged Pass", "Fiery Path", "Route 112"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Jagged Pass", "Fiery Path", "Route 112"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 323,
+    "name": "Camerupt",
+    "types": ["Fire", "Ground"],
+    "hoennDex": 102,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Numel (Lv 33)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Numel (Lv 33)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Numel (Lv 33)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Numel (Lv 33). Trade from Ruby/Sapphire/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Numel (Lv 33). Trade from Ruby/Sapphire/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 324,
+    "name": "Torkoal",
+    "types": ["Fire"],
+    "hoennDex": 105,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Fiery Path"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Fiery Path"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Fiery Path", "Magma Hideout"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 325,
+    "name": "Spoink",
+    "types": ["Psychic"],
+    "hoennDex": 110,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Jagged Pass"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Jagged Pass"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Jagged Pass"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 326,
+    "name": "Grumpig",
+    "types": ["Psychic"],
+    "hoennDex": 111,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Spoink (Lv 32)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Spoink (Lv 32)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Spoink (Lv 32)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Spoink (Lv 32). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Spoink (Lv 32). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 327,
+    "name": "Spinda",
+    "types": ["Normal"],
+    "hoennDex": 114,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 113"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 113"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 113"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 328,
+    "name": "Trapinch",
+    "types": ["Ground"],
+    "hoennDex": 116,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 111"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 111"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 111", "Mirage Tower"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 329,
+    "name": "Vibrava",
+    "types": ["Ground", "Dragon"],
+    "hoennDex": 117,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Trapinch (Lv 35)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Trapinch (Lv 35)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Trapinch (Lv 35)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Trapinch (Lv 35). Trade from Colosseum."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Trapinch (Lv 35). Trade from Colosseum."
+      }
+    }
+  },
+  {
+    "id": 330,
+    "name": "Flygon",
+    "types": ["Ground", "Dragon"],
+    "hoennDex": 118,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Vibrava (Lv 45)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Vibrava (Lv 45)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Vibrava (Lv 45)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Vibrava (Lv 45). Trade from Colosseum."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Vibrava (Lv 45). Trade from Colosseum."
+      }
+    }
+  },
+  {
+    "id": 331,
+    "name": "Cacnea",
+    "types": ["Grass"],
+    "hoennDex": 119,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 111"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 111"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 111"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 332,
+    "name": "Cacturne",
+    "types": ["Grass", "Dark"],
+    "hoennDex": 120,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Cacnea (Lv 32)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Cacnea (Lv 32)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Cacnea (Lv 32)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Cacnea (Lv 32). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Cacnea (Lv 32). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 333,
+    "name": "Swablu",
+    "types": ["Normal", "Flying"],
+    "hoennDex": 121,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 114", "Route 115"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 114", "Route 115"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 114", "Route 115"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/Colosseum."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/Colosseum."
+      }
+    }
+  },
+  {
+    "id": 334,
+    "name": "Altaria",
+    "types": ["Dragon", "Flying"],
+    "hoennDex": 122,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Sky Pillar"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Sky Pillar"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Sky Pillar"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Swablu (Lv 35). Trade from Ruby/Sapphire/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Swablu (Lv 35). Trade from Ruby/Sapphire/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 335,
+    "name": "Zangoose",
+    "types": ["Normal"],
+    "hoennDex": 123,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 114"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/XD."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/XD."
+      }
+    }
+  },
+  {
+    "id": 336,
+    "name": "Seviper",
+    "types": ["Poison"],
+    "hoennDex": 124,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Sapphire/Emerald."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 114"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 114"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 337,
+    "name": "Lunatone",
+    "types": ["Rock", "Psychic"],
+    "hoennDex": 125,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Sapphire/XD."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Meteor Falls"],
+        "note": "Surf: Meteor Falls."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Sapphire/XD."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Sapphire/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Sapphire/XD."
+      }
+    }
+  },
+  {
+    "id": 338,
+    "name": "Solrock",
+    "types": ["Rock", "Psychic"],
+    "hoennDex": 126,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Meteor Falls"],
+        "note": "Surf: Meteor Falls."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Emerald/XD."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Meteor Falls"],
+        "note": "Surf: Meteor Falls."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 339,
+    "name": "Barboach",
+    "types": ["Water", "Ground"],
+    "hoennDex": 127,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Meteor Falls", "Victory Road", "Route 111", "Route 114", "Route 120"],
+        "note": "Good Rod: Meteor Falls, Victory Road, Route 111, Route 114, Route 120. Super Rod: Meteor Falls, Victory Road, Route 111, Route 114, Route 120."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Meteor Falls", "Victory Road", "Route 111", "Route 114", "Route 120"],
+        "note": "Good Rod: Meteor Falls, Victory Road, Route 111, Route 114, Route 120. Super Rod: Meteor Falls, Victory Road, Route 111, Route 114, Route 120."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Meteor Falls", "Victory Road", "Route 111", "Route 114", "Route 120"],
+        "note": "Good Rod: Meteor Falls, Victory Road, Route 111, Route 114, Route 120. Super Rod: Meteor Falls, Victory Road, Route 111, Route 114, Route 120."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 340,
+    "name": "Whiscash",
+    "types": ["Water", "Ground"],
+    "hoennDex": 128,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Meteor Falls", "Victory Road"],
+        "note": "Super Rod: Meteor Falls, Victory Road."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Meteor Falls", "Victory Road"],
+        "note": "Super Rod: Meteor Falls, Victory Road."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Meteor Falls", "Victory Road"],
+        "note": "Super Rod: Meteor Falls, Victory Road."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Barboach (Lv 30). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Barboach (Lv 30). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 341,
+    "name": "Corphish",
+    "types": ["Water"],
+    "hoennDex": 129,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Petalburg City", "Route 102", "Route 117"],
+        "note": "Good Rod: Petalburg City, Route 102, Route 117. Super Rod: Petalburg City, Route 102, Route 117."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Petalburg City", "Route 102", "Route 117"],
+        "note": "Good Rod: Petalburg City, Route 102, Route 117. Super Rod: Petalburg City, Route 102, Route 117."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Petalburg City", "Route 102", "Route 117"],
+        "note": "Good Rod: Petalburg City, Route 102, Route 117. Super Rod: Petalburg City, Route 102, Route 117."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 342,
+    "name": "Crawdaunt",
+    "types": ["Water", "Dark"],
+    "hoennDex": 130,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Corphish (Lv 30)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Corphish (Lv 30)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Corphish (Lv 30)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Corphish (Lv 30). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Corphish (Lv 30). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 343,
+    "name": "Baltoy",
+    "types": ["Ground", "Psychic"],
+    "hoennDex": 131,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 111"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 111"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 111"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 344,
+    "name": "Claydol",
+    "types": ["Ground", "Psychic"],
+    "hoennDex": 132,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Sky Pillar"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Sky Pillar"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Sky Pillar"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Baltoy (Lv 36). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Baltoy (Lv 36). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 345,
+    "name": "Lileep",
+    "types": ["Rock", "Grass"],
+    "hoennDex": 133,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Rustboro City (revive Root Fossil at Devon Corp.)"],
+        "note": "You choose the Root or Claw Fossil in Mirage Tower; the other one is trade-only."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Rustboro City (revive Root Fossil at Devon Corp.)"],
+        "note": "You choose the Root or Claw Fossil in Mirage Tower; the other one is trade-only."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Rustboro City (revive Root Fossil at Devon Corp.)"],
+        "note": "You choose the Root or Claw Fossil in Mirage Tower; the other one is trade-only."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 346,
+    "name": "Cradily",
+    "types": ["Rock", "Grass"],
+    "hoennDex": 134,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Lileep (Lv 40)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Lileep (Lv 40)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Lileep (Lv 40)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Lileep (Lv 40). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Lileep (Lv 40). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 347,
+    "name": "Anorith",
+    "types": ["Rock", "Bug"],
+    "hoennDex": 135,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Rustboro City (revive Claw Fossil at Devon Corp.)"],
+        "note": "You choose the Root or Claw Fossil in Mirage Tower; the other one is trade-only."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Rustboro City (revive Claw Fossil at Devon Corp.)"],
+        "note": "You choose the Root or Claw Fossil in Mirage Tower; the other one is trade-only."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Rustboro City (revive Claw Fossil at Devon Corp.)"],
+        "note": "You choose the Root or Claw Fossil in Mirage Tower; the other one is trade-only."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 348,
+    "name": "Armaldo",
+    "types": ["Rock", "Bug"],
+    "hoennDex": 136,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Anorith (Lv 40)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Anorith (Lv 40)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Anorith (Lv 40)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Anorith (Lv 40). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Anorith (Lv 40). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 349,
+    "name": "Feebas",
+    "types": ["Water"],
+    "hoennDex": 140,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 119 (fishing on 6 hidden tiles)"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 119 (fishing on 6 hidden tiles)"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 119 (fishing on 6 hidden tiles)"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 350,
+    "name": "Milotic",
+    "types": ["Water"],
+    "hoennDex": 141,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Feebas (max Beauty)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Feebas (max Beauty)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Feebas (max Beauty)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Feebas (max Beauty). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Feebas (max Beauty). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 351,
+    "name": "Castform",
+    "types": ["Normal"],
+    "hoennDex": 142,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Weather Institute, Route 119 (gift)"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Weather Institute, Route 119 (gift)"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Weather Institute, Route 119 (gift)"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 352,
+    "name": "Kecleon",
+    "types": ["Normal"],
+    "hoennDex": 145,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 118", "Route 119", "Route 120", "Route 121", "Route 123"],
+        "note": "Devon Scope: Route 119, Route 120."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 118", "Route 119", "Route 120", "Route 121", "Route 123"],
+        "note": "Devon Scope: Route 119, Route 120."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 118", "Route 119", "Route 120", "Route 121", "Route 123"],
+        "note": "Devon Scope: Route 119, Route 120."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 353,
+    "name": "Shuppet",
+    "types": ["Ghost"],
+    "hoennDex": 146,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Mt. Pyre"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Mt. Pyre", "Route 121", "Route 123"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Mt. Pyre", "Route 121", "Route 123"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 354,
+    "name": "Banette",
+    "types": ["Ghost"],
+    "hoennDex": 147,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Shuppet (Lv 37)."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Sky Pillar"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Sky Pillar"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Shuppet (Lv 37). Trade from Sapphire/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Shuppet (Lv 37). Trade from Sapphire/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 355,
+    "name": "Duskull",
+    "types": ["Ghost"],
+    "hoennDex": 148,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Mt. Pyre", "Route 121", "Route 123"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Mt. Pyre"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Mt. Pyre"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 356,
+    "name": "Dusclops",
+    "types": ["Ghost"],
+    "hoennDex": 149,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Sky Pillar"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Duskull (Lv 37)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Duskull (Lv 37)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Duskull (Lv 37). Trade from Ruby."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Duskull (Lv 37). Trade from Ruby."
+      }
+    }
+  },
+  {
+    "id": 357,
+    "name": "Tropius",
+    "types": ["Grass", "Flying"],
+    "hoennDex": 150,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 119"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 119"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 119"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/Colosseum."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/Colosseum."
+      }
+    }
+  },
+  {
+    "id": 358,
+    "name": "Chimecho",
+    "types": ["Psychic"],
+    "hoennDex": 151,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Mt. Pyre"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Mt. Pyre"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Mt. Pyre"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 359,
+    "name": "Absol",
+    "types": ["Dark"],
+    "hoennDex": 152,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 120"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 120"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 120"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/Colosseum."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/Colosseum."
+      }
+    }
+  },
+  {
+    "id": 360,
+    "name": "Wynaut",
+    "types": ["Psychic"],
+    "hoennDex": 160,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Lavaridge Town (Egg gift)", "Mirage Island"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Lavaridge Town (Egg gift)", "Mirage Island"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Lavaridge Town (Egg gift)", "Mirage Island"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Wobbuffet holding Lax Incense."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Breed Wobbuffet holding Lax Incense."
+      }
+    }
+  },
+  {
+    "id": 361,
+    "name": "Snorunt",
+    "types": ["Ice"],
+    "hoennDex": 171,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Shoal Cave"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Shoal Cave"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Shoal Cave"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 362,
+    "name": "Glalie",
+    "types": ["Ice"],
+    "hoennDex": 172,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Snorunt (Lv 42)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Snorunt (Lv 42)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Snorunt (Lv 42)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Snorunt (Lv 42). Trade from Ruby/Sapphire/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Snorunt (Lv 42). Trade from Ruby/Sapphire/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 363,
+    "name": "Spheal",
+    "types": ["Ice", "Water"],
+    "hoennDex": 173,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Shoal Cave"],
+        "note": "Surf: Shoal Cave."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Shoal Cave"],
+        "note": "Surf: Shoal Cave."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Shoal Cave"],
+        "note": "Surf: Shoal Cave."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 364,
+    "name": "Sealeo",
+    "types": ["Ice", "Water"],
+    "hoennDex": 174,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Spheal (Lv 32)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Spheal (Lv 32)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Spheal (Lv 32)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Spheal (Lv 32). Trade from Ruby/Sapphire/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Spheal (Lv 32). Trade from Ruby/Sapphire/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 365,
+    "name": "Walrein",
+    "types": ["Ice", "Water"],
+    "hoennDex": 175,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Sealeo (Lv 44)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Sealeo (Lv 44)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Sealeo (Lv 44)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Sealeo (Lv 44). Trade from Ruby/Sapphire/Emerald/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Sealeo (Lv 44). Trade from Ruby/Sapphire/Emerald/XD."
+      }
+    }
+  },
+  {
+    "id": 366,
+    "name": "Clamperl",
+    "types": ["Water"],
+    "hoennDex": 176,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 124", "Route 126"],
+        "note": "Dive (seaweed): Route 124, Route 126."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 124", "Route 126"],
+        "note": "Dive (seaweed): Route 124, Route 126."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 124", "Route 126"],
+        "note": "Dive (seaweed): Route 124, Route 126."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 367,
+    "name": "Huntail",
+    "types": ["Water"],
+    "hoennDex": 177,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Clamperl (Trade holding Deep Sea Tooth)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Clamperl (Trade holding Deep Sea Tooth)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Clamperl (Trade holding Deep Sea Tooth)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Clamperl (Trade holding Deep Sea Tooth). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Clamperl (Trade holding Deep Sea Tooth). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 368,
+    "name": "Gorebyss",
+    "types": ["Water"],
+    "hoennDex": 178,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Clamperl (Trade holding Deep Sea Scale)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Clamperl (Trade holding Deep Sea Scale)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Clamperl (Trade holding Deep Sea Scale)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Clamperl (Trade holding Deep Sea Scale). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Clamperl (Trade holding Deep Sea Scale). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 369,
+    "name": "Relicanth",
+    "types": ["Water", "Rock"],
+    "hoennDex": 179,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 124", "Route 126"],
+        "note": "Dive (seaweed): Route 124, Route 126."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 124", "Route 126"],
+        "note": "Dive (seaweed): Route 124, Route 126."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 124", "Route 126"],
+        "note": "Dive (seaweed): Route 124, Route 126."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 370,
+    "name": "Luvdisc",
+    "types": ["Water"],
+    "hoennDex": 183,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Ever Grande City", "Route 128"],
+        "note": "Good Rod: Ever Grande City, Route 128. Super Rod: Ever Grande City, Route 128."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Ever Grande City", "Route 128"],
+        "note": "Good Rod: Ever Grande City, Route 128. Super Rod: Ever Grande City, Route 128."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Ever Grande City", "Route 128"],
+        "note": "Good Rod: Ever Grande City, Route 128. Super Rod: Ever Grande City, Route 128."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 371,
+    "name": "Bagon",
+    "types": ["Dragon"],
+    "hoennDex": 187,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Meteor Falls"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Meteor Falls"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Meteor Falls"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 372,
+    "name": "Shelgon",
+    "types": ["Dragon"],
+    "hoennDex": 188,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Bagon (Lv 30)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Bagon (Lv 30)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Bagon (Lv 30)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Bagon (Lv 30). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Bagon (Lv 30). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 373,
+    "name": "Salamence",
+    "types": ["Dragon", "Flying"],
+    "hoennDex": 189,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Shelgon (Lv 50)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Shelgon (Lv 50)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Shelgon (Lv 50)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Shelgon (Lv 50). Trade from XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Shelgon (Lv 50). Trade from XD."
+      }
+    }
+  },
+  {
+    "id": 374,
+    "name": "Beldum",
+    "types": ["Steel", "Psychic"],
+    "hoennDex": 190,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Mossdeep City (gift in Steven's house, post-game)"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Mossdeep City (gift in Steven's house, post-game)"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Mossdeep City (gift in Steven's house, post-game)"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 375,
+    "name": "Metang",
+    "types": ["Steel", "Psychic"],
+    "hoennDex": 191,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Beldum (Lv 20)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Beldum (Lv 20)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Beldum (Lv 20)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Beldum (Lv 20). Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Beldum (Lv 20). Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 376,
+    "name": "Metagross",
+    "types": ["Steel", "Psychic"],
+    "hoennDex": 192,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Metang (Lv 45)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Metang (Lv 45)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Metang (Lv 45)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Metang (Lv 45). Trade from Colosseum."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Metang (Lv 45). Trade from Colosseum."
+      }
+    }
+  },
+  {
+    "id": 377,
+    "name": "Regirock",
+    "types": ["Rock"],
+    "hoennDex": 193,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Desert Ruins (one-time encounter)"],
+        "note": "Legendary. Solve the Sealed Chamber puzzle (needs Wailord and Relicanth in your party)."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Desert Ruins (one-time encounter)"],
+        "note": "Legendary. Solve the Sealed Chamber puzzle (needs Wailord and Relicanth in your party)."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Desert Ruins (one-time encounter)"],
+        "note": "Legendary. Solve the Sealed Chamber puzzle (needs Wailord and Relicanth in your party)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 378,
+    "name": "Regice",
+    "types": ["Ice"],
+    "hoennDex": 194,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Island Cave (one-time encounter)"],
+        "note": "Legendary. Solve the Sealed Chamber puzzle (needs Wailord and Relicanth in your party)."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Island Cave (one-time encounter)"],
+        "note": "Legendary. Solve the Sealed Chamber puzzle (needs Wailord and Relicanth in your party)."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Island Cave (one-time encounter)"],
+        "note": "Legendary. Solve the Sealed Chamber puzzle (needs Wailord and Relicanth in your party)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 379,
+    "name": "Registeel",
+    "types": ["Steel"],
+    "hoennDex": 195,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Ancient Tomb (one-time encounter)"],
+        "note": "Legendary. Solve the Sealed Chamber puzzle (needs Wailord and Relicanth in your party)."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Ancient Tomb (one-time encounter)"],
+        "note": "Legendary. Solve the Sealed Chamber puzzle (needs Wailord and Relicanth in your party)."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Ancient Tomb (one-time encounter)"],
+        "note": "Legendary. Solve the Sealed Chamber puzzle (needs Wailord and Relicanth in your party)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 380,
+    "name": "Latias",
+    "types": ["Dragon", "Psychic"],
+    "hoennDex": 196,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only (Eon Ticket → Southern Island)."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Roaming Hoenn (post-game)"],
+        "note": "Roams Hoenn after the Elite Four."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Roaming Hoenn (post-game)"],
+        "note": "After the Elite Four you pick Latias or Latios to roam. The other needs the Eon Ticket event (Southern Island)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 381,
+    "name": "Latios",
+    "types": ["Dragon", "Psychic"],
+    "hoennDex": 197,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Roaming Hoenn (post-game)"],
+        "note": "Roams Hoenn after the Elite Four."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only (Eon Ticket → Southern Island)."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Roaming Hoenn (post-game)"],
+        "note": "After the Elite Four you pick Latias or Latios to roam. The other needs the Eon Ticket event (Southern Island)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Emerald."
+      }
+    }
+  },
+  {
+    "id": 382,
+    "name": "Kyogre",
+    "types": ["Water"],
+    "hoennDex": 198,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Sapphire/Emerald."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Cave of Origin (one-time encounter)"],
+        "note": "Legendary, one-time encounter."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Marine Cave (post-game)"],
+        "note": "Legendary, one-time encounter."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 383,
+    "name": "Groudon",
+    "types": ["Ground"],
+    "hoennDex": 199,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Cave of Origin (one-time encounter)"],
+        "note": "Legendary, one-time encounter."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Emerald."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Terra Cave (post-game)"],
+        "note": "Legendary, one-time encounter."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Emerald."
+      }
+    }
+  },
+  {
+    "id": 384,
+    "name": "Rayquaza",
+    "types": ["Dragon", "Flying"],
+    "hoennDex": 200,
+    "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Sky Pillar"],
+        "note": "Legendary, one-time encounter."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Sky Pillar"],
+        "note": "Legendary, one-time encounter."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Sky Pillar"],
+        "note": "Legendary, one-time encounter."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald."
+      }
+    }
+  },
+  {
+    "id": 385,
+    "name": "Jirachi",
+    "types": ["Steel", "Psychic"],
+    "hoennDex": 201,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only (Colosseum bonus disc / Wishmaker Jirachi)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only (Colosseum bonus disc / Wishmaker Jirachi)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only (Colosseum bonus disc / Wishmaker Jirachi)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only (Colosseum bonus disc / Wishmaker Jirachi)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only (Colosseum bonus disc / Wishmaker Jirachi)."
+      }
+    }
+  },
+  {
+    "id": 386,
+    "name": "Deoxys",
+    "types": ["Psychic"],
+    "hoennDex": 202,
+    "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only (Aurora Ticket → Birth Island, Emerald/FireRed/LeafGreen)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only (Aurora Ticket → Birth Island, Emerald/FireRed/LeafGreen)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only (Aurora Ticket → Birth Island, Emerald/FireRed/LeafGreen)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only (Aurora Ticket → Birth Island, Emerald/FireRed/LeafGreen)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only (Aurora Ticket → Birth Island, Emerald/FireRed/LeafGreen)."
+      }
+    }
+  }
+]
