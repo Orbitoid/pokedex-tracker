@@ -53,45 +53,45 @@
     "red": {
       "151": [
         {
-          "method": "eventTrade",
-          "extra": "Put the event Mew in a second Red/Blue/Yellow save and trade it over."
+          "method": "mewGlitch"
         },
         {
-          "method": "mewGlitch"
+          "method": "eventTrade",
+          "extra": "Put the event Mew in a second Red/Blue/Yellow save and trade it over. Only worth it if you'd rather not do the glitch: a glitched Mew obeys and trades on to Gen II just like an event one."
         }
       ]
     },
     "blue": {
       "151": [
         {
-          "method": "eventTrade",
-          "extra": "Put the event Mew in a second Red/Blue/Yellow save and trade it over."
+          "method": "mewGlitch"
         },
         {
-          "method": "mewGlitch"
+          "method": "eventTrade",
+          "extra": "Put the event Mew in a second Red/Blue/Yellow save and trade it over. Only worth it if you'd rather not do the glitch: a glitched Mew obeys and trades on to Gen II just like an event one."
         }
       ]
     },
     "yellow": {
       "151": [
         {
-          "method": "eventTrade",
-          "extra": "Put the event Mew in a second Red/Blue/Yellow save and trade it over."
+          "method": "mewGlitch"
         },
         {
-          "method": "mewGlitch"
+          "method": "eventTrade",
+          "extra": "Put the event Mew in a second Red/Blue/Yellow save and trade it over. Only worth it if you'd rather not do the glitch: a glitched Mew obeys and trades on to Gen II just like an event one."
         }
       ]
     },
     "gold": {
       "151": [
         {
-          "method": "eventTrade",
-          "extra": "Put the event Mew in a Red/Blue/Yellow save and trade it over with the Time Capsule, or use a second Gold/Silver/Crystal save."
-        },
-        {
           "method": "mewGlitch",
           "extra": "Do the Mew glitch in Red, Blue or Yellow, then trade Mew over with the Time Capsule."
+        },
+        {
+          "method": "eventTrade",
+          "extra": "Put the event Mew in a Red/Blue/Yellow save and trade it over with the Time Capsule, or use a second Gold/Silver/Crystal save. Only worth it if you'd rather not do the glitch: a glitched Mew obeys and trades on to Gen II just like an event one."
         }
       ],
       "251": [
@@ -107,12 +107,12 @@
     "silver": {
       "151": [
         {
-          "method": "eventTrade",
-          "extra": "Put the event Mew in a Red/Blue/Yellow save and trade it over with the Time Capsule, or use a second Gold/Silver/Crystal save."
-        },
-        {
           "method": "mewGlitch",
           "extra": "Do the Mew glitch in Red, Blue or Yellow, then trade Mew over with the Time Capsule."
+        },
+        {
+          "method": "eventTrade",
+          "extra": "Put the event Mew in a Red/Blue/Yellow save and trade it over with the Time Capsule, or use a second Gold/Silver/Crystal save. Only worth it if you'd rather not do the glitch: a glitched Mew obeys and trades on to Gen II just like an event one."
         }
       ],
       "251": [
@@ -128,12 +128,12 @@
     "crystal": {
       "151": [
         {
-          "method": "eventTrade",
-          "extra": "Put the event Mew in a Red/Blue/Yellow save and trade it over with the Time Capsule, or use a second Gold/Silver/Crystal save."
-        },
-        {
           "method": "mewGlitch",
           "extra": "Do the Mew glitch in Red, Blue or Yellow, then trade Mew over with the Time Capsule."
+        },
+        {
+          "method": "eventTrade",
+          "extra": "Put the event Mew in a Red/Blue/Yellow save and trade it over with the Time Capsule, or use a second Gold/Silver/Crystal save. Only worth it if you'd rather not do the glitch: a glitched Mew obeys and trades on to Gen II just like an event one."
         }
       ]
     },
