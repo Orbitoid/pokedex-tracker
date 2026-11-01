@@ -51,14 +51,17 @@ describe('server routes', () => {
     expect(res.status).toBe(200);
   });
 
-  test('glitch methods only cover Pokémon that are not normally catchable', async () => {
+  test('event and glitch routes only cover Pokémon that are not normally catchable', async () => {
     const res = await request(app).get('/glitch-methods.json');
     expect(res.status).toBe(200);
     const files = ['pokemon-data-gen1.json', 'pokemon-data-gen2.json', 'pokemon-data-gen3.json'];
     const byId = Object.fromEntries(files.flatMap(file => JSON.parse(fs.readFileSync(path.join(__dirname, '..', file), 'utf8'))).map(p => [p.id, p]));
     for (const [game, entries] of Object.entries(res.body.games)) {
-      for (const [id, entry] of Object.entries(entries)) {
-        expect(res.body.methods[entry.method]).toBeDefined();
+      for (const [id, routes] of Object.entries(entries)) {
+        expect(routes.length).toBeGreaterThan(0);
+        for (const route of routes) {
+          expect(['event', 'glitch']).toContain(res.body.methods[route.method]?.kind);
+        }
         expect(byId[id].availability[game].catchable).toBe(false);
       }
     }

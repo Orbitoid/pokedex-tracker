@@ -1,66 +1,480 @@
 {
-  "_about": "Glitch routes for Pokémon that can't be obtained by normal play or trading. Keyed by game, then national dex number. Methods are for English cartridges unless noted.",
+  "_about": "Routes for Pokémon that can't be obtained by normal play or trading: self-hosted events (kind 'event') and glitches (kind 'glitch'). Keyed by game, then national dex number; each entry lists routes in order of preference. Methods are for English cartridges unless noted.",
   "methods": {
+    "eventTicket": {
+      "kind": "event",
+      "name": "Self-hosted event: inject the event ticket",
+      "steps": "Back up your save. Download the official Wonder Card (.wc3) for your exact game from Project Pokémon, open your save in suloku's Gen 3 Mystery Gift Tool and inject it, then save. In-game, collect the ticket from the delivery man in green inside any Poké Mart, then take the ferry to the island and catch the Pokémon yourself. Emerald boats leave from Lilycove; FireRed/LeafGreen Seagallop ferries from Vermilion.",
+      "warning": "Wonder Cards aren't interchangeable between Emerald and FireRed/LeafGreen: use the file made for your game. PKHeX can't inject Gen 3 Wonder Cards; use the Mystery Gift Tool. Works on emulator saves directly; real cartridges need a cart reader to copy the save off and back.",
+      "sources": [
+        "https://projectpokemon.org/home/forums/topic/43324-special-nintendo-event-items/"
+      ]
+    },
+    "eventTrade": {
+      "kind": "event",
+      "name": "Self-hosted event: trade from a second save",
+      "steps": "Make a second save that can trade with this game (a copy of your save works). Open it in PKHeX, add the event Pokémon from its Mystery Gift Database (the official distributions are listed there) and check the legality indicator, then save. Trade it over: two linked emulator instances, or two systems with a link cable.",
+      "warning": "Back up both saves first. Use the same language as your game: Japanese Gen I/II Pokémon can crash non-Japanese games. Use a current PKHeX release, as some older ones had Gen I save bugs.",
+      "sources": [
+        "https://projectpokemon.org/tutorials/save-editing/using-pkhex/loading-and-saving-r28/",
+        "https://projectpokemon.org/home/forums/topic/41192-question-about-save-file-editor-japanese-gen-1-and-2/"
+      ]
+    },
     "mewGlitch": {
       "name": "Mew glitch (trainer escape / Trainer-Fly)",
       "steps": "Stand where a long-range trainer (e.g. the Gambler near Lavender Town, or a Route 24 trainer) will spot you, and open the Start menu and use Fly (or Teleport) on the same step they see you. Fly to Cerulean City and battle the Youngster on Route 25 near Bill's house, making sure he walks up to you. Fly back to Lavender Town and walk west onto Route 8: the Start menu pops up by itself; close it and a level 7 Mew appears.",
       "warning": "Harmless to your save, but follow the steps exactly. Save before starting.",
-      "sources": ["https://glitchcity.wiki/wiki/Guides:Mew_trick"]
+      "sources": [
+        "https://glitchcity.wiki/wiki/Guides:Mew_trick"
+      ],
+      "kind": "glitch"
     },
     "celebiEgg": {
       "name": "Celebi Egg glitch",
       "steps": "Make a 'bad clone' with the PC box trick (deposit more Pokémon than you've ever deposited in a box), get a Day Care Egg from a Sneasel whose third move is Beat Up, then shuffle the Egg with 'PkMn w/o mail' moves and PC deposits so its move bytes overwrite its species. Hatch it to get Celebi.",
       "warning": "Long and fiddly. It relies on save-corrupting tricks: back up your save first (use an emulator save state or a cartridge backup).",
-      "sources": ["https://glitchcity.wiki/Celebi_Egg_glitch"]
+      "sources": [
+        "https://glitchcity.wiki/Celebi_Egg_glitch"
+      ],
+      "kind": "glitch"
     },
     "aceSetup": {
       "name": "Arbitrary code execution (ACE) setup",
       "steps": "Get a glitch Egg of species 0x611 (Emerald/RS) or 0x351 (FireRed/LeafGreen) and use it to run code typed into your PC box names. Follow E-Sh4rk's ACE3 tutorial, then use the box-name codes from Sleipnir's lists.",
       "warning": "Works on real GBA hardware or the mGBA emulator (other emulators may not be accurate enough). Not for the Switch versions. Keep box 12–14 and the last row of box 11 empty when running codes, keep spare copies of the glitch Egg, and check each code worked before saving.",
-      "sources": ["https://e-sh4rk.github.io/ACE3/emerald/getting-started/introduction/", "https://pastebin.com/u/Sleipnir17"]
+      "sources": [
+        "https://e-sh4rk.github.io/ACE3/emerald/getting-started/introduction/",
+        "https://pastebin.com/u/Sleipnir17"
+      ],
+      "kind": "glitch"
     }
   },
   "games": {
-    "red": { "151": { "method": "mewGlitch" } },
-    "blue": { "151": { "method": "mewGlitch" } },
-    "yellow": { "151": { "method": "mewGlitch" } },
+    "red": {
+      "151": [
+        {
+          "method": "eventTrade",
+          "extra": "Put the event Mew in a second Red/Blue/Yellow save and trade it over."
+        },
+        {
+          "method": "mewGlitch"
+        }
+      ]
+    },
+    "blue": {
+      "151": [
+        {
+          "method": "eventTrade",
+          "extra": "Put the event Mew in a second Red/Blue/Yellow save and trade it over."
+        },
+        {
+          "method": "mewGlitch"
+        }
+      ]
+    },
+    "yellow": {
+      "151": [
+        {
+          "method": "eventTrade",
+          "extra": "Put the event Mew in a second Red/Blue/Yellow save and trade it over."
+        },
+        {
+          "method": "mewGlitch"
+        }
+      ]
+    },
     "gold": {
-      "151": { "method": "mewGlitch", "extra": "Do the Mew glitch in Red, Blue or Yellow, then trade Mew over with the Time Capsule." },
-      "251": { "method": "celebiEgg" }
+      "151": [
+        {
+          "method": "eventTrade",
+          "extra": "Put the event Mew in a Red/Blue/Yellow save and trade it over with the Time Capsule, or use a second Gold/Silver/Crystal save."
+        },
+        {
+          "method": "mewGlitch",
+          "extra": "Do the Mew glitch in Red, Blue or Yellow, then trade Mew over with the Time Capsule."
+        }
+      ],
+      "251": [
+        {
+          "method": "eventTrade",
+          "extra": "Put Celebi in a second Gold/Silver/Crystal save and trade it over. (On 3DS Virtual Console Crystal, the GS Ball event happens in-game, so you can catch one there and trade it.)"
+        },
+        {
+          "method": "celebiEgg"
+        }
+      ]
     },
     "silver": {
-      "151": { "method": "mewGlitch", "extra": "Do the Mew glitch in Red, Blue or Yellow, then trade Mew over with the Time Capsule." },
-      "251": { "method": "celebiEgg" }
+      "151": [
+        {
+          "method": "eventTrade",
+          "extra": "Put the event Mew in a Red/Blue/Yellow save and trade it over with the Time Capsule, or use a second Gold/Silver/Crystal save."
+        },
+        {
+          "method": "mewGlitch",
+          "extra": "Do the Mew glitch in Red, Blue or Yellow, then trade Mew over with the Time Capsule."
+        }
+      ],
+      "251": [
+        {
+          "method": "eventTrade",
+          "extra": "Put Celebi in a second Gold/Silver/Crystal save and trade it over. (On 3DS Virtual Console Crystal, the GS Ball event happens in-game, so you can catch one there and trade it.)"
+        },
+        {
+          "method": "celebiEgg"
+        }
+      ]
+    },
+    "crystal": {
+      "151": [
+        {
+          "method": "eventTrade",
+          "extra": "Put the event Mew in a Red/Blue/Yellow save and trade it over with the Time Capsule, or use a second Gold/Silver/Crystal save."
+        },
+        {
+          "method": "mewGlitch",
+          "extra": "Do the Mew glitch in Red, Blue or Yellow, then trade Mew over with the Time Capsule."
+        }
+      ]
     },
     "emerald": {
-      "151": { "method": "aceSetup", "extra": "Run the 'Unlock Faraway Island via Mystery Gift' code from Sleipnir's second Emerald list, collect the Old Sea Map, then sail from Lilycove to Faraway Island.", "sources": ["https://pastebin.com/dFLaf2TB"] },
-      "386": { "method": "aceSetup", "extra": "Run the 'Unlock Birth Island via Mystery Gift' code from Sleipnir's second Emerald list, collect the AuroraTicket, then sail from Lilycove to Birth Island.", "sources": ["https://pastebin.com/dFLaf2TB"] },
-      "251": { "method": "aceSetup", "extra": "No Emerald code for this. Use the FireRed/LeafGreen 'Generate any shiny Pokémon in your box' ACE code, then trade it over.", "sources": ["https://pastebin.com/VAgKwjwJ"] },
-      "385": { "method": "aceSetup", "extra": "No Emerald code for this. Use the FireRed/LeafGreen 'Generate any shiny Pokémon in your box' ACE code, then trade it over.", "sources": ["https://pastebin.com/VAgKwjwJ"] }
+      "151": [
+        {
+          "method": "eventTicket",
+          "extra": "Ticket: Old Sea Map → Faraway Island (sail from Lilycove). Mew caught this way has the event flag, so it obeys in battle."
+        },
+        {
+          "method": "aceSetup",
+          "extra": "Run the 'Unlock Faraway Island via Mystery Gift' code from Sleipnir's second Emerald list, collect the Old Sea Map, then sail from Lilycove to Faraway Island.",
+          "sources": [
+            "https://pastebin.com/dFLaf2TB"
+          ]
+        }
+      ],
+      "249": [
+        {
+          "method": "eventTicket",
+          "extra": "Ticket: MysticTicket → Navel Rock. Lugia is at the top. Or trade Shadow Lugia from XD."
+        }
+      ],
+      "250": [
+        {
+          "method": "eventTicket",
+          "extra": "Ticket: MysticTicket → Navel Rock. Ho-Oh is at the top. Or trade Ho-Oh from Colosseum."
+        }
+      ],
+      "251": [
+        {
+          "method": "eventTrade",
+          "extra": "Gen III Celebi was never a ticket event: add one (e.g. the Japanese Colosseum bonus disc Celebi) to a second Gen III save and trade it over."
+        },
+        {
+          "method": "aceSetup",
+          "extra": "No Emerald code for this. Use the FireRed/LeafGreen 'Generate any shiny Pokémon in your box' ACE code, then trade it over.",
+          "sources": [
+            "https://pastebin.com/VAgKwjwJ"
+          ]
+        }
+      ],
+      "385": [
+        {
+          "method": "eventTrade",
+          "extra": "Jirachi was never a ticket event: add one (e.g. the Colosseum Bonus Disc WISHMKR Jirachi) to a second Gen III save and trade it over."
+        },
+        {
+          "method": "aceSetup",
+          "extra": "No Emerald code for this. Use the FireRed/LeafGreen 'Generate any shiny Pokémon in your box' ACE code, then trade it over.",
+          "sources": [
+            "https://pastebin.com/VAgKwjwJ"
+          ]
+        }
+      ],
+      "386": [
+        {
+          "method": "eventTicket",
+          "extra": "Ticket: AuroraTicket → Birth Island (sail from Lilycove). Solve the triangle puzzle to make Deoxys appear.",
+          "sources": [
+            "https://projectpokemon.org/home/files/file/1818-wc3-frlg-or-e-aurora-ticket/"
+          ]
+        },
+        {
+          "method": "aceSetup",
+          "extra": "Run the 'Unlock Birth Island via Mystery Gift' code from Sleipnir's second Emerald list, collect the AuroraTicket, then sail from Lilycove to Birth Island.",
+          "sources": [
+            "https://pastebin.com/dFLaf2TB"
+          ]
+        }
+      ]
     },
     "firered": {
-      "151": { "method": "aceSetup", "extra": "Run the 'Generate any shiny Pokémon in your box' code from Sleipnir's FireRed/LeafGreen list (it will be shiny). In Gen III, Mew only obeys in battle if it has the 'fateful encounter' flag, so a generated one may disobey.", "sources": ["https://pastebin.com/VAgKwjwJ"] },
-      "251": { "method": "aceSetup", "extra": "Run the 'Generate any shiny Pokémon in your box' code from Sleipnir's FireRed/LeafGreen list (it will be shiny).", "sources": ["https://pastebin.com/VAgKwjwJ"] },
-      "385": { "method": "aceSetup", "extra": "Run the 'Generate any shiny Pokémon in your box' code from Sleipnir's FireRed/LeafGreen list (it will be shiny).", "sources": ["https://pastebin.com/VAgKwjwJ"] },
-      "386": { "method": "aceSetup", "extra": "On GBA, run the 'Unlock Birth Island via Mystery Gift' code from Sleipnir's FireRed/LeafGreen list to get the AuroraTicket (no glitch needed on Switch: it's given after the Hall of Fame).", "sources": ["https://pastebin.com/VAgKwjwJ"] }
+      "151": [
+        {
+          "method": "eventTrade",
+          "extra": "FireRed/LeafGreen had no Mew ticket. Add the event Mew to a second Gen III save (or catch it on Faraway Island in Emerald with an injected Old Sea Map) and trade it over. Mew from an official event obeys in battle, unlike a generated one."
+        },
+        {
+          "method": "aceSetup",
+          "extra": "Run the 'Generate any shiny Pokémon in your box' code from Sleipnir's FireRed/LeafGreen list (it will be shiny). In Gen III, Mew only obeys in battle if it has the 'fateful encounter' flag, so a generated one may disobey.",
+          "sources": [
+            "https://pastebin.com/VAgKwjwJ"
+          ]
+        }
+      ],
+      "249": [
+        {
+          "method": "eventTicket",
+          "extra": "Ticket: MysticTicket → Navel Rock (Seagallop from Vermilion). Only needed on GBA: the Switch release gives the ticket after the Hall of Fame."
+        }
+      ],
+      "250": [
+        {
+          "method": "eventTicket",
+          "extra": "Ticket: MysticTicket → Navel Rock (Seagallop from Vermilion). Only needed on GBA: the Switch release gives the ticket after the Hall of Fame."
+        }
+      ],
+      "251": [
+        {
+          "method": "eventTrade",
+          "extra": "Gen III Celebi was never a ticket event: add one (e.g. the Japanese Colosseum bonus disc Celebi) to a second Gen III save and trade it over."
+        },
+        {
+          "method": "aceSetup",
+          "extra": "Run the 'Generate any shiny Pokémon in your box' code from Sleipnir's FireRed/LeafGreen list (it will be shiny).",
+          "sources": [
+            "https://pastebin.com/VAgKwjwJ"
+          ]
+        }
+      ],
+      "385": [
+        {
+          "method": "eventTrade",
+          "extra": "Jirachi was never a ticket event: add one (e.g. the Colosseum Bonus Disc WISHMKR Jirachi) to a second Gen III save and trade it over."
+        },
+        {
+          "method": "aceSetup",
+          "extra": "Run the 'Generate any shiny Pokémon in your box' code from Sleipnir's FireRed/LeafGreen list (it will be shiny).",
+          "sources": [
+            "https://pastebin.com/VAgKwjwJ"
+          ]
+        }
+      ],
+      "386": [
+        {
+          "method": "eventTicket",
+          "extra": "Ticket: AuroraTicket → Birth Island (Seagallop from Vermilion). Only needed on GBA: the Switch release gives the ticket after the Hall of Fame.",
+          "sources": [
+            "https://projectpokemon.org/home/files/file/1818-wc3-frlg-or-e-aurora-ticket/"
+          ]
+        },
+        {
+          "method": "aceSetup",
+          "extra": "On GBA, run the 'Unlock Birth Island via Mystery Gift' code from Sleipnir's FireRed/LeafGreen list to get the AuroraTicket (no glitch needed on Switch: it's given after the Hall of Fame).",
+          "sources": [
+            "https://pastebin.com/VAgKwjwJ"
+          ]
+        }
+      ]
     },
     "leafgreen": {
-      "151": { "method": "aceSetup", "extra": "Run the 'Generate any shiny Pokémon in your box' code from Sleipnir's FireRed/LeafGreen list (it will be shiny). In Gen III, Mew only obeys in battle if it has the 'fateful encounter' flag, so a generated one may disobey.", "sources": ["https://pastebin.com/VAgKwjwJ"] },
-      "251": { "method": "aceSetup", "extra": "Run the 'Generate any shiny Pokémon in your box' code from Sleipnir's FireRed/LeafGreen list (it will be shiny).", "sources": ["https://pastebin.com/VAgKwjwJ"] },
-      "385": { "method": "aceSetup", "extra": "Run the 'Generate any shiny Pokémon in your box' code from Sleipnir's FireRed/LeafGreen list (it will be shiny).", "sources": ["https://pastebin.com/VAgKwjwJ"] },
-      "386": { "method": "aceSetup", "extra": "On GBA, run the 'Unlock Birth Island via Mystery Gift' code from Sleipnir's FireRed/LeafGreen list to get the AuroraTicket (no glitch needed on Switch: it's given after the Hall of Fame).", "sources": ["https://pastebin.com/VAgKwjwJ"] }
+      "151": [
+        {
+          "method": "eventTrade",
+          "extra": "FireRed/LeafGreen had no Mew ticket. Add the event Mew to a second Gen III save (or catch it on Faraway Island in Emerald with an injected Old Sea Map) and trade it over. Mew from an official event obeys in battle, unlike a generated one."
+        },
+        {
+          "method": "aceSetup",
+          "extra": "Run the 'Generate any shiny Pokémon in your box' code from Sleipnir's FireRed/LeafGreen list (it will be shiny). In Gen III, Mew only obeys in battle if it has the 'fateful encounter' flag, so a generated one may disobey.",
+          "sources": [
+            "https://pastebin.com/VAgKwjwJ"
+          ]
+        }
+      ],
+      "249": [
+        {
+          "method": "eventTicket",
+          "extra": "Ticket: MysticTicket → Navel Rock (Seagallop from Vermilion). Only needed on GBA: the Switch release gives the ticket after the Hall of Fame."
+        }
+      ],
+      "250": [
+        {
+          "method": "eventTicket",
+          "extra": "Ticket: MysticTicket → Navel Rock (Seagallop from Vermilion). Only needed on GBA: the Switch release gives the ticket after the Hall of Fame."
+        }
+      ],
+      "251": [
+        {
+          "method": "eventTrade",
+          "extra": "Gen III Celebi was never a ticket event: add one (e.g. the Japanese Colosseum bonus disc Celebi) to a second Gen III save and trade it over."
+        },
+        {
+          "method": "aceSetup",
+          "extra": "Run the 'Generate any shiny Pokémon in your box' code from Sleipnir's FireRed/LeafGreen list (it will be shiny).",
+          "sources": [
+            "https://pastebin.com/VAgKwjwJ"
+          ]
+        }
+      ],
+      "385": [
+        {
+          "method": "eventTrade",
+          "extra": "Jirachi was never a ticket event: add one (e.g. the Colosseum Bonus Disc WISHMKR Jirachi) to a second Gen III save and trade it over."
+        },
+        {
+          "method": "aceSetup",
+          "extra": "Run the 'Generate any shiny Pokémon in your box' code from Sleipnir's FireRed/LeafGreen list (it will be shiny).",
+          "sources": [
+            "https://pastebin.com/VAgKwjwJ"
+          ]
+        }
+      ],
+      "386": [
+        {
+          "method": "eventTicket",
+          "extra": "Ticket: AuroraTicket → Birth Island (Seagallop from Vermilion). Only needed on GBA: the Switch release gives the ticket after the Hall of Fame.",
+          "sources": [
+            "https://projectpokemon.org/home/files/file/1818-wc3-frlg-or-e-aurora-ticket/"
+          ]
+        },
+        {
+          "method": "aceSetup",
+          "extra": "On GBA, run the 'Unlock Birth Island via Mystery Gift' code from Sleipnir's FireRed/LeafGreen list to get the AuroraTicket (no glitch needed on Switch: it's given after the Hall of Fame).",
+          "sources": [
+            "https://pastebin.com/VAgKwjwJ"
+          ]
+        }
+      ]
     },
     "ruby": {
-      "151": { "method": "aceSetup", "extra": "No Ruby/Sapphire code for this. Get it with ACE in Emerald or FireRed/LeafGreen (see those games), then trade it over." },
-      "251": { "method": "aceSetup", "extra": "No Ruby/Sapphire code for this. Get it with ACE in FireRed/LeafGreen ('Generate any shiny Pokémon in your box'), then trade it over.", "sources": ["https://pastebin.com/VAgKwjwJ"] },
-      "385": { "method": "aceSetup", "extra": "No Ruby/Sapphire code for this. Get it with ACE in FireRed/LeafGreen ('Generate any shiny Pokémon in your box'), then trade it over.", "sources": ["https://pastebin.com/VAgKwjwJ"] },
-      "386": { "method": "aceSetup", "extra": "No Ruby/Sapphire code for this. Get it with ACE in Emerald or FireRed/LeafGreen (Birth Island unlock), then trade it over." }
+      "151": [
+        {
+          "method": "eventTrade",
+          "extra": "Catch Mew in Emerald with an injected Old Sea Map and trade it over, or add the event Mew to a second Gen III save in PKHeX."
+        },
+        {
+          "method": "aceSetup",
+          "extra": "No Ruby/Sapphire code for this. Get it with ACE in Emerald or FireRed/LeafGreen (see those games), then trade it over."
+        }
+      ],
+      "249": [
+        {
+          "method": "eventTrade",
+          "extra": "Catch Lugia at Navel Rock in Emerald or FireRed/LeafGreen with an injected MysticTicket and trade it over. Or trade Shadow Lugia from XD."
+        }
+      ],
+      "250": [
+        {
+          "method": "eventTrade",
+          "extra": "Catch Ho-Oh at Navel Rock in Emerald or FireRed/LeafGreen with an injected MysticTicket and trade it over. Or trade Ho-Oh from Colosseum."
+        }
+      ],
+      "251": [
+        {
+          "method": "eventTrade",
+          "extra": "Add Celebi (e.g. the Japanese Colosseum bonus disc Celebi) to a second Gen III save and trade it over."
+        },
+        {
+          "method": "aceSetup",
+          "extra": "No Ruby/Sapphire code for this. Get it with ACE in FireRed/LeafGreen ('Generate any shiny Pokémon in your box'), then trade it over.",
+          "sources": [
+            "https://pastebin.com/VAgKwjwJ"
+          ]
+        }
+      ],
+      "380": [
+        {
+          "method": "eventTicket",
+          "extra": "Ticket: Eon Ticket → Southern Island (ferry from Slateport or Lilycove). If the tool or a matching Wonder Card isn't available for your copy, catch the roaming one in the other version, or pick it in Emerald, and trade it over."
+        }
+      ],
+      "385": [
+        {
+          "method": "eventTrade",
+          "extra": "Add Jirachi (e.g. the Colosseum Bonus Disc WISHMKR Jirachi) to a second Gen III save and trade it over."
+        },
+        {
+          "method": "aceSetup",
+          "extra": "No Ruby/Sapphire code for this. Get it with ACE in FireRed/LeafGreen ('Generate any shiny Pokémon in your box'), then trade it over.",
+          "sources": [
+            "https://pastebin.com/VAgKwjwJ"
+          ]
+        }
+      ],
+      "386": [
+        {
+          "method": "eventTrade",
+          "extra": "Ruby/Sapphire have no Birth Island. Catch Deoxys in Emerald or FireRed/LeafGreen with an injected AuroraTicket and trade it over."
+        },
+        {
+          "method": "aceSetup",
+          "extra": "No Ruby/Sapphire code for this. Get it with ACE in Emerald or FireRed/LeafGreen (Birth Island unlock), then trade it over."
+        }
+      ]
     },
     "sapphire": {
-      "151": { "method": "aceSetup", "extra": "No Ruby/Sapphire code for this. Get it with ACE in Emerald or FireRed/LeafGreen (see those games), then trade it over." },
-      "251": { "method": "aceSetup", "extra": "No Ruby/Sapphire code for this. Get it with ACE in FireRed/LeafGreen ('Generate any shiny Pokémon in your box'), then trade it over.", "sources": ["https://pastebin.com/VAgKwjwJ"] },
-      "385": { "method": "aceSetup", "extra": "No Ruby/Sapphire code for this. Get it with ACE in FireRed/LeafGreen ('Generate any shiny Pokémon in your box'), then trade it over.", "sources": ["https://pastebin.com/VAgKwjwJ"] },
-      "386": { "method": "aceSetup", "extra": "No Ruby/Sapphire code for this. Get it with ACE in Emerald or FireRed/LeafGreen (Birth Island unlock), then trade it over." }
+      "151": [
+        {
+          "method": "eventTrade",
+          "extra": "Catch Mew in Emerald with an injected Old Sea Map and trade it over, or add the event Mew to a second Gen III save in PKHeX."
+        },
+        {
+          "method": "aceSetup",
+          "extra": "No Ruby/Sapphire code for this. Get it with ACE in Emerald or FireRed/LeafGreen (see those games), then trade it over."
+        }
+      ],
+      "249": [
+        {
+          "method": "eventTrade",
+          "extra": "Catch Lugia at Navel Rock in Emerald or FireRed/LeafGreen with an injected MysticTicket and trade it over. Or trade Shadow Lugia from XD."
+        }
+      ],
+      "250": [
+        {
+          "method": "eventTrade",
+          "extra": "Catch Ho-Oh at Navel Rock in Emerald or FireRed/LeafGreen with an injected MysticTicket and trade it over. Or trade Ho-Oh from Colosseum."
+        }
+      ],
+      "251": [
+        {
+          "method": "eventTrade",
+          "extra": "Add Celebi (e.g. the Japanese Colosseum bonus disc Celebi) to a second Gen III save and trade it over."
+        },
+        {
+          "method": "aceSetup",
+          "extra": "No Ruby/Sapphire code for this. Get it with ACE in FireRed/LeafGreen ('Generate any shiny Pokémon in your box'), then trade it over.",
+          "sources": [
+            "https://pastebin.com/VAgKwjwJ"
+          ]
+        }
+      ],
+      "381": [
+        {
+          "method": "eventTicket",
+          "extra": "Ticket: Eon Ticket → Southern Island (ferry from Slateport or Lilycove). If the tool or a matching Wonder Card isn't available for your copy, catch the roaming one in the other version, or pick it in Emerald, and trade it over."
+        }
+      ],
+      "385": [
+        {
+          "method": "eventTrade",
+          "extra": "Add Jirachi (e.g. the Colosseum Bonus Disc WISHMKR Jirachi) to a second Gen III save and trade it over."
+        },
+        {
+          "method": "aceSetup",
+          "extra": "No Ruby/Sapphire code for this. Get it with ACE in FireRed/LeafGreen ('Generate any shiny Pokémon in your box'), then trade it over.",
+          "sources": [
+            "https://pastebin.com/VAgKwjwJ"
+          ]
+        }
+      ],
+      "386": [
+        {
+          "method": "eventTrade",
+          "extra": "Ruby/Sapphire have no Birth Island. Catch Deoxys in Emerald or FireRed/LeafGreen with an injected AuroraTicket and trade it over."
+        },
+        {
+          "method": "aceSetup",
+          "extra": "No Ruby/Sapphire code for this. Get it with ACE in Emerald or FireRed/LeafGreen (Birth Island unlock), then trade it over."
+        }
+      ]
     }
   }
 }

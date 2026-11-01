@@ -160,13 +160,14 @@ async function fetchGlitchMethods() {
     }
 }
 
-// Glitch route for a Pokémon that can't be obtained normally in this game, or null.
-function glitchMethodFor(pokemon, gameKey) {
-    if (pokemon.availability[gameKey]?.catchable) return null;
-    const entry = glitchMethods.games[gameKey]?.[pokemon.id.toString()];
-    if (!entry) return null;
-    const method = glitchMethods.methods[entry.method] || {};
-    return { ...method, extra: entry.extra, sources: [...(entry.sources || []), ...(method.sources || [])] };
+// Self-hosted event and glitch routes for a Pokémon that can't be obtained normally in this game, best first.
+function specialRoutesFor(pokemon, gameKey) {
+    if (pokemon.availability[gameKey]?.catchable) return [];
+    const entries = glitchMethods.games[gameKey]?.[pokemon.id.toString()] || [];
+    return entries.map(entry => {
+        const method = glitchMethods.methods[entry.method] || {};
+        return { ...method, extra: entry.extra, sources: [...(entry.sources || []), ...(method.sources || [])] };
+    });
 }
 
 // --- INITIALIZATION ---
@@ -454,12 +455,19 @@ function createPokemonCard(pokemon, gameKey, caughtData, onCaughtChange, onInfoC
         card.appendChild(availNoteEl);
     }
 
-    if (glitchMethodFor(pokemon, gameKey)) {
-        const glitchBadge = document.createElement('span');
-        glitchBadge.className = 'glitch-badge';
-        glitchBadge.textContent = 'Glitch method';
-        glitchBadge.title = 'Only obtainable via a glitch in this game. Click Info for how.';
-        card.appendChild(glitchBadge);
+    const [bestRoute] = specialRoutesFor(pokemon, gameKey);
+    if (bestRoute) {
+        const routeBadge = document.createElement('span');
+        if (bestRoute.kind === 'event') {
+            routeBadge.className = 'event-badge';
+            routeBadge.textContent = 'Self-host event';
+            routeBadge.title = 'Event only, but you can recreate the event with your own saves. Click Info for how.';
+        } else {
+            routeBadge.className = 'glitch-badge';
+            routeBadge.textContent = 'Glitch method';
+            routeBadge.title = 'Only obtainable via a glitch in this game. Click Info for how.';
+        }
+        card.appendChild(routeBadge);
     }
 
     const controlsContainer = document.createElement('div');
@@ -505,31 +513,35 @@ function showModal(pokemon, gameKey) {
     } else {
         modalAvailabilityNote.style.display = 'none';
     }
-    renderGlitchInfo(glitchMethodFor(pokemon, gameKey));
+    renderSpecialRoutes(specialRoutesFor(pokemon, gameKey));
     modal.style.display = "flex";
 }
-function renderGlitchInfo(glitch) {
+function renderSpecialRoutes(routes) {
     const container = document.getElementById('modalGlitchInfo');
     if (!container) return;
     container.innerHTML = '';
-    container.style.display = glitch ? 'block' : 'none';
-    if (!glitch) return;
-
+    container.style.display = routes.length ? 'block' : 'none';
+    routes.forEach((route, i) => renderSpecialRoute(container, route, i > 0));
+}
+function renderSpecialRoute(container, route, isAlternative) {
     const addText = (tag, className, text) => {
         const el = document.createElement(tag);
         el.className = className;
         el.textContent = text;
         container.appendChild(el);
     };
-    addText('h3', 'font-semibold text-purple-800', `Glitch method: ${glitch.name}`);
-    if (glitch.extra) addText('p', 'mt-1', glitch.extra);
-    if (glitch.steps) addText('p', 'mt-1', glitch.steps);
-    if (glitch.warning) addText('p', 'mt-1 text-red-600 italic', `⚠ ${glitch.warning}`);
-    if (glitch.sources.length) {
+    const isEvent = route.kind === 'event';
+    const heading = isEvent ? route.name : `Glitch method: ${route.name}`;
+    addText('h3', `font-semibold ${isEvent ? 'text-teal-800' : 'text-purple-800'}${isAlternative ? ' mt-3 pt-2 border-t border-purple-200' : ''}`,
+        isAlternative ? `Alternative: ${heading}` : heading);
+    if (route.extra) addText('p', 'mt-1', route.extra);
+    if (route.steps) addText('p', 'mt-1', route.steps);
+    if (route.warning) addText('p', 'mt-1 text-red-600 italic', `⚠ ${route.warning}`);
+    if (route.sources.length) {
         const list = document.createElement('p');
         list.className = 'mt-1';
         list.append('Guides: ');
-        glitch.sources.forEach((url, i) => {
+        route.sources.forEach((url, i) => {
             const link = document.createElement('a');
             link.href = url;
             link.target = '_blank';
