@@ -2,6 +2,8 @@ services:
   mvp-pokemon:
     build: .
     container_name: mvp-pokemon
+    # Run a tiny init process so `docker stop` signals node straight away
+    init: true
     # Load environment variables from .env
     env_file:
       - .env

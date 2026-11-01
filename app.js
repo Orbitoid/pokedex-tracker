@@ -7,7 +7,7 @@ const passport = require("passport");
 const GoogleStrategy = require("passport-google-oauth20").Strategy;
 
 const app = express();
-dotenv.config();
+dotenv.config({ quiet: true });
 app.use(express.json());
 
 const bypassAuth = process.env.BYPASS_AUTH_FOR_TESTS === 'true';

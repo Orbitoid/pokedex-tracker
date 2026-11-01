@@ -1,0 +1,8 @@
+# Installed inside the image instead
+node_modules
+# Mounted as a volume by docker-compose
+save-data
+# Passed in by docker-compose's env_file
+.env
+.git
+tests
