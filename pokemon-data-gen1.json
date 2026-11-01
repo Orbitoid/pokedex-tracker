@@ -4,6 +4,31 @@
     "name": "Bulbasaur",
     "types": ["Grass", "Poison"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Pallet Town (Starter)"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Pallet Town (Starter)"],
+        "note": ""
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -41,6 +66,31 @@
     "name": "Ivysaur",
     "types": ["Grass", "Poison"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Bulbasaur (Lv 16). Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Bulbasaur (Lv 16). Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Bulbasaur (Lv 16). Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Bulbasaur (Lv 16)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Bulbasaur (Lv 16)."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -78,6 +128,31 @@
     "name": "Venusaur",
     "types": ["Grass", "Poison"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ivysaur (Lv 32). Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ivysaur (Lv 32). Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ivysaur (Lv 32). Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ivysaur (Lv 32)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ivysaur (Lv 32)."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -111,6 +186,31 @@
     "name": "Charmander",
     "types": ["Fire"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Pallet Town (Starter)"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Pallet Town (Starter)"],
+        "note": ""
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -148,6 +248,31 @@
     "name": "Charmeleon",
     "types": ["Fire"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Charmander (Lv 16). Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Charmander (Lv 16). Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Charmander (Lv 16). Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Charmander (Lv 16)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Charmander (Lv 16)."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -185,6 +310,31 @@
     "name": "Charizard",
     "types": ["Fire", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Charmeleon (Lv 36). Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Charmeleon (Lv 36). Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Charmeleon (Lv 36). Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Charmeleon (Lv 36)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Charmeleon (Lv 36)."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -222,6 +372,31 @@
     "name": "Squirtle",
     "types": ["Water"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Pallet Town (Starter)"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Pallet Town (Starter)"],
+        "note": ""
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -259,6 +434,31 @@
     "name": "Wartortle",
     "types": ["Water"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Squirtle (Lv 16). Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Squirtle (Lv 16). Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Squirtle (Lv 16). Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Squirtle (Lv 16)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Squirtle (Lv 16)."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -296,6 +496,31 @@
     "name": "Blastoise",
     "types": ["Water"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Wartortle (Lv 36). Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Wartortle (Lv 36). Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Wartortle (Lv 36). Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Wartortle (Lv 36)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Wartortle (Lv 36)."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -333,6 +558,31 @@
     "name": "Caterpie",
     "types": ["Bug"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 2", "Route 24", "Route 25", "Viridian Forest", "Pattern Bush"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 2", "Route 24", "Route 25", "Viridian Forest", "Pattern Bush"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -388,6 +638,31 @@
     "name": "Metapod",
     "types": ["Bug"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Caterpie (Lv 7). Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Caterpie (Lv 7). Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Caterpie (Lv 7). Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 24", "Route 25", "Viridian Forest", "Pattern Bush"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 24", "Route 25", "Viridian Forest", "Pattern Bush"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -433,6 +708,31 @@
     "name": "Butterfree",
     "types": ["Bug", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Metapod (Lv 10). Trade from XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Metapod (Lv 10). Trade from XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Metapod (Lv 10). Trade from XD."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Metapod (Lv 10)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Metapod (Lv 10)."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -472,6 +772,31 @@
     "name": "Weedle",
     "types": ["Bug", "Poison"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 2", "Route 24", "Route 25", "Viridian Forest", "Pattern Bush"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 2", "Route 24", "Route 25", "Viridian Forest", "Pattern Bush"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -527,6 +852,31 @@
     "name": "Kakuna",
     "types": ["Bug", "Poison"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Weedle (Lv 7). Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Weedle (Lv 7). Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Weedle (Lv 7). Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 24", "Route 25", "Viridian Forest", "Pattern Bush"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 24", "Route 25", "Viridian Forest", "Pattern Bush"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -572,6 +922,31 @@
     "name": "Beedrill",
     "types": ["Bug", "Poison"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kakuna (Lv 10). Trade from XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kakuna (Lv 10). Trade from XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kakuna (Lv 10). Trade from XD."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kakuna (Lv 10)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kakuna (Lv 10)."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -611,6 +986,31 @@
     "name": "Pidgey",
     "types": ["Normal", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 12", "Route 1", "Route 2", "Route 3", "Route 5", "Route 6", "Route 7", "Route 8", "Route 13", "Route 14", "Route 15", "Route 24", "Route 25", "Berry Forest", "Bond Bridge", "Five Isle Meadow"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 12", "Route 1", "Route 2", "Route 3", "Route 5", "Route 6", "Route 7", "Route 8", "Route 13", "Route 14", "Route 15", "Route 24", "Route 25", "Berry Forest", "Bond Bridge", "Five Isle Meadow"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -739,6 +1139,31 @@
     "name": "Pidgeotto",
     "types": ["Normal", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pidgey (Lv 18). Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pidgey (Lv 18). Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pidgey (Lv 18). Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 13", "Route 14", "Route 15", "Berry Forest", "Bond Bridge", "Five Isle Meadow"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 13", "Route 14", "Route 15", "Berry Forest", "Bond Bridge", "Five Isle Meadow"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -819,6 +1244,31 @@
     "name": "Pidgeot",
     "types": ["Normal", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pidgeotto (Lv 36). Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pidgeotto (Lv 36). Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pidgeotto (Lv 36). Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pidgeotto (Lv 36)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pidgeotto (Lv 36)."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -856,6 +1306,31 @@
     "name": "Rattata",
     "types": ["Normal"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 1", "Route 2", "Route 4", "Route 9", "Route 16", "Route 17", "Route 18", "Route 22", "Pokémon Mansion"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 1", "Route 2", "Route 4", "Route 9", "Route 16", "Route 17", "Route 18", "Route 22", "Pokémon Mansion"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -1002,6 +1477,31 @@
     "name": "Raticate",
     "types": ["Normal"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Rattata (Lv 20). Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Rattata (Lv 20). Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Rattata (Lv 20). Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 16", "Route 17", "Route 18", "Pokémon Mansion"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 16", "Route 17", "Route 18", "Pokémon Mansion"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -1091,6 +1591,31 @@
     "name": "Spearow",
     "types": ["Normal", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 3", "Route 4", "Route 9", "Route 10", "Route 11", "Route 16", "Route 17", "Route 18", "Route 22", "Route 23", "Mt. Ember", "Kindle Road", "Treasure Beach", "Cape Brink", "Water Path", "Ruin Valley", "Canyon Entrance"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 3", "Route 4", "Route 9", "Route 10", "Route 11", "Route 16", "Route 17", "Route 18", "Route 22", "Route 23", "Mt. Ember", "Kindle Road", "Treasure Beach", "Cape Brink", "Water Path", "Ruin Valley", "Canyon Entrance"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -1190,6 +1715,31 @@
     "name": "Fearow",
     "types": ["Normal", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Spearow (Lv 20). Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Spearow (Lv 20). Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Spearow (Lv 20). Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 17", "Route 18", "Route 23", "Mt. Ember", "Kindle Road", "Treasure Beach", "Cape Brink", "Water Path", "Ruin Valley", "Canyon Entrance", "Sevault Canyon"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 17", "Route 18", "Route 23", "Mt. Ember", "Kindle Road", "Treasure Beach", "Cape Brink", "Water Path", "Ruin Valley", "Canyon Entrance", "Sevault Canyon"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -1258,6 +1808,31 @@
     "name": "Ekans",
     "types": ["Poison"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 4", "Route 8", "Route 9", "Route 10", "Route 11", "Route 23"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -1322,6 +1897,31 @@
     "name": "Arbok",
     "types": ["Poison"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ekans (Lv 22). Trade from FireRed/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ekans (Lv 22). Trade from FireRed/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ekans (Lv 22). Trade from FireRed/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 23", "Victory Road"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ekans (Lv 22). Trade from FireRed/XD."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -1372,7 +1972,33 @@
     "id": 25,
     "name": "Pikachu",
     "types": ["Electric"],
+    "hoennDex": 156,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Viridian Forest", "Kanto Power Plant"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Viridian Forest", "Kanto Power Plant"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 2"],
@@ -1412,7 +2038,33 @@
     "id": 26,
     "name": "Raichu",
     "types": ["Electric"],
+    "hoennDex": 157,
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pikachu (Thunder Stone)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pikachu (Thunder Stone)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pikachu (Thunder Stone)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pikachu (Thunder Stone)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Pikachu (Thunder Stone)."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -1455,7 +2107,33 @@
     "id": 27,
     "name": "Sandshrew",
     "types": ["Ground"],
+    "hoennDex": 112,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 111", "Route 113"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 111", "Route 113"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 111", "Mirage Tower"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/LeafGreen/XD."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 4", "Route 8", "Route 9", "Route 10", "Route 11", "Route 23"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Union Cave", "Mt. Moon"],
@@ -1499,7 +2177,33 @@
     "id": 28,
     "name": "Sandslash",
     "types": ["Ground"],
+    "hoennDex": 113,
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Sandshrew (Lv 22)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Sandshrew (Lv 22)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Sandshrew (Lv 22)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Sandshrew (Lv 22). Trade from LeafGreen."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 23", "Victory Road"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 26", "Route 27", "Mt. Moon"],
@@ -1537,6 +2241,31 @@
     "name": "Nidoran♀",
     "types": ["Poison"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 3", "Safari Zone", "Kanto Underground Path (in-game trade for your Nidoran♂)"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 3", "Safari Zone"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 35", "Route 36", "National Park"],
@@ -1580,6 +2309,31 @@
     "name": "Nidorina",
     "types": ["Poison"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nidoran♀ (Lv 16). Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nidoran♀ (Lv 16). Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nidoran♀ (Lv 16). Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 11 (in-game trade for your Nidorino)", "Safari Zone"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 13", "Route 14", "Route 15"],
@@ -1617,6 +2371,31 @@
     "name": "Nidoqueen",
     "types": ["Poison", "Ground"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nidorina (Moon Stone). Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nidorina (Moon Stone). Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nidorina (Moon Stone). Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nidorina (Moon Stone)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nidorina (Moon Stone)."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -1654,6 +2433,31 @@
     "name": "Nidoran♂",
     "types": ["Poison"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 3", "Safari Zone"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 3", "Safari Zone", "Kanto Underground Path (in-game trade for your Nidoran♀)"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 35", "Route 36", "National Park"],
@@ -1697,6 +2501,31 @@
     "name": "Nidorino",
     "types": ["Poison"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nidoran♂ (Lv 16). Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nidoran♂ (Lv 16). Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nidoran♂ (Lv 16). Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 11 (in-game trade for your Nidorina)", "Safari Zone"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 13", "Route 14", "Route 15"],
@@ -1734,6 +2563,31 @@
     "name": "Nidoking",
     "types": ["Poison", "Ground"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nidorino (Moon Stone). Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nidorino (Moon Stone). Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nidorino (Moon Stone). Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nidorino (Moon Stone)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Nidorino (Moon Stone)."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -1771,6 +2625,31 @@
     "name": "Clefairy",
     "types": ["Fairy"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Cleffa (high friendship). Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Cleffa (high friendship). Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Cleffa (high friendship). Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Mt. Moon", "Celadon City (Game Corner prize, 500 coins)"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Mt. Moon", "Celadon City (Game Corner prize, 750 coins)"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -1815,6 +2694,31 @@
     "name": "Clefable",
     "types": ["Fairy"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Clefairy (Moon Stone). Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Clefairy (Moon Stone). Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Clefairy (Moon Stone). Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Clefairy (Moon Stone)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Clefairy (Moon Stone)."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -1851,7 +2755,33 @@
     "id": 37,
     "name": "Vulpix",
     "types": ["Fire"],
+    "hoennDex": 153,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Mt. Pyre"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Mt. Pyre"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Mt. Pyre"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/LeafGreen/XD."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 7", "Route 8", "Pokémon Mansion"],
+        "note": ""
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -1893,7 +2823,33 @@
     "id": 38,
     "name": "Ninetales",
     "types": ["Fire"],
+    "hoennDex": 154,
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Vulpix (Fire Stone)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Vulpix (Fire Stone)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Vulpix (Fire Stone)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Vulpix (Fire Stone). Trade from Ruby/Sapphire/Emerald/LeafGreen/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Vulpix (Fire Stone)."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -1930,7 +2886,33 @@
     "id": 39,
     "name": "Jigglypuff",
     "types": ["Normal", "Fairy"],
+    "hoennDex": 138,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 115"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 115"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 115"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 3"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 3"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 3", "Route 4", "Route 46"],
@@ -1977,7 +2959,33 @@
     "id": 40,
     "name": "Wigglytuff",
     "types": ["Normal", "Fairy"],
+    "hoennDex": 139,
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Jigglypuff (Moon Stone)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Jigglypuff (Moon Stone)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Jigglypuff (Moon Stone)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Jigglypuff (Moon Stone)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Jigglypuff (Moon Stone)."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -2018,7 +3026,33 @@
     "id": 41,
     "name": "Zubat",
     "types": ["Poison", "Flying"],
+    "hoennDex": 63,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Meteor Falls", "Granite Cave", "Seafloor Cavern", "Cave of Origin", "Victory Road", "Shoal Cave"],
+        "note": "Surf: Meteor Falls, Seafloor Cavern, Shoal Cave."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Meteor Falls", "Granite Cave", "Seafloor Cavern", "Cave of Origin", "Victory Road", "Shoal Cave"],
+        "note": "Surf: Meteor Falls, Seafloor Cavern, Shoal Cave."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Meteor Falls", "Granite Cave", "Seafloor Cavern", "Cave of Origin", "Victory Road", "Shoal Cave", "Altering Cave"],
+        "note": "Surf: Meteor Falls, Seafloor Cavern, Shoal Cave."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Seafoam Islands", "Mt. Moon", "Rock Tunnel", "Victory Road", "Icefall Cave", "Lost Cave", "Altering Cave"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Seafoam Islands", "Mt. Moon", "Rock Tunnel", "Victory Road", "Icefall Cave", "Lost Cave", "Altering Cave"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -2072,7 +3106,33 @@
     "id": 42,
     "name": "Golbat",
     "types": ["Poison", "Flying"],
+    "hoennDex": 64,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Meteor Falls", "Seafloor Cavern", "Cave of Origin", "Victory Road", "Shoal Cave", "Sky Pillar"],
+        "note": "Surf: Meteor Falls, Seafloor Cavern, Victory Road."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Meteor Falls", "Seafloor Cavern", "Cave of Origin", "Victory Road", "Shoal Cave", "Sky Pillar"],
+        "note": "Surf: Meteor Falls, Seafloor Cavern, Victory Road."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Meteor Falls", "Seafloor Cavern", "Cave of Origin", "Victory Road", "Shoal Cave", "Sky Pillar"],
+        "note": "Surf: Meteor Falls, Seafloor Cavern, Victory Road."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Seafoam Islands", "Cerulean Cave", "Victory Road", "Icefall Cave", "Lost Cave"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Seafoam Islands", "Cerulean Cave", "Victory Road", "Icefall Cave", "Lost Cave"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -2111,7 +3171,33 @@
     "id": 43,
     "name": "Oddish",
     "types": ["Grass", "Poison"],
+    "hoennDex": 88,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 110", "Route 117", "Route 119", "Route 120", "Route 121", "Route 123", "Safari Zone"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 110", "Route 117", "Route 119", "Route 120", "Route 121", "Route 123", "Safari Zone"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 110", "Route 117", "Route 119", "Route 120", "Route 121", "Route 123", "Safari Zone"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 12", "Route 5", "Route 6", "Route 7", "Route 13", "Route 14", "Route 15", "Route 24", "Route 25", "Berry Forest", "Cape Brink", "Bond Bridge", "Water Path"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/FireRed."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -2183,7 +3269,33 @@
     "id": 44,
     "name": "Gloom",
     "types": ["Grass", "Poison"],
+    "hoennDex": 89,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 121", "Route 123", "Safari Zone"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 121", "Route 123", "Safari Zone"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 121", "Route 123", "Safari Zone"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 12", "Route 13", "Route 14", "Route 15", "Berry Forest", "Cape Brink", "Bond Bridge", "Water Path"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Oddish (Lv 21). Trade from Ruby/Sapphire/Emerald/FireRed."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 5 (Night)"],
@@ -2226,7 +3338,33 @@
     "id": 45,
     "name": "Vileplume",
     "types": ["Grass", "Poison"],
+    "hoennDex": 90,
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Gloom (Leaf Stone)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Gloom (Leaf Stone)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Gloom (Leaf Stone)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Gloom (Leaf Stone)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Gloom (Leaf Stone). Trade from Ruby/Sapphire/Emerald/FireRed."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -2264,6 +3402,31 @@
     "name": "Paras",
     "types": ["Bug", "Grass"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Mt. Moon", "Safari Zone"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Mt. Moon", "Safari Zone"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -2313,6 +3476,31 @@
     "name": "Parasect",
     "types": ["Bug", "Grass"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Paras (Lv 24). Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Paras (Lv 24). Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Paras (Lv 24). Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Cerulean Cave", "Safari Zone"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Cerulean Cave", "Safari Zone"],
+        "note": ""
+      },
       "gold": { "catchable": false, "locations": [], "note": "Evolve Paras." },
       "silver": {
         "catchable": false,
@@ -2346,6 +3534,31 @@
     "name": "Venonat",
     "types": ["Bug", "Poison"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 12", "Route 13", "Route 14", "Route 15", "Safari Zone", "Berry Forest", "Bond Bridge"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 12", "Route 13", "Route 14", "Route 15", "Safari Zone", "Berry Forest", "Bond Bridge"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -2428,6 +3641,31 @@
     "name": "Venomoth",
     "types": ["Bug", "Poison"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Venonat (Lv 31). Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Venonat (Lv 31). Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Venonat (Lv 31). Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Safari Zone", "Berry Forest"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Safari Zone", "Berry Forest"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -2482,6 +3720,31 @@
     "name": "Diglett",
     "types": ["Ground"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Diglett's Cave"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Diglett's Cave"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Diglett's Cave"],
@@ -2515,6 +3778,31 @@
     "name": "Dugtrio",
     "types": ["Ground"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Diglett (Lv 26). Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Diglett (Lv 26). Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Diglett (Lv 26). Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Diglett's Cave"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Diglett's Cave"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Diglett's Cave"],
@@ -2552,6 +3840,31 @@
     "name": "Meowth",
     "types": ["Normal"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Hoenn Battle Frontier (in-game trade for your Skitty)"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 5", "Route 6", "Route 7", "Route 8", "Kindle Road", "Treasure Beach", "Cape Brink", "Bond Bridge", "Five Isle Meadow", "Water Path", "Ruin Valley", "Canyon Entrance", "Sevault Canyon"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 5", "Route 6", "Route 7", "Route 8", "Kindle Road", "Treasure Beach", "Cape Brink", "Bond Bridge", "Five Isle Meadow", "Water Path", "Ruin Valley", "Canyon Entrance", "Sevault Canyon"],
+        "note": ""
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -2603,6 +3916,31 @@
     "name": "Persian",
     "types": ["Normal"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Meowth (Lv 28). Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Meowth (Lv 28). Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Meowth (Lv 28)."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Kindle Road", "Treasure Beach", "Cape Brink", "Bond Bridge", "Five Isle Meadow", "Water Path", "Ruin Valley", "Canyon Entrance", "Sevault Canyon"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Kindle Road", "Treasure Beach", "Cape Brink", "Bond Bridge", "Five Isle Meadow", "Water Path", "Ruin Valley", "Canyon Entrance", "Sevault Canyon"],
+        "note": ""
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -2635,7 +3973,33 @@
     "id": 54,
     "name": "Psyduck",
     "types": ["Water"],
+    "hoennDex": 158,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": "Surf: Safari Zone."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": "Surf: Safari Zone."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": "Surf: Safari Zone."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Seafoam Islands", "Route 12", "Sea Route 19", "Sea Route 20", "Cinnabar Island", "Viridian City", "Cerulean City", "Vermilion City", "Celadon City", "Fuchsia City", "Pallet Town", "Route 4", "Route 6", "Route 10", "Route 11", "Route 13", "Sea Route 21", "Route 22", "Route 24", "Route 25", "Cerulean Cave", "Route 23", "Safari Zone", "S.S. Anne", "Berry Forest", "Icefall Cave", "Kindle Road", "Treasure Beach", "Cape Brink", "Bond Bridge", "Resort Gorgeous", "Water Labyrinth", "Five Isle Meadow", "Memorial Pillar", "Outcast Island", "Green Path", "Water Path", "Ruin Valley", "Trainer Tower", "Canyon Entrance", "Tanoby Ruins", "One Island", "Four Island", "Five Island"],
+        "note": "Surf: Seafoam Islands, Viridian City, Celadon City, Fuchsia City, Route 6, Route 22, Route 25, Cerulean Cave, Route 23, Safari Zone, Berry Forest, Icefall Cave, Cape Brink, Four Island. Super Rod: Seafoam Islands, Route 12, Sea Route 19, Sea Route 20, Cinnabar Island, Viridian City, Cerulean City, Vermilion City, Fuchsia City, Pallet Town, Route 4, Route 6, Route 10, Route 11, Route 13, Sea Route 21, Route 22, Route 24, Route 25, Cerulean Cave, Route 23, Safari Zone, S.S. Anne, Berry Forest, Icefall Cave, Kindle Road, Treasure Beach, Cape Brink, Bond Bridge, Resort Gorgeous, Water Labyrinth, Five Isle Meadow, Memorial Pillar, Outcast Island, Green Path, Water Path, Ruin Valley, Trainer Tower, Tanoby Ruins, One Island, Four Island, Five Island."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/FireRed."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -2706,7 +4070,33 @@
     "id": 55,
     "name": "Golduck",
     "types": ["Water"],
+    "hoennDex": 159,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": "Surf: Safari Zone."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": "Surf: Safari Zone."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": "Surf: Safari Zone."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Seafoam Islands", "Cerulean Cave", "Berry Forest", "Cape Brink"],
+        "note": "Surf: Seafoam Islands, Cerulean Cave, Berry Forest, Cape Brink."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Psyduck (Lv 33). Trade from Ruby/Sapphire/Emerald/FireRed/XD."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -2763,6 +4153,31 @@
     "name": "Mankey",
     "types": ["Fighting"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Rock Tunnel", "Route 3", "Route 4", "Route 22", "Route 23"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Rock Tunnel", "Route 3", "Route 4", "Route 22", "Route 23"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 42", "Route 9"],
@@ -2800,6 +4215,31 @@
     "name": "Primeape",
     "types": ["Fighting"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Mankey (Lv 28). Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Mankey (Lv 28). Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Mankey (Lv 28). Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Cerulean Cave", "Route 23", "Victory Road"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Cerulean Cave", "Route 23", "Victory Road"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 9", "Cerulean Cave (Unused Map)"],
@@ -2833,6 +4273,31 @@
     "name": "Growlithe",
     "types": ["Fire"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 7", "Route 8", "Pokémon Mansion"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/XD."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 7", "Route 8", "Route 36", "Route 37"],
@@ -2882,6 +4347,31 @@
     "name": "Arcanine",
     "types": ["Fire"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Growlithe (Fire Stone). Trade from FireRed/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Growlithe (Fire Stone). Trade from FireRed/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Growlithe (Fire Stone). Trade from FireRed/XD."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Growlithe (Fire Stone)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Growlithe (Fire Stone). Trade from FireRed/XD."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -2920,6 +4410,31 @@
     "name": "Poliwag",
     "types": ["Water"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Viridian City", "Fuchsia City", "Route 6", "Route 22", "Route 25", "Cerulean Cave", "Route 23", "Safari Zone", "Berry Forest", "Icefall Cave", "Cape Brink", "Ruin Valley", "Four Island"],
+        "note": "Good Rod: Viridian City, Fuchsia City, Route 6, Route 22, Route 25, Cerulean Cave, Route 23, Safari Zone, Berry Forest, Icefall Cave, Cape Brink, Ruin Valley, Four Island. Super Rod: Viridian City, Route 6, Route 22, Route 25, Cerulean Cave, Route 23, Icefall Cave, Cape Brink, Ruin Valley, Four Island."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Viridian City", "Fuchsia City", "Route 6", "Route 22", "Route 25", "Cerulean Cave", "Route 23", "Safari Zone", "Berry Forest", "Icefall Cave", "Cape Brink", "Ruin Valley", "Four Island"],
+        "note": "Good Rod: Viridian City, Fuchsia City, Route 6, Route 22, Route 25, Cerulean Cave, Route 23, Safari Zone, Berry Forest, Icefall Cave, Cape Brink, Ruin Valley, Four Island. Super Rod: Viridian City, Route 6, Route 22, Route 25, Cerulean Cave, Route 23, Icefall Cave, Cape Brink, Ruin Valley, Four Island."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -3000,6 +4515,31 @@
     "name": "Poliwhirl",
     "types": ["Water"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Poliwag (Lv 25). Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Poliwag (Lv 25). Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Poliwag (Lv 25). Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Viridian City", "Route 6", "Route 22", "Route 25", "Cerulean Cave", "Route 23", "Icefall Cave", "Cape Brink", "Ruin Valley", "Four Island"],
+        "note": "Super Rod: Viridian City, Route 6, Route 22, Route 25, Cerulean Cave, Route 23, Icefall Cave, Cape Brink, Ruin Valley, Four Island."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Viridian City", "Route 6", "Route 22", "Route 25", "Cerulean Cave", "Route 23", "Icefall Cave", "Cape Brink", "Ruin Valley", "Four Island"],
+        "note": "Super Rod: Viridian City, Route 6, Route 22, Route 25, Cerulean Cave, Route 23, Icefall Cave, Cape Brink, Ruin Valley, Four Island."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -3079,6 +4619,31 @@
     "name": "Poliwrath",
     "types": ["Water", "Fighting"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Poliwhirl (Water Stone). Trade from XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Poliwhirl (Water Stone). Trade from XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Poliwhirl (Water Stone). Trade from XD."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Poliwhirl (Water Stone)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Poliwhirl (Water Stone)."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -3115,7 +4680,33 @@
     "id": 63,
     "name": "Abra",
     "types": ["Psychic"],
+    "hoennDex": 39,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Granite Cave"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Granite Cave"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Granite Cave", "Route 116"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 24", "Route 25", "Celadon City (Game Corner prize, 180 coins)"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 24", "Route 25", "Celadon City (Game Corner prize, 120 coins)"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -3178,7 +4769,33 @@
     "id": 64,
     "name": "Kadabra",
     "types": ["Psychic"],
+    "hoennDex": 40,
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Abra (Lv 16)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Abra (Lv 16)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Abra (Lv 16)."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Cerulean Cave"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Cerulean Cave"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 8", "Cerulean Cave (Kanto - after Elite Four)"],
@@ -3215,7 +4832,33 @@
     "id": 65,
     "name": "Alakazam",
     "types": ["Psychic"],
+    "hoennDex": 41,
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kadabra (Trade)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kadabra (Trade)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kadabra (Trade)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kadabra (Trade)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kadabra (Trade)."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -3252,7 +4895,33 @@
     "id": 66,
     "name": "Machop",
     "types": ["Fighting"],
+    "hoennDex": 73,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Jagged Pass", "Fiery Path", "Route 112"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Jagged Pass", "Fiery Path", "Route 112"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Jagged Pass", "Fiery Path"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Rock Tunnel", "Victory Road", "Mt. Ember"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Rock Tunnel", "Victory Road", "Mt. Ember"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Rock Tunnel", "Mt. Mortar"],
@@ -3289,7 +4958,33 @@
     "id": 67,
     "name": "Machoke",
     "types": ["Fighting"],
+    "hoennDex": 74,
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Machop (Lv 28)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Machop (Lv 28)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Machop (Lv 28)."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Cerulean Cave", "Victory Road", "Mt. Ember"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Cerulean Cave", "Victory Road", "Mt. Ember"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -3338,7 +5033,33 @@
     "id": 68,
     "name": "Machamp",
     "types": ["Fighting"],
+    "hoennDex": 75,
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Machoke (Trade)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Machoke (Trade)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Machoke (Trade)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Machoke (Trade)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Machoke (Trade)."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -3376,6 +5097,31 @@
     "name": "Bellsprout",
     "types": ["Grass", "Poison"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from LeafGreen."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from LeafGreen."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 12", "Route 5", "Route 6", "Route 7", "Route 13", "Route 14", "Route 15", "Route 24", "Route 25", "Berry Forest", "Cape Brink", "Bond Bridge", "Water Path"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -3453,6 +5199,31 @@
     "name": "Weepinbell",
     "types": ["Grass", "Poison"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Bellsprout (Lv 21). Trade from LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Bellsprout (Lv 21). Trade from LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Bellsprout (Lv 21). Trade from LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Bellsprout (Lv 21). Trade from LeafGreen/XD."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 12", "Route 13", "Route 14", "Route 15", "Berry Forest", "Cape Brink", "Bond Bridge", "Water Path"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 44", "Route 24", "Route 25"],
@@ -3496,6 +5267,31 @@
     "name": "Victreebel",
     "types": ["Grass", "Poison"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Weepinbell (Leaf Stone). Trade from LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Weepinbell (Leaf Stone). Trade from LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Weepinbell (Leaf Stone). Trade from LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Weepinbell (Leaf Stone). Trade from LeafGreen/XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Weepinbell (Leaf Stone)."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -3532,7 +5328,33 @@
     "id": 72,
     "name": "Tentacool",
     "types": ["Water", "Poison"],
+    "hoennDex": 66,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Slateport City", "Lilycove City", "Mossdeep City", "Ever Grande City", "Seafloor Cavern", "Shoal Cave", "Abandoned Ship", "Route 103", "Route 105", "Route 106", "Route 107", "Route 108", "Route 109", "Route 110", "Route 115", "Route 118", "Route 119", "Route 121", "Route 122", "Route 123", "Route 124", "Route 125", "Route 126", "Route 127", "Route 128", "Route 129", "Route 130", "Route 131", "Route 132", "Route 133", "Route 134", "Dewford Town", "Pacifidlog Town"],
+        "note": "Surf: Slateport City, Lilycove City, Mossdeep City, Ever Grande City, Seafloor Cavern, Shoal Cave, Abandoned Ship, Route 103, Route 105, Route 106, Route 107, Route 108, Route 109, Route 110, Route 115, Route 118, Route 119, Route 121, Route 122, Route 123, Route 124, Route 125, Route 126, Route 127, Route 128, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Dewford Town, Pacifidlog Town. Old Rod: Slateport City, Lilycove City, Mossdeep City, Ever Grande City, Seafloor Cavern, Shoal Cave, Abandoned Ship, Route 103, Route 105, Route 106, Route 107, Route 108, Route 109, Route 110, Route 115, Route 118, Route 119, Route 121, Route 122, Route 123, Route 124, Route 125, Route 126, Route 127, Route 128, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Dewford Town, Pacifidlog Town. Good Rod: Slateport City, Lilycove City, Mossdeep City, Seafloor Cavern, Shoal Cave, Abandoned Ship, Route 103, Route 105, Route 106, Route 107, Route 108, Route 109, Route 110, Route 115, Route 118, Route 119, Route 121, Route 122, Route 123, Route 124, Route 125, Route 126, Route 127, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Dewford Town, Pacifidlog Town. Super Rod: Abandoned Ship."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Slateport City", "Lilycove City", "Mossdeep City", "Sootopolis City", "Ever Grande City", "Seafloor Cavern", "Shoal Cave", "Abandoned Ship", "Route 103", "Route 105", "Route 106", "Route 107", "Route 108", "Route 109", "Route 110", "Route 115", "Route 118", "Route 119", "Route 121", "Route 122", "Route 123", "Route 124", "Route 125", "Route 126", "Route 127", "Route 128", "Route 129", "Route 130", "Route 131", "Route 132", "Route 133", "Route 134", "Dewford Town", "Pacifidlog Town"],
+        "note": "Surf: Slateport City, Lilycove City, Mossdeep City, Ever Grande City, Seafloor Cavern, Shoal Cave, Abandoned Ship, Route 103, Route 105, Route 106, Route 107, Route 108, Route 109, Route 110, Route 115, Route 118, Route 119, Route 121, Route 122, Route 123, Route 124, Route 125, Route 126, Route 127, Route 128, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Dewford Town, Pacifidlog Town. Old Rod: Slateport City, Lilycove City, Mossdeep City, Sootopolis City, Ever Grande City, Seafloor Cavern, Shoal Cave, Abandoned Ship, Route 103, Route 105, Route 106, Route 107, Route 108, Route 109, Route 110, Route 115, Route 118, Route 119, Route 121, Route 122, Route 123, Route 124, Route 125, Route 126, Route 127, Route 128, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Dewford Town, Pacifidlog Town. Good Rod: Slateport City, Lilycove City, Mossdeep City, Seafloor Cavern, Shoal Cave, Abandoned Ship, Route 103, Route 105, Route 106, Route 107, Route 108, Route 109, Route 110, Route 115, Route 118, Route 119, Route 121, Route 122, Route 123, Route 124, Route 125, Route 126, Route 127, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Dewford Town, Pacifidlog Town. Super Rod: Abandoned Ship."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Slateport City", "Lilycove City", "Mossdeep City", "Sootopolis City", "Ever Grande City", "Seafloor Cavern", "Shoal Cave", "Abandoned Ship", "Route 103", "Route 105", "Route 106", "Route 107", "Route 108", "Route 109", "Route 110", "Route 115", "Route 118", "Route 119", "Route 121", "Route 122", "Route 123", "Route 124", "Route 125", "Route 126", "Route 127", "Route 128", "Route 129", "Route 130", "Route 131", "Route 132", "Route 133", "Route 134", "Dewford Town", "Pacifidlog Town"],
+        "note": "Surf: Slateport City, Lilycove City, Mossdeep City, Ever Grande City, Seafloor Cavern, Shoal Cave, Abandoned Ship, Route 103, Route 105, Route 106, Route 107, Route 108, Route 109, Route 110, Route 115, Route 118, Route 119, Route 121, Route 122, Route 123, Route 124, Route 125, Route 126, Route 127, Route 128, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Dewford Town, Pacifidlog Town. Old Rod: Slateport City, Lilycove City, Mossdeep City, Sootopolis City, Ever Grande City, Seafloor Cavern, Shoal Cave, Abandoned Ship, Route 103, Route 105, Route 106, Route 107, Route 108, Route 109, Route 110, Route 115, Route 118, Route 119, Route 121, Route 122, Route 123, Route 124, Route 125, Route 126, Route 127, Route 128, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Dewford Town, Pacifidlog Town. Good Rod: Slateport City, Lilycove City, Mossdeep City, Seafloor Cavern, Shoal Cave, Abandoned Ship, Route 103, Route 105, Route 106, Route 107, Route 108, Route 109, Route 110, Route 115, Route 118, Route 119, Route 121, Route 122, Route 123, Route 124, Route 125, Route 126, Route 127, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Dewford Town, Pacifidlog Town. Super Rod: Abandoned Ship."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 12", "Sea Route 19", "Sea Route 20", "Cinnabar Island", "Cerulean City", "Vermilion City", "Pallet Town", "Route 4", "Route 10", "Route 11", "Route 13", "Sea Route 21", "Route 24", "S.S. Anne", "Icefall Cave", "Kindle Road", "Treasure Beach", "Bond Bridge", "Resort Gorgeous", "Water Labyrinth", "Five Isle Meadow", "Memorial Pillar", "Outcast Island", "Green Path", "Water Path", "Trainer Tower", "Tanoby Ruins", "One Island", "Five Island"],
+        "note": "Surf: Route 12, Sea Route 19, Sea Route 20, Cinnabar Island, Cerulean City, Vermilion City, Pallet Town, Route 4, Route 10, Route 11, Route 13, Sea Route 21, Route 24, S.S. Anne, Icefall Cave, Kindle Road, Treasure Beach, Bond Bridge, Resort Gorgeous, Water Labyrinth, Five Isle Meadow, Memorial Pillar, Outcast Island, Green Path, Water Path, Trainer Tower, Tanoby Ruins, One Island, Five Island."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 12", "Sea Route 19", "Sea Route 20", "Cinnabar Island", "Cerulean City", "Vermilion City", "Pallet Town", "Route 4", "Route 10", "Route 11", "Route 13", "Sea Route 21", "Route 24", "S.S. Anne", "Icefall Cave", "Kindle Road", "Treasure Beach", "Bond Bridge", "Resort Gorgeous", "Water Labyrinth", "Five Isle Meadow", "Memorial Pillar", "Outcast Island", "Green Path", "Water Path", "Trainer Tower", "Tanoby Ruins", "One Island", "Five Island"],
+        "note": "Surf: Route 12, Sea Route 19, Sea Route 20, Cinnabar Island, Cerulean City, Vermilion City, Pallet Town, Route 4, Route 10, Route 11, Route 13, Sea Route 21, Route 24, S.S. Anne, Icefall Cave, Kindle Road, Treasure Beach, Bond Bridge, Resort Gorgeous, Water Labyrinth, Five Isle Meadow, Memorial Pillar, Outcast Island, Green Path, Water Path, Trainer Tower, Tanoby Ruins, One Island, Five Island."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Many water routes (surfing/fishing)"],
@@ -3585,7 +5407,33 @@
     "id": 73,
     "name": "Tentacruel",
     "types": ["Water", "Poison"],
+    "hoennDex": 67,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Abandoned Ship"],
+        "note": "Surf: Abandoned Ship. Super Rod: Abandoned Ship."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Abandoned Ship"],
+        "note": "Surf: Abandoned Ship. Super Rod: Abandoned Ship."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Abandoned Ship"],
+        "note": "Surf: Abandoned Ship. Super Rod: Abandoned Ship."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Icefall Cave", "Kindle Road", "Treasure Beach", "Bond Bridge", "Resort Gorgeous", "Water Labyrinth", "Five Isle Meadow", "Memorial Pillar", "Outcast Island", "Green Path", "Water Path", "Trainer Tower", "Tanoby Ruins", "One Island", "Five Island"],
+        "note": "Surf: Icefall Cave, Kindle Road, Treasure Beach, Bond Bridge, Resort Gorgeous, Water Labyrinth, Five Isle Meadow, Memorial Pillar, Outcast Island, Green Path, Water Path, Trainer Tower, Tanoby Ruins, One Island, Five Island."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Icefall Cave", "Kindle Road", "Treasure Beach", "Bond Bridge", "Resort Gorgeous", "Water Labyrinth", "Five Isle Meadow", "Memorial Pillar", "Outcast Island", "Green Path", "Water Path", "Trainer Tower", "Tanoby Ruins", "One Island", "Five Island"],
+        "note": "Surf: Icefall Cave, Kindle Road, Treasure Beach, Bond Bridge, Resort Gorgeous, Water Labyrinth, Five Isle Meadow, Memorial Pillar, Outcast Island, Green Path, Water Path, Trainer Tower, Tanoby Ruins, One Island, Five Island."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Many water routes (surfing, rare)"],
@@ -3622,7 +5470,33 @@
     "id": 74,
     "name": "Geodude",
     "types": ["Rock", "Ground"],
+    "hoennDex": 57,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Granite Cave", "Victory Road", "Route 111", "Route 114", "Safari Zone"],
+        "note": "Rock Smash: Granite Cave, Victory Road, Route 111, Route 114, Safari Zone."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Granite Cave", "Victory Road", "Route 111", "Route 114", "Safari Zone"],
+        "note": "Rock Smash: Granite Cave, Victory Road, Route 111, Route 114, Safari Zone."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Granite Cave", "Victory Road", "Route 111", "Route 114", "Safari Zone", "Magma Hideout"],
+        "note": "Rock Smash: Granite Cave, Victory Road, Route 111, Route 114, Safari Zone."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Mt. Moon", "Rock Tunnel", "Cerulean Cave", "Victory Road", "Mt. Ember", "Kindle Road", "Sevault Canyon"],
+        "note": "Rock Smash: Rock Tunnel, Cerulean Cave, Mt. Ember, Kindle Road, Sevault Canyon."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Mt. Moon", "Rock Tunnel", "Cerulean Cave", "Victory Road", "Mt. Ember", "Kindle Road", "Sevault Canyon"],
+        "note": "Rock Smash: Rock Tunnel, Cerulean Cave, Mt. Ember, Kindle Road, Sevault Canyon."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -3689,7 +5563,33 @@
     "id": 75,
     "name": "Graveler",
     "types": ["Rock", "Ground"],
+    "hoennDex": 58,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Victory Road"],
+        "note": "Rock Smash: Victory Road."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Victory Road"],
+        "note": "Rock Smash: Victory Road."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Victory Road", "Magma Hideout"],
+        "note": "Rock Smash: Victory Road."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Rock Tunnel", "Cerulean Cave", "Mt. Ember", "Kindle Road", "Sevault Canyon"],
+        "note": "Rock Smash: Rock Tunnel, Cerulean Cave, Mt. Ember, Kindle Road, Sevault Canyon."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Rock Tunnel", "Cerulean Cave", "Mt. Ember", "Kindle Road", "Sevault Canyon"],
+        "note": "Rock Smash: Rock Tunnel, Cerulean Cave, Mt. Ember, Kindle Road, Sevault Canyon."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -3744,7 +5644,33 @@
     "id": 76,
     "name": "Golem",
     "types": ["Rock", "Ground"],
+    "hoennDex": 59,
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Graveler (Trade)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Graveler (Trade)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Graveler (Trade)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Graveler (Trade)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Graveler (Trade)."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -3782,6 +5708,31 @@
     "name": "Ponyta",
     "types": ["Fire"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Mt. Ember", "Kindle Road"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Mt. Ember", "Kindle Road"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -3833,6 +5784,31 @@
     "name": "Rapidash",
     "types": ["Fire"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ponyta (Lv 40). Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ponyta (Lv 40). Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Ponyta (Lv 40). Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Mt. Ember", "Kindle Road"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Mt. Ember", "Kindle Road"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 28", "Mt. Silver"],
@@ -3862,6 +5838,31 @@
     "name": "Slowpoke",
     "types": ["Water", "Psychic"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from LeafGreen."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from LeafGreen."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Seafoam Islands", "Route 12", "Sea Route 19", "Sea Route 20", "Cinnabar Island", "Viridian City", "Cerulean City", "Vermilion City", "Celadon City", "Fuchsia City", "Pallet Town", "Route 4", "Route 6", "Route 10", "Route 11", "Route 13", "Sea Route 21", "Route 22", "Route 24", "Route 25", "Cerulean Cave", "Route 23", "Safari Zone", "S.S. Anne", "Berry Forest", "Icefall Cave", "Kindle Road", "Treasure Beach", "Cape Brink", "Bond Bridge", "Resort Gorgeous", "Water Labyrinth", "Five Isle Meadow", "Memorial Pillar", "Outcast Island", "Green Path", "Water Path", "Ruin Valley", "Trainer Tower", "Canyon Entrance", "Tanoby Ruins", "One Island", "Four Island", "Five Island"],
+        "note": "Surf: Seafoam Islands, Viridian City, Celadon City, Fuchsia City, Route 6, Route 22, Route 25, Cerulean Cave, Route 23, Safari Zone, Berry Forest, Icefall Cave, Cape Brink, Four Island. Super Rod: Seafoam Islands, Route 12, Sea Route 19, Sea Route 20, Cinnabar Island, Viridian City, Cerulean City, Vermilion City, Fuchsia City, Pallet Town, Route 4, Route 6, Route 10, Route 11, Route 13, Sea Route 21, Route 22, Route 24, Route 25, Cerulean Cave, Route 23, Safari Zone, S.S. Anne, Berry Forest, Icefall Cave, Kindle Road, Treasure Beach, Cape Brink, Bond Bridge, Resort Gorgeous, Water Labyrinth, Five Isle Meadow, Memorial Pillar, Outcast Island, Green Path, Water Path, Ruin Valley, Trainer Tower, Tanoby Ruins, One Island, Four Island, Five Island."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Slowpoke Well", "Tohjo Falls (surfing)"],
@@ -3909,6 +5910,31 @@
     "name": "Slowbro",
     "types": ["Water", "Psychic"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Slowpoke (Lv 37). Trade from LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Slowpoke (Lv 37). Trade from LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Slowpoke (Lv 37). Trade from LeafGreen."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Slowpoke (Lv 37). Trade from LeafGreen."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Seafoam Islands", "Cinnabar Island", "Cerulean Cave", "Berry Forest", "Cape Brink"],
+        "note": "Surf: Seafoam Islands, Cerulean Cave, Berry Forest, Cape Brink. Super Rod: Cinnabar Island."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Slowpoke Well (surfing, rare)"],
@@ -3945,7 +5971,33 @@
     "id": 81,
     "name": "Magnemite",
     "types": ["Electric", "Steel"],
+    "hoennDex": 82,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["New Mauville"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["New Mauville"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["New Mauville"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Kanto Power Plant"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Kanto Power Plant"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 38", "Route 39", "Route 6", "Route 11"],
@@ -3982,7 +6034,33 @@
     "id": 82,
     "name": "Magneton",
     "types": ["Electric", "Steel"],
+    "hoennDex": 83,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["New Mauville"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["New Mauville"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["New Mauville"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Cerulean Cave", "Kanto Power Plant"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Cerulean Cave", "Kanto Power Plant"],
+        "note": ""
+      },
       "gold": {
         "catchable": false,
         "locations": ["Cerulean Cave (Kanto - after Elite Four)"],
@@ -4020,6 +6098,31 @@
     "name": "Farfetch'd",
     "types": ["Normal", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Vermilion City (in-game trade for your Spearow)"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Vermilion City (in-game trade for your Spearow)"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 38", "Route 39", "Route 47", "Route 48"],
@@ -4061,7 +6164,33 @@
     "id": 84,
     "name": "Doduo",
     "types": ["Normal", "Flying"],
+    "hoennDex": 92,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 16", "Route 17", "Route 18", "Safari Zone"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 16", "Route 17", "Route 18", "Safari Zone"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -4116,7 +6245,33 @@
     "id": 85,
     "name": "Dodrio",
     "types": ["Normal", "Flying"],
+    "hoennDex": 93,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Doduo (Lv 31)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Doduo (Lv 31)."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -4171,6 +6326,31 @@
     "name": "Seel",
     "types": ["Water"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Seafoam Islands", "Icefall Cave", "Cinnabar Island (in-game trade for your Ponyta)"],
+        "note": "Surf: Seafoam Islands, Icefall Cave."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Seafoam Islands", "Icefall Cave", "Cinnabar Island (in-game trade for your Ponyta)"],
+        "note": "Surf: Seafoam Islands, Icefall Cave."
+      },
       "gold": { "catchable": true, "locations": ["Whirl Islands"], "note": "" },
       "silver": {
         "catchable": true,
@@ -4204,6 +6384,31 @@
     "name": "Dewgong",
     "types": ["Water", "Ice"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Seel (Lv 34). Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Seel (Lv 34). Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Seel (Lv 34). Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Seafoam Islands", "Icefall Cave"],
+        "note": "Surf: Seafoam Islands, Icefall Cave."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Seafoam Islands", "Icefall Cave"],
+        "note": "Surf: Seafoam Islands, Icefall Cave."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Whirl Islands (rare)"],
@@ -4240,7 +6445,33 @@
     "id": 88,
     "name": "Grimer",
     "types": ["Poison"],
+    "hoennDex": 106,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Fiery Path"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Fiery Path"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Fiery Path"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Celadon City", "Pokémon Mansion"],
+        "note": "Super Rod: Celadon City."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Celadon City", "Pokémon Mansion"],
+        "note": "Super Rod: Celadon City."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -4292,7 +6523,33 @@
     "id": 89,
     "name": "Muk",
     "types": ["Poison"],
+    "hoennDex": 107,
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Grimer (Lv 38)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Grimer (Lv 38)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Grimer (Lv 38)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Grimer (Lv 38)."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Pokémon Mansion"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -4345,6 +6602,31 @@
     "name": "Shellder",
     "types": ["Water"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Cinnabar Island", "Vermilion City", "Pallet Town", "S.S. Anne", "Icefall Cave", "One Island", "Five Island"],
+        "note": "Super Rod: Cinnabar Island, Vermilion City, Pallet Town, S.S. Anne, Icefall Cave, One Island, Five Island."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/XD."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -4443,6 +6725,31 @@
     "name": "Cloyster",
     "types": ["Water", "Ice"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Shellder (Water Stone). Trade from FireRed/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Shellder (Water Stone). Trade from FireRed/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Shellder (Water Stone). Trade from FireRed/XD."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Shellder (Water Stone)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Shellder (Water Stone). Trade from FireRed/XD."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Olivine City (Super Rod, rare)"],
@@ -4480,6 +6787,31 @@
     "name": "Gastly",
     "types": ["Ghost", "Poison"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Pokémon Tower", "Lost Cave"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Pokémon Tower", "Lost Cave"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -4530,6 +6862,31 @@
     "name": "Haunter",
     "types": ["Ghost", "Poison"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Gastly (Lv 25). Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Gastly (Lv 25). Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Gastly (Lv 25). Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Pokémon Tower", "Lost Cave"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Pokémon Tower", "Lost Cave"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 8 (Night)"],
@@ -4567,6 +6924,31 @@
     "name": "Gengar",
     "types": ["Ghost", "Poison"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Haunter (Trade). Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Haunter (Trade). Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Haunter (Trade). Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Haunter (Trade)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Haunter (Trade)."
+      },
       "gold": {
         "catchable": true,
         "locations": [],
@@ -4604,6 +6986,31 @@
     "name": "Onix",
     "types": ["Rock", "Ground"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Rock Tunnel", "Victory Road", "Sevault Canyon"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Rock Tunnel", "Victory Road", "Sevault Canyon"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -4656,6 +7063,31 @@
     "name": "Drowzee",
     "types": ["Psychic"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 11", "Berry Forest"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 11", "Berry Forest"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 34", "Route 35", "Route 11"],
@@ -4686,6 +7118,31 @@
     "name": "Hypno",
     "types": ["Psychic"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Drowzee (Lv 26). Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Drowzee (Lv 26). Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Drowzee (Lv 26). Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Berry Forest"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Berry Forest"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 11 (rare)"],
@@ -4723,6 +7180,31 @@
     "name": "Krabby",
     "types": ["Water"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Seafoam Islands", "Route 12", "Sea Route 19", "Sea Route 20", "Cinnabar Island", "Cerulean City", "Vermilion City", "Pallet Town", "Route 4", "Route 10", "Route 11", "Route 13", "Sea Route 21", "Route 24", "S.S. Anne"],
+        "note": "Good Rod: Seafoam Islands, Route 12, Sea Route 19, Sea Route 20, Cinnabar Island, Cerulean City, Vermilion City, Pallet Town, Route 4, Route 10, Route 11, Route 13, Sea Route 21, Route 24, S.S. Anne."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Seafoam Islands", "Route 12", "Sea Route 19", "Sea Route 20", "Cinnabar Island", "Cerulean City", "Vermilion City", "Pallet Town", "Route 4", "Route 10", "Route 11", "Route 13", "Sea Route 21", "Route 24", "S.S. Anne", "Icefall Cave", "Kindle Road", "Treasure Beach", "Bond Bridge", "Resort Gorgeous", "Water Labyrinth", "Five Isle Meadow", "Memorial Pillar", "Outcast Island", "Green Path", "Water Path", "Trainer Tower", "Tanoby Ruins", "One Island", "Five Island"],
+        "note": "Surf: Seafoam Islands. Good Rod: Seafoam Islands, Route 12, Sea Route 19, Sea Route 20, Cinnabar Island, Cerulean City, Vermilion City, Pallet Town, Route 4, Route 10, Route 11, Route 13, Sea Route 21, Route 24, S.S. Anne, Icefall Cave, Kindle Road, Treasure Beach, Bond Bridge, Resort Gorgeous, Water Labyrinth, Five Isle Meadow, Memorial Pillar, Outcast Island, Green Path, Water Path, Trainer Tower, Tanoby Ruins, One Island, Five Island. Super Rod: Seafoam Islands, Route 12, Sea Route 19, Sea Route 20, Cinnabar Island, Cerulean City, Vermilion City, Pallet Town, Route 4, Route 10, Route 11, Route 13, Sea Route 21, Route 24, S.S. Anne, Icefall Cave, Kindle Road, Treasure Beach, Bond Bridge, Resort Gorgeous, Water Labyrinth, Five Isle Meadow, Memorial Pillar, Outcast Island, Green Path, Water Path, Trainer Tower, Tanoby Ruins, One Island, Five Island."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -4803,6 +7285,31 @@
     "name": "Kingler",
     "types": ["Water"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Krabby (Lv 28). Trade from LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Krabby (Lv 28). Trade from LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Krabby (Lv 28). Trade from LeafGreen."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Krabby (Lv 28)."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Sea Route 19", "Sea Route 20", "Pallet Town", "Sea Route 21", "Icefall Cave", "Kindle Road", "Treasure Beach", "Bond Bridge", "Resort Gorgeous", "Water Labyrinth", "Five Isle Meadow", "Memorial Pillar", "Outcast Island", "Green Path", "Water Path", "Trainer Tower", "Tanoby Ruins", "One Island", "Five Island"],
+        "note": "Super Rod: Sea Route 19, Sea Route 20, Pallet Town, Sea Route 21, Icefall Cave, Kindle Road, Treasure Beach, Bond Bridge, Resort Gorgeous, Water Labyrinth, Five Isle Meadow, Memorial Pillar, Outcast Island, Green Path, Water Path, Trainer Tower, Tanoby Ruins, One Island, Five Island."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -4854,7 +7361,33 @@
     "id": 100,
     "name": "Voltorb",
     "types": ["Electric"],
+    "hoennDex": 84,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["New Mauville"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["New Mauville"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["New Mauville"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 10", "Kanto Power Plant"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 10", "Kanto Power Plant"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 10", "Olivine City (Trade for Krabby)"],
@@ -4891,7 +7424,33 @@
     "id": 101,
     "name": "Electrode",
     "types": ["Electric"],
+    "hoennDex": 85,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["New Mauville", "Team Magma Hideout (one-time encounter)"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["New Mauville", "Team Aqua Hideout (one-time encounter)", "Team Magma Hideout (one-time encounter)"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["New Mauville", "Team Aqua Hideout (one-time encounter)", "Team Magma Hideout (one-time encounter)"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Cerulean Cave", "Kanto Power Plant (one-time encounter)", "Cinnabar Island (in-game trade for your Raichu)"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Cerulean Cave", "Kanto Power Plant (one-time encounter)", "Cinnabar Island (in-game trade for your Raichu)"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Team Rocket HQ Mahogany (as items)"],
@@ -4944,6 +7503,31 @@
     "name": "Exeggcute",
     "types": ["Grass", "Psychic"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Safari Zone", "Berry Forest"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Safari Zone", "Berry Forest"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -4987,6 +7571,31 @@
     "name": "Exeggutor",
     "types": ["Grass", "Psychic"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Exeggcute (Leaf Stone). Trade from XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Exeggcute (Leaf Stone). Trade from XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Exeggcute (Leaf Stone). Trade from XD."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Exeggcute (Leaf Stone)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Exeggcute (Leaf Stone)."
+      },
       "gold": {
         "catchable": true,
         "locations": [],
@@ -5024,6 +7633,31 @@
     "name": "Cubone",
     "types": ["Ground"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Pokémon Tower", "Sevault Canyon"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Pokémon Tower", "Sevault Canyon"],
+        "note": ""
+      },
       "gold": { "catchable": true, "locations": ["Rock Tunnel"], "note": "" },
       "silver": { "catchable": true, "locations": ["Rock Tunnel"], "note": "" },
       "crystal": {
@@ -5045,6 +7679,31 @@
     "name": "Marowak",
     "types": ["Ground"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Cubone (Lv 28). Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Cubone (Lv 28). Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Cubone (Lv 28). Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Victory Road", "Sevault Canyon"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Victory Road", "Sevault Canyon"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Rock Tunnel (rare)", "Route 9", "Route 10"],
@@ -5090,6 +7749,31 @@
     "name": "Hitmonlee",
     "types": ["Fighting"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Tyrogue (Lv 20, Attack > Defense). Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Tyrogue (Lv 20, Attack > Defense). Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Tyrogue (Lv 20, Attack > Defense). Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Saffron City (gift, choose one)"],
+        "note": "Pick Hitmonlee or Hitmonchan at the Fighting Dojo."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Saffron City (gift, choose one)"],
+        "note": "Pick Hitmonlee or Hitmonchan at the Fighting Dojo."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -5133,6 +7817,31 @@
     "name": "Hitmonchan",
     "types": ["Fighting"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Tyrogue (Lv 20, Attack < Defense). Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Tyrogue (Lv 20, Attack < Defense). Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Tyrogue (Lv 20, Attack < Defense). Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Saffron City (gift, choose one)"],
+        "note": "Pick Hitmonlee or Hitmonchan at the Fighting Dojo."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Saffron City (gift, choose one)"],
+        "note": "Pick Hitmonlee or Hitmonchan at the Fighting Dojo."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -5176,6 +7885,31 @@
     "name": "Lickitung",
     "types": ["Normal"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 18 (in-game trade for your Golduck)"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 18 (in-game trade for your Slowbro)"],
+        "note": ""
+      },
       "gold": { "catchable": true, "locations": ["Route 44"], "note": "" },
       "silver": { "catchable": true, "locations": ["Route 44"], "note": "" },
       "crystal": {
@@ -5204,7 +7938,33 @@
     "id": 109,
     "name": "Koffing",
     "types": ["Poison"],
+    "hoennDex": 108,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Fiery Path"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Fiery Path"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Fiery Path"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Celadon City", "Pokémon Mansion"],
+        "note": "Surf: Celadon City."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Celadon City", "Pokémon Mansion"],
+        "note": "Surf: Celadon City."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Burned Tower", "Team Rocket HQ Mahogany"],
@@ -5245,7 +8005,33 @@
     "id": 110,
     "name": "Weezing",
     "types": ["Poison"],
+    "hoennDex": 109,
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Koffing (Lv 35)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Koffing (Lv 35)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Koffing (Lv 35)."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Pokémon Mansion"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Koffing (Lv 35)."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Team Rocket HQ Mahogany (rare)"],
@@ -5282,7 +8068,33 @@
     "id": 111,
     "name": "Rhyhorn",
     "types": ["Rock", "Ground"],
+    "hoennDex": 169,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
       "gold": { "catchable": true, "locations": ["Victory Road"], "note": "" },
       "silver": {
         "catchable": true,
@@ -5315,7 +8127,33 @@
     "id": 112,
     "name": "Rhydon",
     "types": ["Rock", "Ground"],
+    "hoennDex": 170,
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Rhyhorn (Lv 42)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Rhyhorn (Lv 42)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Rhyhorn (Lv 42)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Rhyhorn (Lv 42)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Rhyhorn (Lv 42)."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Victory Road (2F, 3F, rare)", "Mt. Silver (Cave)"],
@@ -5353,6 +8191,31 @@
     "name": "Chansey",
     "types": ["Normal"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 13", "Route 14", "Route 15 (rare)"],
@@ -5399,6 +8262,31 @@
     "name": "Tangela",
     "types": ["Grass"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Sea Route 21", "Treasure Beach", "Cinnabar Island (in-game trade for your Venonat)"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Sea Route 21", "Treasure Beach", "Cinnabar Island (in-game trade for your Venonat)"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 21", "Route 28", "Mt. Silver (grass)"],
@@ -5437,6 +8325,31 @@
     "name": "Kangaskhan",
     "types": ["Normal"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Rock Tunnel (rare)"],
@@ -5473,7 +8386,33 @@
     "id": 116,
     "name": "Horsea",
     "types": ["Water"],
+    "hoennDex": 184,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Route 132", "Route 133", "Route 134"],
+        "note": "Super Rod: Route 132, Route 133, Route 134."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Route 132", "Route 133", "Route 134"],
+        "note": "Super Rod: Route 132, Route 133, Route 134."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Route 132", "Route 133", "Route 134", "Pacifidlog Town (in-game trade for your Bagon)"],
+        "note": "Super Rod: Route 132, Route 133, Route 134."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Seafoam Islands", "Route 12", "Sea Route 19", "Sea Route 20", "Cinnabar Island", "Cerulean City", "Vermilion City", "Pallet Town", "Route 4", "Route 10", "Route 11", "Route 13", "Sea Route 21", "Route 24", "S.S. Anne", "Icefall Cave", "Kindle Road", "Treasure Beach", "Bond Bridge", "Resort Gorgeous", "Water Labyrinth", "Five Isle Meadow", "Memorial Pillar", "Outcast Island", "Green Path", "Water Path", "Trainer Tower", "Tanoby Ruins", "One Island", "Five Island"],
+        "note": "Surf: Seafoam Islands. Good Rod: Seafoam Islands, Route 12, Sea Route 19, Sea Route 20, Cinnabar Island, Cerulean City, Vermilion City, Pallet Town, Route 4, Route 10, Route 11, Route 13, Sea Route 21, Route 24, S.S. Anne, Icefall Cave, Kindle Road, Treasure Beach, Bond Bridge, Resort Gorgeous, Water Labyrinth, Five Isle Meadow, Memorial Pillar, Outcast Island, Green Path, Water Path, Trainer Tower, Tanoby Ruins, One Island, Five Island. Super Rod: Seafoam Islands, Route 12, Sea Route 19, Sea Route 20, Cinnabar Island, Cerulean City, Vermilion City, Pallet Town, Route 4, Route 10, Route 11, Route 13, Sea Route 21, Route 24, S.S. Anne, Icefall Cave, Kindle Road, Treasure Beach, Bond Bridge, Resort Gorgeous, Water Labyrinth, Five Isle Meadow, Memorial Pillar, Outcast Island, Green Path, Water Path, Trainer Tower, Tanoby Ruins, One Island, Five Island."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Seafoam Islands", "Route 12", "Sea Route 19", "Sea Route 20", "Cinnabar Island", "Cerulean City", "Vermilion City", "Pallet Town", "Route 4", "Route 10", "Route 11", "Route 13", "Sea Route 21", "Route 24", "S.S. Anne"],
+        "note": "Good Rod: Seafoam Islands, Route 12, Sea Route 19, Sea Route 20, Cinnabar Island, Cerulean City, Vermilion City, Pallet Town, Route 4, Route 10, Route 11, Route 13, Sea Route 21, Route 24, S.S. Anne. Super Rod: Vermilion City."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Whirl Islands (fishing/surfing)"],
@@ -5527,7 +8466,33 @@
     "id": 117,
     "name": "Seadra",
     "types": ["Water"],
+    "hoennDex": 185,
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Horsea (Lv 32)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Horsea (Lv 32)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Horsea (Lv 32)."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Sea Route 19", "Sea Route 20", "Cinnabar Island", "Pallet Town", "Sea Route 21", "Icefall Cave", "Kindle Road", "Treasure Beach", "Bond Bridge", "Resort Gorgeous", "Water Labyrinth", "Five Isle Meadow", "Memorial Pillar", "Outcast Island", "Green Path", "Water Path", "Trainer Tower", "Tanoby Ruins", "One Island", "Five Island"],
+        "note": "Super Rod: Sea Route 19, Sea Route 20, Cinnabar Island, Pallet Town, Sea Route 21, Icefall Cave, Kindle Road, Treasure Beach, Bond Bridge, Resort Gorgeous, Water Labyrinth, Five Isle Meadow, Memorial Pillar, Outcast Island, Green Path, Water Path, Trainer Tower, Tanoby Ruins, One Island, Five Island."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Horsea (Lv 32)."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Whirl Islands (Super Rod, rare)"],
@@ -5564,7 +8529,33 @@
     "id": 118,
     "name": "Goldeen",
     "types": ["Water"],
+    "hoennDex": 50,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Petalburg City", "Meteor Falls", "Victory Road", "Route 102", "Route 111", "Route 114", "Route 117", "Route 120", "Safari Zone"],
+        "note": "Old Rod: Petalburg City, Meteor Falls, Victory Road, Route 102, Route 111, Route 114, Route 117, Route 120, Safari Zone. Good Rod: Petalburg City, Meteor Falls, Victory Road, Route 102, Route 111, Route 114, Route 117, Route 120, Safari Zone. Super Rod: Safari Zone."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Petalburg City", "Meteor Falls", "Victory Road", "Route 102", "Route 111", "Route 114", "Route 117", "Route 120", "Safari Zone"],
+        "note": "Old Rod: Petalburg City, Meteor Falls, Victory Road, Route 102, Route 111, Route 114, Route 117, Route 120, Safari Zone. Good Rod: Petalburg City, Meteor Falls, Victory Road, Route 102, Route 111, Route 114, Route 117, Route 120, Safari Zone. Super Rod: Safari Zone."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Petalburg City", "Meteor Falls", "Victory Road", "Route 102", "Route 111", "Route 114", "Route 117", "Route 120", "Safari Zone"],
+        "note": "Surf: Route 102, Route 111, Route 114, Route 117, Route 120. Old Rod: Petalburg City, Meteor Falls, Victory Road, Route 102, Route 111, Route 114, Route 117, Route 120, Safari Zone. Good Rod: Petalburg City, Meteor Falls, Victory Road, Route 102, Route 111, Route 114, Route 117, Route 120, Safari Zone. Super Rod: Safari Zone."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Viridian City", "Fuchsia City", "Route 6", "Route 22", "Route 25", "Cerulean Cave", "Route 23", "Safari Zone", "Berry Forest", "Icefall Cave", "Cape Brink", "Ruin Valley", "Four Island"],
+        "note": "Good Rod: Viridian City, Fuchsia City, Route 6, Route 22, Route 25, Cerulean Cave, Route 23, Safari Zone, Berry Forest, Icefall Cave, Cape Brink, Ruin Valley, Four Island. Super Rod: Fuchsia City, Safari Zone, Berry Forest."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Viridian City", "Fuchsia City", "Route 6", "Route 22", "Route 25", "Cerulean Cave", "Route 23", "Safari Zone", "Berry Forest", "Icefall Cave", "Cape Brink", "Ruin Valley", "Four Island"],
+        "note": "Good Rod: Viridian City, Fuchsia City, Route 6, Route 22, Route 25, Cerulean Cave, Route 23, Safari Zone, Berry Forest, Icefall Cave, Cape Brink, Ruin Valley, Four Island. Super Rod: Fuchsia City, Safari Zone, Berry Forest."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -5709,7 +8700,33 @@
     "id": 119,
     "name": "Seaking",
     "types": ["Water"],
+    "hoennDex": 51,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": "Super Rod: Safari Zone."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": "Super Rod: Safari Zone."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": "Super Rod: Safari Zone."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Fuchsia City", "Safari Zone", "Berry Forest"],
+        "note": "Super Rod: Fuchsia City, Safari Zone, Berry Forest."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Fuchsia City", "Safari Zone", "Berry Forest"],
+        "note": "Super Rod: Fuchsia City, Safari Zone, Berry Forest."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -5792,7 +8809,33 @@
     "id": 120,
     "name": "Staryu",
     "types": ["Water"],
+    "hoennDex": 143,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Lilycove City"],
+        "note": "Super Rod: Lilycove City."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Lilycove City"],
+        "note": "Super Rod: Lilycove City."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Lilycove City"],
+        "note": "Super Rod: Lilycove City."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/LeafGreen."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Cinnabar Island", "Vermilion City", "Pallet Town", "S.S. Anne", "Icefall Cave", "One Island", "Five Island"],
+        "note": "Super Rod: Cinnabar Island, Vermilion City, Pallet Town, S.S. Anne, Icefall Cave, One Island, Five Island."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -5860,7 +8903,33 @@
     "id": 121,
     "name": "Starmie",
     "types": ["Water", "Psychic"],
+    "hoennDex": 144,
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Staryu (Water Stone)."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Staryu (Water Stone)."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Staryu (Water Stone)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Staryu (Water Stone). Trade from XD."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Staryu (Water Stone)."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -5898,6 +8967,31 @@
     "name": "Mr. Mime",
     "types": ["Psychic", "Fairy"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 2 (in-game trade for your Abra)"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 2 (in-game trade for your Abra)"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -5941,6 +9035,31 @@
     "name": "Scyther",
     "types": ["Bug", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Safari Zone", "Celadon City (Game Corner prize, 5500 coins)"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/XD."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -5982,6 +9101,31 @@
     "name": "Jynx",
     "types": ["Ice", "Psychic"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Smoochum (Lv 30). Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Smoochum (Lv 30). Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Smoochum (Lv 30). Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Cerulean City (in-game trade for your Poliwhirl)"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Cerulean City (in-game trade for your Poliwhirl)"],
+        "note": ""
+      },
       "gold": { "catchable": true, "locations": ["Ice Path"], "note": "" },
       "silver": { "catchable": true, "locations": ["Ice Path"], "note": "" },
       "crystal": { "catchable": true, "locations": ["Ice Path"], "note": "" },
@@ -6007,6 +9151,31 @@
     "name": "Electabuzz",
     "types": ["Electric"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Elekid (Lv 30). Trade from FireRed/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Elekid (Lv 30). Trade from FireRed/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Elekid (Lv 30). Trade from FireRed/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Kanto Power Plant"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Elekid (Lv 30). Trade from FireRed/XD."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 10"],
@@ -6043,6 +9212,31 @@
     "name": "Magmar",
     "types": ["Fire"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Magby (Lv 30). Trade from LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Magby (Lv 30). Trade from LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Magby (Lv 30). Trade from LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Magby (Lv 30). Trade from LeafGreen/XD."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Mt. Ember"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Burned Tower"],
@@ -6079,7 +9273,33 @@
     "id": 127,
     "name": "Pinsir",
     "types": ["Bug"],
+    "hoennDex": 167,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Ruby/Sapphire/Emerald/LeafGreen/XD."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Safari Zone", "Celadon City (Game Corner prize, 2500 coins)"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -6121,6 +9341,31 @@
     "name": "Tauros",
     "types": ["Normal"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 38", "Route 39"],
@@ -6145,7 +9390,33 @@
     "id": 129,
     "name": "Magikarp",
     "types": ["Water"],
+    "hoennDex": 52,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Petalburg City", "Slateport City", "Lilycove City", "Mossdeep City", "Sootopolis City", "Ever Grande City", "Meteor Falls", "Seafloor Cavern", "Victory Road", "Shoal Cave", "Abandoned Ship", "Route 102", "Route 103", "Route 104", "Route 105", "Route 106", "Route 107", "Route 108", "Route 109", "Route 110", "Route 111", "Route 114", "Route 115", "Route 117", "Route 118", "Route 119", "Route 120", "Route 121", "Route 122", "Route 123", "Route 124", "Route 125", "Route 126", "Route 127", "Route 128", "Route 129", "Route 130", "Route 131", "Route 132", "Route 133", "Route 134", "Safari Zone", "Dewford Town", "Pacifidlog Town"],
+        "note": "Surf: Sootopolis City. Old Rod: Petalburg City, Slateport City, Lilycove City, Mossdeep City, Sootopolis City, Ever Grande City, Meteor Falls, Seafloor Cavern, Victory Road, Shoal Cave, Abandoned Ship, Route 102, Route 103, Route 104, Route 105, Route 106, Route 107, Route 108, Route 109, Route 110, Route 111, Route 114, Route 115, Route 117, Route 118, Route 119, Route 120, Route 121, Route 122, Route 123, Route 124, Route 125, Route 126, Route 127, Route 128, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Safari Zone, Dewford Town, Pacifidlog Town. Good Rod: Petalburg City, Slateport City, Lilycove City, Mossdeep City, Sootopolis City, Ever Grande City, Meteor Falls, Seafloor Cavern, Victory Road, Shoal Cave, Abandoned Ship, Route 102, Route 103, Route 104, Route 105, Route 106, Route 107, Route 108, Route 109, Route 110, Route 111, Route 114, Route 115, Route 117, Route 118, Route 119, Route 120, Route 121, Route 122, Route 123, Route 124, Route 125, Route 126, Route 127, Route 128, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Safari Zone, Dewford Town, Pacifidlog Town. Super Rod: Sootopolis City, Route 104."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Petalburg City", "Slateport City", "Lilycove City", "Mossdeep City", "Sootopolis City", "Ever Grande City", "Meteor Falls", "Seafloor Cavern", "Victory Road", "Shoal Cave", "Abandoned Ship", "Route 102", "Route 103", "Route 104", "Route 105", "Route 106", "Route 107", "Route 108", "Route 109", "Route 110", "Route 111", "Route 114", "Route 115", "Route 117", "Route 118", "Route 119", "Route 120", "Route 121", "Route 122", "Route 123", "Route 124", "Route 125", "Route 126", "Route 127", "Route 128", "Route 129", "Route 130", "Route 131", "Route 132", "Route 133", "Route 134", "Safari Zone", "Dewford Town", "Pacifidlog Town"],
+        "note": "Surf: Sootopolis City. Old Rod: Petalburg City, Slateport City, Lilycove City, Mossdeep City, Sootopolis City, Ever Grande City, Meteor Falls, Seafloor Cavern, Victory Road, Shoal Cave, Abandoned Ship, Route 102, Route 103, Route 104, Route 105, Route 106, Route 107, Route 108, Route 109, Route 110, Route 111, Route 114, Route 115, Route 117, Route 118, Route 119, Route 120, Route 121, Route 122, Route 123, Route 124, Route 125, Route 126, Route 127, Route 128, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Safari Zone, Dewford Town, Pacifidlog Town. Good Rod: Petalburg City, Slateport City, Lilycove City, Mossdeep City, Sootopolis City, Ever Grande City, Meteor Falls, Seafloor Cavern, Victory Road, Shoal Cave, Abandoned Ship, Route 102, Route 103, Route 104, Route 105, Route 106, Route 107, Route 108, Route 109, Route 110, Route 111, Route 114, Route 115, Route 117, Route 118, Route 119, Route 120, Route 121, Route 122, Route 123, Route 124, Route 125, Route 126, Route 127, Route 128, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Safari Zone, Dewford Town, Pacifidlog Town. Super Rod: Sootopolis City, Route 104."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Petalburg City", "Slateport City", "Lilycove City", "Mossdeep City", "Sootopolis City", "Ever Grande City", "Meteor Falls", "Seafloor Cavern", "Victory Road", "Shoal Cave", "Abandoned Ship", "Route 102", "Route 103", "Route 104", "Route 105", "Route 106", "Route 107", "Route 108", "Route 109", "Route 110", "Route 111", "Route 114", "Route 115", "Route 117", "Route 118", "Route 119", "Route 120", "Route 121", "Route 122", "Route 123", "Route 124", "Route 125", "Route 126", "Route 127", "Route 128", "Route 129", "Route 130", "Route 131", "Route 132", "Route 133", "Route 134", "Safari Zone", "Dewford Town", "Pacifidlog Town"],
+        "note": "Surf: Sootopolis City. Old Rod: Petalburg City, Slateport City, Lilycove City, Mossdeep City, Sootopolis City, Ever Grande City, Meteor Falls, Seafloor Cavern, Victory Road, Shoal Cave, Abandoned Ship, Route 102, Route 103, Route 104, Route 105, Route 106, Route 107, Route 108, Route 109, Route 110, Route 111, Route 114, Route 115, Route 117, Route 118, Route 119, Route 120, Route 121, Route 122, Route 123, Route 124, Route 125, Route 126, Route 127, Route 128, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Safari Zone, Dewford Town, Pacifidlog Town. Good Rod: Petalburg City, Slateport City, Lilycove City, Mossdeep City, Sootopolis City, Ever Grande City, Meteor Falls, Seafloor Cavern, Victory Road, Shoal Cave, Abandoned Ship, Route 102, Route 103, Route 104, Route 105, Route 106, Route 107, Route 108, Route 109, Route 110, Route 111, Route 114, Route 115, Route 117, Route 118, Route 119, Route 120, Route 121, Route 122, Route 123, Route 124, Route 125, Route 126, Route 127, Route 128, Route 129, Route 130, Route 131, Route 132, Route 133, Route 134, Safari Zone, Dewford Town, Pacifidlog Town. Super Rod: Sootopolis City, Route 104."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Seafoam Islands", "Route 12", "Sea Route 19", "Sea Route 20", "Cinnabar Island", "Viridian City", "Cerulean City", "Vermilion City", "Celadon City", "Fuchsia City", "Pallet Town", "Route 4", "Route 6", "Route 10", "Route 11", "Route 13", "Sea Route 21", "Route 22", "Route 24", "Route 25", "Cerulean Cave", "Route 23", "Safari Zone", "S.S. Anne", "Berry Forest", "Icefall Cave", "Kindle Road", "Treasure Beach", "Cape Brink", "Bond Bridge", "Resort Gorgeous", "Water Labyrinth", "Five Isle Meadow", "Memorial Pillar", "Outcast Island", "Green Path", "Water Path", "Ruin Valley", "Trainer Tower", "Tanoby Ruins", "One Island", "Four Island", "Five Island", "Route 4 (buy from salesman)", "Route 3 (buy from salesman)"],
+        "note": "Old Rod: Seafoam Islands, Route 12, Sea Route 19, Sea Route 20, Cinnabar Island, Viridian City, Cerulean City, Vermilion City, Celadon City, Fuchsia City, Pallet Town, Route 4, Route 6, Route 10, Route 11, Route 13, Sea Route 21, Route 22, Route 24, Route 25, Cerulean Cave, Route 23, Safari Zone, S.S. Anne, Berry Forest, Icefall Cave, Kindle Road, Treasure Beach, Cape Brink, Bond Bridge, Resort Gorgeous, Water Labyrinth, Five Isle Meadow, Memorial Pillar, Outcast Island, Green Path, Water Path, Ruin Valley, Trainer Tower, Tanoby Ruins, One Island, Four Island, Five Island. Good Rod: Seafoam Islands, Route 12, Sea Route 19, Sea Route 20, Cinnabar Island, Viridian City, Cerulean City, Vermilion City, Celadon City, Fuchsia City, Pallet Town, Route 4, Route 6, Route 10, Route 11, Route 13, Sea Route 21, Route 22, Route 24, Route 25, Cerulean Cave, Route 23, Safari Zone, S.S. Anne, Berry Forest, Icefall Cave, Kindle Road, Treasure Beach, Cape Brink, Bond Bridge, Resort Gorgeous, Water Labyrinth, Five Isle Meadow, Memorial Pillar, Outcast Island, Green Path, Water Path, Ruin Valley, Trainer Tower, Tanoby Ruins, One Island, Four Island, Five Island. Super Rod: Celadon City."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Seafoam Islands", "Route 12", "Sea Route 19", "Sea Route 20", "Cinnabar Island", "Viridian City", "Cerulean City", "Vermilion City", "Celadon City", "Fuchsia City", "Pallet Town", "Route 4", "Route 6", "Route 10", "Route 11", "Route 13", "Sea Route 21", "Route 22", "Route 24", "Route 25", "Cerulean Cave", "Route 23", "Safari Zone", "S.S. Anne", "Berry Forest", "Icefall Cave", "Kindle Road", "Treasure Beach", "Cape Brink", "Bond Bridge", "Resort Gorgeous", "Water Labyrinth", "Five Isle Meadow", "Memorial Pillar", "Outcast Island", "Green Path", "Water Path", "Ruin Valley", "Trainer Tower", "Tanoby Ruins", "One Island", "Four Island", "Five Island", "Route 4 (buy from salesman)", "Route 3 (buy from salesman)"],
+        "note": "Old Rod: Seafoam Islands, Route 12, Sea Route 19, Sea Route 20, Cinnabar Island, Viridian City, Cerulean City, Vermilion City, Celadon City, Fuchsia City, Pallet Town, Route 4, Route 6, Route 10, Route 11, Route 13, Sea Route 21, Route 22, Route 24, Route 25, Cerulean Cave, Route 23, Safari Zone, S.S. Anne, Berry Forest, Icefall Cave, Kindle Road, Treasure Beach, Cape Brink, Bond Bridge, Resort Gorgeous, Water Labyrinth, Five Isle Meadow, Memorial Pillar, Outcast Island, Green Path, Water Path, Ruin Valley, Trainer Tower, Tanoby Ruins, One Island, Four Island, Five Island. Good Rod: Seafoam Islands, Route 12, Sea Route 19, Sea Route 20, Cinnabar Island, Viridian City, Cerulean City, Vermilion City, Celadon City, Fuchsia City, Pallet Town, Route 4, Route 6, Route 10, Route 11, Route 13, Sea Route 21, Route 22, Route 24, Route 25, Cerulean Cave, Route 23, Safari Zone, S.S. Anne, Berry Forest, Icefall Cave, Kindle Road, Treasure Beach, Cape Brink, Bond Bridge, Resort Gorgeous, Water Labyrinth, Five Isle Meadow, Memorial Pillar, Outcast Island, Green Path, Water Path, Ruin Valley, Trainer Tower, Tanoby Ruins, One Island, Four Island, Five Island. Super Rod: Celadon City."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -6200,7 +9471,33 @@
     "id": 130,
     "name": "Gyarados",
     "types": ["Water", "Flying"],
+    "hoennDex": 53,
     "availability": {
+      "ruby": {
+        "catchable": true,
+        "locations": ["Sootopolis City"],
+        "note": "Super Rod: Sootopolis City."
+      },
+      "sapphire": {
+        "catchable": true,
+        "locations": ["Sootopolis City"],
+        "note": "Super Rod: Sootopolis City."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Sootopolis City"],
+        "note": "Super Rod: Sootopolis City."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Seafoam Islands", "Route 12", "Sea Route 19", "Sea Route 20", "Cinnabar Island", "Viridian City", "Cerulean City", "Vermilion City", "Fuchsia City", "Pallet Town", "Route 4", "Route 6", "Route 10", "Route 11", "Route 13", "Sea Route 21", "Route 22", "Route 24", "Route 25", "Cerulean Cave", "Route 23", "S.S. Anne", "Berry Forest", "Icefall Cave", "Kindle Road", "Treasure Beach", "Cape Brink", "Bond Bridge", "Resort Gorgeous", "Water Labyrinth", "Five Isle Meadow", "Memorial Pillar", "Outcast Island", "Green Path", "Water Path", "Ruin Valley", "Trainer Tower", "Tanoby Ruins", "One Island", "Four Island", "Five Island"],
+        "note": "Super Rod: Seafoam Islands, Route 12, Sea Route 19, Sea Route 20, Cinnabar Island, Viridian City, Cerulean City, Vermilion City, Fuchsia City, Pallet Town, Route 4, Route 6, Route 10, Route 11, Route 13, Sea Route 21, Route 22, Route 24, Route 25, Cerulean Cave, Route 23, S.S. Anne, Berry Forest, Icefall Cave, Kindle Road, Treasure Beach, Cape Brink, Bond Bridge, Resort Gorgeous, Water Labyrinth, Five Isle Meadow, Memorial Pillar, Outcast Island, Green Path, Water Path, Ruin Valley, Trainer Tower, Tanoby Ruins, One Island, Four Island, Five Island."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Seafoam Islands", "Route 12", "Sea Route 19", "Sea Route 20", "Cinnabar Island", "Viridian City", "Cerulean City", "Vermilion City", "Fuchsia City", "Pallet Town", "Route 4", "Route 6", "Route 10", "Route 11", "Route 13", "Sea Route 21", "Route 22", "Route 24", "Route 25", "Cerulean Cave", "Route 23", "S.S. Anne", "Berry Forest", "Icefall Cave", "Kindle Road", "Treasure Beach", "Cape Brink", "Bond Bridge", "Resort Gorgeous", "Water Labyrinth", "Five Isle Meadow", "Memorial Pillar", "Outcast Island", "Green Path", "Water Path", "Ruin Valley", "Trainer Tower", "Tanoby Ruins", "One Island", "Four Island", "Five Island"],
+        "note": "Super Rod: Seafoam Islands, Route 12, Sea Route 19, Sea Route 20, Cinnabar Island, Viridian City, Cerulean City, Vermilion City, Fuchsia City, Pallet Town, Route 4, Route 6, Route 10, Route 11, Route 13, Sea Route 21, Route 22, Route 24, Route 25, Cerulean Cave, Route 23, S.S. Anne, Berry Forest, Icefall Cave, Kindle Road, Treasure Beach, Cape Brink, Bond Bridge, Resort Gorgeous, Water Labyrinth, Five Isle Meadow, Memorial Pillar, Outcast Island, Green Path, Water Path, Ruin Valley, Trainer Tower, Tanoby Ruins, One Island, Four Island, Five Island."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -6250,6 +9547,31 @@
     "name": "Lapras",
     "types": ["Water", "Ice"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Icefall Cave", "Saffron City (gift)"],
+        "note": "Surf: Icefall Cave."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Icefall Cave", "Saffron City (gift)"],
+        "note": "Surf: Icefall Cave."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Union Cave (Friday only, lower level, surfing)"],
@@ -6287,6 +9609,31 @@
     "name": "Ditto",
     "types": ["Normal"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from Emerald/FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": true,
+        "locations": ["Desert Underpass"],
+        "note": ""
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 13", "Route 14", "Route 15", "Cerulean Cave", "Pokémon Mansion"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 13", "Route 14", "Route 15", "Cerulean Cave", "Pokémon Mansion"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Route 34", "Route 35"],
@@ -6337,6 +9684,31 @@
     "name": "Eevee",
     "types": ["Normal"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Celadon City (gift)"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Celadon City (gift)"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -6383,6 +9755,31 @@
     "name": "Vaporeon",
     "types": ["Water"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Water Stone). Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Water Stone). Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Water Stone). Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Water Stone)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Water Stone)."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -6420,6 +9817,31 @@
     "name": "Jolteon",
     "types": ["Electric"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Thunder Stone). Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Thunder Stone). Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Thunder Stone). Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Thunder Stone)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Thunder Stone)."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -6457,6 +9879,31 @@
     "name": "Flareon",
     "types": ["Fire"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Fire Stone). Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Fire Stone). Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Fire Stone). Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Fire Stone)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Eevee (Fire Stone)."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -6494,6 +9941,31 @@
     "name": "Porygon",
     "types": ["Normal"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Celadon City (Game Corner prize, 9999 coins)"],
+        "note": ""
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Celadon City (Game Corner prize, 6500 coins)"],
+        "note": ""
+      },
       "gold": {
         "catchable": true,
         "locations": ["Celadon Game Corner (5555 coins)"],
@@ -6531,6 +10003,31 @@
     "name": "Omanyte",
     "types": ["Rock", "Water"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Cinnabar Island (revive fossil)"],
+        "note": "You choose the Helix (Omanyte) or Dome (Kabuto) Fossil in Mt. Moon; the other one is trade-only."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Cinnabar Island (revive fossil)"],
+        "note": "You choose the Helix (Omanyte) or Dome (Kabuto) Fossil in Mt. Moon; the other one is trade-only."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -6568,6 +10065,31 @@
     "name": "Omastar",
     "types": ["Rock", "Water"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Omanyte (Lv 40). Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Omanyte (Lv 40). Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Omanyte (Lv 40). Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Omanyte (Lv 40)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Omanyte (Lv 40)."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -6601,6 +10123,31 @@
     "name": "Kabuto",
     "types": ["Rock", "Water"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Cinnabar Island (revive fossil)"],
+        "note": "You choose the Helix (Omanyte) or Dome (Kabuto) Fossil in Mt. Moon; the other one is trade-only."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Cinnabar Island (revive fossil)"],
+        "note": "You choose the Helix (Omanyte) or Dome (Kabuto) Fossil in Mt. Moon; the other one is trade-only."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -6638,6 +10185,31 @@
     "name": "Kabutops",
     "types": ["Rock", "Water"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kabuto (Lv 40). Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kabuto (Lv 40). Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kabuto (Lv 40). Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kabuto (Lv 40)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Kabuto (Lv 40)."
+      },
       "gold": { "catchable": false, "locations": [], "note": "Evolve Kabuto." },
       "silver": {
         "catchable": false,
@@ -6663,6 +10235,31 @@
     "name": "Aerodactyl",
     "types": ["Rock", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Cinnabar Island (revive fossil)"],
+        "note": "Old Amber from Pewter Museum, revived at the Cinnabar Lab."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Cinnabar Island (revive fossil)"],
+        "note": "Old Amber from Pewter Museum, revived at the Cinnabar Lab."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -6706,6 +10303,31 @@
     "name": "Snorlax",
     "types": ["Normal"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Route 12 (wake with Poké Flute)", "Route 16 (wake with Poké Flute)"],
+        "note": "Two Snorlax block Routes 12 and 16; wake them with the Poké Flute."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Route 12 (wake with Poké Flute)", "Route 16 (wake with Poké Flute)"],
+        "note": "Two Snorlax block Routes 12 and 16; wake them with the Poké Flute."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -6749,6 +10371,31 @@
     "name": "Articuno",
     "types": ["Ice", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Seafoam Islands (one-time encounter)"],
+        "note": "Legendary, one-time encounter."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Seafoam Islands (one-time encounter)"],
+        "note": "Legendary, one-time encounter."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -6786,6 +10433,31 @@
     "name": "Zapdos",
     "types": ["Electric", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Kanto Power Plant (one-time encounter)"],
+        "note": "Legendary, one-time encounter."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Kanto Power Plant (one-time encounter)"],
+        "note": "Legendary, one-time encounter."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -6823,6 +10495,31 @@
     "name": "Moltres",
     "types": ["Fire", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen/XD."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Mt. Ember (one-time encounter)"],
+        "note": "Legendary, one-time encounter."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Mt. Ember (one-time encounter)"],
+        "note": "Legendary, one-time encounter."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -6863,6 +10560,31 @@
     "name": "Dratini",
     "types": ["Dragon"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Safari Zone", "Celadon City (Game Corner prize, 2800 coins)"],
+        "note": "Super Rod: Safari Zone."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Safari Zone", "Celadon City (Game Corner prize, 4600 coins)"],
+        "note": "Super Rod: Safari Zone."
+      },
       "gold": {
         "catchable": true,
         "locations": [
@@ -6914,6 +10636,31 @@
     "name": "Dragonair",
     "types": ["Dragon"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Dratini (Lv 30). Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Dratini (Lv 30). Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Dratini (Lv 30). Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": "Super Rod: Safari Zone."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Safari Zone"],
+        "note": "Super Rod: Safari Zone."
+      },
       "gold": {
         "catchable": true,
         "locations": ["Dragon's Den (fishing with Super Rod)"],
@@ -6951,6 +10698,31 @@
     "name": "Dragonite",
     "types": ["Dragon", "Flying"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Dragonair (Lv 55). Trade from XD."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Dragonair (Lv 55). Trade from XD."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Dragonair (Lv 55). Trade from XD."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Dragonair (Lv 55)."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Evolve Dragonair (Lv 55)."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -6988,6 +10760,31 @@
     "name": "Mewtwo",
     "types": ["Psychic"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Trade from FireRed/LeafGreen."
+      },
+      "firered": {
+        "catchable": true,
+        "locations": ["Cerulean Cave (one-time encounter)"],
+        "note": "Legendary, one-time encounter (post-game)."
+      },
+      "leafgreen": {
+        "catchable": true,
+        "locations": ["Cerulean Cave (one-time encounter)"],
+        "note": "Legendary, one-time encounter (post-game)."
+      },
       "gold": {
         "catchable": false,
         "locations": [],
@@ -7017,6 +10814,31 @@
     "name": "Mew",
     "types": ["Psychic"],
     "availability": {
+      "ruby": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only."
+      },
+      "sapphire": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only."
+      },
+      "emerald": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only (Old Sea Map → Faraway Island)."
+      },
+      "firered": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only."
+      },
+      "leafgreen": {
+        "catchable": false,
+        "locations": [],
+        "note": "Event only."
+      },
       "gold": {
         "catchable": false,
         "locations": [],

@@ -20,7 +20,8 @@ The server uses the `PORT` environment variable (default `3000`). You can place 
 
 ## Data Files
 
-- `pokemon-data-gen1.json` and `pokemon-data-gen2.json` contain Pokédex information for Generations 1 and 2.
+- `pokemon-data-gen1.json`, `pokemon-data-gen2.json` and `pokemon-data-gen3.json` contain Pokédex information for Generations 1–3.
+- Gen III availability (Ruby, Sapphire, Emerald, FireRed, LeafGreen) and `hoennDex` numbers (all files) were generated from [PokéAPI](https://pokeapi.co/) encounter data, with some gift, legendary and event notes written by hand. In Gen III games the tracker can show either the regional dex (Hoenn 202 / Kanto 151) or the National dex (386).
 - Progress is saved under `save-data/<USER_ID>/caught-<game>.json` where `<USER_ID>` is the unique Google account id. An example file is included as `example_caught.json`.
 
 ## Authentication

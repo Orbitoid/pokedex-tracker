@@ -52,6 +52,9 @@ app.get("/pokemon-data-gen1.json", (req, res) => {
 app.get("/pokemon-data-gen2.json", (req, res) => {
     res.sendFile(path.join(__dirname, "pokemon-data-gen2.json"));
 });
+app.get("/pokemon-data-gen3.json", (req, res) => {
+    res.sendFile(path.join(__dirname, "pokemon-data-gen3.json"));
+});
 
 // Authentication routes
 app.get('/auth/google', passport.authenticate('google', { scope: ['profile'] }));
@@ -102,7 +105,7 @@ function handleCaughtData(game, req, res, isPost = false) {
     }
 }
 
-const supportedGames = ["red", "blue", "yellow", "gold", "silver", "crystal"];
+const supportedGames = ["red", "blue", "yellow", "gold", "silver", "crystal", "ruby", "sapphire", "emerald", "firered", "leafgreen"];
 supportedGames.forEach(game => {
     app.get(`/caught/${game}`, ensureAuthenticated, (req, res) => {
         handleCaughtData(game, req, res, false);

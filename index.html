@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced Gen 1 & 2 Pokédex Tracker</title>
+    <title>Advanced Gen 1–3 Pokédex Tracker</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -123,6 +123,11 @@
                     <option value="red">Pokémon Red</option>
                     <option value="blue">Pokémon Blue</option>
                     <option value="yellow">Pokémon Yellow</option>
+                    <option value="ruby">Pokémon Ruby</option>
+                    <option value="sapphire">Pokémon Sapphire</option>
+                    <option value="emerald">Pokémon Emerald</option>
+                    <option value="firered">Pokémon FireRed</option>
+                    <option value="leafgreen">Pokémon LeafGreen</option>
                 </select>
             </div>
             <div class="mt-4" id="authControls">
@@ -143,6 +148,13 @@
         <div id="pokedexView" class="tab-content active">
             <div class="filter-container">
                 <input type="text" id="searchInput" class="form-input mb-2" placeholder="Search by name or Pokédex number...">
+                <div id="dexModeContainer" class="mb-2 hidden">
+                    <label for="dexModeSelector" class="mr-2 text-gray-700">Pokédex:</label>
+                    <select id="dexModeSelector" class="form-select w-auto inline-block">
+                        <option value="regional">Regional</option>
+                        <option value="national">National (386)</option>
+                    </select>
+                </div>
                 <label class="inline-flex items-center">
                     <input type="checkbox" id="showUncaughtOnly" class="form-checkbox h-5 w-5 text-blue-600 rounded">
                     <span class="ml-2 text-gray-700">Show Uncaught Pokémon Only</span>

@@ -1,15 +1,35 @@
 // --- CONSTANTS ---
 const SPRITE_BASE_URL = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/";
+const GAMES = [
+    { value: "gold", text: "Pokémon Gold", generation: 2 },
+    { value: "silver", text: "Pokémon Silver", generation: 2 },
+    { value: "crystal", text: "Pokémon Crystal (Data Pending)", generation: 2, disabled: true },
+    { value: "red", text: "Pokémon Red", generation: 1 },
+    { value: "blue", text: "Pokémon Blue", generation: 1 },
+    { value: "yellow", text: "Pokémon Yellow", generation: 1 },
+    { value: "ruby", text: "Pokémon Ruby", generation: 3, regionalDex: "hoenn" },
+    { value: "sapphire", text: "Pokémon Sapphire", generation: 3, regionalDex: "hoenn" },
+    { value: "emerald", text: "Pokémon Emerald", generation: 3, regionalDex: "hoenn" },
+    { value: "firered", text: "Pokémon FireRed", generation: 3, regionalDex: "kanto" },
+    { value: "leafgreen", text: "Pokémon LeafGreen", generation: 3, regionalDex: "kanto" }
+];
+const REGIONAL_DEX_LABELS = { hoenn: "Hoenn (202)", kanto: "Kanto (151)" };
+const DATA_FILES = [
+    { generation: 1, file: 'pokemon-data-gen1.json' },
+    { generation: 2, file: 'pokemon-data-gen2.json' },
+    { generation: 3, file: 'pokemon-data-gen3.json' }
+];
 
 // --- GLOBAL STATE ---
 let currentGame = 'gold'; // Default game
+let dexMode = 'regional'; // 'regional' or 'national', only used for Gen III games
 let pokemonData = []; // Combined list of all Pokémon
 let caughtDataForCurrentGame = {}; // { pokemonId: true/false } for the selected game
 let allLoadedCaughtData = {}; // Cache for all games' caught data: { gameName: { pokemonId: true/false } }
 let allGameLocations = {}; // Cache for game locations: { gameName: ["Area1", "Area2"] }
 
 // --- DOM Elements (initialized in initializeApp) ---
-let gameSelector, pokedexGrid, searchInput, showUncaughtOnlyCheckbox;
+let gameSelector, pokedexGrid, searchInput, showUncaughtOnlyCheckbox, dexModeContainer, dexModeSelector;
 let modal, modalPokemonName, modalPokemonSprite, modalCatchInfo, modalAvailabilityNote, modalCloseButton;
 let areaGameSelector, areaSelector, areaPokemonGrid;
 let tradeMyGameSelector, tradePartnerGameSelector, findTradesButton, canReceiveTradesList, canSendTradesList, tradeResultsPlaceholder;
@@ -23,8 +43,7 @@ function processPokemonData(rawData) {
         processed.sprite = `${SPRITE_BASE_URL}${p.id}.png`;
 
         // Ensure all game versions have a basic availability structure
-        const games = ["gold", "silver", "crystal", "red", "blue", "yellow"];
-        games.forEach(game => {
+        GAMES.map(g => g.value).forEach(game => {
             if (!processed.availability[game]) {
                 processed.availability[game] = { catchable: false, locations: [], note: "Data pending." };
             }
@@ -52,56 +71,79 @@ function processPokemonData(rawData) {
     });
 }
 
-function isGen1Game(gameKey) {
-    return ['red', 'blue', 'yellow'].includes(gameKey?.toLowerCase());
+function gameGeneration(gameKey) {
+    return GAMES.find(g => g.value === gameKey?.toLowerCase())?.generation || 1;
+}
+
+// Pokémon from a later generation than the game don't exist in it.
+function existsInGame(pokemon, gameKey) {
+    return pokemon.generation <= gameGeneration(gameKey);
+}
+
+function regionalDexOf(gameKey) {
+    return GAMES.find(g => g.value === gameKey)?.regionalDex;
+}
+
+function usesRegionalDex(gameKey) {
+    return !!regionalDexOf(gameKey) && dexMode === 'regional';
+}
+
+// Number in the game's regional dex, or undefined if it isn't in it.
+// The Kanto dex in FireRed/LeafGreen uses the national numbers 1–151.
+function regionalNumber(pokemon, gameKey) {
+    const dex = regionalDexOf(gameKey);
+    if (dex === 'hoenn') return pokemon.hoennDex;
+    if (dex === 'kanto') return pokemon.id <= 151 ? pokemon.id : undefined;
+    return undefined;
+}
+
+// The number shown in the game's own Pokédex (regional number in regional mode).
+function dexNumber(pokemon, gameKey) {
+    return usesRegionalDex(gameKey) ? regionalNumber(pokemon, gameKey) ?? pokemon.id : pokemon.id;
+}
+
+function formatDexNumber(pokemon, gameKey) {
+    const number = `#${dexNumber(pokemon, gameKey).toString().padStart(3, '0')}`;
+    // Area Dex can show Pokémon outside the regional dex (e.g. post-game Safari Zone).
+    return usesRegionalDex(gameKey) && !regionalNumber(pokemon, gameKey) ? `Nat. ${number}` : number;
+}
+
+// Pokémon visible in a game's dex, in that dex's order.
+function pokemonForGame(gameKey) {
+    const list = pokemonData.filter(p => existsInGame(p, gameKey) && (!usesRegionalDex(gameKey) || regionalNumber(p, gameKey)));
+    if (usesRegionalDex(gameKey)) list.sort((a, b) => regionalNumber(a, gameKey) - regionalNumber(b, gameKey));
+    return list;
 }
 
 async function fetchAndCombinePokemonData() {
-    let rawGen1 = [];
-    let rawGen2 = [];
-    let successGen1 = false;
-    let successGen2 = false;
+    const loaded = [];
 
-    try {
-        const response_gen_one = await fetch('pokemon-data-gen1.json');
-        if (!response_gen_one.ok) {
-            throw new Error(`HTTP error! status: ${response_gen_one.status} while fetching pokemon-data-gen1.json`);
+    for (const { generation, file } of DATA_FILES) {
+        try {
+            const response = await fetch(file);
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status} while fetching ${file}`);
+            }
+            const raw = await response.json();
+            raw.forEach(p => p.generation = generation); // Add generation marker
+            loaded.push(...processPokemonData(raw));
+            console.log(`Successfully loaded Pokémon Gen${generation} data (${raw.length}).`);
+        } catch (error) {
+            console.error(`Failed to load Pokémon Gen${generation} data:`, error);
         }
-        rawGen1 = await response_gen_one.json();
-        rawGen1.forEach(p => p.generation = 1); // Add generation marker for Gen 1
-        successGen1 = true;
-        console.log("Successfully loaded Pokémon Gen1 data.");
-    } catch (error) {
-        console.error("Failed to load Pokémon Gen1 data:", error);
     }
 
-    try {
-        const response_gen_two = await fetch('pokemon-data-gen2.json');
-        if (!response_gen_two.ok) {
-            throw new Error(`HTTP error! status: ${response_gen_two.status} while fetching pokemon-data-gen2.json`);
-        }
-        rawGen2 = await response_gen_two.json();
-        rawGen2.forEach(p => p.generation = 2); // Add generation marker for Gen 2
-        successGen2 = true;
-        console.log("Successfully loaded Pokémon Gen2 data.");
-    } catch (error) {
-        console.error("Failed to load Pokémon Gen2 data:", error);
-    }
-
-    if (!successGen1 && !successGen2) {
+    if (loaded.length === 0) {
         console.error("Failed to load any Pokémon data.");
         if (pokedexGrid) { // Ensure pokedexGrid is available
-             pokedexGrid.innerHTML = `<p class="col-span-full text-center text-red-500">Error: Could not load any Pokémon data. Please ensure pokemon-data-gen1.json and pokemon-data-gen2.json are present and correct.</p>`;
+             pokedexGrid.innerHTML = `<p class="col-span-full text-center text-red-500">Error: Could not load any Pokémon data. Please ensure the pokemon-data-gen*.json files are present and correct.</p>`;
         }
         pokemonData = []; // Initialize as empty if all loads fail
         return;
     }
 
-    const processedGen1Data = successGen1 ? processPokemonData(rawGen1) : [];
-    const processedGen2Data = successGen2 ? processPokemonData(rawGen2) : [];
-
-    pokemonData = [...processedGen1Data, ...processedGen2Data];
-    console.log("Successfully loaded and combined Pokémon data. Gen1 count:", processedGen1Data.length, "Gen2 count:", processedGen2Data.length);
+    pokemonData = loaded;
+    console.log("Successfully loaded and combined Pokémon data. Total count:", pokemonData.length);
     if (pokemonData.length === 0 && pokedexGrid) {
          pokedexGrid.innerHTML = `<p class="col-span-full text-center text-red-500">Error: No Pokémon data was processed. Files might be empty or corrupt.</p>`;
     }
@@ -114,8 +156,10 @@ async function initializeApp() {
     pokedexGrid = document.getElementById('pokedexGrid');
     searchInput = document.getElementById('searchInput');
     showUncaughtOnlyCheckbox = document.getElementById('showUncaughtOnly');
+    dexModeContainer = document.getElementById('dexModeContainer');
+    dexModeSelector = document.getElementById('dexModeSelector');
 
-    modal = document.getElementById('infoModal');
+    modal =document.getElementById('infoModal');
     modalPokemonName = document.getElementById('modalPokemonName');
     modalPokemonSprite = document.getElementById('modalPokemonSprite');
     modalCatchInfo = document.getElementById('modalCatchInfo');
@@ -140,8 +184,13 @@ async function initializeApp() {
     tabButtons = document.querySelectorAll('.tab-button');
     tabContents = document.querySelectorAll('.tab-content');
 
-    // Set initial game from selector
+    // Set initial game from the last one used, falling back to the selector's default
+    const savedGame = localStorage.getItem('currentGame');
+    if (savedGame && GAMES.some(g => g.value === savedGame && !g.disabled)) gameSelector.value = savedGame;
     currentGame = gameSelector.value;
+    const savedDexMode = localStorage.getItem('dexMode');
+    if (['regional', 'national'].includes(savedDexMode)) dexMode = savedDexMode;
+    if (dexModeSelector) dexModeSelector.value = dexMode;
 
     populateGameSelectors();
     await fetchAndCombinePokemonData();
@@ -149,6 +198,12 @@ async function initializeApp() {
 
     // Add Event Listeners
     gameSelector.addEventListener('change', (e) => switchGame(e.target.value));
+    if (dexModeSelector) dexModeSelector.addEventListener('change', (e) => {
+        dexMode = e.target.value;
+        localStorage.setItem('dexMode', dexMode);
+        renderPokedexView();
+        if (document.getElementById('areaDexView')?.classList.contains('active')) renderAreaPokemon();
+    });
     searchInput.addEventListener('input', renderPokedexView);
     showUncaughtOnlyCheckbox.addEventListener('change', renderPokedexView);
     if (modalCloseButton) modalCloseButton.onclick = closeModal;
@@ -177,14 +232,7 @@ async function initializeApp() {
 }
 
 function populateGameSelectors() {
-    const games = [
-        { value: "gold", text: "Pokémon Gold" },
-        { value: "silver", text: "Pokémon Silver" },
-        { value: "crystal", text: "Pokémon Crystal (Data Pending)", disabled: true },
-        { value: "red", text: "Pokémon Red" },
-        { value: "blue", text: "Pokémon Blue" },
-        { value: "yellow", text: "Pokémon Yellow" }
-    ];
+    const games = GAMES;
 
     if (gameSelector) gameSelector.value = currentGame;
 
@@ -237,6 +285,10 @@ async function switchGame(newGameKey, isInitialLoad = false) {
         }
     }
     console.log(`Switched to game: ${currentGame}`);
+    localStorage.setItem('currentGame', currentGame);
+    const regionalDex = regionalDexOf(currentGame);
+    if (dexModeContainer) dexModeContainer.classList.toggle('hidden', !regionalDex);
+    if (regionalDex && dexModeSelector) dexModeSelector.querySelector('option[value="regional"]').textContent = REGIONAL_DEX_LABELS[regionalDex];
     await loadCaughtDataForGame(currentGame);
     renderPokedexView();
 
@@ -301,12 +353,8 @@ function renderPokedexView() {
     const searchTerm = searchInput.value.toLowerCase();
     const showUncaught = showUncaughtOnlyCheckbox.checked;
 
-    const filteredPokemon = pokemonData.filter(p => {
-        if (isGen1Game(currentGame) && p.generation === 2) {
-            return false; // Hide Gen 2 Pokémon if a Gen 1 game is selected
-        }
-
-        const nameMatch = p.name.toLowerCase().includes(searchTerm) || p.id.toString().includes(searchTerm);
+    const filteredPokemon = pokemonForGame(currentGame).filter(p => {
+        const nameMatch = p.name.toLowerCase().includes(searchTerm) || dexNumber(p, currentGame).toString().includes(searchTerm);
         const isCaught = caughtDataForCurrentGame[p.id.toString()] || false;
         const caughtFilterMatch = !showUncaught || !isCaught;
 
@@ -342,7 +390,7 @@ function createPokemonCard(pokemon, gameKey, caughtData, onCaughtChange, onInfoC
 
     const nameEl = document.createElement('h3');
     nameEl.className = 'text-md font-semibold text-gray-700 text-center leading-tight';
-    nameEl.textContent = `#${pokemon.id.toString().padStart(3, '0')} ${pokemon.name}`;
+    nameEl.textContent = `${formatDexNumber(pokemon, gameKey)} ${pokemon.name}`;
 
     const typesContainer = document.createElement('div');
     typesContainer.className = 'flex flex-wrap justify-center my-1';
@@ -411,7 +459,7 @@ function updateNextToCatchHighlight() {
 // --- MODAL ---
 function showModal(pokemon, gameKey) {
     if (!modal) return;
-    modalPokemonName.textContent = `#${pokemon.id.toString().padStart(3, '0')} ${pokemon.name}`;
+    modalPokemonName.textContent = `${formatDexNumber(pokemon, gameKey)} ${pokemon.name}`;
     modalPokemonSprite.src = pokemon.sprite;
     modalPokemonSprite.onerror = function() { this.src = `https://placehold.co/96x96/e0e0e0/757575?text=${pokemon.id}`; this.alt = 'Sprite not found';};
 
@@ -457,9 +505,7 @@ function populateAreaSelector(gameKey) {
         const locations = new Set();
         pokemonData.forEach(p => {
             // Only consider locations for Pokémon of the correct generation for the selected game
-            if (isGen1Game(gameKey) && p.generation === 2) {
-                return; // Skip Gen 2 Pokémon if a Gen 1 game is selected for area dex
-            }
+            if (!existsInGame(p, gameKey)) return;
             if (p.availability[gameKey] && p.availability[gameKey].locations) {
                 p.availability[gameKey].locations.forEach(loc => locations.add(loc.trim()));
             }
@@ -492,13 +538,16 @@ async function renderAreaPokemon() {
     const currentAreaCaughtData = allLoadedCaughtData[selectedGame] || {};
 
     const pokemonInArea = pokemonData.filter(p => {
-        if (isGen1Game(selectedGame) && p.generation === 2) {
-            return false; // Hide Gen 2 Pokémon if a Gen 1 game is selected for area dex
-        }
+        if (!existsInGame(p, selectedGame)) return false;
         return p.availability[selectedGame] &&
                p.availability[selectedGame].locations &&
                p.availability[selectedGame].locations.includes(selectedArea) &&
                p.availability[selectedGame].catchable;
+    }).sort((a, b) => {
+        // In a regional dex, Pokémon outside it (shown with national numbers) go last.
+        const aIn = !!regionalNumber(a, selectedGame), bIn = !!regionalNumber(b, selectedGame);
+        if (usesRegionalDex(selectedGame) && aIn !== bIn) return aIn ? -1 : 1;
+        return dexNumber(a, selectedGame) - dexNumber(b, selectedGame);
     });
 
     if (pokemonInArea.length === 0) {
@@ -565,6 +614,13 @@ async function executeTradeSearch() {
         return;
     }
 
+    // Gen I and II can trade via the Time Capsule, but Gen III can't link with either.
+    if ((gameGeneration(myGameKey) === 3) !== (gameGeneration(partnerGameKey) === 3)) {
+        canReceiveTradesList.innerHTML = '<li>Gen III games (Ruby, Sapphire, Emerald, FireRed, LeafGreen) can\'t trade with Gen I or Gen II games.</li>';
+        canSendTradesList.innerHTML = '';
+        return;
+    }
+
     if (!allLoadedCaughtData[myGameKey]) await loadCaughtDataForGame(myGameKey);
     if (!allLoadedCaughtData[partnerGameKey]) await loadCaughtDataForGame(partnerGameKey);
 
@@ -583,8 +639,8 @@ async function executeTradeSearch() {
 
         // Can I receive this Pokemon? (I don't have it, partner does)
         if (!iHaveIt && partnerHasIt) {
-            // If my game is Gen 1, I cannot receive a Gen 2 Pokémon.
-            if (!(isGen1Game(myGameKey) && p.generation === 2)) {
+            // I can't receive a Pokémon that doesn't exist in my game (e.g. Gen 2 into Gen 1).
+            if (existsInGame(p, myGameKey) && existsInGame(p, partnerGameKey)) {
                 let tradeNote = "";
                 // Note about availability in my game (even if trade is possible)
                 if (!p.availability[myGameKey]?.catchable && p.availability[myGameKey]?.note) {
@@ -597,8 +653,8 @@ async function executeTradeSearch() {
 
         // Can I send this Pokemon? (Partner doesn't have it, I do)
         if (!partnerHasIt && iHaveIt) {
-            // If partner's game is Gen 1, they cannot receive a Gen 2 Pokémon from me.
-            if (!(isGen1Game(partnerGameKey) && p.generation === 2)) {
+            // Partner can't receive a Pokémon that doesn't exist in their game.
+            if (existsInGame(p, myGameKey) && existsInGame(p, partnerGameKey)) {
                 let tradeNote = "";
                  // Note about availability in partner's game (even if trade is possible)
                 if (!p.availability[partnerGameKey]?.catchable && p.availability[partnerGameKey]?.note) {
